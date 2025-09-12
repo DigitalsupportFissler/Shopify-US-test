@@ -1,0 +1,329 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "navigation": {
+          "type": "navigation",
+          "disabled": true,
+          "settings": {}
+        },
+        "comments": {
+          "type": "comments",
+          "disabled": true,
+          "settings": {
+            "show_gravatar": true,
+            "comments_per_page": 5
+          }
+        }
+      },
+      "block_order": [
+        "navigation",
+        "comments"
+      ],
+      "settings": {
+        "layout": "content_first",
+        "show_author": true,
+        "show_date": true,
+        "show_comments_count": true,
+        "show_share_buttons": true,
+        "show_header_image": true,
+        "banner_background": "",
+        "banner_text_color": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "content_width": "750px",
+        "stats_color": "#556132",
+        "is_recipe": false,
+        "content_alignment": "start"
+      }
+    },
+    "rich_text_TKVeji": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_6L8nfV": {
+          "type": "heading",
+          "settings": {
+            "text": "Perfekter Steak-Genuss mit Fissler",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_VqkNj9": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Von rustikal bis raffiniert – Fleisch kann auf vielfältige Weise zubereitet werden. Puristen ist ein einfach gegrilltes Steak oft das liebste, denn der unverfälschte Fleischgeschmack verbindet sich mit dem herzhaften Röstaroma. Entscheidend für ein perfektes Ergebnis ist neben Fleischqualität und Zubereitungs-Know-how das passende Koch-Equipment: Wer darüber verfügt, kann sich auch zu Hause auf leckeren Grillgenuss wie vom Profi freuen.<br/><br/></p>",
+            "font_size": "lg"
+          }
+        }
+      },
+      "block_order": [
+        "heading_6L8nfV",
+        "richtext_VqkNj9"
+      ],
+      "disabled": true,
+      "settings": {
+        "content_width": "large",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "slideshow_W6affT": {
+      "type": "slideshow",
+      "blocks": {
+        "image_xtqPJE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Kochtipps_slider-perfekte-steak-1470px.jpg",
+            "image_content_width": false,
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "Das perfekte Steak",
+            "heading_tag": "h1",
+            "button_text": "",
+            "button_link": "",
+            "heading_color": "#ffffff",
+            "subheading_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 45,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_xtqPJE"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "show_initial_transition": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "shop_the_look3_WzCGdP": {
+      "type": "shop-the-look3",
+      "blocks": {
+        "product_LXQtnN": {
+          "type": "product",
+          "settings": {
+            "product": "original-profi-collection-stielpfanne-mit-novogrill",
+            "horizontal_position": 19,
+            "vertical_position": 79
+          }
+        }
+      },
+      "block_order": [
+        "product_LXQtnN"
+      ],
+      "settings": {
+        "stack_mobile": true,
+        "image": "shopify://shop_images/Ratgeber_perfektesSteak_AH_Stielpfanne_400x400_5ef36878-97d6-47e6-bf3c-365804953b7b.png",
+        "title": "Das A und O – die richtige Pfanne",
+        "content": "<p>Alles, was scharf angebraten werden soll, wie etwa Rindersteaks, Hähnchenschnitzel oder Grillspieße, gelingt am besten in einer Edelstahlpfanne. Mit der richtigen Brattechnik wird dein Bratgut außen kross und bleibt innen dennoch saftig.<br/><br/></p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": "",
+        "product_card_mobile_background": "",
+        "product_card_mobile_text_color": "",
+        "background_dots": "#ffffff"
+      }
+    },
+    "media_with_text_tTiPid": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_kWAUW9": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/kochtipps_Steak_teaser-zart-und-saftig.jpg",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "So wird das Steak zart und saftig",
+            "heading_tag": "h2",
+            "content": "<p>Perfekter Steakgenuss hängt entscheidend von der Qualität des Fleisches ab – Rind sollte gut abgehangen, von dunkelroter Farbe und leicht marmoriert sein. Ebenso wichtig ist es, Pfanne und Fett sehr heiß werden zu lassen und das Steak zunächst scharf anzubraten. So gerinnen die Proteine auf der Oberfläche und die entstehende Kruste schließt den Fleischsaft des Steaks ein (Maillard-Reaktion). Je nach Dicke variiert die Bratzeit – beim Wenden sollte das Steak keinesfalls angestochen werden, damit der Saft nicht austritt. Besser als die Gabel eignet sich zum Umdrehen daher der Original-Profi Collection® Bratwender mit einer hitzebeständigen Silikon-Wendefläche, das die Antihaft-Versiegelung der Pfanne schont.<br/><br/></p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "image_kWAUW9"
+      ],
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "rich_text_jfYnDf": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_cTeVBW": {
+          "type": "heading",
+          "settings": {
+            "text": "Für noch mehr Geschmack",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_4YT8nK": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Wer sein Grillgut mit Aromen anreichern möchte, für den bieten sich Marinaden an – auf der Basis von Öl, Essig, Buttermilch oder Honig, verfeinert mit Kräutern oder Gewürzen. Das Fleisch wird darin eingelegt oder, je nach Konsistenz, damit einmassiert. </p><p>Willkommener Nebeneffekt: Es wird dadurch noch zarter. Vor dem Grillen muss die Marinade unbedingt gut abtropfen. Für ihre Herstellung erweist sich der Fissler finecut als cleverer Helfer. Darin lassen sich Kräuter trocken schleudern und hacken, die Marinade kann direkt im Behälter gemixt werden und hält sich mit dem Deckel verschlossen bis zu ihrem Einsatz frisch.</p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_cTeVBW",
+        "richtext_4YT8nK"
+      ],
+      "settings": {
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "rich_text_xEQQx7": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_P8aa47": {
+          "type": "heading",
+          "settings": {
+            "text": "Der richtige Garpunkt",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_6YNtp7": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Der richtige Garpunkt des Steaks lässt sich einfach mit dem Finger testen: Fühlt sich das Fleisch bei leichtem Druck an wie die Unterlippe, ist es „rare“. Gibt es nicht mehr ganz so sehr nach, hier ist die Nasenspitze der Vergleichspunkt, ist es „medium“ und fühlt es sich schließlich an wie die Stirn, ist es „durch“.<br/><br/><strong>Wichtig: </strong>Während Steaks aus Rindfleisch gern „rare“ oder „medium“ verzehrt werden, müssen helle Sorten wie Schwein, Kalb oder Geflügel ebenso wie Hacksteaks unbedingt durchgegart werden.<br/><br/>Liegen die Leckereien schließlich auf dem Teller, ist das Fissler Steakmesser aus der Serie Fissler Essential® der perfekte Partner zur Gabel. Es liegt gut in der Hand und schneidet dank seiner ultrascharfen Klinge ganz ohne Druck.</p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_P8aa47",
+        "richtext_6YNtp7"
+      ],
+      "settings": {
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "blog_posts_T9cKTh": {
+      "type": "blog-posts",
+      "blocks": {
+        "blog_L38FUm": {
+          "type": "blog",
+          "settings": {
+            "blog": "news",
+            "posts_count": 3,
+            "stack_items": false
+          }
+        }
+      },
+      "block_order": [
+        "blog_L38FUm"
+      ],
+      "name": "Blog posts",
+      "settings": {
+        "show_excerpt": true,
+        "show_date": true,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": true,
+        "show_overall_time": false,
+        "subheading": "",
+        "title": "Weitere Kochtipps entdecken",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto",
+        "blog_handle": "Kochtipps",
+        "posts_count": 4
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_TKVeji",
+    "slideshow_W6affT",
+    "shop_the_look3_WzCGdP",
+    "media_with_text_tTiPid",
+    "rich_text_jfYnDf",
+    "rich_text_xEQQx7",
+    "blog_posts_T9cKTh"
+  ]
+}

@@ -1,0 +1,527 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "navigation": {
+          "type": "navigation",
+          "disabled": true,
+          "settings": {}
+        },
+        "comments": {
+          "type": "comments",
+          "disabled": true,
+          "settings": {
+            "show_gravatar": true,
+            "comments_per_page": 5
+          }
+        }
+      },
+      "block_order": [
+        "navigation",
+        "comments"
+      ],
+      "settings": {
+        "layout": "image_text_overlay",
+        "image": "{{ article.image }}",
+        "show_author": false,
+        "show_date": true,
+        "show_comments_count": true,
+        "show_share_buttons": true,
+        "show_header_image": true,
+        "banner_background": "",
+        "banner_text_color": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "content_width": "750px",
+        "stats_color": "#556132",
+        "is_recipe": false,
+        "content_alignment": "start"
+      }
+    },
+    "featured_collection_nTBLcV": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "",
+        "products": "{{ article.metafields.custom.products_and_accessroies.value }}",
+        "stack_products": false,
+        "show_progress_bar": true,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Für die Zubereitung verwendetes Kochgeschirr",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "media_with_text_y96MkD": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_FcanWC": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Koch-Tipp_Brokkoli.png",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Das vielseitige Herbstgemüse",
+            "heading_tag": "h3",
+            "content": "<p>Von September bis November hat der Kürbis Hochsaison und begeistert in all seinen Facetten. Ob als Suppe, Risotto, Auflauf oder Beilage: Er bringt herbstlichen Genuss auf den Teller und liefert wertvolle Vitamine, Mineralstoffe und Antioxidantien. So stärkt er das Immunsystem, wirkt entzündungshemmend und macht deine Herbstküche gesund und köstlich. </p><p><strong>2-Sterne-Koch Alexander Herrmann </strong>verrät wie du Kürbis perfekt zubereitest und mit einfachen Handgriffen außergewöhnliche Gerichte zauberst.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "image_FcanWC"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "specification_table_kJdktq": {
+      "type": "specification-table",
+      "blocks": {
+        "row_77HGNx": {
+          "type": "row",
+          "settings": {
+            "heading": "Nährwertangaben pro 100 g Hokkaido-Kürbis",
+            "value": "<p><br/></p>"
+          }
+        },
+        "row_xVgNaf": {
+          "type": "row",
+          "settings": {
+            "heading": "Kalorien",
+            "value": "<p>ca. 67 kcal</p>"
+          }
+        },
+        "row_QyKN6q": {
+          "type": "row",
+          "settings": {
+            "heading": "Eiweis",
+            "value": "<p>ca. 1,7 g</p>"
+          }
+        },
+        "row_etT7Yt": {
+          "type": "row",
+          "settings": {
+            "heading": "Fett",
+            "value": "<p>ca. 0,5 g</p>"
+          }
+        },
+        "row_ye3kic": {
+          "type": "row",
+          "settings": {
+            "heading": "Kohlenhydrate",
+            "value": "<p>ca. 13,6 g</p>"
+          }
+        },
+        "row_WLGhP4": {
+          "type": "row",
+          "settings": {
+            "heading": "Ballaststoffe",
+            "value": "<p>ca. 2,3 g</p>"
+          }
+        },
+        "row_jtDi96": {
+          "type": "row",
+          "settings": {
+            "heading": "Beta-Carotin",
+            "value": "<p>ca. 3,1 mg</p>"
+          }
+        },
+        "row_VRybEQ": {
+          "type": "row",
+          "settings": {
+            "heading": "Kalium",
+            "value": "<p>ca. 350 mg</p>"
+          }
+        },
+        "row_YHb9in": {
+          "type": "row",
+          "settings": {
+            "heading": "Vitamin C",
+            "value": "<p>ca. 8 mg</p>"
+          }
+        }
+      },
+      "block_order": [
+        "row_77HGNx",
+        "row_xVgNaf",
+        "row_QyKN6q",
+        "row_etT7Yt",
+        "row_ye3kic",
+        "row_WLGhP4",
+        "row_jtDi96",
+        "row_VRybEQ",
+        "row_YHb9in"
+      ],
+      "name": "Specification table",
+      "settings": {
+        "subheading": "Kürbiswissen",
+        "title": "Lecker, gesund und voller Nährstoffe",
+        "content": "<p>Kürbisse sind reich an Beta-Carotin, Ballaststoffen, Kalium und Vitamin C - dabei kalorienarm und voller wertvoller Nährstoffe.</p>",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "alignment": "horizontal",
+        "max_rows": 5,
+        "view_all_text": "Alle Nährwerte ansehen",
+        "view_less_text": "Weniger ansehen",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "chart_background": "",
+        "chart_text_color": "",
+        "chart_true_false_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "rich_text_wFeHwx": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_jx4jUJ": {
+          "type": "subheading",
+          "settings": {
+            "text": "",
+            "subheading_tag": "h4"
+          }
+        },
+        "heading_b67tXk": {
+          "type": "heading",
+          "settings": {
+            "text": "Kochtipps von Alexander Herrmann",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_jx4jUJ",
+        "heading_b67tXk"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "show_section_id": false,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "padding_top": "auto",
+        "padding_bottom": "sm"
+      }
+    },
+    "media_with_text_inWhAF": {
+      "type": "media-with-text",
+      "blocks": {
+        "video_CYNCcj": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/AH - Kürbis - Basics - DE - 16x9.MP4",
+            "external_video_url": "",
+            "poster_image": "shopify://shop_images/Screenshot_2025-09-08_144625.png",
+            "autoplay": false,
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Gerösteter Hokkaido-Kürbis aus dem Ofen",
+            "content": "<p>Als Beilage oder pur: Alexander Herrmann zeigt dir wie man mit wenigen Zutaten aus Ofenkürbis maximalen Geschmack herausholt. Dazu benötigst du Zitronen- und Limettenabrieb, Olivenöl und die orientalische Gewürzmischung Baharat. Einfach aromatisch, einfach gut.<br/><br/>Jetzt Video ansehen und Hokkaido mal anders genießen!</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#f0f0f0",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "video_CYNCcj"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "show_section_id": false,
+        "padding_top": "xl",
+        "padding_bottom": "auto"
+      }
+    },
+    "media_with_text_pkVikK": {
+      "type": "media-with-text",
+      "blocks": {
+        "video_hHnYeh": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/AH - Kürbis - Hack - DE - 16x9.MP4",
+            "external_video_url": "",
+            "poster_image": "shopify://shop_images/Blog_Tipp_des_Monats_Kuerbis_Poster_Image_3200x1600_2.png",
+            "autoplay": false,
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Karamellisierte & aromatisierte Kürbiskerne",
+            "content": "<p>Kürbiskerne rösten kann jeder? Mit Alexander Herrmanns Profi-Tipps bringst du garantiert Raffinesse auf den Teller - sei es in der Suppe oder im Salat. </p><p>Wie genau das funktioniert und was Puderzucker damit zu tun hat, zeigt dir Alexander Herrmann im Video.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#f0f0f0",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "video_hHnYeh"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "rich_text_BV8dF7": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_MTfjjU": {
+          "type": "heading",
+          "settings": {
+            "text": "Kürbis wie ein Profi kochen - Alexander Herrmanns Küchenlieblinge",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_WGwjBx": {
+          "type": "richtext",
+          "settings": {
+            "content": "",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_MTfjjU",
+        "richtext_WGwjBx"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "show_section_id": true,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "padding_top": "xl",
+        "padding_bottom": "sm"
+      }
+    },
+    "featured_collection_9xgt4H": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "collection": "",
+        "products": [
+          "original-profi-collection-stielpfanne-ohne-novogril",
+          "ceratal-classic-pfanne-orbitschwarz"
+        ],
+        "stack_products": false,
+        "show_progress_bar": true,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "image_with_text_overlay_UGjbq9": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_yeU3dj": {
+          "type": "subheading",
+          "settings": {
+            "text": "WISSENSWERTES"
+          }
+        },
+        "heading_G4HWyr": {
+          "type": "heading",
+          "settings": {
+            "text": "Die Kerne lassen sich wunderbar rösten und schmecken nicht nur lecker, sondern sind auch eine wertvolle Quelle für Eiweiß, Magnesium, Zink und gesunder Fette.",
+            "heading_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_yeU3dj",
+        "heading_G4HWyr"
+      ],
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": false,
+        "image_size": "md",
+        "image": "shopify://shop_images/Blog_Tipp_des_Monats_Kuerbis_Image_with_Textoverlay_1300x1500_3200_x_1600_px.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30,
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "rich_text_N6JJqd": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_4jJqj3": {
+          "type": "heading",
+          "settings": {
+            "text": "So lecker ist der Kürbis: Rezepte für jeden Geschmack",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_4jJqj3"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "show_section_id": true,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "padding_top": "xl",
+        "padding_bottom": "sm"
+      }
+    },
+    "featured_articles_6PKiKz": {
+      "type": "featured-articles",
+      "name": "Featured articles",
+      "settings": {
+        "articles_per_row_mobile": "2",
+        "articles_per_row_desktop": 3,
+        "subheading": "",
+        "articel_handles": "rezepte/kuerbis-hummus,rezepte/wildpizza-mit-wildschinken-kuerbis-walnuessen-und-birne,rezepte/herbst-shakshuka-mit-kuerbis,rezepte/kuerbis-pasta,rezepte/kuerbis-risotto,rezepte/kartoffel-kuerbis-curry,rezepte/kuerbissuppe-mit-ingwer",
+        "title": "",
+        "content": "",
+        "link_url": "shopify://blogs/rezepte",
+        "link_text": "Alle Rezepte entdecken",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "featured_collection_nTBLcV",
+    "media_with_text_y96MkD",
+    "specification_table_kJdktq",
+    "rich_text_wFeHwx",
+    "media_with_text_inWhAF",
+    "media_with_text_pkVikK",
+    "rich_text_BV8dF7",
+    "featured_collection_9xgt4H",
+    "image_with_text_overlay_UGjbq9",
+    "rich_text_N6JJqd",
+    "featured_articles_6PKiKz"
+  ]
+}

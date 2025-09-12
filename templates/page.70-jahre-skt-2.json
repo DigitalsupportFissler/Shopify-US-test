@@ -1,0 +1,623 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_KNWADP": {
+      "type": "slideshow",
+      "blocks": {
+        "image_r6hkfU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Landingpages_Header_Image_70_Jahre_Schnellkochen_2800x1000_9e7a0786-3577-4862-9fa8-26e0a475301d.png",
+            "image_content_width": false,
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "70 Jahre Schnellkochen",
+            "heading_tag": "h1",
+            "button_text": "",
+            "button_link": "",
+            "heading_color": "#ffffff",
+            "subheading_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_r6hkfU"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "full_width": true,
+        "show_initial_transition": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "100%"
+      }
+    },
+    "featured_product_Ha3man": {
+      "type": "featured-product",
+      "blocks": {
+        "vendor_kfY8zG": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "title_eEHeUd": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "badges_EeNKcy": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price_PAexq7": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating_Yz8bQi": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "separator_4W4U7A": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description_D7T67Y": {
+          "type": "description",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "collapse_content": false
+          }
+        },
+        "variant_picker_VJatLN": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector_4JA94m": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_jxFghn": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "pickup_availability_VRpwth": {
+          "type": "pickup_availability",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "vendor_kfY8zG",
+        "title_eEHeUd",
+        "badges_EeNKcy",
+        "price_PAexq7",
+        "rating_Yz8bQi",
+        "separator_4W4U7A",
+        "description_D7T67Y",
+        "variant_picker_VJatLN",
+        "quantity_selector_4JA94m",
+        "buy_buttons_jxFghn",
+        "pickup_availability_VRpwth"
+      ],
+      "disabled": true,
+      "settings": {
+        "product": "adamant-comfort-pfanne",
+        "desktop_media_width": 35,
+        "desktop_media_layout": "grid_one",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "rich_text_8CKFPW": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_a8yPR8": {
+          "type": "subheading",
+          "settings": {
+            "text": "Seiner Zeit voraus",
+            "subheading_tag": "h3"
+          }
+        },
+        "heading_HXenMz": {
+          "type": "heading",
+          "settings": {
+            "text": "Feiere mit uns 70 Jahre Schnellkochen",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_a8yPR8",
+        "heading_HXenMz"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "media_with_text_6n9bat": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_G3Vgbe": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Landingpage_70_Jahre_Schnellkochen_Media_with_Text_1200x1200_2.png",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "70 Jahre Schnellkochen-Kompetenz",
+            "heading_tag": "h3",
+            "content": "<p>Die Erfolgsgeschichte des Fissler Schnellkochtopfs begann 1953 mit der Erfindung eines mehrstufigen Sicherheitsventils, das den Schnellkochtopf zum ersten Mal für den Hausgebrauch sicher machte. Damit war der Grundstein für den Erfolg der Marke Fissler als führende Kochexperten gelegt. Seitdem hat Fissler unzählige Patente und Erfindungen hervorgebracht.</p>",
+            "link_text": "Mehr erfahren",
+            "link_url": "shopify://pages/70-jahre-schnellkochen-historie",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "image_G3Vgbe"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "0"
+      }
+    },
+    "media_with_text_KeFri9": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_cB3qPP": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Landingpage_70_Jahre_Schnellkochen_Media_with_Text_1200x1200_199d4bbb-5976-4f18-9a9e-2d1a0994dc9a.png",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Meilensteine",
+            "heading_tag": "h3",
+            "content": "<p>In den vergangenen 70 Jahren gab es viele Highlights und Innovationen. Eine davon revolutionierte Küchen auf der ganzen Welt: </p><p><strong>Der Fissler Schnellkochtopf.</strong></p>",
+            "link_text": "Mehr erfahren",
+            "link_url": "shopify://pages/70-jahre-schnellkochen-meilensteine",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "image_cB3qPP"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "show_section_id": false,
+        "padding_top": "0",
+        "padding_bottom": "0"
+      }
+    },
+    "rich_text_EiftrQ": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_PpUKrg": {
+          "type": "heading",
+          "settings": {
+            "text": "Vorteile des Schnellkochens",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_PpUKrg"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "0",
+        "padding_bottom": "xl"
+      }
+    },
+    "multiple_images_with_text_jgGPhL": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "item_zekRPn": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Landingpages_Multiple_images_with_text_1000x1200_3.png",
+            "image_rotation_degrees": 0,
+            "subheading": "",
+            "title": "Vitamin C",
+            "content": "<p>Im Schnellkochtopf gegartes Gemüse wies bis zu 65 Prozent mehr Vitamin C auf als herkömmlich gekochtes Gemüse.</p><p>Während beim Schnellkochen circa 189 Prozent des wertvollen Vitamin C erhalten blieben, enthielt das herkömmlich in Wasser gekochte Gemüse nur 124 Prozent.</p>",
+            "button_url": "https://cdn.shopify.com/s/files/1/0896/6029/3469/files/Fissler_WhitePaper_PC_Study_22_DE.pdf?v=1749204275",
+            "button_text": "Zur Studie"
+          }
+        },
+        "item_7H4m9H": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Landingpages_Multiple_images_with_text_1000x1200_6112a3b5-dc80-4790-a233-e2b11a8d89a0.png",
+            "image_rotation_degrees": 0,
+            "subheading": "",
+            "title": "Nährstoffe",
+            "content": "<p>Im Schnellkochtopf gegarte Hülsenfrüchte wiesen zwischen 16 und 56 Prozent mehr Thiamin auf als herkömmlich gekochte Hülsenfrüchte.</p><p>Beim Schnellkochen erhöhte sich der Thiamingehalt sogar auf bis zu 105 Prozent, während die herkömmlich in Wasser gekochten Hülsenfrüchte nur 36 Prozent enthielten.</p>",
+            "button_url": "https://cdn.shopify.com/s/files/1/0896/6029/3469/files/Fissler_WhitePaper_PC_Study_22_DE.pdf?v=1749204275",
+            "button_text": "Zur Studie"
+          }
+        },
+        "item_qWa3gf": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Landingpages_Multiple_images_with_text_1000x1200_2.png",
+            "image_rotation_degrees": 0,
+            "subheading": "",
+            "title": "Zeit & Energie",
+            "content": "<p>Schnellkochen spart insgesamt bis zu 50 % Energie verglichen zu herkömmlichen Garmethoden. In der Studie wurden im Schnitt 95 wH je Kochvorgang eingespart. </p>",
+            "button_url": "https://cdn.shopify.com/s/files/1/0896/6029/3469/files/Fissler_WhitePaper_PC_Study_22_DE.pdf?v=1749204275",
+            "button_text": "Zur Studie"
+          }
+        }
+      },
+      "block_order": [
+        "item_zekRPn",
+        "item_7H4m9H",
+        "item_qWa3gf"
+      ],
+      "name": "Multiple images with text",
+      "settings": {
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": "",
+        "heading_tag": "h4",
+        "content_alignment": "start"
+      }
+    },
+    "rich_text_Ky3jn9": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_GbANCt": {
+          "type": "heading",
+          "settings": {
+            "text": "Sicher, schnell & gesund seit 1953",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_3XxjUL": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Der Fissler Schnellkochtopf war seiner Zeit schon immer voraus. Und heute ist er mehr denn je en vogue. Nachhaltig in Deutschland in höchster Qualität gefertigt, von Hand geprüft unter dem kritischen deutschen Blick, machen unsere Handwerksmeister jeden Fissler Vita® Schnellkochtopf zu einem unverzichtbaren Bestandteil der modernen, gesunden Küche.</p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_GbANCt",
+        "richtext_3XxjUL"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "video_UcjABK": {
+      "type": "video",
+      "blocks": {
+        "play_kjUYm9": {
+          "type": "play",
+          "settings": {}
+        },
+        "heading_NBfbkn": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "play_kjUYm9",
+        "heading_NBfbkn"
+      ],
+      "name": "Video",
+      "settings": {
+        "show_section_id": false,
+        "full_width": false,
+        "autoplay": true,
+        "video_size": "auto",
+        "video": "shopify://files/videos/Landingpage_70 Jahre Schnellkochen_Video.mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30,
+        "dynamic_video_url": "",
+        "dynamic_video_host": "",
+        "padding_top": "auto",
+        "padding_bottom": "xl"
+      }
+    },
+    "images_with_text_scrolling_4tc9Pg": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "item_idDJyW": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Landingpage_70_Jahre_Schnellkochen_Vitaquick_Premium_1400x1400_48727ee6-7e8c-453f-af3d-788464c7e3d1.png",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Vitaquick® Premium",
+            "content": "<p><strong>Der Einstieg in die Welt des gesunden und schnellen Kochens</strong></p><p>- Zwei Kochstufen für schonendes und schnelles Garen</p><p>- Nachhaltig hergestellt in Deutschland</p>",
+            "button_text": "Zu Vitaquick® Premium",
+            "button_url": "shopify://collections/vitaquick-premium",
+            "button_color": "#000000"
+          }
+        },
+        "item_PcNnJW": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Landingpage_70_Jahre_Schnellkochen_Vitavit_Premium_1400x1400_510196cf-bcff-4f13-8834-6c29e375ff4b.png",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Vitavit® Premium",
+            "content": "<p><strong>Die ganze Welt des gesunden und schnellen Kochens in einem Topf</strong></p><p>- Vier Kochstufen inklusive eine drucklosen Dampfgarstufe</p><p>- Nachhaltig hergestellt in Deutschland</p>",
+            "button_text": "Zu Vitavit® Premium",
+            "button_url": "shopify://collections/vitavit",
+            "button_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "item_idDJyW",
+        "item_PcNnJW"
+      ],
+      "name": "Images and text scrolling",
+      "settings": {
+        "stack_on_mobile": false,
+        "show_counter": true,
+        "desktop_image_effect": "reveal",
+        "image_position": "end",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "text_alignment": "start",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "video_jCDXJk": {
+      "type": "video",
+      "blocks": {
+        "play_MRt4VB": {
+          "type": "play",
+          "settings": {}
+        },
+        "heading_wcaeqB": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "play_MRt4VB",
+        "heading_wcaeqB"
+      ],
+      "name": "Video",
+      "settings": {
+        "show_section_id": false,
+        "full_width": false,
+        "autoplay": true,
+        "video_size": "auto",
+        "external_video_url": "https://www.youtube.com/watch?v=FgWwMoqadT0",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30,
+        "dynamic_video_url": "",
+        "dynamic_video_host": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "multi_column_WNkBwn": {
+      "type": "multi-column",
+      "blocks": {
+        "item_ztKFPE": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Landingpage_70_Jahre_Schnellkochen_Multi_Column_1200x900_871a9f6e-ae14-4653-aea6-6583e3c1b450.png",
+            "column_size": "3",
+            "title": "Die ganze Welt des Schnellkochens",
+            "heading_tag": "h4",
+            "content": "<p>Entdecke alle Vorteile, Funktionen und Rezepte rund um das Thema Schnellkochen.</p>",
+            "link_url": "shopify://blogs/produktwissen/schnellkochtopf-ratgeber",
+            "link_text": "Jetzt entdecken",
+            "link_style": "button"
+          }
+        },
+        "item_TdbwK8": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Landingpage_70_Jahre_Schnellkochen_Multi_Column_1200x900_2.png",
+            "column_size": "3",
+            "title": "Garzeitenfinder",
+            "heading_tag": "h4",
+            "content": "<p>Egal, ob empfindliches Gemüse, cremiges Risotto oder herzhafter Eintopf - die richtige Garzeit für jede Zutat.</p>",
+            "link_url": "shopify://blogs/produktwissen/schnellkochtopf-garzeitenfinder",
+            "link_text": "Zum Garzeitenfinder",
+            "link_style": "button"
+          }
+        },
+        "item_PNbVfR": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Landingpage_70_Jahre_Schnellkochen_Multi_Column_1200x900_3.png",
+            "column_size": "3",
+            "title": "Schnellkochtopf Rezepte",
+            "heading_tag": "h4",
+            "content": "<p>Gesund, schnell und lecker: Entdecke die Vielfalt des Schnellkochens.</p>",
+            "link_url": "https://fissler.com/blogs/rezepte/tagged/schnellkochtopf",
+            "link_text": "Zu den Rezepten",
+            "link_style": "button"
+          }
+        }
+      },
+      "block_order": [
+        "item_ztKFPE",
+        "item_TdbwK8",
+        "item_PNbVfR"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    }
+  },
+  "order": [
+    "slideshow_KNWADP",
+    "main",
+    "featured_product_Ha3man",
+    "rich_text_8CKFPW",
+    "media_with_text_6n9bat",
+    "media_with_text_KeFri9",
+    "rich_text_EiftrQ",
+    "multiple_images_with_text_jgGPhL",
+    "rich_text_Ky3jn9",
+    "video_UcjABK",
+    "images_with_text_scrolling_4tc9Pg",
+    "video_jCDXJk",
+    "multi_column_WNkBwn"
+  ]
+}

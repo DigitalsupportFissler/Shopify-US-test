@@ -1,0 +1,330 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "navigation": {
+          "type": "navigation",
+          "disabled": true,
+          "settings": {}
+        },
+        "comments": {
+          "type": "comments",
+          "disabled": true,
+          "settings": {
+            "show_gravatar": true,
+            "comments_per_page": 5
+          }
+        }
+      },
+      "block_order": [
+        "navigation",
+        "comments"
+      ],
+      "settings": {
+        "layout": "image_text_overlay",
+        "image": "{{ article.image }}",
+        "show_author": true,
+        "show_date": true,
+        "show_comments_count": true,
+        "show_share_buttons": true,
+        "show_header_image": true,
+        "banner_background": "",
+        "banner_text_color": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "content_width": "750px",
+        "stats_color": "#556132",
+        "is_recipe": false,
+        "content_alignment": "start"
+      }
+    },
+    "rich_text_8Tyj3b": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_ahUydc": {
+          "type": "heading",
+          "settings": {
+            "text": "Bewahrt das Beste deiner Zutaten:",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_VQ4fg8": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Gerade für die empfindlichen Vitamine ist diese spezielle Art der Zubereitung viel schonender als das Kochen im normalen Topf. Vitamin C beispielsweise bleibt beim Schnellkochen bis zu rund 90 % erhalten. Die Lebensmittel behalten durch das Kochen im Schnellkochtopf auch ihre natürliche Farbe. Der Grund dafür: Beim Ankochen wird die Luft im Schnellkochtopf durch den entstehenden Wasserdampf fast vollständig verdrängt. Wenn das Auslassventil geschlossen ist und der Garprozess beginnt, befindet sich im Topfinneren kaum noch Sauerstoff, der für die Zersetzung der wertvollen Vitamine und Nährstoffe verantwortlich ist. Unter Druck gegarte Speisen sind nicht nur geschmacklich, sondern auch optisch ein echter Genuss.</p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ahUydc",
+        "richtext_VQ4fg8"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "show_section_id": false,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "rich_text_HWWbyL": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_pEdBbn": {
+          "type": "heading",
+          "settings": {
+            "text": "Schenkt dir Zeit für die wichtigen Dinge im Leben:",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_jAMCXD": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Die Temperaturerhöhung im Schnellkochtopf sorgt dafür, dass sich der Garprozess gegenüber dem normalen Kochen um bis zu 70 % verkürzt. So entsteht die Temperaturerhöhung: Nachdem der Deckel eingerastet ist, erzeugt das Ankochen im Topfinneren einen Überdruck, der den Siedepunkt des Wassers auf 110 bis 116° C heraufsetzt. Mit einem Schnellkochtopf kochst du deutlich stressfreier und kannst die gewonnene Zeit sinnvoll nutzen.</p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_pEdBbn",
+        "richtext_jAMCXD"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "show_section_id": false,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "rich_text_NyRmeT": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_YCxQqt": {
+          "type": "heading",
+          "settings": {
+            "text": "Hilft dir, Energie einzusparen:",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_Jm3HKk": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Durch die verkürzte Garzeit verbraucht ein Schnellkochtopf bis zu 50 % weniger Energie als herkömmliche Töpfe und behält gleichzeitig 100 % Geschmack. Darüber freut sich nicht nur dein Geldbeutel, sondern auch die Umwelt. Die Möglichkeit zum Etagenkochen und unsere energieeffizienten „Made in Germany“-Böden tragen zusätzlich zum Energiesparen bei.</p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_YCxQqt",
+        "richtext_Jm3HKk"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "show_section_id": false,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "multi_column_jwTYEx": {
+      "type": "multi-column",
+      "blocks": {
+        "item_AXYXbH": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Ratgeber_Produktwissen_Multi_Column_Schnellkochtopf_Oeffnen_1200x900_ad5dc53d-db54-4ddf-9ec4-f243861d2b6c.png",
+            "column_size": "3",
+            "title": "1. Topf öffnen",
+            "heading_tag": "h4",
+            "content": "<p>Drücke die Bedientaste am Deckelstiel in Pfeilrichtung. Drehe den Deckel bis zum Anschlag nach rechts und nimm ihn ab.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_T9rdfd": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Ratgeber_Produktwissen_Multi_Column_Wasser_einfuellen_1200x900_da106e6b-ff86-4269-9f66-adb639f3d315.png",
+            "column_size": "3",
+            "title": "2. Flüssigkeit einfüllen",
+            "heading_tag": "h4",
+            "content": "<p>Für das Kochen im Schnellkochtopf muss immer ein Minimum an Flüssigkeit eingefüllt werden. Je nach Rezept kannst du z.B. zuerst Zwiebeln oder Fleisch anbraten oder nur Flüssigkeit (Wasser, Brühe, Wein usw.) einfüllen. Die Mess-Skala im Topf gibt die min./max. Menge an Flüssigkeit vor und darf nicht unter- bzw. überschritten werden. Stelle bei Bedarf das Dreibein in den Topf und platziere den Einsatz darauf.</p><p>Tipp: Verwenden heiße Flüssigkeit, damit sich der Druck schneller aufbaut.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_wUaNLm": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Ratgeber_Produktwissen_Multi_Column_Deckel_verschliessen_1200x900_c21224ee-877f-4f6e-9cc5-43a65ca24dff.png",
+            "column_size": "3",
+            "title": "3. Topf schließen",
+            "heading_tag": "h4",
+            "content": "<p>Schließe den Topf, wenn sich alle Zutaten gemäß Rezept darin befinden. Platziere die Fissler Aufsetzhilfe mit dem roten Punkt am Topfdeckel in der vorgesehenen Aussparung am Topfkörper und setze den Deckel auf. Drehe den Griff am Deckel nach links, um den Topf sicher zu verschließen. Fissler Schnellkochtöpfe rasten hörbar ein und die Anzeige im Griff springt von rot auf grün. Erhitze nun den Topf bei maximaler Herdleistung.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_DqnzWm": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Ratgeber_Produktwissen_Multi_Column_Kochkrone_Rezept_1200x900_e441f071-2dd5-4269-a210-fb42c2ec8511.png",
+            "column_size": "3",
+            "title": "4. Kochstufe einstellen",
+            "heading_tag": "h4",
+            "content": "<p>Der Vitavit® Premium verfügt über vier Kochstufen, inklusive einer drucklosen Dampfgarstufe. Stelle einfach die gewünschte Garstufe gemäß Rezept ein:<br/><br/><strong>Garstufe 1</strong> für empfindliche Speisen wie Fisch, Brokkoli und feines Gemüse<br/><strong>Garstufe 2</strong> für robustes Gemüse wie Rote Bete, und Kohl<br/><strong>Garstufe 3</strong> für Gerichte mit längerer Garzeit wie Fleisch oder Eintöpfe.</p><p>Der Vitaquick® zeigt die aktuelle Garstufe mithilfe von Ringen an: Ein Ring entspricht der Schongarstufe (Gemüse), zwei Ringe entsprechen der Schnellgarstufe (Fleisch).</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_MrHqgj": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Ratgeber_Produktwissen_Multi_Column_Kochprozess_steuern_1200x900_123c0fbb-6517-47d4-8f13-d536c7417406.png",
+            "column_size": "3",
+            "title": "5. Kochprozess steuern",
+            "heading_tag": "h4",
+            "content": "<p>Die Kochanzeige mit Ampelfunktion navigiert dich sicher durch den Kochprozess.<br/><br/>Der <strong>gelbe Ring</strong> signalisiert, dass die richtige Temperatur bald erreicht ist und du den Herd bereits herunterschalten kannst.</p><p>Der <strong>grüne Ring</strong> gibt an, dass die gewählte Garstufe erreicht ist. Ab jetzt beginnt die Garzeit.</p><p>Wenn der <strong>rote Ring</strong> erscheint, ist die Temperatur im Topf zu hoch und der Schnellkochtopf beginnt automatisch abzudampfen. Schalte den Herd herunter, um wieder in den grünen Bereich zu gelangen.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_q6pfYa": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Ratgeber_Produktwissen_Multi_Column_Abdampfen_1200x900_0058deee-c2e1-46d9-b348-684063902df6.png",
+            "column_size": "3",
+            "title": "6. Schnellkochtopf abdampfen",
+            "heading_tag": "h4",
+            "content": "<p>Das Abdampfen funktioniert je nach Modell auf verschiedene Arten. Bei allen Fissler Schnellkochtöpfen kannst du mit der Bedientaste am Deckelstiel abdampfen. Zusätzlich bietet der Vitavit® Premium das schnelle Abdampfen durch das Kochventil im Deckel.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_yejyyA": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Ratgeber_Produktwissen_Multi_Column_SChnellkochtopf_oeffnen_1200x900_6e6da4f7-76e5-4416-a671-9d84d0452b4d.png",
+            "column_size": "3",
+            "title": "7. Topf öffnen",
+            "heading_tag": "h4",
+            "content": "<p>Nach dem Abdampfen öffne den Topf, indem du die Bedientaste am Deckelgriff drückst und den Deckel nach rechts drehst.</p><p>Tipp: Insbesondere bei Gerichten mit längerer Garzeit kannst du die Restwärme des Herdes nutzen, bis der Topf drucklos ist und du ihn öffnest.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_mWPwFD": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Ratgeber_Produktwissen_Multi_Column_Schnellkochtopf_reinigen_1200x900_39a03124-7206-4774-a431-9848072ba753.png",
+            "column_size": "3",
+            "title": "8. Reinigen",
+            "heading_tag": "h4",
+            "content": "<p>Reinige den Schnellkochtopf nach jeder Benutzung. Löse Dichtungsring, Kochkrone und Deckelstiel vom Deckel und säubere diese per Hand.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_AXYXbH",
+        "item_T9rdfd",
+        "item_wUaNLm",
+        "item_DqnzWm",
+        "item_MrHqgj",
+        "item_q6pfYa",
+        "item_yejyyA",
+        "item_mWPwFD"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "Schnellkochtopf Bedienung:",
+        "content": "",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "xl"
+      }
+    },
+    "featured_articles_nGF4gQ": {
+      "type": "featured-articles",
+      "name": "Featured articles",
+      "settings": {
+        "articles_per_row_mobile": "2",
+        "articles_per_row_desktop": 3,
+        "subheading": "",
+        "articel_handles": "product-guide/pressure-cooking-time-finder,product-guide/pressure-cooker-juicing,product-guide/multi-level-pressure-cooking,product-guide/pressure-cooker-steaming",
+        "title": "Der Schnellkochtopf kann noch mehr:",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_8Tyj3b",
+    "rich_text_HWWbyL",
+    "rich_text_NyRmeT",
+    "multi_column_jwTYEx",
+    "featured_articles_nGF4gQ"
+  ]
+}

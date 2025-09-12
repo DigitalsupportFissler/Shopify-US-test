@@ -1,0 +1,212 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "navigation": {
+          "type": "navigation",
+          "disabled": true,
+          "settings": {}
+        },
+        "comments": {
+          "type": "comments",
+          "disabled": true,
+          "settings": {
+            "show_gravatar": true,
+            "comments_per_page": 5
+          }
+        }
+      },
+      "block_order": [
+        "navigation",
+        "comments"
+      ],
+      "settings": {
+        "layout": "image_text_overlay",
+        "image": "{{ article.image }}",
+        "show_author": true,
+        "show_date": true,
+        "show_comments_count": true,
+        "show_share_buttons": true,
+        "show_header_image": true,
+        "banner_background": "",
+        "banner_text_color": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "content_width": "750px",
+        "stats_color": "#556132",
+        "is_recipe": false,
+        "content_alignment": "start"
+      }
+    },
+    "rich_text_m6dHA3": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_b6U8Qz": {
+          "type": "heading",
+          "settings": {
+            "text": "Spargel kaufen: Wie erkennt man frischen Spargel?",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_LXpi4V": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Frisch gestochener Spargel lässt sich leicht erkennen: Die Stangen sind prall, saftig und weisen keinerlei Risse auf. Bei weißem Spargel glänzen sie schön, grüner Spargel leuchtet satt hellgrün. Die Spitzen des weißen Spargels sind fest und geschlossen. Bei der grünen Variante können sie durch das Wachsen an der Erdoberfläche schon leicht geöffnet sein.<br/><br/>Die Anschnitte am unteren Ende der Stange sollten nicht angetrocknet sein oder bräunlich aussehen. Bei leichtem Zusammendrücken der Schnittstelle steigt ein aromatischer Duft auf. Aber Vorsicht ist geboten: frischer Spargel bricht leicht!<br/><br/>Am besten ist grüner und weißer Spargel natürlich saisonal und regional. Idealerweise finden die frischen Stangen in loser Form ihren Weg in den Einkaufskorb. Im abgepackten und verschweißten Bund kann die Frische nur schlecht überprüft werden.<br/><br/>Der bekannte Test, ob Stangen beim Aneinanderreiben quietschen, kann tatsächlich auf frische Qualität hinweisen – oder aber ein Zeichen für feuchte Lagerung sein. Also sollten umso genauer die anderen genannten Kriterien überprüft werden.</p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_b6U8Qz",
+        "richtext_LXpi4V"
+      ],
+      "settings": {
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "media_with_text_Pt43im": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_Bnffqi": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Ratgeber_Produktwissen_MEdia_with_Text_Spargel_haltbar__1500x1500_fc115550-43d7-4195-b105-adf725aea397.png",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Haltbarkeit von Spargel: Wie lange hält sich Spargel?",
+            "heading_tag": "h2",
+            "content": "<p>Ob gekocht, gebraten oder roh in die Salatschüssel – der grüne oder weiße Spargel wird idealerweise direkt nach dem Einkauf weiterverarbeitet. Denn Spargel ist ein empfindliches Gemüse, das sich nur schwer lange lagern lässt.<br/><br/>Ohne die richtige Handhabung wird er schnell trocken, schlaff und verliert sein feines Aroma. Es gilt also, ihn nach dem Kauf richtig zu behandeln.</p>",
+            "link_text": "Zu den Rezepten",
+            "link_url": "shopify://blogs/rezepte",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "image_Bnffqi"
+      ],
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "rich_text_iWQJjw": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_yJKRrE": {
+          "type": "heading",
+          "settings": {
+            "text": "Spargel lagern: Wie bleibt er besonders frisch?",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_tzkQjh": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Wenn Spargel nicht sofort verputzt wird, gibt es einige Tricks, wie sich grüner und weißer Spargel länger hält. Zunächst sollten die Stangen ungeschält locker in ein feuchtes Küchenpapier oder Geschirrtuch eingeschlagen werden. Dann ab damit ins Gemüsefach des Kühlschranks.<br/><br/>In seiner Nähe sollten keine geruchsintensiven Gemüsesorten wie Zwiebeln, Lauch oder Bärlauch gelagert werden, um das Eigenaroma des Frühlingsgemüses zu erhalten. Zwei bis drei Tage kann der ungeschälte Spargel so problemlos aufbewahrt werden.<br/><br/>Geschälter weißer Spargel hingegen hält sich deutlich kürzer. Am besten ist es, die Stangen in eine Plastikfolie zu geben, alles gut zuzubinden und in den Kühlschrank zu legen. Länger als einen Tag sollte er allerdings nicht lagern und rasch verzehrt werden.<br/><br/>Es gilt: Die unversehrte Schale, Dunkelheit und kühle Temperaturen sind der beste Schutz für die Frische von grünem und weißem Spargel.</p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_yJKRrE",
+        "richtext_tzkQjh"
+      ],
+      "settings": {
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "rich_text_F8rjHd": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_tyzXf3": {
+          "type": "heading",
+          "settings": {
+            "text": "Spargel einfrieren: Lässt sich Spargel einfrieren?",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_6CDHmw": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Gute Nachrichten für alle, denen die Spargelsaison zu kurz ist: Grüner und weißer Spargel lässt sich hervorragend einfrieren! Dafür einfach die Stangen schälen – dieser Schritt fällt bei grünem Spargel weg – und in Stücke schneiden. Im Gefrierfach hält er sich so bis zu 6 Monate.<br/><br/>Wer die Stangen im Ganzen einfrieren will, sollte sie möglichst flach legen, bis sie durchgefroren sind. So brechen oder verbiegen sie nicht. Geht es an die Zubereitung, kommt der noch gefrorene Spargel ohne Auftauen direkt in kochendes Salzwasser, wird kurz blanchiert und dann wie gewohnt weiterverarbeitet.<br/><br/>Bild: ©Juanmonino/istock</p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_tyzXf3",
+        "richtext_6CDHmw"
+      ],
+      "settings": {
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_m6dHA3",
+    "media_with_text_Pt43im",
+    "rich_text_iWQJjw",
+    "rich_text_F8rjHd"
+  ]
+}

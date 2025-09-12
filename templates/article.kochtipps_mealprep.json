@@ -1,0 +1,469 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_W6affT": {
+      "type": "slideshow",
+      "blocks": {
+        "image_xtqPJE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/meal-prep_back-to-school-mit-meal-prep-gut-vorbereitet-zurueck-in-den-alltag-86060-79837.jpg",
+            "image_content_width": false,
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "Back to School",
+            "title": "Meal Prep",
+            "heading_tag": "h1",
+            "button_text": "",
+            "button_link": "",
+            "heading_color": "#ffffff",
+            "subheading_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 45,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_xtqPJE"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "show_initial_transition": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "navigation": {
+          "type": "navigation",
+          "disabled": true,
+          "settings": {}
+        },
+        "comments": {
+          "type": "comments",
+          "disabled": true,
+          "settings": {
+            "show_gravatar": true,
+            "comments_per_page": 5
+          }
+        }
+      },
+      "block_order": [
+        "navigation",
+        "comments"
+      ],
+      "settings": {
+        "layout": "content_first",
+        "show_author": false,
+        "show_date": true,
+        "show_comments_count": true,
+        "show_share_buttons": true,
+        "show_header_image": true,
+        "banner_background": "",
+        "banner_text_color": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "content_width": "750px",
+        "stats_color": "#556132",
+        "is_recipe": false,
+        "content_alignment": "start"
+      }
+    },
+    "rich_text_TKVeji": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_GNtiNc": {
+          "type": "heading",
+          "settings": {
+            "text": "Meal Prep ist das moderne Vorkochen",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_rnJqx6": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Was früher unter Vorkochen bekannt war, geht heute im sogenannten Meal Prep auf.<br/>Populär wurde der Begriff durch die Fitness Community in den USA, die durch die eigene Zu- bzw. Vorbereitung ihrer Mahlzeiten genau kalkulieren konnte, welche Lebensmittel und Nährstoffe sie in welcher Menge zu sich nimmt. Heute ist selbstgemachtes “Food to go” in Lunch Boxen und Einmachgläsern auf den sozialen Netzwerken ein echter Trend – und eine wirklich gesunde Alternative zum klassischen Mittagessen in der Mensa oder Kantine.</p><p></p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_GNtiNc",
+        "richtext_rnJqx6"
+      ],
+      "settings": {
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "multi_column_qacXga": {
+      "type": "multi-column",
+      "blocks": {
+        "item_Fw697x": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "1. Planung:",
+            "heading_tag": "h4",
+            "content": "<p>Am Anfang steht die Überlegung, welche Gerichte in den nächsten Tagen in die Box kommen sollen. Die Suche nach den passenden Meal Prep Rezepten ist der erste Schritt für einen leckeren Mittagssnack.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_hwTamU": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "2. Einkaufen:",
+            "heading_tag": "h4",
+            "content": "<p>Die Lebensmittel passend zum Essensplan einkaufen. Wer zwischendurch gerne snackt, kann z. B. noch Nüsse, Trockenfrüchte oder frisches Obst mit in den Einkaufswagen legen.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_zCXDj7": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "3. Vorkochen:",
+            "heading_tag": "h4",
+            "content": "<p>Gemüse lässt sich wunderbar kochen, dämpfen oder braten. Dazu passen unterschiedliche Soßen oder Dips. Ergänzend sollten sättigende Beilagen wie Reis, Quinoa, Pasta oder Kartoffeln vorbereitet werden. Als Eiweißlieferanten bieten sich Fisch oder Fleisch, Tofu oder Hülsenfrüchte an. Die Komponenten können dann in unterschiedlicher Zusammensetzung zu einem gesunden Lunch kombiniert oder auch als Suppe oder Auflauf zubereitet werden.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_bKrxnj": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "4. Aufbewahrung:",
+            "heading_tag": "h4",
+            "content": "<p>Damit die einzelnen Bestandteile ihre Aromen behalten, sollten alle Komponenten getrennt in verschließbaren Glas/- oder Plastikdosen im Kühlschrank aufbewahrt werden.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_PwcUUQ": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "5. Vorbereiten:",
+            "heading_tag": "h4",
+            "content": "<p>Der mit Abstand schnellste Meal-Prepping-Schritt kann auch noch am Morgen vor der Arbeit erfolgen: Gemüse, Dip, Eiweiß- und Stärkekomponente nach Wahl in eine verschließbare Dose oder ein Einmachglas packen – und fertig ist die leckere Mahlzeit für unterwegs.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_Fw697x",
+        "item_hwTamU",
+        "item_zCXDj7",
+        "item_bKrxnj",
+        "item_PwcUUQ"
+      ],
+      "settings": {
+        "stack_on_mobile": false,
+        "gap": "small",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "So einfach ist Meal Prep – die wichtigsten Tipps",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "media_with_text_tTiPid": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_kWAUW9": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/meal-prep_back-to-school-mit-meal-prep-gut-vorbereitet-zurueck-in-den-alltag-75281-27674.jpg",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Vorteile Meal Prep",
+            "heading_tag": "h2",
+            "content": "<p>Wer sich gesund ernähren möchte, kann das mit Meal Prep ganz einfach und kostengünstig tun. Keine ungewollten Zusatzstoffe oder Geschmacksverstärker, kein unnötiges Fett, low carb, vegetarisch oder vegan – die Zusammenstellung der Zutaten erfolgt ausschließlich nach individuellen Bedürfnissen und Vorlieben.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "image_kWAUW9"
+      ],
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "rich_text_9MtAHE": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_DHnRJp": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Meal Prep eignet sich daher auch wunderbar zum Abnehmen oder zum Einhalten eines festen Ernährungsplans, denn die Portionsgrößen können wunderbar dem wirklichen Bedarf angepasst werden. Und auch wenn der Heißhunger kommt, bewahrt die vorbereitete Lunchbox vor der Fast-Food-Falle.<br/><br/>Natürlich dauert es seine Zeit, bis die Gerichte zubereitet sind. Wer aber gleich für mehrere Tage vorkocht, spart sich an den restlichen Tagen zusätzliches Einkaufen, Kochen und Aufräumen. Und das lohnt sich – auch in finanzieller Hinsicht. Denn wer nur einmal in der Woche einkaufen geht, gibt meist viel weniger Geld aus, als wenn mehrmals in der Woche kleine Einkäufe gemacht werden. Und Reste? Die landen in Zukunft nicht mehr im Müll, sondern werden für die nächste Lunchbox verwendet.</p><p></p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_DHnRJp"
+      ],
+      "settings": {
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "rich_text_aY9R4i": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_kAwrwq": {
+          "type": "heading",
+          "settings": {
+            "text": "Meal Prep für Kinder",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_kn3Prc": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Für Schulkinder ist ein gesundes Pausenbrot die Grundlage für einen erfolgreichen Schultag. Denn wer in der Schule gut frühstückt und ausreichend trinkt, kann im Unterricht mehr leisten und sich besser konzentrieren. Ein vollwertiges Pausenbrot, das nicht nur gesund ist, sondern den Kindern auch noch Spaß macht und schmeckt, ist für viele Eltern eine tägliche Herausforderung – lässt sich aber mit kleinen Tricks gut vorbereiten.</p><p></p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_kAwrwq",
+        "richtext_kn3Prc"
+      ],
+      "settings": {
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "rich_text_3gmdzR": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_FkFnr4": {
+          "type": "heading",
+          "settings": {
+            "text": "Gesunde Pausenbrote",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_cMh4N7": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Wichtig bei der Zubereitung des Pausenbrotes ist es, die individuellen Wünsche der Kinder zu berücksichtigen. Denn auch in der Schule gilt: Was schmeckt, macht stark!</p><p></p><ul><li>Vollkornbrot oder -brötchen liefern am meisten Energie. Um aber Abwechslung in den kulinarischen Alltag der Kinder zu bekommen, sollten die Brotsorten variiert werden.</li><li>Die Brote dünn mit Butter, Margarine oder Frischkäse bestreichen und mit fettarmer Wurst, Käse oder vegetarischem Brotaufstrich belegen. Besonders gut schmeckt es, wenn unter den Brotbelag ein Salatblatt und Tomaten- oder Gurkenscheiben gelegt werden.</li><li>Kresse, Schnittlauch, Petersilie oder Basilikum geben den Pausenbroten die richtige Würze.</li><li>Frisches, saisonale Gemüse und Obst, mundgerecht geschnitten, wird bei Kindern und Jugendlichen zum beliebten Fingerfood. Abwechslung in die Frühstücksbox bringen ab und zu Nüsse und Trockenobst.</li><li>Als Durstlöscher sollte ausreichend Flüssigkeit in Form von Getränken wie Wasser und ungesüßte Kräuter- und Früchtetees zur Verfügung stehen.</li></ul>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_FkFnr4",
+        "richtext_cMh4N7"
+      ],
+      "settings": {
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "rich_text_qLWaAc": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_YtiR3c": {
+          "type": "heading",
+          "settings": {
+            "text": "Pausenbrot – leckere Alternativen",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_pdAgfK": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Um auch in den Alltag der Kleinen etwas Abwechslung und zusätzlichen Genuss zu bringen, gibt es leckere Alternativen für die Zubereitung der Pausenmahlzeiten:</p><p></p><ul><li>Ein ungesüßtes Müsli ist eine gesunde Variante für Brotmuffel – zusammen mit ungesüßtem Joghurt, Quark oder auch Milch ergibt es eine vollwertige Zwischenmahlzeit.</li><li>Gesunde Spieße bringen nicht nur Farbe in die Brotbox, sie lassen sich auch unkompliziert zubereiten. Dabei ist erlaubt, was gesund ist und schmeckt. Zum Beispiel Käsewürfel mit Trauben oder Paprikastücken, Kirschtomaten mit Mozzarella-Kugeln oder als fruchtige Variante Honigmelonen mit Himbeeren.</li><li>Gruß aus dem Orient: Fladenbrot gefüllt mit Rohkost wie geraspelten Möhren, Kohlrabi-Stiften, Tomatenwürfeln, Schafskäse und Joghurtdressing sorgt für kulinarische Abwechslung in der Schulpause.</li><li>Frikadelle, Hühnerschenkel oder ein bisschen Kartoffelsalat – auch in der Brotbox lässt sich wunderbar Vorgekochtes als Alternative zum klassischen Schulbrot unterbringen.</li></ul>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_YtiR3c",
+        "richtext_pdAgfK"
+      ],
+      "settings": {
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "rich_text_eqc4Af": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_4Jhw8p": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Bild 1: ©samael334/istock<br/>Bild 2: © Merinka/istock</p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_4Jhw8p"
+      ],
+      "settings": {
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "xl"
+      }
+    },
+    "blog_posts_KrbDFr": {
+      "type": "blog-posts",
+      "blocks": {
+        "blog_VUbxrq": {
+          "type": "blog",
+          "settings": {
+            "blog": "kochtipps",
+            "posts_count": 3,
+            "stack_items": false
+          }
+        }
+      },
+      "block_order": [
+        "blog_VUbxrq"
+      ],
+      "settings": {
+        "show_excerpt": true,
+        "show_date": true,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": true,
+        "show_overall_time": false,
+        "subheading": "",
+        "title": "Weitere Kochtipps aus dem Fissler Ratgeber",
+        "content": "",
+        "link_url": "shopify://blogs/kochtipps",
+        "link_text": "Alle Kochtipps entdecken",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto",
+        "blog_handle": "kochtipps",
+        "posts_count": 4
+      }
+    }
+  },
+  "order": [
+    "slideshow_W6affT",
+    "main",
+    "rich_text_TKVeji",
+    "multi_column_qacXga",
+    "media_with_text_tTiPid",
+    "rich_text_9MtAHE",
+    "rich_text_aY9R4i",
+    "rich_text_3gmdzR",
+    "rich_text_qLWaAc",
+    "rich_text_eqc4Af",
+    "blog_posts_KrbDFr"
+  ]
+}

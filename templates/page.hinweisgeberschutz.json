@@ -1,0 +1,60 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "rich_text_DdEdzF": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_REt6F4": {
+          "type": "heading",
+          "settings": {
+            "text": "Hinweisgeberschutz",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_48LGXD": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Als verantwortungsbewusstes Unternehmen betrachten wir die Einhaltung von Recht und Gesetz als grundlegend für unser Handeln. Wir legen dabei besonderen Wert auf Transparenz und eine ethisch einwandfreie Zusammenarbeit.</p><p>Um potenzielles Fehlverhalten und Verstöße gegen geltende Gesetze schnellstmöglich aufzudecken und frühzeitig Gegenmaßnahmen ergreifen zu können, bieten wir hier die Möglichkeit, solche Vorkommnisse zu melden.</p><p></p><p><a href=\"https://prod.osapiens.cloud/portal/portal/webbundle/supplier-os-hub/supplier-os-hub/public-access-app/complaint.html#/public/hub/vesta-group/FISSLER_GMBH/complaint/new\" target=\"_blank\" title=\"https://prod.osapiens.cloud/portal/portal/webbundle/supplier-os-hub/supplier-os-hub/public-access-app/complaint.html#/public/hub/vesta-group/FISSLER_GMBH/complaint/new\">Jetzt melden</a></p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_REt6F4",
+        "richtext_48LGXD"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "show_section_id": false,
+        "content_width": "large",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_DdEdzF"
+  ]
+}

@@ -1,0 +1,267 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_AgR36Y": {
+      "type": "slideshow",
+      "blocks": {
+        "image_C7CpfF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Categories_Pfannen-2_Ratgeber-Header_1920x640_f0f059e8-7aaf-43bc-bd15-cace3ab250fe.jpg",
+            "image_content_width": false,
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "Fissler Sale",
+            "heading_tag": "h1",
+            "button_text": "",
+            "button_link": "",
+            "heading_color": "#ffffff",
+            "subheading_color": "#000000",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_C7CpfF"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_initial_transition": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "rich_text_KmwQJV": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_zTNex3": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h3>Schnapp dir deine Lieblingsprodukte zum Vorteilspreis!</h3><p>Unser Fissler Sale ist da – mit aktuellen Angeboten auf hochwertige Töpfe, Pfannen und Küchenhelfer. Nur für kurze Zeit und nur solange der Vorrat reicht. Jetzt stöbern, sparen und kochbereit sein!</p>",
+            "font_size": "lg"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_zTNex3"
+      ],
+      "settings": {
+        "content_width": "large",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "xl",
+        "padding_bottom": "auto"
+      }
+    },
+    "featured_collection_EAHbaN": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "sale",
+        "products": [],
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 15,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Unsere Sale Angebote",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "media_with_text_iqXX6g": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_QyUzmd": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Categories_Ersatzteile-Pfannen_Teaser_1200x1200_228467ef-607c-49c6-b591-11302acaea49.jpg",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "Entdecke alle Pfannen und Woks",
+            "title": "Pfannen & Woks",
+            "heading_tag": "h3",
+            "content": "<p>Egal, ob Sie das perfekte Steak scharf und kross in einer Edelstahlpfanne anbraten, Gemüse schonend im Wok rösten oder bewusst mit wenig Fett in einer beschichteten Aluminiumpfanne zubereiten möchten – bei uns finden Sie die richtige Pfanne für jede Anwendung.</p>",
+            "link_text": "Alle Pfannen & Woks",
+            "link_url": "shopify://collections/pfannen",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        },
+        "image_zUjdGi": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Categories_toepfe_Teaser_1200x1200_b2fef44c-10e4-4193-aa83-732079a0ec85.jpg",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "Alle Töpfe und Topfsets auf einen Blick",
+            "title": "Töpfe",
+            "heading_tag": "h3",
+            "content": "<p>Mach deine Küche komplett - entdecke Topfsets sowie einzelne Töpfe.</p>",
+            "link_text": "Alle Töpfe",
+            "link_url": "shopify://collections/toepfe",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        },
+        "image_Hxqqke": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Categories_Schnellkochtoepfe-Induktion_Teaser_1200x1200_424c9fc5-e294-4727-a976-f5ecd9281724.jpg",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "Alle Schnellkochtöpfe im Überblick",
+            "title": "Schnellkochtöpfe",
+            "heading_tag": "h3",
+            "content": "<p>Hebe deine Kocherfahrung auf das nächste Level und erlebe die Vorteile des Schnellkochens: Unsere Schnellkochtöpfe schenken dir Zeit, sparen Energie und bewahren Vitamine. </p>",
+            "link_text": "Alle Schnellkochtöpfe",
+            "link_url": "shopify://collections/schnellkochtoepfe",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        },
+        "image_p9TXUh": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Categories_Ersatzteile-Kuechenhelfer_Teaser_1200x1200_d474e81a-6517-4ed3-8679-59b583bdafaa.jpg",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "Entdecke alle Küchenhelfer",
+            "title": "Küchenhelfer",
+            "heading_tag": "h3",
+            "content": "<p>Mache dir das Kochen leicht mit unseren innovativen Küchenhelfern.</p>",
+            "link_text": "Alle Küchenhelfer",
+            "link_url": "shopify://collections/kuechenhelfer",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "image_QyUzmd",
+        "image_zUjdGi",
+        "image_Hxqqke",
+        "image_p9TXUh"
+      ],
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    }
+  },
+  "order": [
+    "slideshow_AgR36Y",
+    "rich_text_KmwQJV",
+    "featured_collection_EAHbaN",
+    "media_with_text_iqXX6g",
+    "main"
+  ]
+}

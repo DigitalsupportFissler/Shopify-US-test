@@ -1,0 +1,438 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "navigation": {
+          "type": "navigation",
+          "disabled": true,
+          "settings": {}
+        },
+        "comments": {
+          "type": "comments",
+          "disabled": true,
+          "settings": {
+            "show_gravatar": true,
+            "comments_per_page": 5
+          }
+        }
+      },
+      "block_order": [
+        "navigation",
+        "comments"
+      ],
+      "settings": {
+        "layout": "image_text_overlay",
+        "image": "{{ article.image }}",
+        "show_author": false,
+        "show_date": true,
+        "show_comments_count": true,
+        "show_share_buttons": true,
+        "show_header_image": true,
+        "banner_background": "",
+        "banner_text_color": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "content_width": "1150px",
+        "stats_color": "#556132",
+        "is_recipe": false,
+        "content_alignment": "start"
+      }
+    },
+    "media_with_text_fe99y7": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_8KpkhD": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Ratgeber_Media_with_Text_Kochmesser_1200x1200_b2518e71-2813-452b-bd1e-113cb10679a2.jpg",
+            "media_width": 40,
+            "disable_content_vertical_padding": false,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Kochmesser",
+            "heading_tag": "h2",
+            "content": "<p>Das Kochmesser ist das Multitalent in der Küche – ideal zum Schneiden von Fleisch, Fisch und Gemüse. Für feinere Arbeiten, wie das Würfeln von Zwiebeln, kommt die Spitze zum Einsatz. Beim Fleisch gleitet die lange Klinge mit wenigen Zügen mühelos hindurch. Kein Wunder, dass das Kochmesser ein unverzichtbares Werkzeug in jeder Küche ist.</p>",
+            "link_text": "Zum Messer",
+            "link_url": "shopify://products/fissler-essential-kochmesser-18cm",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "image_8KpkhD"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "none",
+        "show_section_id": false,
+        "padding_top": "0",
+        "padding_bottom": "0"
+      }
+    },
+    "media_with_text_4zwmte": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_fdkLJF": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Ratgeber_Media_with_Text_Santokumesser_1200x1200_455056cc-9f41-47c5-a8fa-d13e1973ecd6.jpg",
+            "media_width": 40,
+            "disable_content_vertical_padding": false,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Santokumesser",
+            "heading_tag": "h2",
+            "content": "<p>Santoku, was „drei Tugenden“ bedeutet, ist ein vielseitiges Messer zum Schneiden von Fisch, Fleisch und Gemüse – und damit das japanische Pendant zum europäischen Kochmesser. Die hohe Klinge dient gleichzeitig als Palette: Geschnittene Zutaten lassen sich einfach auf die Klinge schieben und direkt in Pfanne, Topf oder Schüssel befördern. Das Fissler Essential® Santokumesser mit Kullenschliff ist ideal für alle, die ein leichtes Messer für feine Arbeiten brauchen – etwa zum Schneiden von Lachs für ein zartes Carpaccio. Auch zum Hacken und Würfeln von Gemüse für Currys, Suppen oder Eintöpfe ist es perfekt geeignet.</p>",
+            "link_text": "Zum Messer",
+            "link_url": "shopify://products/essential-santokumesser-16-5cm-m-kullen",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "image_fdkLJF"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "none",
+        "show_section_id": false,
+        "padding_top": "0",
+        "padding_bottom": "0"
+      }
+    },
+    "media_with_text_VdbfHP": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_GffAF4": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Ratgeber_Media_with_Text_Schaelmesser_1200x1200_e56aa730-51fb-4bfc-8f29-eb48c2acd9be.jpg",
+            "media_width": 40,
+            "disable_content_vertical_padding": false,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Schälmesser",
+            "heading_tag": "h2",
+            "content": "<p>Das Fissler Essential® Schälmesser verfügt über eine gerade Klinge und ist dadurch äußerst vielseitig einsetzbar. Es wurde speziell für müheloses Schälen, Putzen und anspruchsvolle Schneidarbeiten entwickelt. Ob Obst, Gemüse oder Garnituren – dank seines wendigen Designs bietet es maximale Kontrolle und Präzision. Neben dem Kochmesser zählt es zu den wichtigsten Werkzeugen in jeder Küche.</p>",
+            "link_text": "Zum Messer",
+            "link_url": "shopify://products/fissler-essential-schaelmesser",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "image_GffAF4"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "none",
+        "show_section_id": false,
+        "padding_top": "0",
+        "padding_bottom": "0"
+      }
+    },
+    "media_with_text_NN39MY": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_Pi4tQn": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Ratgeber_Media_with_Text_Universalmesser_1200x1200_5257974a-b0d2-4f5b-b79f-90f0456304ff.jpg",
+            "media_width": 40,
+            "disable_content_vertical_padding": false,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Universalmesser",
+            "heading_tag": "h2",
+            "content": "<p>Das Fissler Essential® Universalmesser bildet die perfekte Mitte zwischen einem Koch- und einem Schälmesser. Ideal für Gelegenheitsköche – es ist das eine Messer, das alles kann. Mit einer Klingenlänge von 10 bis 15 cm ist es kompakt und wendig – perfekt für die tägliche Vorbereitung, wenn ein großes Kochmesser zu viel erscheint.</p>",
+            "link_text": "Zum Messer",
+            "link_url": "shopify://products/fissler-essential-universalmesser",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "image_Pi4tQn"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "none",
+        "show_section_id": false,
+        "padding_top": "0",
+        "padding_bottom": "0"
+      }
+    },
+    "media_with_text_GWRLdM": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_j4Ytrx": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Ratgeber_Media_with_Text_Brotmesser_1200x1200_fba33a3d-86f6-4521-8915-9c424b16e7f4.jpg",
+            "media_width": 40,
+            "disable_content_vertical_padding": false,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Brotmesser",
+            "heading_tag": "h2",
+            "content": "<p>Brot mit einer glatten Klinge schneiden? Keine gute Idee – und auch nicht gut für das Messer. Genau deshalb wurde der Wellenschliff erfunden. Heute weltweit Standard, ist er die erste Wahl für alles mit harter Kruste und sorgt mühelos für saubere Schnitte. Außerdem bleibt der Wellenschliff lange scharf. Mit dem Fissler Essential® Brotmesser gleitet man mit müheloser Präzision durch jedes Laib Brot.</p>",
+            "link_text": "Zum Messer",
+            "link_url": "shopify://products/fissler-essential-brotmesser",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "image_j4Ytrx"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "none",
+        "show_section_id": false,
+        "padding_top": "0",
+        "padding_bottom": "0"
+      }
+    },
+    "media_with_text_rbEWNq": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_FMTcbr": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Ratgeber_Media_with_Text_Hackbeil_1200x1200_515cb611-1be4-4d98-8241-a28dd82a8cb3.jpg",
+            "media_width": 40,
+            "disable_content_vertical_padding": false,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Hackbeil",
+            "heading_tag": "h2",
+            "content": "<p>Wenn man Fleisch in großen Stücken kauft und dabei Knochen – wie Rippchen – zerteilen muss, braucht man ein Hackbeil an seiner Seite. Ein normales Küchenmesser kann dabei schnell beschädigt werden. Das Fissler Essential® Hackbeil wurde genau für diese Aufgabe entwickelt – mit seiner dicken, schweren Klinge und seinem kräftigen Schliff. Sein Gewicht sorgt für die nötige Wucht, um sauber und mühelos zu schneiden.</p>",
+            "link_text": "Zum Messer",
+            "link_url": "shopify://products/fissler-essential-hackbeil",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "image_FMTcbr"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "none",
+        "show_section_id": false,
+        "padding_top": "0",
+        "padding_bottom": "0"
+      }
+    },
+    "media_with_text_TahAfA": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_jnLge4": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Ratgeber_Media_with_Text_Steakmesser_1200x1200_231f3e71-2406-4bf1-861e-5cbcb23a6696.jpg",
+            "media_width": 40,
+            "disable_content_vertical_padding": false,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Steakmesser",
+            "heading_tag": "h2",
+            "content": "<p>Einst eine Seltenheit in der Besteckschublade, feiert das Steakmesser heute ein starkes Comeback – dank einer neu entfachten Leidenschaft für Esskultur. Ob glatt oder gezackt: Die Klinge des Fissler Essential® Steakmessers gleitet mühelos durch Fleisch, ohne es zu zerreißen oder zu zerdrücken. So bleiben die natürlichen Fleischsäfte erhalten – im Steak und nicht auf dem Teller. Mit einem Steakmesser wird jeder Bissen aromatischer und jede Mahlzeit noch genussvoller.</p>",
+            "link_text": "Zum Messer",
+            "link_url": "shopify://products/fissler-essential-steakmesser-set-2tlg",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "image_jnLge4"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "none",
+        "show_section_id": false,
+        "padding_top": "0",
+        "padding_bottom": "md"
+      }
+    },
+    "featured_articles_3t3X9g": {
+      "type": "featured-articles",
+      "name": "Featured articles",
+      "settings": {
+        "show_progress_bar": true,
+        "articles_per_row_mobile": "2",
+        "articles_per_row_desktop": 3,
+        "subheading": "",
+        "articel_handles": "produktwissen/ein-gutes-messer,kochtipps/richtig-schneiden,kochtipps/fisch-filetieren",
+        "title": "Weitere Artikel zum Thema Messer",
+        "content": "",
+        "link_url": "shopify://blogs/kochtipps",
+        "link_text": "Alle Artikel entdecken",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "media_with_text_fe99y7",
+    "media_with_text_4zwmte",
+    "media_with_text_VdbfHP",
+    "media_with_text_NN39MY",
+    "media_with_text_GWRLdM",
+    "media_with_text_rbEWNq",
+    "media_with_text_TahAfA",
+    "featured_articles_3t3X9g"
+  ]
+}

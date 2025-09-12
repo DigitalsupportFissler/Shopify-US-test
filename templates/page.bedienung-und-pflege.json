@@ -1,0 +1,1187 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "100%"
+      }
+    },
+    "slideshow_VKpYbx": {
+      "type": "slideshow",
+      "blocks": {
+        "image_gbHwHP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Page_Bedienung_und_Pflege_Header_2800x1000_1.png",
+            "image_content_width": false,
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "Bedienung und Pflege",
+            "heading_tag": "h1",
+            "button_text": "",
+            "button_link": "",
+            "heading_color": "#ffffff",
+            "subheading_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_gbHwHP"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "full_width": true,
+        "show_initial_transition": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "rich_text_9J44AN": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_HtFXKT": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Jedes Fissler-Produkt wird aus hochwertigsten Materialien, wie z. B. hygienischem 18/10 Edelstahl, gefertigt und durch ein zertifiziertes Qualitätssicherungssystem überwacht.</p><p>Diese Materialien gepaart mit Präzisionsfertigungstechnik <em><strong>„Made in Germany“</strong></em> und einzigartigen Funktionalitäten stellen sicher, dass Fissler Produkte lebenslange Zufriedenheit bieten.</p><p>Dazu gehört auch die richtige Bedienung und Pflege der einzelnen Produkte.</p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_HtFXKT"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "md",
+        "padding_bottom": "xl"
+      }
+    },
+    "image_link_blocks_QgUAip": {
+      "type": "image-link-blocks",
+      "blocks": {
+        "item_bngryE": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Categories_schnellkochtopf-deckel_Teaser_1200x1200_437f7c50-4641-43c4-9732-68cac1471e48.jpg",
+            "stretch_image": true,
+            "link_text": "Schnellkochtöpfe",
+            "link_url": "#shopify-section-template--25607293829469__accordion_content_FMz49z",
+            "background": "#ffffff",
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_38Tt4H": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Categories_Edelstahlpfannen_Teaser_1200x1200_64f15cd7-8f55-49c0-9cde-05bbf720082d.jpg",
+            "stretch_image": true,
+            "link_text": "Edelstahlprodukte",
+            "link_url": "#shopify-section-template--25607293829469__image_with_text_overlay_mpEbjz",
+            "background": "#ffffff",
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_bNpr3r": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Categories_Beschichtete-Pfannen_Teaser_1200x1200_8ca6fabf-342c-42d5-9ead-434a2e630e49.jpg",
+            "stretch_image": true,
+            "link_text": "Antihaftversiegelte Produkte",
+            "link_url": "#shopify-section-template--25607293829469__image_with_text_overlay_Gdpfgt",
+            "background": "#ffffff",
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_43kJFA": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Categories_Gusseisen-toepfe-braeter_Teaser_1200x1200_17423453-d5c6-49fe-a758-f806d84076cc.jpg",
+            "stretch_image": true,
+            "link_text": "Gusseisenprodukte",
+            "link_url": "#shopify-section-template--25607293829469__image_with_text_overlay_NgMqVK",
+            "background": "#ffffff",
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "item_bngryE",
+        "item_38Tt4H",
+        "item_bNpr3r",
+        "item_43kJFA"
+      ],
+      "name": "Image link blocks",
+      "settings": {
+        "block_size": "medium",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "text_alignment": "center",
+        "link_url": "",
+        "link_text": "",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "padding_top": "auto",
+        "padding_bottom": "xl",
+        "items_per_row_1000": 4,
+        "items_per_row_1400": 4
+      }
+    },
+    "rich_text_Pdtp8a": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_6LaLQx": {
+          "type": "heading",
+          "settings": {
+            "text": "Schnellkochtöpfe",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_VBQipP": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Fissler Schnellkochgeräte sind technisch raffiniert, einfach zu bedienen und leicht zu pflegen. Damit du an deinem Schnellkochgerät lange Freude hast, solltest du die Bedienungs- und Pflegehinweise unbedingt beachten.</p><p>Hier kannst du die aktuellen Bedienungs- und Pflegehinweise als PDF downloaden.<br/>Solltest du ein älteres Modell besitzen, wende dich bitte direkt an unseren <a href=\"/pages/kontakt\" title=\"Kontakt\">Kundenservice</a>.</p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_6LaLQx",
+        "richtext_VBQipP"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "accordion_content_FMz49z": {
+      "type": "accordion-content",
+      "blocks": {
+        "item_qi97MM": {
+          "type": "item",
+          "settings": {
+            "icon_width": 20,
+            "title": "Vitaquick® (ab Baujahr 2023)",
+            "content": "<p><a href=\"https://cdn.shopify.com/s/files/1/0896/6029/3469/files/600-000-04-921_VQ_0225_VIEW_1.pdf?v=1749564016\" title=\"https://cdn.shopify.com/s/files/1/0896/6029/3469/files/600-000-04-921_VQ_0225_VIEW_1.pdf?v=1749564016\">Download Bedienungsanleitung (pdf)</a></p>",
+            "page": ""
+          }
+        },
+        "item_krpz4J": {
+          "type": "item",
+          "settings": {
+            "icon_width": 20,
+            "title": "Vitaquick® (ab Baujahr 2010)",
+            "content": "<p><a href=\"https://cdn.shopify.com/s/files/1/0896/6029/3469/files/GAL_vitaquick_ANSICHT_1.pdf?v=1749564016\" title=\"https://cdn.shopify.com/s/files/1/0896/6029/3469/files/GAL_vitaquick_ANSICHT_1.pdf?v=1749564016\">Download Bedienungsanleitung (pdf)</a></p>",
+            "page": ""
+          }
+        },
+        "item_qr7e7m": {
+          "type": "item",
+          "settings": {
+            "icon_width": 20,
+            "title": "Vitaquick® (bis Baujahr 2010)",
+            "content": "<p><a href=\"https://cdn.shopify.com/s/files/1/0896/6029/3469/files/Anleitung_Vitaquick_DE_038-648-00-965_04-06.pdf?v=1749564015\" title=\"https://cdn.shopify.com/s/files/1/0896/6029/3469/files/Anleitung_Vitaquick_DE_038-648-00-965_04-06.pdf?v=1749564015\">Download Bedienungsanleitung (pdf)</a></p>",
+            "page": ""
+          }
+        },
+        "item_aUtLqg": {
+          "type": "item",
+          "settings": {
+            "icon_width": 20,
+            "title": "Vitavit® Premium (ab Baujahr 2021)",
+            "content": "<p><a href=\"https://cdn.shopify.com/s/files/1/0896/6029/3469/files/622-000-01-921_GAL_VV_2025_VIEW.pdf?v=1750229676\" title=\"https://cdn.shopify.com/s/files/1/0896/6029/3469/files/622-000-01-921_GAL_VV_2025_VIEW.pdf?v=1750229676\">Download Bedienungsanleitung (pdf)</a></p>",
+            "page": ""
+          }
+        },
+        "item_L8xFgY": {
+          "type": "item",
+          "settings": {
+            "icon_width": 20,
+            "title": "Vitavit® Premium Digital & Vitavit® Premium (bis Baujahr 2021)",
+            "content": "<p><a href=\"https://cdn.shopify.com/s/files/1/0896/6029/3469/files/vitavit-premium-digital_vitavit-premium.pdf?v=1749564023\" title=\"https://cdn.shopify.com/s/files/1/0896/6029/3469/files/vitavit-premium-digital_vitavit-premium.pdf?v=1749564023\">Download Bedienungsanleitung (pdf)</a></p>",
+            "page": ""
+          }
+        },
+        "item_EAnFkc": {
+          "type": "item",
+          "settings": {
+            "icon_width": 20,
+            "title": "Vitacontrol® Digital (ab 2015)",
+            "content": "<p><a href=\"https://cdn.shopify.com/s/files/1/0896/6029/3469/files/GAL__Manual_vitacontrol_digital.pdf?v=1749564020\" title=\"https://cdn.shopify.com/s/files/1/0896/6029/3469/files/GAL__Manual_vitacontrol_digital.pdf?v=1749564020\">Download Bedienungsanleitung (pdf)</a></p>",
+            "page": ""
+          }
+        },
+        "item_wpFCPF": {
+          "type": "item",
+          "settings": {
+            "icon_width": 20,
+            "title": "Vitacontrol® (bis 2015)",
+            "content": "<p><a href=\"https://cdn.shopify.com/s/files/1/0896/6029/3469/files/Manual-vitacontrol_de.pdf?v=1749564014\" title=\"https://cdn.shopify.com/s/files/1/0896/6029/3469/files/Manual-vitacontrol_de.pdf?v=1749564014\">Download Bedienungsanleitung (pdf)</a></p>",
+            "page": ""
+          }
+        },
+        "item_R4j6H8": {
+          "type": "item",
+          "settings": {
+            "icon_width": 20,
+            "title": "Vitavit® Comfort",
+            "content": "<p><a href=\"https://cdn.shopify.com/s/files/1/0896/6029/3469/files/vitavit_comfort_GAL_a90b3ff5-17a0-4681-90b8-76a6b63c7957.pdf?v=1749564018\" title=\"https://cdn.shopify.com/s/files/1/0896/6029/3469/files/vitavit_comfort_GAL_a90b3ff5-17a0-4681-90b8-76a6b63c7957.pdf?v=1749564018\">Download Bedienungsanleitung (pdf)</a></p>",
+            "page": ""
+          }
+        },
+        "item_QdhKCp": {
+          "type": "item",
+          "settings": {
+            "icon_width": 20,
+            "title": "Magic Comfort",
+            "content": "<p><a href=\"https://cdn.shopify.com/s/files/1/0896/6029/3469/files/GAL_magic-comfort_DE.pdf?v=1749564015\" title=\"https://cdn.shopify.com/s/files/1/0896/6029/3469/files/GAL_magic-comfort_DE.pdf?v=1749564015\">Download Bedienungsanleitung (pdf)</a></p>",
+            "page": ""
+          }
+        },
+        "item_MCbN8m": {
+          "type": "item",
+          "settings": {
+            "icon_width": 20,
+            "title": "Vitavit Royal",
+            "content": "<p><a href=\"https://cdn.shopify.com/s/files/1/0896/6029/3469/files/GAL_vitavit_royal_DE.pdf?v=1749564014\" title=\"https://cdn.shopify.com/s/files/1/0896/6029/3469/files/GAL_vitavit_royal_DE.pdf?v=1749564014\">Download Bedienungsanleitung (pdf)</a></p>",
+            "page": ""
+          }
+        },
+        "item_ADNHxa": {
+          "type": "item",
+          "settings": {
+            "icon_width": 20,
+            "title": "Bluepoint",
+            "content": "<p><a href=\"https://cdn.shopify.com/s/files/1/0896/6029/3469/files/Anleitung_blue_point_DE_21-641-00-965_02-06.pdf?v=1749564013\" title=\"https://cdn.shopify.com/s/files/1/0896/6029/3469/files/Anleitung_blue_point_DE_21-641-00-965_02-06.pdf?v=1749564013\">Download Bedienungsanleitung (pdf)</a></p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_qi97MM",
+        "item_krpz4J",
+        "item_qr7e7m",
+        "item_aUtLqg",
+        "item_L8xFgY",
+        "item_EAnFkc",
+        "item_wpFCPF",
+        "item_R4j6H8",
+        "item_QdhKCp",
+        "item_MCbN8m",
+        "item_ADNHxa"
+      ],
+      "name": "Accordion content",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "first_open": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "xl",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "featured_collection_xyQp8a": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "collection": "schnellkochtoepfe",
+        "products": [],
+        "stack_products": false,
+        "show_progress_bar": true,
+        "products_count": 50,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Schnell und einfach den passenden Schnellkochtopf bestellen",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "media_with_text_Vp8UwG": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_nraxEc": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Pages_Bedienung_und_Pflege_Media_with_Text_SKT_Vitamine_1200x1200_84c9aec0-06c3-4467-be62-d5f06ceba8ba.png",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Vitamin- & Mineralstofferhalt im Vergleich",
+            "heading_tag": "h2",
+            "content": "<p>Laut einer Studie von Prof. Dr.-Ing. Elmar Schlich* und Dr. Michaela Schlich**, die normales Kochen mit Druckdampfgaren im Vitavit® Premium verglichen haben, bleiben bei im Schnellkochtopf gegarten Gerichten rund 90 % des wertvollen Vitamin C erhalten. Dagegen zerstört konventionelles Kochen in Wasser einen Großteil davon – bei Möhren sogar über 50 %. Auch das in den Kartoffeln enthaltene Vitamin B1 profitiert von der schnellen Garmethode in Dampf. Knapp 90 % des für das Nervensystem wichtigen Vitamins werden bewahrt, gekocht sind es nur an die 70 %.<br/><br/>* Prof. Dr.-Ing. Elmar Schlich war zum Zeitpunkt der Studie Professor für Prozesstechnik in Lebensmittel- und Dienstleistungsbetrieben an der Justus-Liebig-Universität Gießen.<br/><br/>** Dr. Michaela Schlich ist Dozentin für Ernährungs- und Verbraucherbildung an der Universität Koblenz-Landau.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "image_nraxEc"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "image_with_text_overlay_mpEbjz": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_qidG3p": {
+          "type": "heading",
+          "settings": {
+            "text": "Edelstahlprodukte",
+            "heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_qidG3p"
+      ],
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "image_size": "auto",
+        "image": "shopify://shop_images/Categories_Edelstahlpfannen_Ratgeber-Header_1920x640_397790c0-426b-4dd2-919c-187b129fec74.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30,
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "rich_text_MPN3fj": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_kQFDNR": {
+          "type": "heading",
+          "settings": {
+            "text": "Edelstahlprodukte",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_Rm9LR8": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Um lange Freude an den sehr guten Gebrauchseigenschaften deines Kochgeschirrs zu haben und eine optimale Lebensdauer zu erzielen, beachte bitte die nachfolgenden Hinweise.</p>",
+            "font_size": "base"
+          }
+        },
+        "richtext_Xggx6V": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Hier kannst du die aktuellen Bedienungs- und Pflegehinweise als PDF downloaden. Solltest du ein älteres Modell besitzen, wende dich bitte an unseren Kundenservice.</strong></p><p><a href=\"https://cdn.shopify.com/s/files/1/0896/6029/3469/files/GAL_Universal_001-000-00-921_update_08_24_inkl_PL_new_CD_f10e639f-9bfe-46d8-9139-76e4e7bc6d75.pdf?v=1749652122\" title=\"https://cdn.shopify.com/s/files/1/0896/6029/3469/files/GAL_Universal_001-000-00-921_update_08_24_inkl_PL_new_CD_f10e639f-9bfe-46d8-9139-76e4e7bc6d75.pdf?v=1749652122\">Download Bedienungsanleitung (PDF)</a></p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_kQFDNR",
+        "richtext_Rm9LR8",
+        "richtext_Xggx6V"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "xl",
+        "padding_bottom": "xl"
+      }
+    },
+    "media_with_text_VLqbNg": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_HMDAJy": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Page_Bedienung_und_Pflege_Media_with_Text_1500x1500_7c6567f3-779f-4a2c-b826-8bce38e03776.png",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Edelstahl-Pflege",
+            "heading_tag": "h3",
+            "content": "<p>Edelstahl-Pflege zum kratzerfreien Reinigen und Polieren sowohl von Edelstahlkochgeschirr als auch von Kupfer, Messing und Chromit.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        },
+        "image_yKAYdg": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Page_Bedienung_und_Pflege_Media_with_Text_1500x1500_2.png",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Edelstahl-Reiniger",
+            "heading_tag": "h3",
+            "content": "<p>Schonende und kratzfreie Entfernung von Fettverschmutzungen und Abgebranntem.<br/>Phosphat- und formaldehydfrei, biologisch abbaubar und sparsam im Gebrauch.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "image_HMDAJy",
+        "image_yKAYdg"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "xl"
+      }
+    },
+    "featured_collection_wCbe9r": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "collection": "",
+        "products": [
+          "edelstahl-pflege-2019",
+          "edelstahl-reiniger"
+        ],
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 5,
+        "subheading": "",
+        "title": "Unsere Pflegeprodukte",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": "",
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "accordion_content_6PmEpC": {
+      "type": "accordion-content",
+      "blocks": {
+        "item_tjaneg": {
+          "type": "item",
+          "settings": {
+            "icon_width": 20,
+            "title": "Edelstahlgriffe",
+            "content": "<p>Kochgeschirr mit Edelstahlgriffen kannst du besonders gut auf Gasherden benutzen und in den Backofen stellen.</p>",
+            "page": ""
+          }
+        },
+        "item_ik4aPf": {
+          "type": "item",
+          "settings": {
+            "icon_width": 20,
+            "title": "Glasdeckel",
+            "content": "<p>Einen heißen Glasdeckel niemals schockartig mit kaltem Wasser abkühlen.</p>",
+            "page": ""
+          }
+        },
+        "item_7mRHFN": {
+          "type": "item",
+          "settings": {
+            "icon_width": 20,
+            "title": "Vorsicht Fett",
+            "content": "<p>Um Verbrennungen durch überschäumendes Fett oder Fettspritzer zu vermeiden, zum Frittieren immer einen hohen Topf verwenden und maximal bis zur Hälfte mit Fett füllen. Keinen Deckel verwenden und nicht überhitzen (maximale Fetttemperatur 200°C).</p>",
+            "page": ""
+          }
+        },
+        "item_QEG8kX": {
+          "type": "item",
+          "settings": {
+            "icon_width": 20,
+            "title": "Achtung bei Überhitzung!",
+            "content": "<p>Das Kochgeschirr darf nicht länger als 2 Minuten leer oder mit Fett auf hoher Energiestufe aufgeheizt werden. Bei Überhitzung kann sich der Boden golden verfärben. Diese Verfärbung beeinträchtigt die Funktion aber nicht. Im Extremfall der Überhitzung kann der Boden beschädigt werden. In diesem Fall das Kochgeschirr niemals von der Kochstelle nehmen, um Verbrennungen zu vermeiden. Kochstelle ausschalten und das Kochgeschirr abkühlen lassen.</p>",
+            "page": ""
+          }
+        },
+        "item_7jmfkM": {
+          "type": "item",
+          "settings": {
+            "icon_width": 20,
+            "title": "Kochen mit Salz",
+            "content": "<p>Salz nicht in kaltes Wasser, sondern immer ins kochende Wasser geben und umrühren. Durch Zugabe von Salz in kaltes Wasser kann eine extrem hohe Salzkonzentration im Bodenbereich entstehen, die zu Korrosionspunkten am Boden führen kann. Diese Veränderungen am Edelstahl haben zwar keinen Einfluss auf Funktions- und Kocheigenschaften, lassen sich jedoch nur schwer oder nicht mehr beseitigen.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_tjaneg",
+        "item_ik4aPf",
+        "item_7mRHFN",
+        "item_QEG8kX",
+        "item_7jmfkM"
+      ],
+      "name": "Accordion content",
+      "settings": {
+        "subheading": "",
+        "title": "Wichtige Hinweise",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "first_open": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "image_with_text_overlay_Gdpfgt": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_CihxAw": {
+          "type": "heading",
+          "settings": {
+            "text": "Antihaftversiegelte Produkte",
+            "heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_CihxAw"
+      ],
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "image_size": "auto",
+        "image": "shopify://shop_images/Categories_Beschichtete-Pfannen_Ratgeber-Header_1920x640_f83efdd5-fe6f-473b-ba1d-387b7310954a.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30,
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "rich_text_YmpTEd": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_KD6Vdj": {
+          "type": "heading",
+          "settings": {
+            "text": "Antihaftversiegelte Produkte",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_GdGeeU": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Eine Antihaftversiegelung erfordert besondere Pflege und Handhabung. Wir haben hier einige hilfreiche Tipps für dich, damit du lange Freude an deinem Kochgeschirr hast.</p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_KD6Vdj",
+        "richtext_GdGeeU"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "xl",
+        "padding_bottom": "xl"
+      }
+    },
+    "rich_text_qcnNfM": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_UBMqKY": {
+          "type": "heading",
+          "settings": {
+            "text": "Versiegelung schützen",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_REM9iT": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Schneide nicht mit einem Messer in dem Kochgeschirr und benutze keine metallischen oder scharfkantigen Gegenstände zum Wenden und Rühren. Bitte nur Küchenhelfer aus Kunststoff oder Holz benutzen.<br/><br/>Die richtige Herdeinstellung schützt vor Überhitzung. Dank der bewährten Fissler Qualität „Made in Germany“ ist das Aufheizen der Pfanne mit 2/3 der Herdleistung bereits für ein perfektes Bratergebnis ausreichend. So wird die hochwertige Beschichtung geschont und die Lebensdauer der Pfanne um ein Vielfaches erhöht.</p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_UBMqKY",
+        "richtext_REM9iT"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "xl"
+      }
+    },
+    "rich_text_LRTwz6": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_LFNhyr": {
+          "type": "heading",
+          "settings": {
+            "text": "Benutzung von Glaskeramikkochfeld",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_dB6MBd": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Um Kratzer auf einem Glaskeramik-Kochfeld zu vermeiden, solltest du dein Kochgeschirr zum Versetzen immer anheben.<br/><br/>Beim häufigen Hin- und Herschieben auf Glaskeramik können bei einem freiliegenden Aluminiumboden Spuren von Aluminiumabrieb sichtbar werden. Diese Aluminiumspuren lassen sich auch mit der Fissler Edelstahl-Pflege entfernen.</p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_LFNhyr",
+        "richtext_dB6MBd"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "xl"
+      }
+    },
+    "rich_text_xeyn3m": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Bb6phr": {
+          "type": "heading",
+          "settings": {
+            "text": "Benutzung von Glaskeramikherd",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_Q3Meba": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Entferne regelmäßig den groben Schmutz mit einem Lappen oder Schwamm und ein wenig Reinigungs- oder Spülmittel. So kannst du verhindern, dass sich Schmutz mit der Zeit regelrecht einbrennen kann.</p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Bb6phr",
+        "richtext_Q3Meba"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "xl"
+      }
+    },
+    "rich_text_9yw9xV": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_WBaNka": {
+          "type": "heading",
+          "settings": {
+            "text": "Edelstahlgriffe",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_3YN8qA": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Kochgeschirr mit Edelstahlgriffen kannst du besonders gut auf Gasherden benutzen und in den Backofen stellen.</p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_WBaNka",
+        "richtext_3YN8qA"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "xl"
+      }
+    },
+    "rich_text_jE7dif": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_AWitbM": {
+          "type": "heading",
+          "settings": {
+            "text": "Glasdeckel",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_GA4tyx": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Einen heißen Glasdeckel niemals schockartig mit kaltem Wasser abkühlen.</p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_AWitbM",
+        "richtext_GA4tyx"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "xl"
+      }
+    },
+    "rich_text_c4QNhB": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_jriU7n": {
+          "type": "heading",
+          "settings": {
+            "text": "Induktionsgeeignete Pfannen",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_Mfd3fX": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Achte darauf, die Pfanne nicht auf eine im Verhältnis zu große Induktionsplatte zu stellen, sondern auf eine passende oder leicht kleinere. Ansonsten kann es sein, dass das Gerät nicht oder nur schlecht ankoppelt. Natürlich sparst du so auch Strom.</p>",
+            "font_size": "base"
+          }
+        },
+        "button_nVemxj": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "xl",
+            "text": "Zu den Pfannen",
+            "url": "shopify://collections/induktionspfannen",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_jriU7n",
+        "richtext_Mfd3fX",
+        "button_nVemxj"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "xl"
+      }
+    },
+    "rich_text_cb7GwC": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_VerTAF": {
+          "type": "heading",
+          "settings": {
+            "text": "Praktische Küchenhelfer",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_rmR3NU": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Fissler Küchenhelfer sind funktional und von zeitlosem Design. Servier- und Kochlöffel, Reiben, Pastazangen u.v.m. - hier findest du Fissler Küchenhelfer für die unterschiedlichsten Arbeiten. Servieren und Kochen kann so einfach und schön sein - mit Fissler Küchenhelfern.</p>",
+            "font_size": "base"
+          }
+        },
+        "button_Dap7wE": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "xl",
+            "text": "Zu den Küchenhelfern",
+            "url": "shopify://collections/kuechenhelfer",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_VerTAF",
+        "richtext_rmR3NU",
+        "button_Dap7wE"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "xl"
+      }
+    },
+    "rich_text_AWBUqg": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_PqF8fk": {
+          "type": "heading",
+          "settings": {
+            "text": "Sicherheit bei der Bedienung",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_BiLV4B": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Um Verbrennungen durch überschäumendes Fett oder Fettspritzer zu vermeiden, zum Frittieren immer einen hohen Topf verwenden und maximal bis zur Hälfte mit Fett füllen. Keinen Deckel verwenden und nicht überhitzen (maximale Fetttemperatur 200°C)</p>",
+            "font_size": "base"
+          }
+        },
+        "richtext_mRxHTH": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5></h5><h5><strong>Gebrauchs- und Pflegehinweise</strong></h5>",
+            "font_size": "base"
+          }
+        },
+        "richtext_HRgJfb": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Hier kannst du die aktuellen Bedienungs- und Pflegehinweise als PDF downloaden. Solltest du ein älteres Modell besitzen, wende dich bitte an unseren Kundenservice.</p><p><a href=\"https://cdn.shopify.com/s/files/1/0896/6029/3469/files/GAL_Universal_001-000-00-921_update_08_24_inkl_PL_new_CD_1.pdf?v=1749652487\" title=\"https://cdn.shopify.com/s/files/1/0896/6029/3469/files/GAL_Universal_001-000-00-921_update_08_24_inkl_PL_new_CD_1.pdf?v=1749652487\">Download Kurzanleitung (PDF)</a></p><p><a href=\"https://cdn.shopify.com/s/files/1/0896/6029/3469/files/159-220-01-921_GAL_Ceratal_update_korrigiert_plus_PL.pdf?v=1749652488\" title=\"https://cdn.shopify.com/s/files/1/0896/6029/3469/files/159-220-01-921_GAL_Ceratal_update_korrigiert_plus_PL.pdf?v=1749652488\">Download Kurzanleitung Ceratal (PDF)</a></p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_PqF8fk",
+        "richtext_BiLV4B",
+        "richtext_mRxHTH",
+        "richtext_HRgJfb"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "image_with_text_overlay_NgMqVK": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_Vew77k": {
+          "type": "heading",
+          "settings": {
+            "text": "Gusseisenprodukte",
+            "heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Vew77k"
+      ],
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "image_size": "auto",
+        "image": "shopify://shop_images/Categories_Gusseisen-toepfe-braeter_Ratgeber-Header_1920x640_1bf48052-53fe-4e23-8eb2-66f2c0ca2251.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30,
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "rich_text_AdCFKT": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_gbhGmp": {
+          "type": "heading",
+          "settings": {
+            "text": "Gusseisenprodukte",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_wHWNEK": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Fissler Produkte aus Gusseisen sind langlebig, vielseitig einsetzbar und hochwertig verarbeitet. Damit du lange Freude an deinem Gusseisen-Produkt hast, empfehlen wir, die Bedienungs- und Pflegehinweise sorgfältig zu beachten.<br/><br/>Hier kannst du die aktuellen Bedienungs- und Pflegehinweise als PDF herunterladen. Solltest du nicht die passende Information finden, wende dich bitte direkt an unseren <a href=\"/pages/kontakt\" title=\"Kontakt\">Kundenservice</a>.</p>",
+            "font_size": "base"
+          }
+        },
+        "richtext_KQQPDi": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5></h5><h5><strong>Gebrauchs- und Pflegehinweise</strong></h5>",
+            "font_size": "base"
+          }
+        },
+        "richtext_TjjxNt": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><a href=\"https://cdn.shopify.com/s/files/1/0896/6029/3469/files/GAL_cast_iron_08_24_Updated_94a34cb5-437e-494b-b2a7-ca62cd691ee0.pdf?v=1749653851\" title=\"https://cdn.shopify.com/s/files/1/0896/6029/3469/files/GAL_cast_iron_08_24_Updated_94a34cb5-437e-494b-b2a7-ca62cd691ee0.pdf?v=1749653851\">Download Kurzanleitung Gusseisen (PDF)</a></p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_gbhGmp",
+        "richtext_wHWNEK",
+        "richtext_KQQPDi",
+        "richtext_TjjxNt"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "xl",
+        "padding_bottom": "xl"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_VKpYbx",
+    "rich_text_9J44AN",
+    "image_link_blocks_QgUAip",
+    "rich_text_Pdtp8a",
+    "accordion_content_FMz49z",
+    "featured_collection_xyQp8a",
+    "media_with_text_Vp8UwG",
+    "image_with_text_overlay_mpEbjz",
+    "rich_text_MPN3fj",
+    "media_with_text_VLqbNg",
+    "featured_collection_wCbe9r",
+    "accordion_content_6PmEpC",
+    "image_with_text_overlay_Gdpfgt",
+    "rich_text_YmpTEd",
+    "rich_text_qcnNfM",
+    "rich_text_LRTwz6",
+    "rich_text_xeyn3m",
+    "rich_text_9yw9xV",
+    "rich_text_jE7dif",
+    "rich_text_c4QNhB",
+    "rich_text_cb7GwC",
+    "rich_text_AWBUqg",
+    "image_with_text_overlay_NgMqVK",
+    "rich_text_AdCFKT"
+  ]
+}

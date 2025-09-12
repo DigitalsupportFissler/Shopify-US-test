@@ -1,0 +1,458 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "100%"
+      }
+    },
+    "featured_product_Ha3man": {
+      "type": "featured-product",
+      "blocks": {
+        "vendor_kfY8zG": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "title_eEHeUd": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "badges_EeNKcy": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price_PAexq7": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating_Yz8bQi": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "separator_4W4U7A": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description_D7T67Y": {
+          "type": "description",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "collapse_content": false
+          }
+        },
+        "variant_picker_VJatLN": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector_4JA94m": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_jxFghn": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "pickup_availability_VRpwth": {
+          "type": "pickup_availability",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "vendor_kfY8zG",
+        "title_eEHeUd",
+        "badges_EeNKcy",
+        "price_PAexq7",
+        "rating_Yz8bQi",
+        "separator_4W4U7A",
+        "description_D7T67Y",
+        "variant_picker_VJatLN",
+        "quantity_selector_4JA94m",
+        "buy_buttons_jxFghn",
+        "pickup_availability_VRpwth"
+      ],
+      "disabled": true,
+      "settings": {
+        "product": "adamant-comfort-pfanne",
+        "desktop_media_width": 35,
+        "desktop_media_layout": "grid_one",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "slideshow_646n3x": {
+      "type": "slideshow",
+      "blocks": {
+        "image_YfkgW8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Landingpages_Header_Image_70_Jahre_Schnellkochen_2800x1000_9e7a0786-3577-4862-9fa8-26e0a475301d.png",
+            "image_content_width": false,
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "Historie",
+            "title": "Wir feiern 70 Jahre Schnellkochen",
+            "heading_tag": "h2",
+            "button_text": "",
+            "button_link": "",
+            "heading_color": "#ffffff",
+            "subheading_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_YfkgW8"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "full_width": true,
+        "show_initial_transition": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "media_with_text_TYAQQh": {
+      "type": "media-with-text",
+      "blocks": {
+        "video_RY8Haj": {
+          "type": "video",
+          "settings": {
+            "external_video_url": "https://www.youtube.com/watch?v=sUgsbwqROGk",
+            "autoplay": false,
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Sicherheit",
+            "content": "<p>Mit der Erfindung des mehrstufigen Sicherheitsventils im Jahr 1953 machte Fissler Schnellkochtöpfe erstmal sicher für den Hausgebrauch. Zahlreiche Features sorgen für höchste Qualitäts- und Sicherheitsstandards. Vita® Schnellkochtöpfe - sicher, schnell und gesund seit 1953.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "video_RY8Haj"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "media_with_text_wtPDcK": {
+      "type": "media-with-text",
+      "blocks": {
+        "video_pU7jGb": {
+          "type": "video",
+          "settings": {
+            "external_video_url": "https://www.youtube.com/watch?v=K0Dixudm1mI",
+            "autoplay": true,
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Energie",
+            "content": "<p>Einfach in der Anwendung, sicher und nachhaltig. Fissler Schnellkochtöpfe schenken dir im Alltag bis zu 50 % wertvolle Energie im Vergleich zum herkömmlichen Kochen. Dank bis zu 70 % kürzerer Kochzeit, energieeffizientem Boden „Made in Germany“ und der Möglichkeit zum Etagenkochen, wobei zwei Gerichte in einem Topf gegart werden.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "video_pU7jGb"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "media_with_text_bkxmU9": {
+      "type": "media-with-text",
+      "blocks": {
+        "video_7aK3yH": {
+          "type": "video",
+          "settings": {
+            "external_video_url": "https://www.youtube.com/watch?v=MX3DtAttmnw",
+            "autoplay": true,
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Geschmack",
+            "content": "<p>Die einzigartige Garmethode erhöht den Siedepunkt von Flüssigkeiten auf bis zu 116°C, wobei Vitamine und Aromen ein - und Sauerstoff ausgeschlossen wird. Eine innovative Technologie, die die natürlichen Aromen deiner Zutaten bewahrt. Ein Unterschied, den du sehen und schmecken kannst.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "video_7aK3yH"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "media_with_text_UDznTN": {
+      "type": "media-with-text",
+      "blocks": {
+        "video_KML4fp": {
+          "type": "video",
+          "settings": {
+            "external_video_url": "https://www.youtube.com/watch?v=Snab2Yrqeg4",
+            "autoplay": true,
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Design",
+            "content": "<p>Fissler Schnellkochtöpfe verbinden Funktionalität und Design. Nachhaltig aus hochwertigem 18/10 Edelstahl gefertigt, sind sie unverzichtbarer Bestandteil der modernen, gesunden Küche.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "video_KML4fp"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "media_with_text_xwGptQ": {
+      "type": "media-with-text",
+      "blocks": {
+        "video_hR6eAp": {
+          "type": "video",
+          "settings": {
+            "external_video_url": "https://www.youtube.com/watch?v=MM6tq9BJ0XI",
+            "autoplay": true,
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Vitamine",
+            "content": "<p>Gesünder ernähren dank Fissler Schnellkochtöpfen. Schnellkochen bewahrt mehr Vitamine und Nährstoffe als herkömmliches Kochen. Der Vitamin C Gehalt z.B. wird je nach Zutat sogar auf 189% erhöht.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "video_hR6eAp"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "media_with_text_CzePNc": {
+      "type": "media-with-text",
+      "blocks": {
+        "video_t8GJaJ": {
+          "type": "video",
+          "settings": {
+            "external_video_url": "https://www.youtube.com/watch?v=0TlJqNKW4rk",
+            "autoplay": true,
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Made in Germany",
+            "content": "<p>Made in Germany bedeutet für uns langfristige Werte zu schaffen. Unsere Handwerksmeister prüfen jeden einzelnen Fissler Schnellkochtopf von Hand mit dem kritischen deutschen Blick. Aus unserer Heimat in dein Zuhause.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "video_t8GJaJ"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "media_with_text_HFWBAt": {
+      "type": "media-with-text",
+      "blocks": {
+        "video_MdL7LJ": {
+          "type": "video",
+          "settings": {
+            "external_video_url": "https://www.youtube.com/watch?v=CRcV_xp3zwQ",
+            "autoplay": true,
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Nachhaltigkeit",
+            "content": "<p>Fissler Schnellkochtöpfe sind nicht nur energieeffizient, sondern werden auch nachhaltig aus bis zu 90% recyceltem Edelstahl gefertigt. Ein Produkt, das Zeit und Energie spart und sich mit jeder Nutzung amortisiert. </p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "video_MdL7LJ"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "featured_product_Ha3man",
+    "slideshow_646n3x",
+    "media_with_text_TYAQQh",
+    "media_with_text_wtPDcK",
+    "media_with_text_bkxmU9",
+    "media_with_text_UDznTN",
+    "media_with_text_xwGptQ",
+    "media_with_text_CzePNc",
+    "media_with_text_HFWBAt"
+  ]
+}

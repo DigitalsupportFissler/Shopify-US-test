@@ -1,0 +1,524 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "navigation": {
+          "type": "navigation",
+          "disabled": true,
+          "settings": {}
+        },
+        "comments": {
+          "type": "comments",
+          "disabled": true,
+          "settings": {
+            "show_gravatar": true,
+            "comments_per_page": 5
+          }
+        }
+      },
+      "block_order": [
+        "navigation",
+        "comments"
+      ],
+      "settings": {
+        "layout": "image_text_overlay",
+        "image": "{{ article.image }}",
+        "show_author": false,
+        "show_date": true,
+        "show_comments_count": true,
+        "show_share_buttons": true,
+        "show_header_image": true,
+        "banner_background": "",
+        "banner_text_color": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "content_width": "1150px",
+        "stats_color": "#556132",
+        "is_recipe": false,
+        "content_alignment": "start"
+      }
+    },
+    "rich_text_qMfVtC": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_4nyrBh": {
+          "type": "heading",
+          "settings": {
+            "text": "Die Besonderheit von Fissler Woks",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_7FXjnX": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Seit wir 1956 als erster deutscher Kochgeschirrhersteller mit der Produktion beschichteter Pfannen begonnen haben, ist es unser Ziel, leidenschaftlichen Köchen Pfannen zu bieten, die einen Unterschied machen. Pfannen, die dir ein ideales Kocherlebnis ermöglichen, das Kochen leichter machen und das Reinigen noch einfacher.<br/><br/>Unsere Patente und bahnbrechenden Technologien führten zu mehrfach preisgekrönten Pfannen und Woks. Nachhaltig hergestellt aus recycelten Premium-Materialien, mit wasserbasierten Beschichtungen in unserer hochmodernen Produktionsstätte in Rheinland-Pfalz – frei von PFOA* und gesundheitsschädlichen Materialien. Mit all unserer Leidenschaft und Erfahrung. Um unsere Wertschätzung auszudrücken – für den Koch, die Zutaten und die Menschen, für die wir kochen.</p><p><br/><em>*PFOA-frei, gemäß der EU-Verordnung Nr. 2019/1021.</em></p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_4nyrBh",
+        "richtext_7FXjnX"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "comparison_table_AKadat": {
+      "type": "comparison-table",
+      "blocks": {
+        "headings_abtG6d": {
+          "type": "headings",
+          "settings": {
+            "heading_1": "Intro",
+            "heading_2": "Beschichtung",
+            "heading_3": "Griff",
+            "heading_4": "Skala",
+            "heading_5": "Deckel",
+            "heading_6": "Schüttrand",
+            "heading_7": "Herdarten",
+            "heading_8": "Garantie",
+            "heading_9": "Herstellungsland",
+            "heading_10": "",
+            "heading_11": "",
+            "heading_12": "",
+            "heading_13": "",
+            "heading_14": "",
+            "heading_15": "",
+            "heading_16": "",
+            "heading_17": "",
+            "heading_18": "",
+            "heading_19": "",
+            "heading_20": "",
+            "heading_21": "",
+            "heading_22": "",
+            "heading_23": "",
+            "heading_24": "",
+            "heading_25": "",
+            "heading_26": "",
+            "heading_27": "",
+            "heading_28": "",
+            "heading_29": "",
+            "heading_30": "",
+            "heading_31": "",
+            "heading_32": "",
+            "heading_33": "",
+            "heading_34": "",
+            "heading_35": "",
+            "heading_36": "",
+            "heading_37": "",
+            "heading_38": "",
+            "heading_39": "",
+            "heading_40": ""
+          }
+        },
+        "values_zrEhDc": {
+          "type": "values",
+          "settings": {
+            "custom_heading": "",
+            "product": "adamant-wok",
+            "value_1": "<p><strong>Zum Rösten von Krustentieren oder Gemüse und zur Zubereitung von typisch chinesischen Nudelgerichten, die leicht anhaften</strong></p>",
+            "value_2": "<p>Besonders kratzfeste Antihaftbeschichtung</p>",
+            "value_3": "<p>Ergonomischer Sicherheitsgriff mit Fingerschutz</p>",
+            "value_4": "<p>Mess-Skala in Liter</p>",
+            "value_5": "",
+            "value_6": "",
+            "value_7": "<p>Für alle Herdarten inklusive Induktion geeignet</p>",
+            "value_8": "<p>5 Jahre Garantie</p>",
+            "value_9": "<p>Made in Germany</p>",
+            "value_10": "",
+            "value_11": "",
+            "value_12": "",
+            "value_13": "",
+            "value_14": "",
+            "value_15": "",
+            "value_16": "",
+            "value_17": "",
+            "value_18": "",
+            "value_19": "",
+            "value_20": "",
+            "value_21": "",
+            "value_22": "",
+            "value_23": "",
+            "value_24": "",
+            "value_25": "",
+            "value_26": "",
+            "value_27": "",
+            "value_28": "",
+            "value_29": "",
+            "value_30": "",
+            "value_31": "",
+            "value_32": "",
+            "value_33": "",
+            "value_34": "",
+            "value_35": "",
+            "value_36": "",
+            "value_37": "",
+            "value_38": "",
+            "value_39": "",
+            "value_40": "",
+            "view_button_background": "",
+            "view_button_text_color": "",
+            "custom_link_url": "",
+            "custom_link_text": ""
+          }
+        },
+        "values_bTtNTp": {
+          "type": "values",
+          "settings": {
+            "custom_heading": "",
+            "product": "original-profi-collection-wok-32-cm",
+            "value_1": "<p><strong>Zum scharfen und krossen Anbraten von Fleisch, Krustentieren und Gemüse</strong></p>",
+            "value_2": "<p>5-Lagiges Premium Mehrschichtmaterial mit Novogrill® Bratfläche</p>",
+            "value_3": "<p>Polierter Griff aus Edelstahl 18/10 mit Aufhängeöse</p>",
+            "value_4": "<p>Mess-Skala in Liter und Quart</p>",
+            "value_5": "<p>Mit Hochraumdeckel aus Edelstahl</p>",
+            "value_6": "<p>Mit extra-breitem Schüttrand</p>",
+            "value_7": "<p>Für alle Herdarten inklusive Induktion geeignet</p>",
+            "value_8": "<p>15 Jahre Garantie</p>",
+            "value_9": "<p>Made in Germany</p>",
+            "value_10": "",
+            "value_11": "",
+            "value_12": "",
+            "value_13": "",
+            "value_14": "",
+            "value_15": "",
+            "value_16": "",
+            "value_17": "",
+            "value_18": "",
+            "value_19": "",
+            "value_20": "",
+            "value_21": "",
+            "value_22": "",
+            "value_23": "",
+            "value_24": "",
+            "value_25": "",
+            "value_26": "",
+            "value_27": "",
+            "value_28": "",
+            "value_29": "",
+            "value_30": "",
+            "value_31": "",
+            "value_32": "",
+            "value_33": "",
+            "value_34": "",
+            "value_35": "",
+            "value_36": "",
+            "value_37": "",
+            "value_38": "",
+            "value_39": "",
+            "value_40": "",
+            "view_button_background": "",
+            "view_button_text_color": "",
+            "custom_link_url": "",
+            "custom_link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "headings_abtG6d",
+        "values_zrEhDc",
+        "values_bTtNTp"
+      ],
+      "name": "Comparison table",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "link_text": "",
+        "link_url": "",
+        "text_alignment": "start",
+        "link_display": "text",
+        "max_rows": 14,
+        "view_all_text": "View all",
+        "view_less_text": "View less",
+        "view_product": "View",
+        "show_product_info": true,
+        "show_product_image": true,
+        "show_product_swatch": true,
+        "viewing_product": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "chart_background": "#ffffff",
+        "chart_text_color": "",
+        "chart_true_false_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "media_with_text_etntBA": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_qkeBeQ": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Fissler_Adamant_Wok_32cm_100-800-32-1000_IU.jpg",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "ADAMANT®",
+            "title": "Das kratzfeste Multitalent",
+            "heading_tag": "h3",
+            "content": "<p>Vom Rösten von Krustentieren bis hin zu typisch chinesischen Nudelgerichten, die beispielsweise mit Soßen wie Teriyaki leicht anhaften: Der Adamant® Wok mit seiner extrem kratzfesten, wasserbasierten Antihaftbeschichtung ist wie geschaffen für die traditionelle chinesische Küche.<br/></p><p>Besonders robust dank Siliziumkarbid-Partikeln.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "image_qkeBeQ"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "featured_collection_jycn7C": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "collection": "",
+        "products": [
+          "adamant-wok",
+          "adamant-wokpfanne"
+        ],
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Alle Adamant® Woks",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": "",
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "media_with_text_RQCViU": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_wipmPX": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Fissler_original-profi_collection_Wok_Servierpfanne_Mood.jpg",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "ORIGINAL-PROFI COLLECTION® ",
+            "title": "Von Meisterköchen entwickelt",
+            "heading_tag": "h3",
+            "content": "<p>Gemeinsam mit Meisterköchen entwickelt, überzeugt die Serie in der Sterneküche genauso wie am heimischen Herd. Hergestellt aus hochwertigem, santiniertem Edelstahl 18/10, ist die Original-Profi Collection® pflegeleicht, äußerst widerstandsfähig und unempfindlich gegen Rost. Der Wok eignet sich dank Cookstar® Allherboden für alle Herdarten und sind für Induktionsherde optimiert. </p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "image_wipmPX"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "featured_collection_KiVMi7": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "collection": "",
+        "products": [
+          "original-profi-collection-wok-32-cm",
+          "original-profi-collection-wok-mit-metalldeckel"
+        ],
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Alle Original-Profi Collection® Woks",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": "",
+        "padding_top": "auto",
+        "padding_bottom": "xl"
+      }
+    },
+    "faq_metaobjecte_AgfcE8": {
+      "type": "faq-metaobjecte",
+      "blocks": {
+        "item_zrqbCr": {
+          "type": "item",
+          "settings": {
+            "title": "Do you ship overseas?",
+            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+          }
+        },
+        "item_QMbDFT": {
+          "type": "item",
+          "settings": {
+            "title": "How long will it take to get my orders?",
+            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+          }
+        },
+        "item_HWEf9h": {
+          "type": "item",
+          "settings": {
+            "title": "Any question?",
+            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_zrqbCr",
+        "item_QMbDFT",
+        "item_HWEf9h"
+      ],
+      "name": "FAQ-meta",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "FAQ",
+        "content": "<p>Use this text to share information about your product or shipping policies.</p>",
+        "team_avatar_width": 160,
+        "support_hours": "Our customer support is available Monday to Friday: 8am-8:30pm.",
+        "answer_time": "Average answer time: 24h",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "featured_articles_ybBtXV": {
+      "type": "featured-articles",
+      "name": "Featured articles",
+      "settings": {
+        "show_progress_bar": false,
+        "articles_per_row_mobile": "2",
+        "articles_per_row_desktop": 3,
+        "subheading": "",
+        "articel_handles": "",
+        "title": "Featured Articles",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_qMfVtC",
+    "comparison_table_AKadat",
+    "media_with_text_etntBA",
+    "featured_collection_jycn7C",
+    "media_with_text_RQCViU",
+    "featured_collection_KiVMi7",
+    "faq_metaobjecte_AgfcE8",
+    "featured_articles_ybBtXV"
+  ]
+}

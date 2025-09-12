@@ -1,0 +1,94 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-customers-login",
+      "blocks": {
+        "fields": {
+          "type": "fields",
+          "settings": {
+            "return_to": "https://stagingshopify.fissler.com/account/register?ose=false"
+          }
+        }
+      },
+      "block_order": [
+        "fields"
+      ],
+      "settings": {
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "rich_text_f7MFyH": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Y3Mbam": {
+          "type": "heading",
+          "settings": {
+            "text": "Wilkommen im neuen Onlineshop von Fissler!",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_KAy8YK": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Bitte beachte: Aus technischen Gründen ist eine <strong>Neuregistrierung</strong> erforderlich – auch wenn du bereits zuvor ein Kundenkonto bei uns hattest. Klicke dafür einfach auf den nachfolgenden Button \"Registrierung\" und folge den Schritten. Solltest du dich bereits neu registriert haben, kannst du dich unter \"Anmelden\" einloggen.</p>",
+            "font_size": "lg"
+          }
+        },
+        "button_FkLppy": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "lg",
+            "text": "Jetzt registrieren",
+            "url": "/account/register",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "richtext_EepnfL": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Dein Vorteil:</strong> Nach der Registrierung siehst du automatisch alle bisherigen Bestellungen, die mit deiner E-Mail-Adresse verknüpft sind – bequem an einem Ort!</p><p>Vielen Dank für dein Verständnis und viel Freude beim Stöbern und Einkaufen!<br/><br/><strong>Dein Fissler Team</strong></p>",
+            "font_size": "lg"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Y3Mbam",
+        "richtext_KAy8YK",
+        "button_FkLppy",
+        "richtext_EepnfL"
+      ],
+      "settings": {
+        "content_width": "large",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    }
+  },
+  "order": [
+    "rich_text_f7MFyH",
+    "main"
+  ]
+}

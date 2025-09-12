@@ -1,0 +1,1277 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "navigation": {
+          "type": "navigation",
+          "disabled": true,
+          "settings": {}
+        },
+        "comments": {
+          "type": "comments",
+          "disabled": true,
+          "settings": {
+            "show_gravatar": true,
+            "comments_per_page": 5
+          }
+        }
+      },
+      "block_order": [
+        "navigation",
+        "comments"
+      ],
+      "settings": {
+        "layout": "image_text_overlay",
+        "image": "{{ article.image }}",
+        "show_author": false,
+        "show_date": true,
+        "show_comments_count": true,
+        "show_share_buttons": true,
+        "show_header_image": true,
+        "banner_background": "",
+        "banner_text_color": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "content_width": "750px",
+        "stats_color": "#556132",
+        "is_recipe": false,
+        "content_alignment": "start"
+      }
+    },
+    "rich_text_VPcTLf": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_YYtAFq": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Es gibt Dinge, die ein Leben lang halten – Gusseisenkochgeschirr gehört definitiv dazu. Gusseisen ist nicht nur ein zuverlässiger Begleiter in der Küche, sondern ein echtes Statement für Nachhaltigkeit, Qualität und Genuss. Doch was macht Gusseisen so besonders? Warum lohnt sich die Investition? Und wie bleibt es dir über Jahrzehnte hinweg treu? Im Fissler Ratgeber erfährst du alles rund um die richtige Verwendung, Pflege und die vielseitigen Vorteile von Gusseisenpfannen, -töpfen und -brätern.<br/><br/></p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_YYtAFq"
+      ],
+      "disabled": true,
+      "settings": {
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "xl",
+        "padding_bottom": "xl"
+      }
+    },
+    "image_link_blocks_CCreWn": {
+      "type": "image-link-blocks",
+      "blocks": {
+        "item_FUW397": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Produktwissen_Gusseisenpfanne_Menue_Assets_2.png",
+            "stretch_image": true,
+            "link_text": "Vorteile von Gusseisen",
+            "link_url": "#shopify-section-template--25619114754397__multi_column_Gbd4e3",
+            "background": "#ffffff",
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_p6zGpd": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Produktwissen_Gusseisenpfanne_Menue_Assets_4.png",
+            "stretch_image": true,
+            "link_text": "Pflege und Reinigung",
+            "link_url": "#shopify-section-template--25619114754397__media_with_text_iztQ7M",
+            "background": "#ffffff",
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_PQTLe4": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Produktwissen_Gusseisenpfanne_Menue_Assets_3.png",
+            "stretch_image": true,
+            "link_text": "Gusseisen einbrennen",
+            "link_url": "#shopify-section-template--25619114754397__rich_text_yWVKH9",
+            "background": "#ffffff",
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_bHVkVH": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Produktwissen_Gusseisenpfanne_Menue_Assets_1.png",
+            "stretch_image": true,
+            "link_text": "Die richtige Verwendung",
+            "link_url": "#shopify-section-template--25619114754397__rich_text_PG9GEe",
+            "background": "#ffffff",
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "item_FUW397",
+        "item_p6zGpd",
+        "item_PQTLe4",
+        "item_bHVkVH"
+      ],
+      "settings": {
+        "block_size": "medium",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "text_alignment": "center",
+        "link_url": "",
+        "link_text": "",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto",
+        "items_per_row_1000": 4,
+        "items_per_row_1400": 4
+      }
+    },
+    "media_with_text_Mga8gA": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_gByw49": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Produktwissen_Gusseisenpfanne_Media_with_Text_1500x1500_ec8c78e5-7f6c-42a0-a0a0-5874e6dc7740.png",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Geschichte und Herkunft von Gusseisenkochgeschirr",
+            "heading_tag": "h3",
+            "content": "<p>Die Wurzeln von Gusseisen reichen <strong>über 2.500 Jahre zurück</strong>– bis in das alte China des 6. Jahrhunderts v. Chr. Von dort aus eroberte das Material die Welt und entwickelte sich zu einem unverzichtbaren Bestandteil der Kochkultur. Während Im Mittelalter daraus robuste Werkzeuge und Töpfe geschmiedet wurden, brachten im 19. Jahrhundert französische Manufakturen die berühmten Cocottes hervor. Heute ist Gusseisen ein Symbol für Qualität und Nachhaltigkeit und erlebt aufgrund seiner vielen Vorzüge eine Renaissance.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        },
+        "image_AKiJ9V": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Produktwissen_Gusseisenpfanne_Media_with_Text_1500x1500_2.png",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Aus was besteht Gusseisen?",
+            "heading_tag": "h3",
+            "content": "<p>Kochgeschirr aus Gusseisen wie ein Gusseisenbräter wird aus einer Legierung hergestellt, die hauptsächlich aus reinem <strong>Eisen</strong> und <strong>Kohlenstoff </strong>besteht.</p><p>Zusätzlich können je nach Hersteller und Anwendungszweck auch weitere Metalle, wie z. B. Silizium oder Chrom hinzugefügt werden, um die Eigenschaften des Gusseisens positiv zu beeinflussen. In der Regel wird eine Mischung aus etwa <strong>95 % Roheisen, ca. 3 % Kohlenstoff und ca. 2 % weiteren Komponenten</strong> bei bis zu 1.700 °C eingeschmolzen und in flüssiger Form weiterverarbeitet bzw. gegossen.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "image_gByw49",
+        "image_AKiJ9V"
+      ],
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "multi_column_Gbd4e3": {
+      "type": "multi-column",
+      "blocks": {
+        "item_CAEXF3": {
+          "type": "item",
+          "settings": {
+            "column_size": "4",
+            "title": "1. Wärmespeicherung und Hitzebeständigkeit",
+            "heading_tag": "h4",
+            "content": "<p>Die Materialzusammensetzung von Gusseisen ergibt einen optimalen Hitzespeicher. Zwar dauert das Aufheizen des Materials etwas länger als zum Beispiel von Aluminium oder Kupfer, jedoch hält Gusseisen die Hitze besonders lange und intensiv, und das bei sehr geringem Energieeinsatz.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_ambr7q": {
+          "type": "item",
+          "settings": {
+            "column_size": "4",
+            "title": "2. Gleichmäßige Hitzeverteilung",
+            "heading_tag": "h4",
+            "content": "<p>In Gusseisenbrätern und -pfannen verteilt sich die Wärme langsam und gleichmäßig über die gesamte Fläche, sodass das Essen gleichmäßig gegart wird.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_93JHCt": {
+          "type": "item",
+          "settings": {
+            "column_size": "4",
+            "title": "3. Patina – ein natürlicher Antihaft-Effekt",
+            "heading_tag": "h4",
+            "content": "<p>Wenn es richtig vorbereitet und gepflegt sowie genutzt wird, entwickelt Gusseisengeschirr mit der Zeit eine natürliche Antihaftbeschichtung, die sogenannte Patina. Diese verhindert das Anhaften von Speisen und erleichtert die Reinigung. Durch die Patina kann die Fettzugabe zum Kochen reduziert werden, zudem verbessert sie den Geschmack der Speisen.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_VARicL": {
+          "type": "item",
+          "settings": {
+            "column_size": "4",
+            "title": "4. Langlebigkeit und Nachhaltigkeit",
+            "heading_tag": "h4",
+            "content": "<p>Gusseisenkochgeschirr ist nicht nur extrem langlebig, sondern auch vielseitig und nachhaltig. Bei guter Pflege hält es ein Leben lang und wird durch regelmäßigen Gebrauch sogar besser. Es ist hitzebeständig und benötigt keine chemischen Beschichtungen.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_CAEXF3",
+        "item_ambr7q",
+        "item_93JHCt",
+        "item_VARicL"
+      ],
+      "settings": {
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "Die Vorteile von Gusseisen im Überblick",
+        "content": "<p>Dass das schwere Gusseisen als Legierung aus reinem Eisen und Kohlenstoff bevorzugt für Kochgeschirr hergestellt wird, hat gute Gründe.<br/>Dies sind die wichtigsten Argumente:</p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "multi_column_TBKN4X": {
+      "type": "multi-column",
+      "blocks": {
+        "item_AMYJKe": {
+          "type": "item",
+          "settings": {
+            "column_size": "2",
+            "title": "Emailliertes Gusseisen",
+            "heading_tag": "h4",
+            "content": "<p>Emailliertes Gusseisen, wie es bei Fissler erhältlich ist, verfügt über eine schützende Glasschicht aus Emaille. Die Emaille schützt das Gusseisen vor Korrosion und ermöglicht es, auch säurehaltige Lebensmittel wie Äpfel oder Tomaten ohne Geschmacksbeeinträchtigung zu garen.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_j9mTRc": {
+          "type": "item",
+          "settings": {
+            "column_size": "2",
+            "title": "Nicht emailliertes Gusseisen",
+            "heading_tag": "h4",
+            "content": "<p>Nicht emaillierte Gusseisentöpfe und -pfannen kommen ohne schützende Glasbeschichtung aus. Dadurch kann das rohe Gusseisen mit säurehaltigen Lebensmitteln reagieren und einen leichten Eisengeschmack an das Essen abgeben.</p><p>Auch ein Rostschutz ist nicht von Anfang an gegeben. Dieser wird durch Einbrennen der unbeschichteten Töpfe und Pfannen gewährleistet.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_AMYJKe",
+        "item_j9mTRc"
+      ],
+      "settings": {
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "Emailliertes oder nicht emailliertes Gusseisen: Was ist besser?",
+        "content": "<p>Die Wahl zwischen emailliertem und nicht emailliertem Gusseisen hängt von deinen persönlichen Vorlieben ab.</p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "xl"
+      }
+    },
+    "rich_text_ADwJTM": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_VVQMRE": {
+          "type": "heading",
+          "settings": {
+            "text": "Das passende Modell für die Kochgewohnheiten finden",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_qJfGUm": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Ob eine Gusseisenpfanne emailliert sein sollte, hängt von deinen Vorlieben ab. Für das Grillen mit offener Flamme ist nicht emailliertes Gusseisen ideal, da es den direkten Kontakt mit Feuer gut verträgt. Auf dem Grill kann die Hitze punktuell sein, was bei emailliertem Gusseisen zu ungleichmäßiger Erwärmung führen und die Emaille zum Abplatzen bringen kann.</p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_VVQMRE",
+        "richtext_qJfGUm"
+      ],
+      "settings": {
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "collection_list_9WgtMV": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_CYLz4q": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_RKKAFi": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_wHGrcy": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "collection_CYLz4q",
+        "collection_RKKAFi",
+        "collection_wHGrcy"
+      ],
+      "settings": {
+        "collection_list": [
+          "original-profi-collection-gusseisen",
+          "moments-collection"
+        ],
+        "stack_collections": true,
+        "collections_per_row_mobile": "1",
+        "collections_per_row": 3,
+        "show_progress_bar": false,
+        "subheading": "",
+        "title": "",
+        "content": "<h4>Entdecke emailliertes Gusseisenkochgeschirr von Fissler</h4>",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "show_subheading": true,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "media_with_text_iztQ7M": {
+      "type": "media-with-text",
+      "blocks": {
+        "video_kRBGfj": {
+          "type": "video",
+          "settings": {
+            "external_video_url": "https://www.youtube.com/watch?v=JAerKFdS5uE",
+            "autoplay": true,
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Pflege und Reinigung von Gusseisen",
+            "content": "<p>Durch die richtige Pflege kannst du die Lebensdauer deiner Gusseisenpfannen und Gusseisenbräter erheblich verlängern und ihre hervorragenden Kochqualitäten langfristig bewahren.</p><p>Grundsätzlich empfiehlt sich eine Reinigung von Hand, um die Patina bzw. natürliche Antihaftwirkung zu erhalten.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "video_kRBGfj"
+      ],
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "multi_column_6Waikk": {
+      "type": "multi-column",
+      "blocks": {
+        "item_Px6bbX": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Produktwissen_Gusseisenpfannen_Multi_Column_1400x1400_5.png",
+            "column_size": "4",
+            "title": "1. Reinigung:",
+            "heading_tag": "h4",
+            "content": "<p>Zur Reinigung heißes Wasser, mildes Spülmittel und kratzfreie Spülutensilien, wie Spültuch oder -schwamm verwenden. </p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_jBdNXt": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Produktwissen_Gusseisenpfannen_Multi_Column_1400x1400_420176ad-6163-45d4-9238-3226fbeeabe2.png",
+            "column_size": "4",
+            "title": "2. Rückstände entfernen:",
+            "heading_tag": "h4",
+            "content": "<p>Bei Verkrustungen oder hartnäckigen Flecken das Kochgeschirr zunächst einweichen, statt Metallschwämme oder scheuernde Mittel einzusetzen. </p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_TQLDpX": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Produktwissen_Gusseisenpfannen_Multi_Column_1400x1400_6.png",
+            "column_size": "4",
+            "title": "3. Einölen:",
+            "heading_tag": "h4",
+            "content": "<p>Nach jeder Reinigung das Kochgeschirr mit einem mit Speiseöl befeuchteten Lappen leicht auswischen, um die Schutzschicht zu erneuern.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_BLcmG8": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Produktwissen_Gusseisenpfannen_Multi_Column_1400x1400_2.png",
+            "column_size": "4",
+            "title": "4. Trocknen:",
+            "heading_tag": "h4",
+            "content": "<p>Um Korrosion oder Flugrost zu vermeiden, sollte man das Kochgeschirr nach der Reinigung stets gut trocknen lassen. Den Deckel erst – leicht geöffnet – auf den komplett trockenen Bräter auflegen, damit Restfeuchtigkeit entweichen kann.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_Px6bbX",
+        "item_jBdNXt",
+        "item_TQLDpX",
+        "item_BLcmG8"
+      ],
+      "settings": {
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "Schritt für Schritt-Anleitung: Reinigung von emailliertem Gusseisen",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "multi_column_igf9pC": {
+      "type": "multi-column",
+      "blocks": {
+        "item_eBwGhT": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Produktwissen_Gusseisenpfannen_Multi_Column_1400x1400_420176ad-6163-45d4-9238-3226fbeeabe2.png",
+            "column_size": "3",
+            "title": "1. Reinigung:",
+            "heading_tag": "h4",
+            "content": "<p>Nach jedem Gebrauch mit warmem Wasser und einer Bürste oder einem Schwamm reinigen. Vermeiden Sie Spülmittel.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_cgPJCP": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Produktwissen_Gusseisenpfannen_Multi_Column_1400x1400_7.png",
+            "column_size": "3",
+            "title": "2. Trocknen:",
+            "heading_tag": "h4",
+            "content": "<p>Gründlich trocknen, um Rostbildung zu verhindern.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_9MAJQg": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Produktwissen_Gusseisenpfannen_Multi_Column_1400x1400_6.png",
+            "column_size": "3",
+            "title": "3. Einölen:",
+            "heading_tag": "h4",
+            "content": "<p>Eine dünne Schicht Pflanzenöl auftragen, um das Gusseisen zu schützen und die Patina zu erhalten.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_eBwGhT",
+        "item_cgPJCP",
+        "item_9MAJQg"
+      ],
+      "settings": {
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "Schritt für Schritt-Anleitung: Reinigung von nicht emailliertem Gusseisen:",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "rich_text_9dfJdd": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_D4XFgr": {
+          "type": "heading",
+          "settings": {
+            "text": "Gusseisen und Gesundheit",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_w8yccT": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Kochgeschirr aus Gusseisen gilt allgemein als gesundheitlich unbedenklich – dafür spricht schon die jahrtausendelange Tradition des Kochens mit Gusseisen.</p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_D4XFgr",
+        "richtext_w8yccT"
+      ],
+      "settings": {
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "media_with_text_FiyJCr": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_pRbzQw": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Produktwissen_Gusseisenpfanne_Media_with_Text_1500x1500_3.png",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Ist Kochen und Braten mit Gusseisen gesundheitsschädlich?",
+            "heading_tag": "h3",
+            "content": "<p>Sowohl das Kochen mit emailliertem als auch nicht emailliertem Kochgeschirr ist, solange man auf die richtige Handhabung achtet, gesundheitlich unbedenklich. Erhitzt man beispielsweise emailliertes Gusseisen zu stark, indem man es in Kontakt mit einer offenen Flamme kommen lässt, so kann es zum Abplatzen der Glasschicht kommen.</p><p>Im Gegensatz zu vielen modernen Antihaftpfannen enthalten emaillierte Gusseisenpfannen keine schädlichen Chemikalien wie PFAS und PTFE, die beim Erhitzen freigesetzt werden können. Zudem lösen sich von der natürlichen Patina beim Erhitzen weder giftige Dämpfe noch Schadstoffe.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "image_pRbzQw"
+      ],
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "media_with_text_VBePc4": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_rHcDkx": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Produktwissen_Gusseisenpfanne_Media_with_Text_1500x1500_4.png",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Gusseisen vs. Edelstahl: Welches Material ist besser für die Gesundheit?",
+            "heading_tag": "h3",
+            "content": "<p>Beide Materialien sind gesundheitlich unbedenklich, unterscheiden sich aber deutlich in ihrer Hitzereaktion.</p><p>Gusseisen gilt als träges Material mit hoher Wärmeleitfähigkeit. Es braucht länger, um sich zu erhitzen oder auf Temperaturveränderungen zu reagieren, speichert die Wärme dafür aber deutlich länger und bleibt lange heiß. Temperaturen über 200 °C sind für Gusseisen kein Problem – es bleibt dabei formstabil und zuverlässig.</p><p>Edelstahl ist deutlich reaktiver: Es passt sich schnell an neue Temperaturen an, was eine präzise Kontrolle beim Kochen ermöglicht. Bei anhaltender Hitze über 200 °C kann es jedoch zu dauerhaften Verfärbungen kommen.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "image_rHcDkx"
+      ],
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "rich_text_kdUByF": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_L7e4RP": {
+          "type": "heading",
+          "settings": {
+            "text": "Was kann ich in Gusseisen braten?",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_yDAyEH": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Gusseisernes Kochgeschirr eignet sich aufgrund seiner hervorragenden Wärmeverteilung und Wärmespeicherung besonders gut für Gerichte, die über einen längeren Zeitraum sanft garen oder schmoren. Auch für die Verwendung bei hohen Temperaturen, wie z. B. beim scharfen Anbraten oder Frittieren ist gusseisernes Kochgeschirr ideal.</p><h5> <strong>Beispiele:</strong></h5><p></p><ul><li>Eintöpfe und Suppen</li><li>Schmorgerichte, wie Gulasch oder</li><li>Rindfleischragout</li><li>Braten und Schmorbraten</li><li>Gebratene Geflügelgerichte</li><li>Chili con Carne</li><li>Fischgerichte, wie Lachs oder Forelle</li><li>Brot</li></ul>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_L7e4RP",
+        "richtext_yDAyEH"
+      ],
+      "settings": {
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "#f0f0f0",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "md",
+        "padding_bottom": "md"
+      }
+    },
+    "rich_text_yWVKH9": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_yPK4YW": {
+          "type": "heading",
+          "settings": {
+            "text": "Gusseisen richtig einbrennen",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_V8QzPG": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Anders als Töpfe und Pfannen aus Edelstahl bringt Kochgeschirr aus rohem Gusseisen keine Antihaftbeschichtung mit. Damit das Essen dennoch nicht am Boden festklebt und das Eisen auch nicht rostet, geht es vor dem ersten Gebrauch an das Einbrennen.</p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_yPK4YW",
+        "richtext_V8QzPG"
+      ],
+      "settings": {
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "media_with_text_LNJdzw": {
+      "type": "media-with-text",
+      "blocks": {
+        "video_8UXJkN": {
+          "type": "video",
+          "settings": {
+            "external_video_url": "https://www.youtube.com/watch?v=6RzsKsaH33A",
+            "autoplay": true,
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Unser Tipp:",
+            "content": "<p>Auch emailliertes Gusseisen empfehlen wir einzubrennen. Dank der rauen Innenemaille ist das Einbrennen nicht im herkömmlichen Sinne nötig, da die Lebensmittel nicht im direkten Kontakt zum Gusseisen stehen. Das Einbrennen dient in diesem Fall vor allem der Verbesserung der Antihafteigenschaften des Gusseisengeschirrs und weniger, um Korrosionen zu vermeiden, wie es bei nicht emailliertem Kochgeschirr der Fall wäre.</p><p><strong>So einfach geht’s:</strong> Im Video und der Schritt-für-Schritt-Anleitung zeigen wir dir, was es beim Einbrennen zu beachten gibt.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "video_8UXJkN"
+      ],
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "multi_column_CTta7A": {
+      "type": "multi-column",
+      "blocks": {
+        "item_aQrU3k": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Produktwissen_Gusseisenpfannen_Multi_Column_1400x1400_1546329d-554e-4657-b6f8-fab2b43e66c0.png",
+            "column_size": "4",
+            "title": "Schritt 1:",
+            "heading_tag": "h4",
+            "content": "<p>Innenseite und oberer Rand, insbesondere die Bratflache des gusseisernen Kochgeschirrs, mit ein bis zwei Esslöffeln hitzebeständigem Öl, z. B raffiniertes Raps- oder Sonnenblumenöl, ausreiben.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_hFrgqK": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Produktwissen_Gusseisenpfannen_Multi_Column_1400x1400_4.png",
+            "column_size": "4",
+            "title": "Schritt 2:",
+            "heading_tag": "h4",
+            "content": "<p>Das Kochgeschirr auf dem Herd oder im Backofen platzieren. Anschließend wird die Temperatur schrittweise auf ca. 200 °C erhöht, bis das Fett zu rauchen beginnt. Dies kann ein paar Minuten dauern.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_ATzJYC": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Produktwissen_Gusseisenpfannen_Multi_Column_1400x1400_8.png",
+            "column_size": "4",
+            "title": "Schritt 3:",
+            "heading_tag": "h4",
+            "content": "<p>Dann das Kochgeschirr langsam abkühlen lassen.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_4XFYy6": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Produktwissen_Gusseisenpfannen_Multi_Column_1400x1400_5.png",
+            "column_size": "4",
+            "title": "Schritt 4:",
+            "heading_tag": "h4",
+            "content": "<p>Im letzten Schritt entfernst du das überschüssige Fett mit einem Küchenpapier – das Geschirr ist nun einsatzbereit für die erste Nutzung.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_aQrU3k",
+        "item_hFrgqK",
+        "item_ATzJYC",
+        "item_4XFYy6"
+      ],
+      "settings": {
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "Schritt für Schritt-Anleitung: Einbrennen von Gusseisen",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "rich_text_PG9GEe": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_FybyHU": {
+          "type": "heading",
+          "settings": {
+            "text": "Tipps zur richtigen Verwendung",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_8YH8qp": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Nachdem du die Gusseisenpfannen, -töpfe oder -bräter eingebrannt hast, geht es ans Kochen. Für optimale Garergebnisse und eine maximale Lebensdauer des Kochgeschirrs empfiehlt sich die Beachtung folgender Punkte:</p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_FybyHU",
+        "richtext_8YH8qp"
+      ],
+      "settings": {
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "multiple_images_with_text_GBppcD": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "item_Vyg79q": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Produktwissen_Gusseisenpfanne_Media_with_Text_1500x1500_7.png",
+            "image_rotation_degrees": 0,
+            "subheading": "",
+            "title": "Aufheizen",
+            "content": "<p>Erhitze das Gusseisenkochgeschirr langsam auf niedriger bis mittlerer Stufe, bis es gleichmäßig warm ist (ca. 5 Minuten). Erhöhe dann die Temperatur, wobei die Powerboost-Funktion erst bei hoher Temperatur verwendet werden sollte.</p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        },
+        "item_P9AYrP": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Produktwissen_Gusseisenpfanne_Media_with_Text_1500x1500_6.png",
+            "image_rotation_degrees": 0,
+            "subheading": "",
+            "title": "Das richtige Fett",
+            "content": "<p>Verwende hoch erhitzbare Fette wie Butterschmalz, raffiniertes Rapsöl oder Bratfette. Wenn das Fett zu rauchen beginnt, ist es zu heiß und hat bereits seinen optimalen Bratpunkt überschritten.</p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        },
+        "item_wawp8R": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Produktwissen_Gusseisenpfanne_Media_with_Text_1500x1500_5.png",
+            "image_rotation_degrees": 0,
+            "subheading": "",
+            "title": "Küchenhelfer",
+            "content": "<p>Verwende Küchenhelfer aus Holz, Kunststoff oder Silikon, um das Kochgeschirr zu schonen. Metallgegenstände und Schneiden im Kochgeschirr können Kratzer und Beschädigungen verursachen.</p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_Vyg79q",
+        "item_P9AYrP",
+        "item_wawp8R"
+      ],
+      "settings": {
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": "",
+        "heading_tag": "h4",
+        "content_alignment": "start"
+      }
+    },
+    "rich_text_mCtEG9": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_e7ewyh": {
+          "type": "heading",
+          "settings": {
+            "text": "Gusseisen und Induktion: eine perfekte Kombination",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_zHg4wX": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Die Fissler-Gusseisenprodukte sind für alle Herdarten geeignet – auch für Induktionsherde.</p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_e7ewyh",
+        "richtext_zHg4wX"
+      ],
+      "settings": {
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "media_with_text_gXPGjf": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_nAQGqU": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Produktwissen_Gusseisenpfanne_Media_with_Text_1500x1500_7863a5e7-6a8d-453c-834f-166f48abf4cc.png",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Warum Gusseisen ideal für Induktionsherde ist",
+            "heading_tag": "h3",
+            "content": "<p>In der Kombination treffen bei Gusseisen und Induktion eine hohe Stabilität auf besonders hohe Temperaturen. Sofern das Erhitzen langsam erfolgt, verträgt Gusseisen auch extreme Hitze. Gut miteinander harmoniert das Kochgeschirr mit dieser Herdart auch in puncto Energieeffizienz. Induktionsherde haben nur einen geringen Wärmeverlust – und Gusseisen speichert die Wärme sehr gut.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "image_nAQGqU"
+      ],
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "rich_text_MXdQfN": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_6LNRtU": {
+          "type": "heading",
+          "settings": {
+            "text": "Warum Kochgeschirr aus Gusseisen in jede Küche gehört",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_FcLXet": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Gusseisen ist mehr als nur Kochgeschirr – es ist ein Begleiter fürs Leben. Fissler bietet dir hochwertige Gusseisenbräter und -pfannen wie die <a href=\"/collections/original-profi-collection-gusseisen\" title=\"/collections/original-profi-collection-gusseisen\">Original-Profi Collection® Gusseisen</a>, die Tradition und Innovation perfekt kombinieren.</p><p>Mit exzellenter Wärmespeicherung, gleichmäßiger Hitzeverteilung und seiner Qualität sorgt Gusseisen für beste Kochergebnisse. Ob Braten, Schmoren oder Backen – es überzeugt auf allen Herdarten und entwickelt mit der Zeit seinen ganz eigenen Charakter. Gusseisen ist die richtige Wahl für nachhaltigen, langlebigen Genuss in deiner Küche.</p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_6LNRtU",
+        "richtext_FcLXet"
+      ],
+      "settings": {
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "#f0f0f0",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "md",
+        "padding_bottom": "md"
+      }
+    },
+    "collection_list_pAhiRk": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_78hzJF": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_dQHT4L": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_8Jdk3F": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "collection_78hzJF",
+        "collection_dQHT4L",
+        "collection_8Jdk3F"
+      ],
+      "settings": {
+        "collection_list": [
+          "original-profi-collection-gusseisen",
+          "moments-collection"
+        ],
+        "stack_collections": true,
+        "collections_per_row_mobile": "1",
+        "collections_per_row": 3,
+        "show_progress_bar": false,
+        "subheading": "",
+        "title": "",
+        "content": "<h3>Für jeden Koch das passende Modell - entdecke emailliertes Gusseisenkochgeschirr von Fissler</h3>",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "show_subheading": true,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_VPcTLf",
+    "image_link_blocks_CCreWn",
+    "media_with_text_Mga8gA",
+    "multi_column_Gbd4e3",
+    "multi_column_TBKN4X",
+    "rich_text_ADwJTM",
+    "collection_list_9WgtMV",
+    "media_with_text_iztQ7M",
+    "multi_column_6Waikk",
+    "multi_column_igf9pC",
+    "rich_text_9dfJdd",
+    "media_with_text_FiyJCr",
+    "media_with_text_VBePc4",
+    "rich_text_kdUByF",
+    "rich_text_yWVKH9",
+    "media_with_text_LNJdzw",
+    "multi_column_CTta7A",
+    "rich_text_PG9GEe",
+    "multiple_images_with_text_GBppcD",
+    "rich_text_mCtEG9",
+    "media_with_text_gXPGjf",
+    "rich_text_MXdQfN",
+    "collection_list_pAhiRk"
+  ]
+}

@@ -1,0 +1,804 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "100%"
+      }
+    },
+    "featured_product_Ha3man": {
+      "type": "featured-product",
+      "blocks": {
+        "vendor_kfY8zG": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "title_eEHeUd": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "badges_EeNKcy": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price_PAexq7": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating_Yz8bQi": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "separator_4W4U7A": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description_D7T67Y": {
+          "type": "description",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "collapse_content": false
+          }
+        },
+        "variant_picker_VJatLN": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector_4JA94m": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_jxFghn": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "pickup_availability_VRpwth": {
+          "type": "pickup_availability",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "vendor_kfY8zG",
+        "title_eEHeUd",
+        "badges_EeNKcy",
+        "price_PAexq7",
+        "rating_Yz8bQi",
+        "separator_4W4U7A",
+        "description_D7T67Y",
+        "variant_picker_VJatLN",
+        "quantity_selector_4JA94m",
+        "buy_buttons_jxFghn",
+        "pickup_availability_VRpwth"
+      ],
+      "disabled": true,
+      "settings": {
+        "product": "adamant-comfort-pfanne",
+        "desktop_media_width": 35,
+        "desktop_media_layout": "grid_one",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "slideshow_epwkAU": {
+      "type": "slideshow",
+      "blocks": {
+        "image_Drqjei": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Landingpage_Sommerfest_Header_Image_2800x1000_1.png",
+            "image_content_width": false,
+            "content_max_width": 1160,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "Fissler Familien-Sommerfest 2025",
+            "heading_tag": "h2",
+            "button_text": "",
+            "button_link": "",
+            "heading_color": "#ffffff",
+            "subheading_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_Drqjei"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "full_width": true,
+        "show_initial_transition": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "rich_text_wfCAzd": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_36yDBX": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Liebe Kolleginnen und Kollegen, liebe Familienangehörige, liebe Gäste,</p><p>unter dem Motto „Familien-Sommerfest – 180 Jahre Fissler“ laden wir euch herzlich ein, gemeinsam mit uns diesen besonderen Anlass zu feiern.<br/>Unser Sommerfest ist ein Zeichen der Wertschätzung für euren täglichen Einsatz, eure Loyalität und die wertvolle Unterstützung durch eure Familien. Es ist uns ein großes Anliegen, Danke zu sagen – für alles, was wir in den vergangenen Jahren gemeinsam erreicht haben. Das Fest bietet nicht nur die Gelegenheit, unsere Erfolge zu feiern und den Betrieb euren Familien näherzubringen, sondern auch Raum für Begegnungen, Austausch und gemeinsames Erleben.<br/>Lasst uns einen unbeschwerten Tag voller Freude, guter Gespräche und schöner Erinnerungen verbringen – als ein starkes Team, das stolz auf das Erreichte blickt und voller Energie nach vorne schaut. Wir freuen uns auf euch!</p><p>Herzliche Grüße<br/>Frank Böttcher<br/>CEO, Fissler Group</p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_36yDBX"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "show_section_id": false,
+        "content_width": "large",
+        "text_position": "center",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "padding_top": "md",
+        "padding_bottom": "0"
+      }
+    },
+    "1753427462c8f1a52a": {
+      "type": "apps",
+      "blocks": {
+        "gsc_countdown_timer_countdown_VRQkrK": {
+          "type": "shopify://apps/gsc-countdown-timer/blocks/countdown/58dc5b1b-43d2-4209-b1f3-52aff31643ed",
+          "settings": {
+            "widget_id": "GSC-LARGE-lpajASFaVGGU"
+          }
+        }
+      },
+      "block_order": [
+        "gsc_countdown_timer_countdown_VRQkrK"
+      ],
+      "settings": {
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "full_width_background": false,
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "0",
+        "padding_bottom": "0"
+      }
+    },
+    "text_with_icons_pDhhid": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_3x94JY": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/Icon_Datum_240x240_1.png",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Datum",
+            "content": "<p>Freitag, den <br/>29. August 2025</p>"
+          }
+        },
+        "item_6Hjwmr": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/Icon_Uhrzeit_240x240_1.png",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Uhrzeit",
+            "content": "<p>15:00 bis 20:00 Uhr<br/>Einlass ab 14:00 Uhr</p>"
+          }
+        },
+        "item_HeXxh9": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/Icon_Ort_240x240_3.png",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Ort",
+            "content": "<p>Auf dem <br/>Werksgelände Neubrücke</p>"
+          }
+        },
+        "item_TiyDtp": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/Icon_Adresse_240x240_2.png",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Adresse",
+            "content": "<p>Harald-Fissler-Straße 10, <br/>55768 Hoppstädten-Weiersbach</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_3x94JY",
+        "item_6Hjwmr",
+        "item_HeXxh9",
+        "item_TiyDtp"
+      ],
+      "name": "Text with icons",
+      "settings": {
+        "padding_top": "0",
+        "padding_bottom": "xl",
+        "title": "Das Wichtigste auf einen Blick",
+        "subheading": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "content": "",
+        "link_text": "",
+        "link_url": "",
+        "text_alignment": "center",
+        "stack_on_mobile": true,
+        "heading_tag": "h5",
+        "icon_spacing": "medium",
+        "background": "#ffffff",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "rich_text_Upz4Pw": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_N3UBGf": {
+          "type": "heading",
+          "settings": {
+            "text": "Der Tag im Überblick",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_CRnYCj": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>14:00 Uhr: </strong>Einlass<br/><br/><strong>15:00</strong> <strong>Uhr: </strong>Beginn<br/><br/><strong>15:15 Uhr: </strong>Begrüßung & Eröffnungsrede<br/><br/><strong>15:45 Uhr – 19:30 Uhr: </strong>Festbetrieb<br/><br/><strong>18:45 Uhr: </strong>Zeremonie der Zeitkapsel<br/><br/><strong>19:30 Uhr: </strong>Danksagung & Verlosung<br/><br/><strong>20:00 Uhr: </strong>Ende</p>",
+            "font_size": "lg"
+          }
+        }
+      },
+      "block_order": [
+        "heading_N3UBGf",
+        "richtext_CRnYCj"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "show_section_id": false,
+        "content_width": "large",
+        "text_position": "center",
+        "background": "#ff0000",
+        "full_width_background": true,
+        "background_gradient": "",
+        "text_color": "#ffffff",
+        "padding_top": "md",
+        "padding_bottom": "md"
+      }
+    },
+    "tabs_iDnwrE": {
+      "type": "tabs",
+      "blocks": {
+        "tab_qeYQTA": {
+          "type": "tab",
+          "settings": {
+            "title": "Werksführungen",
+            "content": "<p>Fünf geführte Werksrundgänge à ca. 30 Minuten bieten exklusive Einblicke in unsere Produktion. Jede Führung ist auf maximal 25 Personen begrenzt, damit alle den Fertigungsprozess gut verfolgen können. Das Ziel der Führungen ist es, Transparenz zu schaffen und das Verständnis sowie die Verbundenheit mit unserem Unternehmen zu stärken.<br/></p><p><strong>Startzeiten:</strong> 16:00, 16:30, 17:00, 17:30 und 18:00 Uhr<br/>Bitte trage dich frühzeitig in die Listen am Eingang des Festgeländes ein – die Plätze sind begrenzt. Die Wege im Werk sind nur eingeschränkt für Kinderwagen oder Rollstühle geeignet. Teilnahme nur bei guter Mobilität empfohlen. Kleinkinder bitte tragen.</p>",
+            "page": ""
+          }
+        },
+        "tab_xwdhtJ": {
+          "type": "tab",
+          "settings": {
+            "title": "Ausbildungswerkstatt",
+            "content": "<p>Im technischen Ausbildungszentrum erhalten Jugendliche ab 12 Jahren praxisnahe Einblicke in die Berufsausbildung bei Fissler. Beim Werkstattrundlauf lernst du typische Tätigkeiten unserer Auszubildenden kennen und kannst an Mitmachstationen dein handwerkliches Geschick an echten Werkstücken ausprobieren.</p><p><strong>Startzeiten:</strong> 16:00 Uhr und 17:00 Uhr<br/>Im angrenzenden Schulungsraum geben dir unsere Ausbilder:innen und Azubis hilfreiche Tipps zu Bewerbung und Ausbildungsstart. Nutze die Gelegenheit, Fragen zu stellen und erste Eindrücke für deine berufliche Zukunft zu sammeln.</p>",
+            "page": ""
+          }
+        },
+        "tab_RTgzT3": {
+          "type": "tab",
+          "settings": {
+            "title": "Bike Leasing",
+            "content": "<p>Im Rahmen des Familien-Sommerfests kannst du dich am Infostand unseres Partners B-Site umfassend zum Thema Dienstrad-Leasing informieren. Expert:innen beantworten alle Fragen rund um Modell Auswahl, Vertragsbedingungen, monatliche Raten und Ablauf am Ende der Laufzeit.</p><p>Auf einer speziell eingerichteten Teststrecke kannst du hochwertige E Bikes, Mountainbikes und Trekkingräder ausprobieren und herausfinden, welches Rad am besten zu dir passt. Komm vorbei und erlebe nachhaltige Mobilität direkt vor Ort!</p><p><strong>Öffnungszeiten:</strong> 15:00 bis 19:30 Uhr</p>",
+            "page": ""
+          }
+        },
+        "tab_U6rYeF": {
+          "type": "tab",
+          "settings": {
+            "title": "AOK-Gesundheitsangebote",
+            "content": "<p>Im Rahmen des Familien-Sommerfests bietet die AOK – Die Gesundheitskasse spannende Mitmachaktionen rund um Bewegung, Koordination und Fitness. Am AOK-Stand kannst du selbst aktiv werden und Neues ausprobieren – ob als sportliche Herausforderung oder einfach zum Spaß.<br/></p><p>Das erwartet dich:</p><ul><li>T-Wall: Trainiere Koordination, Ausdauer, Schnelligkeit und Beweglichkeit an einer digitalen Reaktionswand.</li><li>Gesundheitsflieger ICAROS: Tauche mit einer VR-Brille in ein virtuelles Flugerlebnis ein und aktiviere dabei verschiedene Muskelgruppen durch gezielte Gewichtsverlagerung.<br/></li></ul><p><strong>Öffnungszeiten: </strong>15:00 bis 19:30 Uhr</p>",
+            "page": ""
+          }
+        },
+        "tab_BAm49K": {
+          "type": "tab",
+          "settings": {
+            "title": "Familien- & Kinderangebote",
+            "content": "<p>Das Familien-Sommerfest ist ein Erlebnis für Groß und Klein. Unsere kleinen Gäste können sich auf spannende Bewegungsangebote wie Bobbycar- und Tretkart-Bahn freuen. </p><p>Spiel und Sport sorgen für Abwechslung: <br/>Von der Survivalbahn über entspanntes Billard bis hin zu Tischkicker-Matches und Turnieren ist alles dabei. Der Kinderbereich sowie Still- und Wickelzonen sind auf dem Lageplan markiert.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "tab_qeYQTA",
+        "tab_xwdhtJ",
+        "tab_RTgzT3",
+        "tab_U6rYeF",
+        "tab_BAm49K"
+      ],
+      "name": "Tabs",
+      "settings": {
+        "content_size": "medium",
+        "subheading": "",
+        "title": "Das erwartet dich vor Ort",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "text_alignment": "center",
+        "first_tab_open": false,
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "padding_top": "xl",
+        "padding_bottom": "auto"
+      }
+    },
+    "rich_text_fAERbU": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_FbGTLb": {
+          "type": "heading",
+          "settings": {
+            "text": "Das Festgelände im Überblick",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "image_Q4N96x": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/16.07.2025_Flaechenplan_Final_ohne_Skalierung.jpg",
+            "width_mode": "full_width",
+            "max_width": 1000,
+            "mobile_max_width": 400
+          }
+        },
+        "button_bqtR7m": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "xl",
+            "text": "Lageplan herunterladen",
+            "url": "https://cdn.shopify.com/s/files/1/0896/6029/3469/files/16.07.2025_Flaechenplan_Final_ohne_Skalierung.jpg?v=1753096451",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_FbGTLb",
+        "image_Q4N96x",
+        "button_bqtR7m"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "show_section_id": false,
+        "content_width": "large",
+        "text_position": "center",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "multi_column_Qb3wnj": {
+      "type": "multi-column",
+      "blocks": {
+        "item_PVMTtA": {
+          "type": "item",
+          "settings": {
+            "column_size": "2",
+            "title": "Anfahrt mit dem PKW ",
+            "heading_tag": "h3",
+            "content": "<p></p><p><strong>Anreise über die A62 (aus beiden Richtungen):<br/></strong>A62 an der Ausfahrt 4 Birkenfeld verlassen<br/>Weiter auf die B41 Richtung Birkenfeld / Hoppstädten-Weiersbach / Namborn / Nohfelden<br/>Rechts halten und der B269 folgen<br/>Am Kreisverkehr geradeaus fahren<br/></p><p><strong>Parkmöglichkeiten auf dem Werksgelände:<br/></strong>Parkplätze P1 und P2 sind im Lageplan eingezeichnet<br/>Parkeinweiser stehen vor Ort bereit – bitte folge ihren Anweisungen</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_an8HJY": {
+          "type": "item",
+          "settings": {
+            "column_size": "2",
+            "title": "Anfahrt mit dem ÖPNV",
+            "heading_tag": "h3",
+            "content": "<p></p><p><strong>Haltestelle:</strong> Neubrücke Bahnhof (ca. 5 Minuten Fußweg zum Gelände)<br/><strong>Zugverbindungen:</strong> RE 3, RB 33, RB 73<br/><strong>Busverbindung: </strong>Linie 880<br/><br/><strong>Bitte beachten:</strong> Es wird kein Shuttle-Bus zur Veranstaltung angeboten.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_PVMTtA",
+        "item_an8HJY"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "Die Anreise & das Parken",
+        "content": "",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "faq_H3NMXt": {
+      "type": "faq",
+      "blocks": {
+        "item_NkBkU9": {
+          "type": "item",
+          "settings": {
+            "title": "Muss ich meinen Werksausweis mitbringen?",
+            "content": "<p>Ja. Bitte bring deinen Werksausweis zur Anmeldung bzw. Akkreditierung vor Ort mit. Er muss nicht sichtbar getragen werden, ist aber für die Registrierung notwendig.</p>"
+          }
+        },
+        "item_yphiBP": {
+          "type": "item",
+          "settings": {
+            "title": "Müssen Familienangehörige registriert werden?",
+            "content": "<p>Ja. Auch alle Begleitpersonen, inklusive Familienangehörige, müssen über das Anmeldeformular angemeldet werden. Das ist wichtig für die Sicherheit und Organisation vor Ort.</p>"
+          }
+        },
+        "item_zqzptk": {
+          "type": "item",
+          "settings": {
+            "title": "Kann ich mich noch spontan an- oder abmelden?",
+            "content": "<p>Ja. Eine <strong>An- und Abmeldung </strong>ist auch kurzfristig über den folgenden Link möglich: <a href=\"https://forms.office.com/e/4ENF2Fs9J1\">https://forms.office.com/e/4ENF2Fs9J1</a><br/><br/>Wichtig: Bei einer <strong>Abmeldung</strong> müssen weitere Punkte wie Urlaub oder Gleitzeit berücksichtigt werden – siehe nächster Punkt.</p>"
+          }
+        },
+        "item_VPVqUV": {
+          "type": "item",
+          "settings": {
+            "title": "Ich bin Mitarbeiter:in. Was muss ich zur Arbeitszeit wissen?",
+            "content": "<p>Am Veranstaltungstag gilt Betriebsruhe. Für festangestellte Mitarbeitende der Fissler Gruppe wird die Teilnahme als regulärer Arbeitstag vergütet. Zeitarbeitskräfte, Interimskräfte und Consultants sind herzlich eingeladen, jedoch erfolgt keine Vergütung über Fissler. Bei Nichtteilnahme ist zwingend Urlaub oder Gleitzeit einzuplanen. Weitere Infos zur Zeiterfassung und zu Reisekosten folgen.</p>"
+          }
+        },
+        "item_w94kKz": {
+          "type": "item",
+          "settings": {
+            "title": "Wie kann ich mich für eine Werksführung anmelden?",
+            "content": "<p>Die Anmeldung erfolgt vor Ort über Listen am Eingang des Festgeländes. Eine vorherige Anmeldung ist nicht möglich. Jede Führung ist auf 25 Personen begrenzt – bitte trage dich frühzeitig ein.</p><p><strong>Wichtige Hinweise:</strong></p><ul><li>Teilnahme nur bei guter Mobilität empfohlen</li><li>Wege sind nur eingeschränkt für Kinderwagen oder Rollstühle geeignet</li><li>Kleinkinder bitte tragen</li><li>Festes Schuhwerk erforderlich</li><li>Während des Sommerfests steht die Produktion – mithilfe von Bildschirmen werden jedoch zentrale Produktionsschritte anschaulich erklärt.</li></ul>"
+          }
+        },
+        "item_km9976": {
+          "type": "item",
+          "settings": {
+            "title": "Gibt es vegane, vegetarische oder glutenfreie Speisen?",
+            "content": "<p>Ja. Es wird eine vielfältige Auswahl an Speisen geben – für jeden Geschmack ist etwas dabei.</p>"
+          }
+        },
+        "item_AAXaXX": {
+          "type": "item",
+          "settings": {
+            "title": "Was passiert bei schlechtem Wetter?",
+            "content": "<p>Das Fest ist durch ein Festzelt und mehrere Pavillons teilweise wetterfest. Bei starkem Regen können einzelne Programmpunkte entfallen. Bei amtlicher Unwetterwarnung kann das Fest kurzfristig abgesagt werden.</p>"
+          }
+        },
+        "item_eJJzk6": {
+          "type": "item",
+          "settings": {
+            "title": "Sind alle Zugänge barrierefrei?",
+            "content": "<p>Ja. Das Gelände ist barrierefrei zugänglich.<br/>Bitte beachte: Die Werkführung ist aus Sicherheitsgründen nur eingeschränkt barrierefrei möglich.</p>"
+          }
+        },
+        "item_4xqXJJ": {
+          "type": "item",
+          "settings": {
+            "title": "Wie finde ich mich auf dem Gelände zurecht?",
+            "content": "<p>Einen Geländeplan mit allen Stationen, Angeboten und Orientierungspunkten findest du weiter oben auf dieser Seite im Abschnitt „Das Festgelände im Überblick“. Die Veranstaltungsseite mit dem Plan wird vorab im Intranet geteilt und ist auch am Veranstaltungstag per QR-Code abrufbar – so hast du alle Infos bequem auf dem Handy dabei. Außerdem hängen Geländepläne gut sichtbar auf dem Festgelände aus.</p>"
+          }
+        },
+        "item_gVW9EY": {
+          "type": "item",
+          "settings": {
+            "title": "Gibt es Wickel- oder Stillmöglichkeiten?",
+            "content": "<p>Ja. Die Still- und Wickelzonen sind im <strong>Lageplan</strong> eingezeichnet und vor Ort ausgeschildert.</p>"
+          }
+        },
+        "item_PzLXrn": {
+          "type": "item",
+          "settings": {
+            "title": "Wo kann ich parken?",
+            "content": "<p>Details zur Anfahrt und zu den Parkplätzen findest du im Abschnitt „<strong>Die Anreise & das Parken“ </strong>weiter oben auf der Seite.</p>"
+          }
+        },
+        "item_PKTC8x": {
+          "type": "item",
+          "settings": {
+            "title": "Gibt es ein Fundbüro?",
+            "content": "<p>Ja. Bitte wende dich bei verlorenen Gegenständen an die Pforte am Eingang – unsere Kollegen dort helfen dir weiter.</p>"
+          }
+        },
+        "item_TxKXKi": {
+          "type": "item",
+          "settings": {
+            "title": "Wie wird mit Foto- und Filmaufnahmen umgegangen?",
+            "content": "<p>Für die Dokumentation des Familien-Sommerfests und zur Verwendung in der Unternehmenskommunikation (z.B. auf Connect oder in sozialen Medien) werden während der Veranstaltung Fotos gemacht. Mit der Anmeldung erklärt ihr euch einverstanden, dass Bilder, auf denen ihr möglicherweise zu sehen seid, verwendet werden dürfen.<br/>Falls ihr damit nicht einverstanden seid, könnt ihr jederzeit aktiv widersprechen – schreibt dazu einfach eine E-Mail an <a href=\"mailto:events@fissler.com\">events@fissler.com</a>. <strong>Wichtig:</strong> Während der Werksführungen dürfen keine Fotos oder Videos gemacht werden.</p>"
+          }
+        },
+        "item_Cnh7rt": {
+          "type": "item",
+          "settings": {
+            "title": "Darf ich selbst Fotos oder Videos machen?",
+            "content": "<p>Ja. Eigene Aufnahmen während der Veranstaltung sind erlaubt.</p>"
+          }
+        },
+        "item_abeWGr": {
+          "type": "item",
+          "settings": {
+            "title": "Gibt es Erste Hilfe vor Ort?",
+            "content": "<p>Ja. Eine Erste-Hilfe-Station befindet sich direkt am Eingang an der Pforte.</p>"
+          }
+        },
+        "item_39tg9b": {
+          "type": "item",
+          "settings": {
+            "title": "Wer hilft bei Fragen oder Problemen vor Ort?",
+            "content": "<p>Ein Organisationsteam ist während der gesamten Veranstaltung ansprechbar – du erkennst die Kolleg:innen an den roten Westen.<br/><br/>Die Haupt-Ansprechpersonen findest du ganz unten auf dieser Veranstaltungsseite.</p>"
+          }
+        },
+        "item_cPzYfH": {
+          "type": "item",
+          "settings": {
+            "title": "Gibt es Verhaltensregeln?",
+            "content": "<p>Das Sommerfest ist ein freiwilliges, kollegiales Beisammensein. Gegenseitiger Respekt und ein wertschätzender Umgang stehen im Mittelpunkt. Für den Konsum von Alkohol gilt: maßvoll und verantwortungsbewusst. </p>"
+          }
+        },
+        "item_mfcfEU": {
+          "type": "item",
+          "settings": {
+            "title": "Was ist sonst noch wichtig?",
+            "content": "<p>Gute Laune, Offenheit und Teamgeist machen das Fest erst richtig schön. Bei Krankheit bitte zuhause bleiben – danke für euer Verständnis!</p>"
+          }
+        },
+        "item_mWjGVp": {
+          "type": "item",
+          "settings": {
+            "title": "Was passiert bei schlechtem Wetter?",
+            "content": ""
+          }
+        },
+        "item_3T8iXE": {
+          "type": "item",
+          "settings": {
+            "title": "Sind alle Zugänge barrierefrei?",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_NkBkU9",
+        "item_yphiBP",
+        "item_zqzptk",
+        "item_VPVqUV",
+        "item_w94kKz",
+        "item_km9976",
+        "item_AAXaXX",
+        "item_eJJzk6",
+        "item_4xqXJJ",
+        "item_gVW9EY",
+        "item_PzLXrn",
+        "item_PKTC8x",
+        "item_TxKXKi",
+        "item_Cnh7rt",
+        "item_abeWGr",
+        "item_39tg9b",
+        "item_cPzYfH",
+        "item_mfcfEU",
+        "item_mWjGVp",
+        "item_3T8iXE"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "show_userlike": false,
+        "subheading": "",
+        "title": "",
+        "content": "<h2>Die häufigsten Fragen (FAQ)<br/></h2><p>Du hast noch Fragen zu unserem Sommerfest? Hier findest du Antworten auf häufige Themen wie Wetter, Fundsachen, Arbeitszeitregelungen und vieles mehr.</p>",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": "",
+        "show_section_id": false,
+        "padding_top": "xl",
+        "padding_bottom": "md"
+      }
+    },
+    "scrolling_text_yjhgk8": {
+      "type": "scrolling-text",
+      "name": "Scrolling text",
+      "settings": {
+        "text": "Fissler Sommerfest 2025 - sei dabei!",
+        "text_size": "h3",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 10,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#ff0000",
+        "text_gradient": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "xl"
+      }
+    },
+    "multi_column_3zUdKT": {
+      "type": "multi-column",
+      "blocks": {
+        "item_PJyyiN": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Page_Sommerfest_Ansprechpartner_test_1.png",
+            "column_size": "3",
+            "title": "Carsten Jung",
+            "heading_tag": "h4",
+            "content": "<p>Ansprechpartner für Fragen zu Ablauf, Technik, Verpflegung<br/><br/>✆ +49 170 5798 610</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_x47zpJ": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Page_Sommerfest_Ansprechpartner_test.png",
+            "column_size": "3",
+            "title": "Tashima Thompson",
+            "heading_tag": "h4",
+            "content": "<p>Ansprechpartnerin für Fragen zu Ablauf, Programm, Werksführungen</p><p>✆ +49 151 70192 304</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_nbUpi6": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Page_Sommerfest_Ansprechpartner_test_2.png",
+            "column_size": "3",
+            "title": "Jasmin Menslage",
+            "heading_tag": "h4",
+            "content": "<p>Ansprechpartnerin bei<br/>Sicherheitsfragen, Feueralarm und Notfällen</p><p>✆ +49 175 3767 060 </p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_PJyyiN",
+        "item_x47zpJ",
+        "item_nbUpi6"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "stack_on_mobile": false,
+        "gap": "x-large",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "Deine Ansprechpersonen",
+        "content": "",
+        "background": "#f0f0f0",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "featured_product_Ha3man",
+    "slideshow_epwkAU",
+    "rich_text_wfCAzd",
+    "1753427462c8f1a52a",
+    "text_with_icons_pDhhid",
+    "rich_text_Upz4Pw",
+    "tabs_iDnwrE",
+    "rich_text_fAERbU",
+    "multi_column_Qb3wnj",
+    "faq_H3NMXt",
+    "scrolling_text_yjhgk8",
+    "multi_column_3zUdKT"
+  ]
+}

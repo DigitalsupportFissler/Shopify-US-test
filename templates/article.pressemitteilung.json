@@ -1,0 +1,133 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "navigation": {
+          "type": "navigation",
+          "disabled": true,
+          "settings": {}
+        },
+        "comments": {
+          "type": "comments",
+          "disabled": true,
+          "settings": {
+            "show_gravatar": true,
+            "comments_per_page": 5
+          }
+        }
+      },
+      "block_order": [
+        "navigation",
+        "comments"
+      ],
+      "settings": {
+        "layout": "image_text_overlay",
+        "image": "{{ article.image }}",
+        "show_author": false,
+        "show_date": true,
+        "show_comments_count": true,
+        "show_share_buttons": true,
+        "show_header_image": true,
+        "banner_background": "",
+        "banner_text_color": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "content_width": "750px",
+        "stats_color": "#556132",
+        "is_recipe": false,
+        "content_alignment": "start"
+      }
+    },
+    "rich_text_8YJQtL": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_iCMmWK": {
+          "type": "heading",
+          "settings": {
+            "text": "Über Fissler",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_PgnbfD": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Fissler ist einer der weltweit führenden Hersteller von hochwertigem Kochgeschirr. Zum Sortiment der Premiummarke gehören unter anderem Töpfe, Pfannen, Schnellkochtöpfe und Küchenhelfer. Mit Perfektion, Präzision und handwerklichem Können „Made in Germany“ sorgt das Familienunternehmen, 1845 von Carl Philipp Fissler in Idar-Oberstein gegründet, für genussvolle Erlebnisse und Freude beim Kochen. Für die innovative Gestaltung und herausragende Qualität der Produkte erhielt Fissler bereits zahlreiche Auszeichnungen. Weitere Informationen: <a href=\"http://www.fissler.com/\" title=\"http://www.fissler.com/\">www.fissler.com</a></p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_iCMmWK",
+        "richtext_PgnbfD"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "blog_posts_imrjHy": {
+      "type": "blog-posts",
+      "blocks": {
+        "article_8WaryL": {
+          "type": "article",
+          "settings": {
+            "article": "",
+            "background": "",
+            "text_color": "",
+            "article_handle": ""
+          }
+        }
+      },
+      "block_order": [
+        "article_8WaryL"
+      ],
+      "name": "Featured blog post",
+      "settings": {
+        "show_excerpt": true,
+        "show_date": true,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": true,
+        "show_overall_time": false,
+        "subheading": "Presse",
+        "title": "Weitere Pressemitteilungen",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto",
+        "blog_handle": "pressemitteilungen",
+        "posts_count": 4
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_8YJQtL",
+    "blog_posts_imrjHy"
+  ]
+}

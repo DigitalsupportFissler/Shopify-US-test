@@ -1,0 +1,122 @@
+{%- if section.settings.liquid != blank -%}
+  {%- render 'section-spacing-collapsing' -%}
+
+  <style>
+    #shopify-section-{{ section.id }} {
+      {% if section.settings.remove_vertical_spacing %}--section-spacing-block: 0px;{% endif %}
+      {% if section.settings.remove_horizontal_spacing %}--section-spacing-inline: 0px;{% endif %}
+    }
+  </style>
+
+  {%- capture padding_classes -%}
+  section-padding-top-{{ section.settings.padding_top }} section-padding-bottom-{{ section.settings.padding_bottom }}
+{%- endcapture -%}
+  {% assign section_classes = padding_classes %}
+  {% if section.settings.full_width_background %}
+    {% assign section_classes = section_classes | append: 'no-padding' %}
+  {% endif %}
+  <div {% render 'section-properties', class: section_classes %}>
+    {{ section.settings.liquid }}
+  </div>
+  {% if section.settings.show_section_id %}
+    <div class="section-id-label" style="font-size: 12px; color: #666; margin-bottom: 10px;">
+      Section ID: {{ section.id }}
+    </div>
+  {% endif %}
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "Custom Liquid",
+  "class": "shopify-section--custom-liquid",
+  "tag": "section",
+  "disabled_on": {
+    "groups": ["custom.overlay"]
+  },
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "remove_vertical_spacing",
+      "label": "Remove vertical spacing",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "remove_horizontal_spacing",
+      "label": "Remove horizontal spacing",
+      "default": false
+    },
+    {
+      "type": "liquid",
+      "id": "liquid",
+      "label": "Liquid",
+      "info": "Add app snippets or other Liquid code to create advanced customizations.",
+      "default": "<p style=\"text-align: center\">Write or copy/paste Liquid code</p>"
+    },
+    {
+      "type": "header",
+      "content": "Colors",
+      "info": "Gradient replaces solid colors when set."
+    },
+    {
+      "type": "color",
+      "id": "background",
+      "label": "Background"
+    },
+    {
+      "type": "checkbox",
+      "id": "full_width_background",
+      "label": "Remove section margin",
+      "default": false
+    },
+    {
+      "type": "color_background",
+      "id": "background_gradient",
+      "label": "Background gradient"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text"
+    },
+
+    {
+      "type": "checkbox",
+      "id": "show_section_id",
+      "label": "Section-ID",
+      "default": false
+    },
+    {
+      "type": "select",
+      "id": "padding_top",
+      "label": "Padding top",
+      "options": [
+        { "value": "auto", "label": "auto" },
+        { "value": "0", "label": "0" },
+        { "value": "sm", "label": "sm" },
+        { "value": "md", "label": "md" },
+        { "value": "xl", "label": "xl" }
+      ],
+      "default": "auto"
+    },
+    {
+      "type": "select",
+      "id": "padding_bottom",
+      "label": "Padding bottom",
+      "options": [
+        { "value": "auto", "label": "auto" },
+        { "value": "0", "label": "0" },
+        { "value": "sm", "label": "sm" },
+        { "value": "md", "label": "md" },
+        { "value": "xl", "label": "xl" }
+      ],
+      "default": "auto"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom Liquid"
+    }
+  ]
+}
+{% endschema %}

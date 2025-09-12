@@ -1,0 +1,31 @@
+<script id="swatchConfig" type="application/json">
+  {
+    {%- liquid
+      assign swatch_config = settings.color_swatch_config | newline_to_br | split: '<br />'
+      
+      for swatch_item in swatch_config
+        assign swatch_parts = swatch_item | split: ':'
+        assign swatch_name = swatch_parts.first | replace: "ß", "" | handleize
+        assign swatch_value = swatch_parts.last | strip
+
+        if swatch_name != ""
+          echo '"' | append: swatch_name | append: '":{'
+          
+            if swatch_value contains 'linear-gradient('
+              echo '"image":"' | append: swatch_value | append: '"'
+            elsif swatch_value contains '#'
+              echo '"color":"' | append: swatch_value | append: '"'
+            elsif images[swatch_value] != blank
+              assign swatch_image = images[swatch_value] | image_url: width: 72
+              echo '"image":"' | append: swatch_image | append: '"'
+            endif
+      
+          echo '}'
+         unless forloop.last
+           echo ','
+         endunless
+        endif
+      endfor
+    -%}
+  }
+</script>

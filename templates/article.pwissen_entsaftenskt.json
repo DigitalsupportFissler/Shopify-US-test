@@ -1,0 +1,188 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "navigation": {
+          "type": "navigation",
+          "disabled": true,
+          "settings": {}
+        },
+        "comments": {
+          "type": "comments",
+          "disabled": true,
+          "settings": {
+            "show_gravatar": true,
+            "comments_per_page": 5
+          }
+        }
+      },
+      "block_order": [
+        "navigation",
+        "comments"
+      ],
+      "settings": {
+        "layout": "image_text_overlay",
+        "image": "{{ article.image }}",
+        "show_author": true,
+        "show_date": true,
+        "show_comments_count": true,
+        "show_share_buttons": true,
+        "show_header_image": true,
+        "banner_background": "",
+        "banner_text_color": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "content_width": "750px",
+        "stats_color": "#556132",
+        "is_recipe": false,
+        "content_alignment": "start"
+      }
+    },
+    "multi_column_TAagpY": {
+      "type": "multi-column",
+      "blocks": {
+        "item_wPEXyk": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Ratgeber_Produktwissen_Multi_Column_Wasser_einfuellen_1200x900_da106e6b-ff86-4269-9f66-adb639f3d315.png",
+            "column_size": "3",
+            "title": "1. Fill the pot",
+            "heading_tag": "h4",
+            "content": "<p>Fill the pot with a minimum amount of water (see “Min” mark).</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_WUxDyW": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Ratgeber_Produktwissen_Multi_Column_Obst_Gemuese_vorbereiten_1200x900_451eceea-28ec-4ecb-8a68-c0079242829d.png",
+            "column_size": "3",
+            "title": "2. Prepare fruit and vegetables",
+            "heading_tag": "h4",
+            "content": "<p>Place the fruit or vegetables in the perforated insert. Place the tripod in the pressure cooker and place the insert on top.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_UpdFpz": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Productguide_Steaming_Pressurecooker_Colorcode_1200x900_84b46a58-329e-49a5-b1f0-a8b192e3b34a.png",
+            "column_size": "3",
+            "title": "3. Set the cooking level",
+            "heading_tag": "h4",
+            "content": "<p>Set the hob to the highest setting and heat the pot at maximum power.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_LdXWRn": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Productguide_Steaming_Pressurecooker_Cookinglevel_1200x900_28ec88cc-8d2e-4c00-bc5b-7df237fa01b2.png",
+            "column_size": "3",
+            "title": "4. Cooking",
+            "heading_tag": "h4",
+            "content": "<p>Reduce the heat as soon as the yellow ring appears. Let the contents of the pot simmer for 15 minutes. Cooking time varies depending on the quantity and texture of the ingredients.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_9hLGD6": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Productguide_Steaming_Pressurecooker_ReleaseSteam_1200x900_5b0fc5a3-a461-42f2-9e10-780f9d39b6a6.png",
+            "column_size": "3",
+            "title": "5. Steaming",
+            "heading_tag": "h4",
+            "content": "<p>After cooking, steam the pot, remove the insert, and transfer the juice for further use.<br/><br/></p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_kaMcdG": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Ratgeber_Produktwissen_Multi_Column_Tipp_entsaften_1200x900_bb94a240-fc8f-4217-9396-1bd26ca199a1.png",
+            "column_size": "3",
+            "title": "Tipp",
+            "heading_tag": "h4",
+            "content": "<p>During the cooking process, most of the water in the pot evaporates. If you want to obtain 100% juice, you can place a second, unperforated insert in the water under the perforated insert to catch the juice. Please note the maximum fill level.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_wPEXyk",
+        "item_WUxDyW",
+        "item_UpdFpz",
+        "item_LdXWRn",
+        "item_9hLGD6",
+        "item_kaMcdG"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "Here's how it works:",
+        "content": "",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "featured_articles_rKTQEV": {
+      "type": "featured-articles",
+      "name": "Featured articles",
+      "settings": {
+        "articles_per_row_mobile": "2",
+        "articles_per_row_desktop": 3,
+        "subheading": "",
+        "articel_handles": "product-guide/pressure-cooking-time-finder,product-guide/pressure-cooker-juicing,product-guide/multi-level-pressure-cooking,product-guide/pressure-cooker-steaming",
+        "title": "The pressure cooker can do even more:",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "multi_column_TAagpY",
+    "featured_articles_rKTQEV"
+  ]
+}

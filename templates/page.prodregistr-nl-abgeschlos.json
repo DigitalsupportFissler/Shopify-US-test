@@ -1,0 +1,243 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "100%"
+      }
+    },
+    "featured_product_Ha3man": {
+      "type": "featured-product",
+      "blocks": {
+        "vendor_kfY8zG": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "title_eEHeUd": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "badges_EeNKcy": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price_PAexq7": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating_Yz8bQi": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "separator_4W4U7A": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description_D7T67Y": {
+          "type": "description",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "collapse_content": false
+          }
+        },
+        "variant_picker_VJatLN": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector_4JA94m": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_jxFghn": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "pickup_availability_VRpwth": {
+          "type": "pickup_availability",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "vendor_kfY8zG",
+        "title_eEHeUd",
+        "badges_EeNKcy",
+        "price_PAexq7",
+        "rating_Yz8bQi",
+        "separator_4W4U7A",
+        "description_D7T67Y",
+        "variant_picker_VJatLN",
+        "quantity_selector_4JA94m",
+        "buy_buttons_jxFghn",
+        "pickup_availability_VRpwth"
+      ],
+      "disabled": true,
+      "settings": {
+        "product": "adamant-comfort-pfanne",
+        "desktop_media_width": 35,
+        "desktop_media_layout": "grid_one",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "rich_text_yER3jz": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_YXtpmq": {
+          "type": "heading",
+          "settings": {
+            "text": "Vielen Dank!",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_nGc6ec": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Du hast dich erfolgreich zum Newsletter angemeldet! Entdecke die Welt des Kochens und freue dich auf exklusive Angebote und tolle Aktionen. </p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_YXtpmq",
+        "richtext_nGc6ec"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "collection_list_6qWtr8": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_6LLA8N": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_8KMHxp": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_kLLfxr": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "collection_6LLA8N",
+        "collection_8KMHxp",
+        "collection_kLLfxr"
+      ],
+      "name": "Collection list",
+      "settings": {
+        "collection_list": [
+          "pfannen",
+          "toepfe",
+          "schnellkochtoepfe",
+          "kuechenhelfer"
+        ],
+        "stack_collections": true,
+        "collections_per_row_mobile": "1",
+        "collections_per_row": 4,
+        "show_progress_bar": false,
+        "subheading": "",
+        "title": "Entdecke unsere Produkte",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "show_subheading": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "featured_product_Ha3man",
+    "rich_text_yER3jz",
+    "collection_list_6qWtr8"
+  ]
+}

@@ -1,0 +1,600 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_BwYzkw": {
+      "type": "slideshow",
+      "blocks": {
+        "image_BHx4Kf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Kollektionsliste_Header_2167x800_673bc790-cde2-4a74-bd9f-df63f4d55cf3.png",
+            "image_content_width": false,
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "Collections",
+            "heading_tag": "h1",
+            "button_text": "",
+            "button_link": "",
+            "heading_color": "#ffffff",
+            "subheading_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 39,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_BHx4Kf"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_initial_transition": false,
+        "image_size": "md",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "rich_text_J8HeNj": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_7KUieH": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>At Fissler, we are passionate about making cooking a unique experience. Since 1845, we have been inspiring and delighting chefs around the world with premium cookware. </p><p>Discover our award-winning collections.</p>",
+            "font_size": "lg"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_7KUieH"
+      ],
+      "settings": {
+        "show_section_id": false,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "rich_text_WreP3f": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_RKtkXf": {
+          "type": "subheading",
+          "settings": {
+            "text": "COLLECTIONS AT A GLANCE",
+            "subheading_tag": "h3"
+          }
+        },
+        "heading_8jwxKh": {
+          "type": "heading",
+          "settings": {
+            "text": "Which collection suits you best?",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_RKtkXf",
+        "heading_8jwxKh"
+      ],
+      "custom_css": [
+        ".section-full {--section-spacing-block-end: 40px;}",
+        "@media screen and (min-width: 1025px) {.section-full {--section-spacing-block-end: 80px; }}"
+      ],
+      "settings": {
+        "show_section_id": false,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "main": {
+      "type": "main-list-collections",
+      "disabled": true,
+      "settings": {
+        "collections": [],
+        "collections_per_row_mobile": "1",
+        "collections_per_row": 3,
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "media_with_text_kk6Fkw": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_Mfizdn": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Pro-Ply_Pan_1500x1500_314f7df3-aa02-4af7-bacd-df0618750765.png",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "German Engineered. Flavored Driven.",
+            "title": "M5 Pro-Ply Collection",
+            "heading_tag": "h3",
+            "content": "<p>German craftsmanship since 1845 meets cutting-edge technology with the NEW award-winning Fissler M5 Pro-Ply stainless steel cookware.</p><p>Engineered for exceptional performance, our cookware features a sophisticated 5-layer construction of premium recycled stainless steel and aluminum that heats quickly and offers precise heat control.<br/><br/></p>",
+            "link_text": "DISCOVER COLLECTION",
+            "link_url": "",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        },
+        "image_tUMbGV": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Collectionpage_OPC_Media.png",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "Where culinary art meets engineering artistry",
+            "title": "Original-Profi Collection®",
+            "heading_tag": "h3",
+            "content": "<p>The Original-Profi Collection® is one of the world's most successful premium cookware series and is considered a design icon. Its quality standard offers clever details that make cooking an effortless and enjoyable experience. </p><p>Sustainably manufactured in Germany to the highest production standards, it is the most versatile cookware collection that can handle any task—for generations to come.</p>",
+            "link_text": "DISCOVER COLLECTION",
+            "link_url": "shopify://collections/original-profi-collection-edelstahl",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        },
+        "image_E3jKfi": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Collectionpage_Ceratal_Media_with_Text_1500x1500_c495b61b-6dc3-464e-96a3-2802d19069cd.png",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "The Ceramic Alternative",
+            "title": "Ceratal®",
+            "heading_tag": "h3",
+            "content": "<p>The Ceratal® pan is our ceramic alternative to traditional non-stick cookware. Ingredients slide right out of the pan with minimal oil and cleanup is a breeze! Enjoy peace of mind because the Ceratal® pan is made without added PFAS/PTFE. <br/><br/></p>",
+            "link_text": "DISCOVER COLLECTION",
+            "link_url": "shopify://collections/ceratal",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        },
+        "image_kBAJnz": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Collectionpage_Vitavit_Media.png",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "Good for you and the ingredients",
+            "title": "Vitavit® Premium",
+            "heading_tag": "h3",
+            "content": "<p>Designed, developed, and manufactured in Germany, the Vitavit® Premium has been a staple in kitchens around the world since 1953. The Vitavit® Premium reduces cooking time by up to 70% compared to a conventional saucepan. This results in energy savings of up to 50%. </p><p>Cooking with the Vitavit® Premium gives you time for what matters, protects the environment, saves you money, and preserves the best of your ingredients. </p>",
+            "link_text": "DISCOVER COLLECTION",
+            "link_url": "shopify://collections/vitavit",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        },
+        "image_9nXiJb": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Collectionpage_Vitaquick_Media.png",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "Good for you and the ingredients",
+            "title": "Vitaquick® Premium",
+            "heading_tag": "h3",
+            "content": "<p>The Fissler Vitaquick® Premium offers everything you need to get started in the world of healthy and tasty pressure cooking – “Made in Germany.”<br/><br/>This pressure cooker makes pressure cooking easy. Two cooking settings offer the flexibility you need for gentle and quick preparation. Essential features round off the Vitaquick® Premium. This saves time for things that are even more important than cooking.</p>",
+            "link_text": "DISCOVER COLLECTION",
+            "link_url": "shopify://collections/vitaquick-premium",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        },
+        "image_PVWJVN": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Collectionpage_Pure_Media_with_Text_1500x1500_c117c861-f382-48b3-a902-ee353bc39349.png",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "Pots for pure cooking pleasure",
+            "title": "Fissler Pure Collection",
+            "heading_tag": "h3",
+            "content": "<p>The Fissler Pure Collection offers cookware for pure cooking pleasure. It is designed for all aspiring amateur chefs and families who want the lasting quality of Fissler products “Made in Germany.” </p><p>The Pure Collection is made from up to 90% recycled 18/10 stainless steel and is a robust companion for everyday kitchen use.</p>",
+            "link_text": "DISCOVER COLLECTION",
+            "link_url": "shopify://collections/pure-collection",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        },
+        "image_FkLAiW": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Collectionpage_Phi_Media_with_Text_1500x1500_408b5788-6a52-4de4-a50b-4da8f78e2573.png",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "Design & Funktion in ihrer schönsten Form",
+            "title": "Phi Collection",
+            "heading_tag": "h3",
+            "content": "<p>Die Phi Collection wurde speziell für leidenschaftliche Köche entwickelt, die sowohl außergewöhnliches Design als auch erstklassige Funktionalität schätzen. </p><p>Ihr extravagantes, gleichzeitig minimalistisches Design setzt einen starken Kontrapunkt zum herkömmlichen Kochgeschirr. Mit ihren innovativen Funktionen ist diese Kollektion ideal für alle Köche, die ihre Kochergebnisse auf ein neues Level heben möchten.</p>",
+            "link_text": "KOLLEKTION ENTDECKEN",
+            "link_url": "shopify://collections/phi-collection",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        },
+        "image_9jr8eR": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Collectionpage_Adamant_Media.png",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "Das ideale Kochgeschirr für den Alltag",
+            "title": "Adamant®",
+            "heading_tag": "h3",
+            "content": "<p>Die Adamant® Pfannen und Töpfe sind mit einer PFOA-freien* Beschichtung aus Siliziumkarbid-Partikeln versehen, ideal zum Braten und Kochen empfindlicher Lebensmittel wie Eierspeisen oder Fisch. </p><p>Die besonders kratzfeste Oberfläche ist robust und langlebig, selbst bei Küchenhelfern aus Metall. Der starke Antihaft-Effekt erleichtert die Reinigung und macht das Kochen noch komfortabler.*<br/></p><p><em>*PFOA-frei, gemäß der EU-Verordnung Nr. 2019/1021</em></p>",
+            "link_text": "KOLLEKTION ENTDECKEN",
+            "link_url": "shopify://collections/adamant",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        },
+        "image_dCLiPt": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Collectionpage_Levital__Media.png",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "Die beste Antihaftbeschichtung",
+            "title": "Levital®+",
+            "heading_tag": "h3",
+            "content": "<p>Die Fissler Levital® Pfannen bieten einen besonders langanhaltenden Antihaft-Effekt \"Made in Germany\". Sie sind ideal für das tägliche Kochen geeignet sowie zum Braten von empfindlichen Zutaten, die leicht anhaften können wie Fisch, Omelette, Spiegeleier und Pfannkuchen.</p><p>Empfohlen von Alexander Herrmann. </p>",
+            "link_text": "DISCOVER COLLECTION",
+            "link_url": "shopify://collections/levital",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        },
+        "image_azDnkU": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Collectionpage_OPC_Guss_Media_with_Text_1500x1500_79b045fd-a405-4851-a729-2dc20aff535e.png",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "50 Jahre Profi-Qualität– wiedergeboren in Gusseisen",
+            "title": "Original-Profi Collection® Gusseisen",
+            "heading_tag": "h3",
+            "content": "<p>Unsere klassische und doch auffallend moderne Gusseisenkollektion vereint all das Wissen und die Erfahrung, die wir in fast 180 Jahren Herstellung von Edelstahlkochgeschirr gesammelt haben. </p><p>Designed in Idar-Oberstein, gemacht für leidenschaftliche Köche, welche die Vielfältigkeit und Langlebigkeit von hochwertigen Töpfen, Brätern und Pfannen aus Gusseisen schätzen. </p>",
+            "link_text": "KOLLEKTION ENTDECKEN",
+            "link_url": "shopify://collections/original-profi-collection-gusseisen",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        },
+        "image_n7nmkd": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Collectionpage_Moments_Media_with_Text_1500x1500_a0589c1a-e9ef-463b-8a44-8117c8284b3f.png",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "Eine farbenfrohe Harmonie aus Hitze und Aromen",
+            "title": "Moments Collection",
+            "heading_tag": "h3",
+            "content": "<p>Die robuste Gusseisenkollektion, bestehend aus Brätern und Pfannen, ist ideal für sowohl Anfänger als auch passionierte Köche, die ihrer Kreativität Ausdruck verleihen möchten. </p><p>Ob scharfes Anbraten oder langsames Schmoren – mit dieser Kollektion gelingen dir garantiert schmackhafte und saftige Gerichte, die begeistern.</p>",
+            "link_text": "KOLLEKTION ENTDECKEN",
+            "link_url": "shopify://collections/moments-collection",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        },
+        "image_rrUHfi": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Collectionpage_Media_d7dbae2a-01b8-4128-9462-d092b954ee81.png",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "Deine Messer für jeden Tag",
+            "title": "Fissler Essential®",
+            "heading_tag": "h3",
+            "content": "<p>Fissler Essential® bietet Messer für<br/>jeden Schnitt und Einsatz: vom Kochmesser über Brotmesser bis zum Santokumesser oder Hackbeil. </p><p>Jedes Messer dieser Kollektion ist aus recyceltem Edelstahl, besonders scharf und meistert jede Aufgabe mit Leichtigkeit und Präzision – egal ob saftiges Steak, knuspriges Brot, zarter Fisch oder feines Gemüse. </p>",
+            "link_text": "KOLLEKTION ENTDECKEN",
+            "link_url": "shopify://collections/fissler-essential-messer",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "image_Mfizdn",
+        "image_tUMbGV",
+        "image_E3jKfi",
+        "image_kBAJnz",
+        "image_9nXiJb",
+        "image_PVWJVN",
+        "image_FkLAiW",
+        "image_9jr8eR",
+        "image_dCLiPt",
+        "image_azDnkU",
+        "image_n7nmkd",
+        "image_rrUHfi"
+      ],
+      "custom_css": [],
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "large",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "faq_XiM6jA": {
+      "type": "faq",
+      "disabled": true,
+      "settings": {
+        "show_userlike": true,
+        "subheading": "FAQ",
+        "title": "Du hast Fragen zu unseren Kollektionen? Wir helfen dir gerne!",
+        "content": "<p>Hier findest du alle Antworten zu den meistgestellsten Fragen zu unseren Produkten.</p>",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    }
+  },
+  "order": [
+    "slideshow_BwYzkw",
+    "rich_text_J8HeNj",
+    "rich_text_WreP3f",
+    "main",
+    "media_with_text_kk6Fkw",
+    "faq_XiM6jA"
+  ]
+}

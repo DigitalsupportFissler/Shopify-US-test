@@ -1,0 +1,327 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "header",
+  "name": "Header group",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "message_t7zd6N": {
+          "type": "message",
+          "settings": {
+            "text": "Buy directly in the official online shop",
+            "url": "shopify://pages/kontakt"
+          }
+        },
+        "message": {
+          "type": "message",
+          "settings": {
+            "text": "Pay safely",
+            "url": "shopify://pages/zahlungs-und-versandbedingungen"
+          }
+        },
+        "message_XTe6YJ": {
+          "type": "message",
+          "settings": {
+            "text": "Free shipping on orders over $99.95 (Continental US Only)",
+            "url": "shopify://policies/terms-of-service"
+          }
+        },
+        "message_FJ9MFE": {
+          "type": "message",
+          "settings": {
+            "text": "Countless awards for design & quality",
+            "url": "shopify://pages/faq-onlineshop"
+          }
+        }
+      },
+      "block_order": [
+        "message_t7zd6N",
+        "message",
+        "message_XTe6YJ",
+        "message_FJ9MFE"
+      ],
+      "settings": {
+        "enable_sticky": true,
+        "autoplay": true,
+        "cycle_speed": 7,
+        "show_locale_selector": false,
+        "show_shop_locator": true,
+        "text_size": "text-sm",
+        "navigation_mode": "arrows",
+        "scrolling_speed": 10,
+        "background": "#1a1a1a",
+        "background_gradient": "",
+        "text_color": "#ffffff"
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "mega_menu_Uzm6Yi": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "collections",
+            "layout": "horizontal",
+            "submenu_style": "bold_heading",
+            "image_1": "shopify://shop_images/Kollektionen_Grid_Slideshow_OPC_2167x800_051f7415-d339-4b89-82a6-2299baedcd0b.png",
+            "image_heading_1": "Original-Profi Collection®",
+            "image_link_1": "shopify://collections/original-profi-collection",
+            "image_text_color_1": "#ffffff",
+            "image_2": "shopify://shop_images/Kollektionen_Grid_Slideshow_Phi_2167x800_4f2cb318-32c0-46f3-aff0-a3e587330cfd.png",
+            "image_heading_2": "Phi Collection",
+            "image_link_2": "shopify://collections/phi-collection-2",
+            "image_text_color_2": "#ffffff",
+            "image_3": "shopify://shop_images/Kollektionen_Grid_Slideshow_Ceratal_2167x800_cff3c0bb-81e7-46ee-8224-bc2a0c788b65.png",
+            "image_heading_3": "Ceratal® Collection",
+            "image_link_3": "shopify://collections/ceratal",
+            "image_text_color_3": "#ffffff",
+            "product": "",
+            "product_card_background": "",
+            "product_card_text_color": "",
+            "promo_content_layout": "grid",
+            "stretch_promo": false,
+            "drawer_link_image": "hide"
+          }
+        },
+        "mega_menu_d8DLBJ": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "Pressure Cookers",
+            "layout": "horizontal",
+            "submenu_style": "bold_heading",
+            "image_heading_1": "",
+            "image_link_1": "",
+            "image_text_color_1": "#ffffff",
+            "image_heading_2": "",
+            "image_link_2": "",
+            "image_text_color_2": "#ffffff",
+            "image_heading_3": "",
+            "image_link_3": "",
+            "image_text_color_3": "#ffffff",
+            "product": "",
+            "product_card_background": "",
+            "product_card_text_color": "",
+            "promo_content_layout": "grid",
+            "stretch_promo": false,
+            "drawer_link_image": "hide"
+          }
+        },
+        "mega_menu_nqbkJi": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "Saucepans and Pots",
+            "layout": "horizontal",
+            "submenu_style": "bold_heading",
+            "image_1": "shopify://shop_images/Adamant_Comfort_Pfanne_pm_v2.jpg",
+            "image_heading_1": "Adamant® Pfannen",
+            "image_link_1": "shopify://collections/adamant",
+            "image_text_color_1": "#ffffff",
+            "image_heading_2": "",
+            "image_link_2": "",
+            "image_text_color_2": "#ffffff",
+            "image_heading_3": "",
+            "image_link_3": "",
+            "image_text_color_3": "#ffffff",
+            "product": "",
+            "product_card_background": "",
+            "product_card_text_color": "",
+            "promo_content_layout": "grid",
+            "stretch_promo": false,
+            "drawer_link_image": "hide"
+          }
+        },
+        "mega_menu_kUJhng": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "Frying Pans and Woks",
+            "layout": "horizontal",
+            "submenu_style": "bold_heading",
+            "image_1": "shopify://shop_images/Categories_Ersatzteile-Toepfe_Teaser_1200x1200_2777463d-85cc-4519-a1f5-1e1c2e06bc3c.jpg",
+            "image_heading_1": "Original-Profi Collection®",
+            "image_link_1": "shopify://collections/original-profi-collection",
+            "image_text_color_1": "#ffffff",
+            "image_heading_2": "",
+            "image_link_2": "",
+            "image_text_color_2": "#ffffff",
+            "image_heading_3": "",
+            "image_link_3": "",
+            "image_text_color_3": "#ffffff",
+            "product": "",
+            "product_card_background": "",
+            "product_card_text_color": "",
+            "promo_content_layout": "grid",
+            "stretch_promo": false,
+            "drawer_link_image": "hide"
+          }
+        },
+        "mega_menu_MmjbyA": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "Utensils and Accessories",
+            "layout": "horizontal",
+            "submenu_style": "bold_heading",
+            "image_heading_1": "",
+            "image_link_1": "",
+            "image_text_color_1": "#ffffff",
+            "image_heading_2": "",
+            "image_link_2": "",
+            "image_text_color_2": "#ffffff",
+            "image_heading_3": "",
+            "image_link_3": "",
+            "image_text_color_3": "#ffffff",
+            "product": "",
+            "product_card_background": "",
+            "product_card_text_color": "",
+            "promo_content_layout": "grid",
+            "stretch_promo": false,
+            "drawer_link_image": "hide"
+          }
+        },
+        "mega_menu_zBexH4": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "Sale",
+            "layout": "horizontal",
+            "submenu_style": "bold_heading",
+            "image_heading_1": "",
+            "image_link_1": "",
+            "image_text_color_1": "#ffffff",
+            "image_heading_2": "",
+            "image_link_2": "",
+            "image_text_color_2": "#ffffff",
+            "image_heading_3": "",
+            "image_link_3": "",
+            "image_text_color_3": "#ffffff",
+            "product": "",
+            "product_card_background": "",
+            "product_card_text_color": "",
+            "promo_content_layout": "grid",
+            "stretch_promo": false,
+            "drawer_link_image": "hide"
+          }
+        },
+        "mega_menu_rCzcrV": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "Schnellkochtöpfe",
+            "layout": "horizontal",
+            "submenu_style": "bold_heading",
+            "image_1": "shopify://shop_images/Categories_Schnellkochtoepfe_Teaser_1200x1200_33743aa7-6ac1-4df9-9af3-fe4c2d5d3c55.jpg",
+            "image_heading_1": "Vitavit® Premium",
+            "image_link_1": "shopify://collections/vitavit",
+            "image_text_color_1": "#ffffff",
+            "image_heading_2": "",
+            "image_link_2": "",
+            "image_text_color_2": "#ffffff",
+            "image_heading_3": "",
+            "image_link_3": "",
+            "image_text_color_3": "#ffffff",
+            "product": "",
+            "product_card_background": "",
+            "product_card_text_color": "",
+            "promo_content_layout": "grid",
+            "stretch_promo": false,
+            "drawer_link_image": "hide"
+          }
+        },
+        "mega_menu_q6geg7": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "Cook with Fissler",
+            "layout": "horizontal",
+            "submenu_style": "bold_heading",
+            "image_1": "shopify://shop_images/Homepage_Header_Mega_Menu_OPC_Kuechenhelfer_400x456_09cda37f-0984-4a32-8e7f-3bc341b01a46.png",
+            "image_heading_1": "Original-Profi Collection® Küchenhelfer",
+            "image_link_1": "shopify://collections/original-profi-collection-kuechenhelfer",
+            "image_text_color_1": "#ffffff",
+            "image_2": "shopify://shop_images/Homepage_Header_Mega_Menu_Essential_Messer_400x456_7b23ec3f-c44e-40bf-9f9d-9b7285ecd044.png",
+            "image_heading_2": "Fissler Essential® Messer",
+            "image_link_2": "shopify://collections/fissler-essential-messer",
+            "image_text_color_2": "#ffffff",
+            "image_3": "shopify://shop_images/Homepage_Header_Mega_Menu_Essential_Kuechenhelfer_400x456_26ae0fd0-e31d-4a8c-ab38-76cf21c5b38a.png",
+            "image_heading_3": "Fissler Essential® Küchenhelfer",
+            "image_link_3": "shopify://collections/fissler-essential-kuechenhelfer",
+            "image_text_color_3": "#ffffff",
+            "product": "",
+            "product_card_background": "",
+            "product_card_text_color": "",
+            "promo_content_layout": "grid",
+            "stretch_promo": false,
+            "drawer_link_image": "hide"
+          }
+        },
+        "mega_menu_qwkiDT": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "Inspiration",
+            "layout": "horizontal",
+            "submenu_style": "bold_heading",
+            "image_1": "shopify://shop_images/Navigation_Image_ac815ab7-532c-4dfc-a0dc-a68719534457.png",
+            "image_heading_1": "Rezepte",
+            "image_link_1": "shopify://blogs/rezepte",
+            "image_text_color_1": "#ffffff",
+            "image_2": "shopify://shop_images/Homepage_Header_Mega_Menu_400x456_b9b219f8-8b24-44c9-82e9-e917b3863314.png",
+            "image_heading_2": "Alexander Herrmanns Tipp des Monats",
+            "image_link_2": "shopify://blogs/tipp-des-monats",
+            "image_text_color_2": "#ffffff",
+            "image_heading_3": "",
+            "image_link_3": "",
+            "image_text_color_3": "#ffffff",
+            "product": "",
+            "product_card_background": "",
+            "product_card_text_color": "",
+            "promo_content_layout": "grid",
+            "stretch_promo": false,
+            "drawer_link_image": "hide"
+          }
+        }
+      },
+      "block_order": [
+        "mega_menu_Uzm6Yi",
+        "mega_menu_d8DLBJ",
+        "mega_menu_nqbkJi",
+        "mega_menu_kUJhng",
+        "mega_menu_MmjbyA",
+        "mega_menu_zBexH4",
+        "mega_menu_rCzcrV",
+        "mega_menu_q6geg7",
+        "mega_menu_qwkiDT"
+      ],
+      "settings": {
+        "enable_sticky": true,
+        "hide_on_scroll": false,
+        "logo": "{{shop.brand.logo}}",
+        "logo_max_width": 120,
+        "logo_mobile_max_width": 100,
+        "menu": "main-menu",
+        "sidebar_menu": "",
+        "secondary_menu": "",
+        "menu_open_trigger": "click",
+        "opening_from": "bottom",
+        "layout": "logo_left_navigation_center",
+        "show_social_media": true,
+        "show_locale_selector": false,
+        "show_country_selector": false,
+        "show_country_flag": true,
+        "show_country_name": false,
+        "transparent_header_text_color": "#ffffff",
+        "reduce_padding": false,
+        "background_opacity": 0,
+        "background_blur_radius": 0
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}

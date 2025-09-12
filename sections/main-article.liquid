@@ -1,0 +1,838 @@
+{%- render 'section-spacing-collapsing' -%}
+
+{%- assign background_color = article.metafields.banner.background_color.value
+  | default: section.settings.banner_background
+-%}
+{%- assign text_color = article.metafields.banner.text_color.value | default: section.settings.banner_text_color -%}
+{%- assign article_image = section.settings.image | default: article.image -%}
+
+<style>
+    /* Only on the article page: make header navigation links black */
+
+    store-header[sticky][allow-transparency] .header__wrapper {
+    background-color: white !important;
+  }
+  .header__wrapper .wk-button .wk-icon svg path {
+    stroke: #000 !important;
+  }
+  .header__icon-list{
+    color: black
+  }
+
+  header,
+  .header__link-list a,
+  .header__link-list li,
+  .header__secondary-nav a,
+  .header__icon-list a {
+      color: #000 !important;
+    }
+    #shopify-section-{{ section.id }} .article-banner {
+      --article-banner-background: {%- if background_color != blank -%}{{ background_color.rgb }}{%- else -%}var(--text-color) / 0.05{%- endif -%};
+      --article-banner-badge-background: var(--text-color) / 0.12;
+
+      {% if text_color != blank %}
+        --text-color: {{ text_color.rgb }};
+      {% endif %}
+     }
+
+    #shopify-section-{{ section.id }} {
+      --article-max-width: {{ section.settings.content_width }};
+      --stats-color: {{ section.settings.stats_color }};
+      --article-banner-column-gap: var(--spacing-10);
+      --article-banner-grid: auto / auto;
+      --article-banner-before-height: 100%;
+      --article-banner-max-width: var(--container-max-width);
+      --article-banner-content-padding-block-start: {% if section.settings.allow_transparent_header %}var(--spacing-5){% else %}var(--spacing-10){% endif %};
+      --article-banner-content-padding-block-end: var(--spacing-10);
+      --article-banner-content-padding-inline: var(--container-gutter);
+      --article-banner-image-overlay: {% if section.settings.layout == 'image_text_overlay' %}{{ section.settings.overlay_color.rgb }} / {{ section.settings.overlay_opacity | divided_by: 100.0 }}{% else %}0 0 0 / 0{% endif %};
+
+      --article-banner-padding-block-start: var(--header-height);
+      margin-block-start: calc(-1 * var(--header-height) * var(--section-is-first));
+    }
+
+    {%- if article_image == blank -%}
+      #shopify-section-{{ section.id }} {
+        --article-banner-grid-area: auto;
+      }
+
+      @media screen and (min-width: 700px) {
+        #shopify-section-{{ section.id }} {
+          --article-banner-content-padding-block-start: {% if section.settings.allow_transparent_header %}var(--spacing-4){% else %}var(--spacing-12){% endif %};
+          --article-banner-content-padding-block-end: var(--spacing-12);
+        }
+      }
+    {%- endif -%}
+  /* Breadcrumb & Author container responsiveness */
+  .breadcrumb-author {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+    {%- if section.settings.is_recipe != true-%}
+      #shopify-section-{{ section.id }} .container {
+        margin-bottom: 10px !important;
+      }
+    {%- endif -%}
+    {%- if article_image != blank -%}
+      @media screen and (min-width: 1150px) {
+        #shopify-section-{{ section.id }} {
+          --article-banner-before-height: calc(100% - (var(--article-banner-image-offset) * min(100vw, var(--container-max-width))));
+          --article-banner-image-offset: 0.07;
+          --article-banner-grid: auto;
+
+          {% unless section.settings.allow_transparent_header %}
+            --article-banner-padding-block-start: var(--spacing-9);
+          {% endunless %}
+
+          --article-banner-grid-area: 1 / -1;
+
+          --article-banner-content-padding-inline: 0;
+
+          --article-banner-badge-background: 0 0 0 / 0 ;
+
+          --article-banner-max-width: 1440px;
+        }
+      }
+
+      @media screen and (min-width: 1400px) {
+        #shopify-section-{{ section.id }} {
+        }
+      }
+    {%- endif -%}
+
+    #shopify-section-{{ section.id }} .article-stats {
+      width: 70%;
+      margin-inline: auto;
+    }
+    #shopify-section-{{ section.id }} .article-stats .stat-value {
+      color: var(--stats-color) !important;
+    }
+    /* Bold weight for stat labels */
+    #shopify-section-{{ section.id }} .article-stats .stat-label {
+      font-weight: bold;
+    }
+
+    #shopify-section-{{ section.id }} .article-overview  {
+      width: 80%;
+      margin-inline: auto;
+    }
+
+
+    /* Unter 1000px Breite auf 100% */
+    @media screen and (max-width: 1000px) {
+      #shopify-section-{{ section.id }} .article-overview {
+        width: 100%;
+      }
+    }
+
+    /* Expand the section container to 1440px for the recipe columns */
+    #shopify-section-{{ section.id }} .recipe-container {
+      border-style: none !important;
+      padding-inline-start: 80px;
+      padding-inline-end: 80px;
+    }
+
+      /* Bei Bildschirmen kleiner als 1200px jeweils 10px Padding */
+    @media screen and (max-width: 1199px) {
+      #shopify-section-{{ section.id }} .recipe-container {
+        padding-inline-start: 10px !important;
+        padding-inline-end: 10px !important;
+      }
+    }
+
+    /* Two-column layout for recipe ingredients & instructions */
+
+    #shopify-section-{{ section.id }} .recipe-columns {
+      max-width: 1240px;
+      width: 100%;
+      margin: var(--spacing-10) auto;
+      display: grid;
+      /* Flexible two-column ratio using fractions */
+      grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+      gap: var(--spacing-10);
+      grid-auto-rows: auto;
+      align-items: start;
+    }
+    #shopify-section-{{ section.id }} .recipe-columns .ingredients,
+    #shopify-section-{{ section.id }} .recipe-columns .instructions {
+      width: 100%;
+    }
+
+    /* Container for instructions */
+    #shopify-section-{{ section.id }} .recipe-columns .instructions {
+      position: relative;
+      max-height: 650px;
+    }
+    #shopify-section-{{ section.id }} .recipe-columns .instructions .instructions-content {
+      position: relative;
+      max-height: 650px;
+      overflow-y: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+    /* Fade-out overlay at bottom of instruction container */
+    #shopify-section-{{ section.id }} .recipe-columns .instructions {
+      position: relative;
+    }
+    #shopify-section-{{ section.id }} .recipe-columns .instructions::after {
+      content: '';
+      position: absolute;
+      bottom: -60px;
+      left: 0;
+      width: 100%;
+      height: 100px;
+      pointer-events: none;
+      background: linear-gradient(transparent, #ffffff);
+      z-index: 10;
+    }
+
+    /* Prevent article content overflow and ensure responsive child elements */
+    #shopify-section-{{ section.id }} .article-content,
+    #shopify-section-{{ section.id }} .article-content * {
+      max-width: 100%;
+      box-sizing: border-box;
+      border-style: none;
+    }
+    /* Make images responsive */
+    #shopify-section-{{ section.id }} .article-content img {
+      width: 100%;
+      height: auto;
+    }
+    /* Collapse recipe columns into single column on mobile */
+    @media screen and (max-width: 750px) {
+      #shopify-section-{{ section.id }} .recipe-columns {
+        display: block;
+        margin: var(--spacing-4) auto;
+      }
+      #shopify-section-{{ section.id }} .recipe-columns .ingredients,
+      #shopify-section-{{ section.id }} .recipe-columns .instructions {
+        width: 100%;
+      }
+      #shopify-section-{{ section.id }} .recipe-columns .instructions {
+        max-height: none;
+        overflow: visible;
+        margin-top: 24px;
+      }
+      #shopify-section-{{ section.id }} .recipe-columns .instructions .instructions-content {
+        max-height: none;
+        overflow: visible;
+      }
+    }
+
+    /* Responsive custom recipe columns layout */
+    #shopify-section-{{ section.id }} .custom-article-layout .custom-recipe-columns {
+      /* Flexible two-column ratio using fractions */
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+      gap: var(--spacing-10, 40px);
+      width: 100%;
+      align-items: start;
+    }
+    #shopify-section-{{ section.id }} .custom-article-layout .custom-recipe-columns .ingredients-table {
+      width: 100%;
+      table-layout: auto;
+      border-collapse: collapse;
+    }
+    #shopify-section-{{ section.id }} .custom-article-layout .custom-recipe-columns .ingredients-table td {
+      white-space: normal;
+      word-break: break-word;
+    }
+    @media screen and (max-width: 640px) {
+      #shopify-section-{{ section.id }} .custom-article-layout .custom-recipe-columns {
+        display: block;
+      }
+      #shopify-section-{{ section.id }} .custom-article-layout .custom-recipe-columns .ingredients-table {
+        display: block;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+      }
+    }
+
+    /* Make the instructions heading sticky */
+    #shopify-section-{{ section.id }} .recipe-columns .instructions > h2 {
+      position: sticky;
+      top: 0;
+      background: #fff;
+      z-index: 1;
+    }
+
+    /* Remove all borders from the ingredients table rows and cells */
+    #shopify-section-{{ section.id }} .ingredients-table {
+      border-collapse: collapse;
+      margin-left: 15px;
+    }
+    /* Indent only the instructions content */
+    #shopify-section-{{ section.id }} .instructions-content {
+      margin-left: 15px;
+    }
+    /* Ensure last instruction step isn’t hidden under fade overlay */
+    #shopify-section-{{ section.id }} .recipe-columns .instructions .instructions-content > *:last-child {
+      margin-bottom: 100px;
+    }
+    #shopify-section-{{ section.id }} .ingredients-table tr,
+    #shopify-section-{{ section.id }} .ingredients-table td {
+      border: none !important;
+    }
+    /* Ingredients table cell padding override */
+    #shopify-section-{{ section.id }} .ingredients-table td {
+      padding: 5px !important;
+    }
+
+
+  /* Breadcrumb & Author container responsiveness */
+  .breadcrumb-author {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  @media screen and (max-width: 640px) {
+    .breadcrumb-author {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .breadcrumb-author > *:not(:first-child) {
+      margin-top: var(--spacing-4);
+    }
+  }
+
+  /* Article content responsive stack and gap */
+  .article-content {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-8);
+    width: 100%;
+  }
+
+    /* Zubereitung carousel: 1 step on mobile, 2 on desktop */
+    @media screen and (max-width: 1000px) {
+      #shopify-section-{{ section.id }} .instructions-carousel .scroll-area {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+      }
+      #shopify-section-{{ section.id }} .instructions-carousel .text-with-icons__item {
+        flex: 0 0 100%;
+        max-width: 100%;
+      }
+    }
+    @media screen and (min-width: 555px) {
+      #shopify-section-{{ section.id }} .instructions-carousel .scroll-area {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+      }
+      #shopify-section-{{ section.id }} .instructions-carousel .text-with-icons__item {
+        flex: 0 0 calc(50%);
+        max-width: calc(50%);
+      }
+    }
+
+
+  {% comment %} /* Limit featured-articles carousel to 3 items and enforce horizontal scroll */
+  @media screen and (min-width: 640px) {
+    #shopify-section-{{ section.id }} .blog-post-list__posts > * {
+      flex: 0 0 calc(100% / 3);
+      max-width: calc(100% / 3);
+    }
+    #shopify-section-{{ section.id }} .scroll-area {
+      display: flex;
+      flex-wrap: nowrap;
+      overflow-x: auto;
+    }
+  } {% endcomment %}
+  /* Stack article-stats vertically on narrow screens */
+  @media screen and (max-width: 555px) {
+    #shopify-section-{{ section.id }} .article-stats {
+      flex-direction: column;
+      align-items: center;
+    }
+    #shopify-section-{{ section.id }} .article-stats > * + * {
+      margin-top: var(--spacing-8);
+    }
+  }
+</style>
+
+{%- comment -%} Breadcrumb navigation above the banner {%- endcomment -%}
+
+<div class="article" allow-transparent-header>
+  {%- if section.settings.show_header_image -%}
+    {%- render 'article-banner',
+      show_date: section.settings.show_date,
+      show_author: section.settings.show_author,
+      show_comments_count: section.settings.show_comments_count,
+      layout: section.settings.layout,
+      article_image: article_image
+    -%}
+  {%- endif -%}
+
+  <div class="container{% if section.settings.is_recipe %} recipe-container{% endif %}">
+    <div class="article-content">
+      <div class="breadcrumb-author">
+        {%- render 'breadcrumb' -%}
+        {%- if section.settings.show_author -%}
+          <p class="breadcrumb">Autor: {{ article.metafields.custom.recipe_auther }}</p>
+        {%- endif -%}
+      </div>
+      {%- if section.settings.is_recipe -%}
+        <div class="article-overview v-stack justify-between mb-10">
+      {%- else -%}
+        <div class="v-stack justify-between mb-10">
+      {%- endif -%}
+      {% comment %}
+        {%- if article.tags.size > 0 -%}
+          <p class="blog-tag text-subdued">{{ article.tags.first }}</p>
+        {%- endif -%}
+      {% endcomment %}
+      {%- if section.settings.show_share_buttons and section.settings.is_recipe == false -%}
+        <div class="share-buttons gap-3 mt-8">
+          {%- assign share_label = 'general.social.share' | t -%}
+          {%- assign share_url = shop.url | append: article.url -%}
+
+          <ul class="h-stack gap-3" role="list">
+            <li>
+              <button
+                class="mt-2 bold"
+                is="share-button"
+                share-url="{{ share_url | escape }}"
+                share-title="{{ article.title | escape }}"
+              >
+                {%- render 'icon' with 'copy', width: 16, height: 16 -%}
+              </button>
+            </li>
+            <li>
+              <a
+                href="{% render 'share-link', host: 'whatsapp', title: article.title, url: article.url %}"
+                class="share-buttons__item"
+                aria-label="{{ 'general.social.share_on' | t: social_media: 'whatsapp' }}"
+              >
+                {%- render 'icon' with 'whatsapp', width: 24, height: 24 -%}
+              </a>
+            </li>
+            <li>
+              <a
+                href="{% render 'share-link', host: 'email', title: article.title, url: article.url %}"
+                class="share-buttons__item"
+                aria-label="{{ 'general.social.share_email' | t }}"
+              >
+                {%- render 'icon' with 'email' -%}
+              </a>
+            </li>
+          </ul>
+        </div>
+        <script>
+          document.querySelectorAll('.share-buttons button[is="share-button"]').forEach(function (btn) {
+            btn.addEventListener('click', function (event) {
+              event.preventDefault();
+              var url = btn.getAttribute('share-url');
+              if (navigator.clipboard && url) {
+                navigator.clipboard.writeText(decodeURIComponent(url)).then(function () {
+                  btn.textContent = 'Kopiert!';
+                  btn.classList.remove('mt-2');
+                });
+              } else if (url) {
+                // Fallback for older browsers
+                var textarea = document.createElement('textarea');
+                textarea.value = decodeURIComponent(url);
+                document.body.appendChild(textarea);
+                textarea.select();
+                document.execCommand('copy');
+                document.body.removeChild(textarea);
+                btn.textContent = 'Kopiert';
+                btn.classList.remove('mt-2');
+              }
+            });
+          });
+        </script>
+      {%- endif -%}
+      {%- capture alignment_class -%}
+          {%- case section.settings.content_alignment -%}
+            {%- when 'center' -%}text-center{%- when 'start' -%}text-start{%- else -%}text-end{%- endcase -%}
+        {%- endcapture -%}
+      <h1 class="text-3xl sm:text-4xl font-bold h2 mt-8 {{ alignment_class }}">{{ article.title }}</h1>
+      <div class="prose mt-8 {{ alignment_class }}">
+        {{ article.content }}
+      </div>
+      {%- if section.settings.show_share_buttons and section.settings.is_recipe -%}
+        <div class="share-buttons gap-3 mt-8">
+          {%- assign share_label = 'general.social.share' | t -%}
+          {%- assign share_url = shop.url | append: article.url -%}
+
+          <ul class="h-stack gap-3" role="list">
+            <li>
+              <button
+                class="mt-2 bold"
+                is="share-button"
+                share-url="{{ share_url | escape }}"
+                share-title="{{ article.title | escape }}"
+                style="padding: 5px"
+              >
+                {%- render 'icon' with 'copy', width: 16, height: 16 -%}
+              </button>
+            </li>
+            <li>
+              <a
+                href="{% render 'share-link', host: 'whatsapp', title: article.title, url: article.url %}"
+                class="share-buttons__item"
+                aria-label="{{ 'general.social.share_on' | t: social_media: 'whatsapp' }}"
+              >
+                {%- render 'icon' with 'whatsapp', width: 24, height: 24 -%}
+              </a>
+            </li>
+            <li>
+              <a
+                href="{% render 'share-link', host: 'email', title: article.title, url: article.url %}"
+                class="share-buttons__item"
+                aria-label="{{ 'general.social.share_email' | t }}"
+              >
+                {%- render 'icon' with 'email' -%}
+              </a>
+            </li>
+          </ul>
+        </div>
+        <script>
+          document.querySelectorAll('.share-buttons button[is="share-button"]').forEach(function (btn) {
+            btn.addEventListener('click', function (event) {
+              event.preventDefault();
+              var url = btn.getAttribute('share-url');
+              if (navigator.clipboard && url) {
+                navigator.clipboard.writeText(decodeURIComponent(url)).then(function () {
+                  btn.textContent = 'Kopiert!';
+                  btn.classList.remove('mt-2');
+                });
+              } else if (url) {
+                // Fallback for older browsers
+                var textarea = document.createElement('textarea');
+                textarea.value = decodeURIComponent(url);
+                document.body.appendChild(textarea);
+                textarea.select();
+                document.execCommand('copy');
+                document.body.removeChild(textarea);
+                btn.textContent = 'Kopiert';
+                btn.classList.remove('mt-2');
+              }
+            });
+          });
+        </script>
+      {%- endif -%}
+    </div>
+
+    {%- assign stats_count = 0 -%}
+    {%- if article.metafields.custom.total_time != blank -%}
+      {%- assign stats_count = stats_count | plus: 1 -%}
+    {%- endif -%}
+    {%- if article.metafields.custom.cook_time != blank -%}
+      {%- assign stats_count = stats_count | plus: 1 -%}
+    {%- endif -%}
+    {%- if article.metafields.custom.prep_time != blank -%}
+      {%- assign stats_count = stats_count | plus: 1 -%}
+    {%- endif -%}
+
+    {%- comment -%}
+      Wähle justify-Klasse:
+        • 1 Item → center
+        • 2 Items → center + Lücke dazwischen
+        • 3 Items → space-between
+    {%- endcomment -%}
+    {%- capture justify_class -%}
+        {% if stats_count == 1 %}
+          justify-center
+        {% elsif stats_count == 2 %}
+          justify-center gap-128
+        {% else %}
+          justify-between
+        {% endif %}
+      {%- endcapture -%}
+    {%- if article.metafields.custom.total_time != blank
+      or article.metafields.custom.cook_time != blank
+      or article.metafields.custom.prep_time != blank
+    -%}
+      <div class="article-stats h-stack {{ justify_class }} mt-20 mb-10">
+        {%- if article.metafields.custom.total_time != blank -%}
+          <div class="text-center">
+            <p class="text-xxl stat-value">{{ article.metafields.custom.total_time }}</p>
+            <p class="stat-label mt-4 font-bold">{{ 'blog.post.total_time' | t }}</p>
+          </div>
+        {%- endif -%}
+
+        {%- if article.metafields.custom.cook_time != blank -%}
+          <div class="text-center">
+            <p class="text-xxl font-bold stat-value">{{ article.metafields.custom.cook_time }}</p>
+            <p class="stat-label mt-4 font-bold">{{ 'blog.post.cook_time' | t }}</p>
+          </div>
+        {%- endif -%}
+
+        {%- if article.metafields.custom.prep_time != blank -%}
+          <div class="text-center">
+            <p class="text-xxl font-bold stat-value">{{ article.metafields.custom.prep_time }}</p>
+            <p class="stat-label mt-4 font-bold">{{ 'blog.post.prep_time' | t }}</p>
+          </div>
+        {%- endif -%}
+      </div>
+    {%- endif -%}
+    {%- if article.metafields.custom.ingredients != blank -%}
+      <div class="recipe-columns mt-20">
+        <div class="ingredients">
+          <h2 class="h2">{{ 'blog.post.ingredients' | t }}</h2>
+          <div class="text-with-icon link-faded mt-4">
+            {%- render 'icon' with 'cock-dish' -%}
+            <span class="text-sm">{{ article.metafields.custom.yield }}</span>
+          </div>
+          <table class="ingredients-table mt-4 w-full">
+            <tbody>
+              {%- for item in article.metafields.custom.ingredients.value -%}
+                {%- if item contains 'sub-heading ' -%}
+                  <tr>
+                    <td colspan="2" class="pt-6 pb-2">
+                      <h3 class="text-xl font-semibold">{{ item | remove: 'sub-heading ' }}</h3>
+                    </td>
+                  </tr>
+                {%- else -%}
+                  {%- assign parts = item | split: '||' -%}
+                  {%- if parts.size > 1 -%}
+                    {%- assign col1 = parts[0] | strip -%}
+                    {%- assign col2 = parts[1] | strip -%}
+                  {%- else -%}
+                    {%- assign col1 = '' -%}
+                    {%- assign col2 = item | strip -%}
+                  {%- endif -%}
+                  <tr>
+                    <td class="pr-4 font-semibold">{{ col1 }}</td>
+                    <td>{{ col2 }}</td>
+                  </tr>
+                {%- endif -%}
+              {%- endfor -%}
+            </tbody>
+          </table>
+        </div>
+        <div class="instructions">
+          {%- if article.metafields.custom.instructions != blank -%}
+            <h2 class="h2">{{ 'blog.post.instructions' | t }}</h2>
+            {%- assign steps = article.metafields.custom.instructions.value -%}
+            {%- assign total = steps | size -%}
+
+            <!-- Mobile: vertical scroll -->
+            <div class="instructions-content  ">
+              {%- for step in steps -%}
+                {% comment %} <h3 class="text-xl font-semibold mt-14">Schritt {{ forloop.index }}/{{ total }}</h3> {% endcomment %}
+                <p class="mt-8 mb-6">{{ step }}</p>
+              {%- endfor -%}
+            </div>
+
+            {% comment %}
+              <!-- Desktop (md+): horizontal carousel -->
+              <div class="instructions-carousel md:hidden is-scrollable mt-10">
+                <scroll-carousel
+                  id="steps-carousel-{{ section.id }}"
+                  class="scroll-steps scroll-area h-stack"
+                  style="align-items: self-start;"
+                  role="region"
+                >
+                  {%- for step in steps -%}
+                    <div
+                      class="text-with-icons__item snap-center"
+                      role="group"
+                      aria-label="{{ 'general.accessibility.item_nth_of_count' | t: index: forloop.index, count: total }}"
+                    >
+                      {% comment %} <h3 class="text-xl font-semibold mb-2">Schritt {{ forloop.index }}/{{ total }}</h3> {% endcomment %}
+                      <p>{{ step }}</p>
+                    </div>
+                  {%- endfor -%}
+                </scroll-carousel>
+                {%- render 'scrollbar', observes: 'steps-carousel-' | append: section.id, default_progress: 1/2, show_buttons: true -%}
+              </div>
+            {% endcomment %}
+          {%- endif -%}
+        </div>
+      </div>
+    {%- endif -%}
+  </div>
+
+  {%- for block in section.blocks -%}
+    {%- case block.type -%}
+      {%- when 'navigation' -%}
+        {%- render 'article-navigation',
+          show_date: section.settings.show_date,
+          show_author: section.settings.show_author,
+          show_comments_count: section.settings.show_comments_count,
+          block_attributes: block.shopify_attributes
+        -%}
+
+      {%- when 'comments' -%}
+        {%- render 'article-comments',
+          show_gravatar: block.settings.show_gravatar,
+          comments_pagination: block.settings.comments_per_page,
+          block_attributes: block.shopify_attributes
+        -%}
+    {%- endcase -%}
+  {%- endfor -%}
+</div>
+
+{% schema %}
+{
+  "name": "Blog post",
+  "class": "shopify-section--main-article",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Banner"
+    },
+    {
+      "type": "select",
+      "id": "layout",
+      "label": "Layout",
+      "options": [
+        {
+          "label": "Image with text overlay",
+          "value": "image_text_overlay"
+        }
+      ],
+      "default": "image_text_overlay"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image",
+      "info": "If none is set, blog post image is used."
+    },
+    {
+      "type": "checkbox",
+      "id": "show_author",
+      "label": "Show author",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_date",
+      "label": "Show date",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_comments_count",
+      "label": "Show comments count",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_share_buttons",
+      "label": "Show share buttons",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_header_image",
+      "label": "Show header image",
+      "default": true
+    },
+    {
+      "type": "color",
+      "id": "banner_background",
+      "label": "Background"
+    },
+    {
+      "type": "color",
+      "id": "banner_text_color",
+      "label": "Text"
+    },
+    {
+      "type": "color",
+      "id": "overlay_color",
+      "label": "Overlay",
+      "default": "#000000"
+    },
+    {
+      "type": "range",
+      "id": "overlay_opacity",
+      "label": "Overlay opacity",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "%",
+      "default": 0
+    },
+    {
+      "type": "header",
+      "content": "Body"
+    },
+    {
+      "type": "select",
+      "id": "content_width",
+      "label": "Content width",
+      "options": [
+        {
+          "label": "Small",
+          "value": "750px"
+        },
+        {
+          "label": "Medium",
+          "value": "950px"
+        },
+        {
+          "label": "Large",
+          "value": "1150px"
+        }
+      ],
+      "default": "750px"
+    },
+    {
+      "type": "color",
+      "id": "stats_color",
+      "label": "Stats color",
+      "default": "#556132"
+    },
+    {
+      "type": "checkbox",
+      "id": "is_recipe",
+      "label": "This article is a recipe",
+      "default": false
+    },
+    {
+      "type": "select",
+      "id": "content_alignment",
+      "label": "Content alignment",
+      "options": [
+        { "label": "Left", "value": "start" },
+        { "label": "Center", "value": "center" },
+        { "label": "Right", "value": "end" }
+      ],
+      "default": "start"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "navigation",
+      "name": "Prev/next blog posts",
+      "limit": 1
+    },
+    {
+      "type": "comments",
+      "name": "Comments",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "paragraph",
+          "content": "Configure your blog to allow comments. [Learn more](https://help.shopify.com/en/manual/online-store/blogs/managing-comments#allow-or-disable-comments-on-a-blog)"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_gravatar",
+          "label": "Show comments gravatar",
+          "default": true
+        },
+        {
+          "type": "range",
+          "id": "comments_per_page",
+          "label": "Comments per page",
+          "min": 5,
+          "max": 50,
+          "step": 5,
+          "default": 5
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

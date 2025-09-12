@@ -1,0 +1,480 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "navigation": {
+          "type": "navigation",
+          "disabled": true,
+          "settings": {}
+        },
+        "comments": {
+          "type": "comments",
+          "disabled": true,
+          "settings": {
+            "show_gravatar": true,
+            "comments_per_page": 5
+          }
+        }
+      },
+      "block_order": [
+        "navigation",
+        "comments"
+      ],
+      "settings": {
+        "layout": "image_text_overlay",
+        "image": "{{ article.image }}",
+        "show_author": true,
+        "show_date": true,
+        "show_comments_count": true,
+        "show_share_buttons": true,
+        "show_header_image": true,
+        "banner_background": "",
+        "banner_text_color": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "content_width": "750px",
+        "stats_color": "#556132",
+        "is_recipe": false,
+        "content_alignment": "start"
+      }
+    },
+    "rich_text_TYgkq8": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_kB9NtG": {
+          "type": "heading",
+          "settings": {
+            "text": "Wie viel Gramm Spargel pro Person?",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_pghpbA": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Ist Spargel der alleinige Star des Gerichts, wird als Faustregel pro Person mit etwa 500 Gramm gerechnet. Fungiert er hingegen als Vorspeise oder ergänzende Beilage zu Fleisch oder Fisch, genügen etwa 250 Gramm pro Person.</p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_kB9NtG",
+        "richtext_pghpbA"
+      ],
+      "settings": {
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "rich_text_cQDiVb": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_FB7PRx": {
+          "type": "heading",
+          "settings": {
+            "text": "Weißen und grünen Spargel schälen – Schritt für Schritt",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_TYCMcy": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Um den vollen Geschmack auskosten zu können, muss weißer Spargel geschält werden. Gerade bei weißem Spargel ist es notwendig, die faserige, harte und bittere Schale gründlich zu entfernen. Mit den folgenden Schritten geht das Schälen ganz leicht von der Hand:</p><p></p><ul><li>Zuerst wird der Spargel gewaschen und trocken getupft. So werden die Spitzen von eventuellen Sandresten befreit.</li><li>Spargel sollte immer erst unmittelbar vor der Zubereitung geschält werden.</li><li>Beim weißen Spargel wird der Sparschäler etwa einen Zentimeter unterhalb des Kopfes angesetzt und mit leichtem Druck an der Stange bis zur Schnittkante entlanggeführt.</li><li>Weil die Schale im unteren Drittel meist härter und holziger ist als unterhalb des Kopfes, kann hier der Druck auf den Schäler etwas erhöht werden.</li><li>Beim Schälen darauf achten, dass die empfindlichen Stangen in der Hand nicht brechen und rundherum von der Schale befreit werden.</li><li>Schließlich wird das untere, trockene Stangenende etwa zwei Zentimeter breit abgeschnitten.</li></ul><p></p><p>Die Schale des Grünspargels ist weniger faserreich und zarter. Deshalb kann sie grundsätzlich mitgegessen werden. Hier kann bei Bedarf das untere, weiß verfärbte Drittel der Stange geschält werden.</p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_FB7PRx",
+        "richtext_TYCMcy"
+      ],
+      "settings": {
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "media_with_text_a7jfFy": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_BENMPX": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Ratgeber_Produktwissen_MEdia_with_Text_XXX___1500x1500_2.png",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "text_position_mobil": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Von Kopf bis Fuß – Spargelschale weiterverwerten",
+            "heading_tag": "h2",
+            "content": "<p>Nicht nur die geschälten Stangen liefern kulinarischen Genuss. Auch die Überreste an Schale sowie das untere abgeschnittene Ende können in der Küche wunderbar weiterverwendet werden. Voraussetzung hierfür ist allerdings Spargel in Bio-Qualität. Ausgekocht bilden die Überreste des Schälens eine aromatische Basis für Spargelsuppe, -soße oder einen Sud. In dem Sud können später die Spargelstangen gegart werden. Das kitzelt noch mehr Geschmack aus dem Gemüse.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "image_BENMPX"
+      ],
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "rich_text_tQdYzf": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_biyP3A": {
+          "type": "heading",
+          "settings": {
+            "text": "Spargel kochen",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_QhCL4V": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Gekochter Spargel ist der Klassiker. Doch was gibt es beim Kochen zu beachten?</p><p></p><ul><li>Nachdem die Spargelstangen geschält sind, kommen sie zum Garen in den Topf.</li><li>Hierbei wird so wenig Wasser wie möglich verwendet. Werden die Stangen liegend gegart, sollten sie am besten nur gerade so vom Wasser bedeckt sein. Die geringste Wassermenge wird hingegen beim aufrechten Kochen in einem speziellen Spargeltopf benötigt.</li><li>Für ein aromatisches Ergebnis wird dem Kochwasser nicht nur Salz hinzugegeben. Eine Prise Zucker sorgt dafür, dass eventuell vorhandene Bitternoten abgemildert werden. Ein Löffel Butter rundet den Geschmack zusätzlich ab.</li><li>Bei Bedarf können die einzelnen Spargelstangen vorm Kochen portionsweise gebündelt werden. So fällt das Herausnehmen aus dem Topf leichter. Am schonendsten für das empfindliche Gemüse sind Mullbinden. Geschmacklich ändert das Bündeln jedoch nichts.</li></ul>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_biyP3A",
+        "richtext_QhCL4V"
+      ],
+      "settings": {
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "media_with_text_hKpfWf": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_7xfHWX": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Ratgeber_Produktwissen_MEdia_with_Text_XXX___1500x1500_3.png",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "text_position_mobil": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Die richtige Kochzeit für weißen und grünen Spargel",
+            "heading_tag": "h2",
+            "content": "<p>Je nach Dicke benötigt weißer Spargel eine Kochzeit von 15 bis 20 Minuten. Grünspargel ist schneller gar. Für ihn müssen nur 10 bis 15 Minuten einkalkuliert werden.<br/><br/>Um zu überprüfen, ob der Spargel schließlich fertig ist, gibt es zwei Indikatoren. Er ist gar, wenn die Stangen sich entweder beim Herausnehmen aus dem Wasser biegen oder wenn man mit einem Messer leicht ins untere Drittel der Stange stechen kann.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "image_7xfHWX"
+      ],
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "rich_text_KT6QkK": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_EQfWDm": {
+          "type": "heading",
+          "settings": {
+            "text": "Tipp: So bleibt die grüne oder weiße Farbe erhalten",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_ccdFNj": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Das Auge isst natürlich mit und freut sich über ein leuchtendes Weiß oder Grün auf dem Teller. Ein Spritzer Zitronensaft im Kochwasser sorgt dafür, dass das strahlende Weiß des Bleichspargels erhalten bleibt. Bei grünem Spargel hilft es, die Stangen nach dem Kochen in Eiswasser abzuschrecken.</p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_EQfWDm",
+        "richtext_ccdFNj"
+      ],
+      "settings": {
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "rich_text_PVnL8J": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_hxXYJ6": {
+          "type": "heading",
+          "settings": {
+            "text": "Spargel braten",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_WrAAwz": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Spargel kann nicht nur gekocht werden. Auch in der Pfanne entstehen leckere Gerichte, weil beim Braten kräftige Aromen entstehen. Obwohl meist eher grüner Spargel angebraten wird, eignet sich auch weißer Spargel gut für diese Art der Zubereitung. Bei ihm entstehen durch den enthaltenen Zucker Karamellaromen.<br/><br/>Einfach den klein geschnittenen Spargel oder ganze Stangen mit etwas Öl in eine versiegelte Pfanne geben. Bei mittlerer Hitze benötigt der klein geschnittene Spargel etwa sechs bis acht Minuten, bei ganzen Stangen erhöht sich die Zeit auf 10 bis 12 Minuten. Während des Bratens mehrmals wenden. Gegen Ende bei Bedarf in Butter schwenken und anschließend würzen.</p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_hxXYJ6",
+        "richtext_WrAAwz"
+      ],
+      "settings": {
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "rich_text_BfcyTr": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_8TRQ9D": {
+          "type": "heading",
+          "settings": {
+            "text": "Spargel grillen",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_cpqKF9": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Passend zur Spargelzeit beginnt langsam die Grillsaison. Da bietet es sich perfekt an, auch Spargel auf den Rost zu legen. Zur Vorbereitung werden die grünen oder weißen, geschälten Stangen mit etwas Öl bestrichen sowie mit Salz und Pfeffer gewürzt.<br/><br/>Der weiße Spargel wird vor dem Grillen im besten Fall blanchiert. So verkürzt sich seine Garzeit auf dem Grill. Denn kommt er roh auf den Rost, benötigt er etwa eine halbe Stunde zum Garen. Grünspargel ist hingegen schneller fertig und schon nach 10 bis 12 Minuten bereit zum Verzehr.<br/><br/>Ein zusätzlicher Tipp: Damit die schlanken Stangen nicht durch den Rost rutschen, empfiehlt es sich, entweder mehrere Stangen mit Spießen zu verbinden oder eine grillfeste Schale zu verwenden.</p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8TRQ9D",
+        "richtext_cpqKF9"
+      ],
+      "settings": {
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "rich_text_4PrgEa": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_TX79gy": {
+          "type": "heading",
+          "settings": {
+            "text": "Spargel dämpfen",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_VHQHPr": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Dämpfen ist eine besonders schonende Art Spargel zuzubereiten. Durch das Garen im Wasserdampf – statt im Wasser liegend – bleiben wichtige Aromen sowie Nährstoffe erhalten. Essenziell hierbei ist, dass der Deckel die Garzeit über verschlossen bleibt, um den Dampf im Topf zu halten. Nach etwa einer halben Stunde ist der Spargel gar. Für diese Zubereitungsmethode eignet sich entweder ein Topf mit Dämpfeinsatz oder ein Spargeltopf.</p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_TX79gy",
+        "richtext_VHQHPr"
+      ],
+      "settings": {
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "rich_text_8gwfgm": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_xW6yma": {
+          "type": "heading",
+          "settings": {
+            "text": "Spargel aus dem Backofen",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_nr7EHc": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Auch die Zubereitung im Backofen ist hervorragend geeignet – gerade für größere Portionen. Bei dieser Garmethode findet der Spargel in einem tiefen Backblech seinen Platz. Dann werden wie beim Kochen im Topf Wasser, Salz, Zucker sowie Butter und ein Spritzer Zitronensaft hinzugegeben. Schließlich wird das Blech abgedeckt. Auf diese Weise ist das Frühlingsgemüse bei 200 Grad nach etwa 40 Minuten gar.<br/><br/>Bild 1: ©Lana_M/istock<br/>Bild 2: ©AnjelaGr/istock</p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_xW6yma",
+        "richtext_nr7EHc"
+      ],
+      "settings": {
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "xl"
+      }
+    },
+    "blog_posts_qegQFN": {
+      "type": "blog-posts",
+      "blocks": {
+        "blog_FjqWUm": {
+          "type": "blog",
+          "settings": {
+            "blog": "news",
+            "posts_count": 3,
+            "stack_items": false
+          }
+        }
+      },
+      "block_order": [
+        "blog_FjqWUm"
+      ],
+      "settings": {
+        "show_excerpt": true,
+        "show_date": true,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": true,
+        "show_overall_time": false,
+        "subheading": "",
+        "title": "Weitere Kochtipps entdecken",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto",
+        "blog_handle": "kochtipps",
+        "posts_count": 4
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_TYgkq8",
+    "rich_text_cQDiVb",
+    "media_with_text_a7jfFy",
+    "rich_text_tQdYzf",
+    "media_with_text_hKpfWf",
+    "rich_text_KT6QkK",
+    "rich_text_PVnL8J",
+    "rich_text_BfcyTr",
+    "rich_text_4PrgEa",
+    "rich_text_8gwfgm",
+    "blog_posts_qegQFN"
+  ]
+}

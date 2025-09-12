@@ -1,0 +1,645 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "revealed_image_on_scroll_Xq3cNY": {
+      "type": "revealed-image-on-scroll",
+      "settings": {
+        "image": "shopify://shop_images/Rezept_FIssler_FrenchToastPizza-06_2167x1200_5e3adb61-c386-4d51-8c30-45435b2cce1f.png",
+        "mobile_image": "shopify://shop_images/Rezept_241202_ZuckerJagdwurst_Weihnachtsente-Fissler-01_2167x1200_b7797a48-2f24-4f6a-ba7c-a8e90709d5aa.png",
+        "subheading": "Subheading Test",
+        "title": "Reveal text on scroll",
+        "background": "",
+        "text_color_inside": "#ffffff",
+        "text_color_outside": "#000000"
+      }
+    },
+    "rich_text_9XcPLi": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_9fUrQG": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading",
+            "subheading_tag": "h3"
+          }
+        },
+        "heading_innxkM": {
+          "type": "heading",
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_jEk67j": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_9fUrQG",
+        "heading_innxkM",
+        "richtext_jEk67j"
+      ],
+      "settings": {
+        "show_section_id": false,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "scrolling_text_BBPgwB": {
+      "type": "scrolling-text",
+      "settings": {
+        "text": "AAA",
+        "text_size": "h1",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 3,
+        "background": "rgba(0,0,0,0)",
+        "background_gradient": "",
+        "text_color": "#000000",
+        "text_gradient": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "shop_the_look_cAwCB4": {
+      "type": "shop-the-look",
+      "settings": {
+        "stack_mobile": true,
+        "button_text": "",
+        "button_url": "",
+        "button_background": "",
+        "button_text_color": "",
+        "content_alignment": "start",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": "",
+        "product_card_mobile_background": "",
+        "product_card_mobile_text_color": "",
+        "background_dots": "#ffffff",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "specification_table_RjeW7M": {
+      "type": "specification-table",
+      "blocks": {
+        "row_m94qCD": {
+          "type": "row",
+          "settings": {
+            "heading": "Heading 1 Heading 1 Heading 1 Heading 1 Heading 1 Heading 1 Heading 1 Heading 1 Heading 1",
+            "value": "<p>Dennis DennisDennis DennisDennisDennis DennisDennisDennisDennis  Dennis  Dennis  Dennis  Dennis  Dennis  Dennis  Dennis  </p>"
+          }
+        },
+        "row_QAJ4aD": {
+          "type": "row",
+          "settings": {
+            "heading": "Heading 2",
+            "value": "<p>Finn</p>"
+          }
+        },
+        "row_WJD96F": {
+          "type": "row",
+          "settings": {
+            "heading": "Heading 3",
+            "value": "<p>Kevin</p>"
+          }
+        },
+        "row_YGjnna": {
+          "type": "row",
+          "settings": {
+            "heading": "Heading",
+            "value": "<p>Value</p>"
+          }
+        },
+        "row_zVNj8W": {
+          "type": "row",
+          "settings": {
+            "heading": "Heading",
+            "value": "<p>Value</p>"
+          }
+        }
+      },
+      "block_order": [
+        "row_m94qCD",
+        "row_QAJ4aD",
+        "row_WJD96F",
+        "row_YGjnna",
+        "row_zVNj8W"
+      ],
+      "settings": {
+        "subheading": "Learn more",
+        "title": "Product specification",
+        "content": "<p>Showcase specifications about a product to help your customers making an informed decision about their purchase.</p><p></p><p>Text kann man lest und center machen, aber nicht right. Das it komisch und sollten wir eränzen</p>",
+        "button_text": "Test Button",
+        "button_url": "shopify://products/adamant-classic-pfanne",
+        "text_position": "start",
+        "alignment": "horizontal",
+        "max_rows": 15,
+        "view_all_text": "Mehr anzeigen",
+        "view_less_text": "View less",
+        "background": "rgba(0,0,0,0)",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "chart_background": "rgba(0,0,0,0)",
+        "chart_text_color": "",
+        "chart_true_false_color": "rgba(0,0,0,0)",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "subcategory_list_6VrtRE": {
+      "type": "subcategory-list",
+      "settings": {
+        "collection_list": [],
+        "stack_collections": true,
+        "collections_per_row_mobile": "1",
+        "collections_per_row": 3,
+        "show_progress_bar": false,
+        "subheading": "",
+        "title": "Collection list",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "heading_tag": "h6",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "rich_text_fTh6yp": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_fAkTyx": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading",
+            "subheading_tag": "h3"
+          }
+        },
+        "heading_daPD7L": {
+          "type": "heading",
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_Dgq889": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_fAkTyx",
+        "heading_daPD7L",
+        "richtext_Dgq889"
+      ],
+      "settings": {
+        "show_section_id": false,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "tabs_Jtej4g": {
+      "type": "tabs",
+      "blocks": {
+        "tab_xkk7wj": {
+          "type": "tab",
+          "settings": {
+            "title": "Bedienung und Pflege",
+            "content": "<p>Use this text to share information about your brand with your customers.</p><p></p><p>Was passiert denn mit der ausgewählten Seite? <br/><br/>Hier wolen wir ja noch die Lösung mit unseren Metaobjekten: </p><p>Media Tabs</p><p>und Media Tabs Item haben</p>",
+            "page": "bedienung-pflege"
+          }
+        },
+        "tab_MFcYka": {
+          "type": "tab",
+          "settings": {
+            "title": "Tab 2 Tab 2 Tab 2 Tab 2 Tab 2",
+            "content": "<p>Describe a product, share announcements, or welcome customers to your store.</p>",
+            "page": ""
+          }
+        },
+        "tab_dAENcw": {
+          "type": "tab",
+          "settings": {
+            "title": "Tab 3",
+            "content": "<p>Share information about your shipping rates, return policy or contact information.</p>",
+            "page": ""
+          }
+        },
+        "tab_xzMrRJ": {
+          "type": "tab",
+          "settings": {
+            "title": "Tab",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "page": ""
+          }
+        },
+        "tab_zyHRrM": {
+          "type": "tab",
+          "settings": {
+            "title": "Tab",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "page": ""
+          }
+        },
+        "tab_XnPiKq": {
+          "type": "tab",
+          "settings": {
+            "title": "Tab",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "page": ""
+          }
+        },
+        "tab_EBYbET": {
+          "type": "tab",
+          "settings": {
+            "title": "Tab",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "page": ""
+          }
+        },
+        "tab_KQCrkA": {
+          "type": "tab",
+          "settings": {
+            "title": "Tab",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "page": ""
+          }
+        },
+        "tab_fJQgTg": {
+          "type": "tab",
+          "settings": {
+            "title": "Tab",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "page": ""
+          }
+        },
+        "tab_cEm3fc": {
+          "type": "tab",
+          "settings": {
+            "title": "Tab",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "tab_xkk7wj",
+        "tab_MFcYka",
+        "tab_dAENcw",
+        "tab_xzMrRJ",
+        "tab_zyHRrM",
+        "tab_XnPiKq",
+        "tab_EBYbET",
+        "tab_KQCrkA",
+        "tab_fJQgTg",
+        "tab_cEm3fc"
+      ],
+      "settings": {
+        "content_size": "fill",
+        "subheading": "Subheading Test - hier muss der Content mit rein in die Section",
+        "title": "Heading für unsere Tabs",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "text_alignment": "left",
+        "first_tab_open": true,
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "testimonials_tMyyfB": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_Ffgrab": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "",
+            "title": "Testimonial",
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+          }
+        },
+        "testimonial_aUTtXt": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/Ratgeber_perfektesSteak_AH_Stielpfanne_400x400_5ef36878-97d6-47e6-bf3c-365804953b7b.png",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "",
+            "title": "Testimonial",
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+          }
+        },
+        "testimonial_gMDxVf": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "",
+            "title": "Testimonial",
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_Ffgrab",
+        "testimonial_aUTtXt",
+        "testimonial_gMDxVf"
+      ],
+      "settings": {
+        "stack_testimonials": false,
+        "subheading": "Subheading",
+        "title": "Testimonials Net",
+        "content": "<p>Hier haben wir die möglichkeit noch weiteren Content mit aufzunehmen. Mal shcauenob dieser auch über die gesamte Seite geht dfgdfhoöfjhdfh ofghfggj hofggjh oidgjhäodf  hodfhj foidjhoif hjödf</p><p></p><p>Wir brauchen wieder left, center, right </p><p>Der CTA ist wieder oben rechts in der Ecke - ein \"normaler\" CTA würde hier mehr Sinn geben. </p><p>Mobile ist die Progress Bar schon drin - sehr gut! </p>",
+        "link_url": "shopify://products/adamant-classic-pfanne",
+        "link_text": "Test Button",
+        "text_alignment": "start",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "testimonial_card_background": "",
+        "testimonial_card_text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "text_with_icons_JfiVwf": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_cbVLBP": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-operator",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Free shipping",
+            "content": "<p>Free worldwide shipping and returns - customs and duties taxes included</p><p></p><ul><li>Icon Positionierung und generelles Alignment zwischen headlines und Content </li><li>Hiier funktioniert die List auch schon in Ordnung</li></ul>"
+          }
+        },
+        "item_FncFD7": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Customer service",
+            "content": "<p>We are available from monday to friday to answer your questions.</p>"
+          }
+        },
+        "item_bG7QNT": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Secure payment",
+            "content": "<p>Your payment information is processed securely.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_cbVLBP",
+        "item_FncFD7",
+        "item_bG7QNT"
+      ],
+      "settings": {
+        "padding_top": "auto",
+        "padding_bottom": "auto",
+        "title": "Heading geht (kein Subheading, kein Content)",
+        "subheading": "sub",
+        "heading_color": "",
+        "heading_gradient": "",
+        "content": "<p>content</p>",
+        "link_text": "hallo",
+        "link_url": "",
+        "text_alignment": "end",
+        "stack_on_mobile": false,
+        "heading_tag": "h5",
+        "icon_spacing": "medium",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "featured_articles_8RfHx7": {
+      "type": "featured-articles",
+      "name": "Featured articles",
+      "settings": {
+        "show_progress_bar": false,
+        "articles_per_row_mobile": "2",
+        "articles_per_row_desktop": 3,
+        "subheading": "",
+        "articel_handles": "",
+        "title": "Featured Articles",
+        "content": "",
+        "link_url": "shopify://blogs/rezepte",
+        "link_text": "View all",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "blog_posts_QtcEdN": {
+      "type": "blog-posts",
+      "blocks": {
+        "article_e6prKJ": {
+          "type": "article",
+          "settings": {
+            "article": "",
+            "background": "",
+            "text_color": "",
+            "article_handle": ""
+          }
+        }
+      },
+      "block_order": [
+        "article_e6prKJ"
+      ],
+      "name": "Featured blog post",
+      "settings": {
+        "show_excerpt": true,
+        "show_date": true,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": true,
+        "show_overall_time": false,
+        "subheading": "",
+        "title": "SKT Rezepte",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto",
+        "blog_handle": "kochtipps",
+        "posts_count": 4
+      }
+    },
+    "featured_collection_rmNGmg": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "collection": "braeter",
+        "products": [],
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Featured collection",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "1752498622dd07c4ec": {
+      "type": "apps",
+      "blocks": {
+        "gsc_countdown_timer_countdown_tRdmpM": {
+          "type": "shopify://apps/gsc-countdown-timer/blocks/countdown/58dc5b1b-43d2-4209-b1f3-52aff31643ed",
+          "settings": {
+            "widget_id": "GSC-LARGE-xaynKBXPVlYg"
+          }
+        }
+      },
+      "block_order": [
+        "gsc_countdown_timer_countdown_tRdmpM"
+      ],
+      "custom_css": [
+        "gta-content GSC-LARGE-xaynKBXPVlYg{font-family: Sharp Grotesk 19 !important;}"
+      ],
+      "settings": {
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "full_width_background": false,
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "revealed_image_on_scroll_Xq3cNY",
+    "rich_text_9XcPLi",
+    "scrolling_text_BBPgwB",
+    "shop_the_look_cAwCB4",
+    "specification_table_RjeW7M",
+    "subcategory_list_6VrtRE",
+    "rich_text_fTh6yp",
+    "tabs_Jtej4g",
+    "testimonials_tMyyfB",
+    "text_with_icons_JfiVwf",
+    "featured_articles_8RfHx7",
+    "blog_posts_QtcEdN",
+    "featured_collection_rmNGmg",
+    "1752498622dd07c4ec"
+  ]
+}

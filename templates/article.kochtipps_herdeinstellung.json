@@ -1,0 +1,244 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "navigation": {
+          "type": "navigation",
+          "disabled": true,
+          "settings": {}
+        },
+        "comments": {
+          "type": "comments",
+          "disabled": true,
+          "settings": {
+            "show_gravatar": true,
+            "comments_per_page": 5
+          }
+        }
+      },
+      "block_order": [
+        "navigation",
+        "comments"
+      ],
+      "settings": {
+        "layout": "image_text_overlay",
+        "image": "{{ article.image }}",
+        "show_author": false,
+        "show_date": true,
+        "show_comments_count": true,
+        "show_share_buttons": true,
+        "show_header_image": true,
+        "banner_background": "",
+        "banner_text_color": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "content_width": "750px",
+        "stats_color": "#556132",
+        "is_recipe": false,
+        "content_alignment": "start"
+      }
+    },
+    "rich_text_EXUTEC": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_D9KHMG": {
+          "type": "heading",
+          "settings": {
+            "text": "Die optimale Verwendung deiner Fissler Pfanne",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_QhcBeH": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Die richtige Herdeinstellung ist wichtig für den optimalen Gebrauch der Pfanne und den Schutz vor Überhitzung. Denn mit der richtigen Anwendung wird sie zum langjährigen Begleiter in deiner Küche. Für deine beschichtete Fissler Pfanne ist das Aufheizen mit 2/3 der Herdleistung bereits für ein perfektes Bratergebnis ausreichend. Der Grund dafür ist unsere bewährte Fissler Qualität: Unsere „Made in Germany“ Pfannen werden nach höchsten Standards gefertigt und mit dem cookstar® Allherdboden ausgestattet. </p><p>Dieser sorgt für eine optimale Wärmeaufnahme, -verteilung und -speicherung. Durch das Braten mit reduzierter Herdleistung sparst du nicht nur Strom im Alltag, sondern schonst zudem die hochwertige Beschichtung deiner Fissler Pfanne. So erhöhst du die Lebensdauer dieses Qualitätsproduktes um ein Vielfaches – für lange Freude am Kochen.</p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_D9KHMG",
+        "richtext_QhcBeH"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "rich_text_7jkMny": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_E8zqqV": {
+          "type": "heading",
+          "settings": {
+            "text": "Richtig kochen",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_zVzrJK": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Die richtige Fortkochstufe zu treffen, um energiesparend zu kochen, erfordert etwas Erfahrung. Das Gargut sollte beim Fortkochen sanft köcheln, ohne überzukochen, und aus dem Deckel sollte allenfalls eine schwache Dampffahne austreten. Bei starkem Dampfaustritt ist die Energiezufuhr weiter zu reduzieren.<br/></p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_E8zqqV",
+        "richtext_zVzrJK"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "rich_text_gngmWe": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_ea7bej": {
+          "type": "heading",
+          "settings": {
+            "text": "Energie sparen",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_wMgxxC": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Nutze die Speicherwärme des cookstar® Allherdbodens, indem du die Energiezufuhr frühzeitig reduzierst und bereits vor dem Ende der Garzeit abschaltest. Wähle die Kochgeschirrgröße entsprechend der Menge, die du garen möchtest und koche möglichst immer mit aufgelegtem Deckel.</p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ea7bej",
+        "richtext_wMgxxC"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "rich_text_MKjb8f": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_WHXiYV": {
+          "type": "heading",
+          "settings": {
+            "text": "Praktische Tipps",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_bbzQWE": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Für perfekte Kochergebnisse ist es wichtig, dass Topf- bzw. Pfannenboden und Herdplatte optimal zusammenpassen. Bei Masse-, Glaskeramik- und Halogenherden sollte die Herdplatte dem Durchmesser des Kochgeschirrbodens entsprechen oder kleiner sein. Wenn du mit einem Gasherd kochst, stelle das Kochgeschirr immer mittig auf, um Flammenüberschlag zu vermeiden. Auch bei Induktionsherden sollte das Geschirr zentrisch auf die Kochstelle gesetzt werden. Topf- bzw. Pfannengröße und Kochfeldgröße müssen möglichst identisch sein.</p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_WHXiYV",
+        "richtext_bbzQWE"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "blog_posts_UbHQQc": {
+      "type": "blog-posts",
+      "blocks": {
+        "article_483RXU": {
+          "type": "article",
+          "settings": {
+            "article": "",
+            "background": "",
+            "text_color": "",
+            "article_handle": ""
+          }
+        }
+      },
+      "block_order": [
+        "article_483RXU"
+      ],
+      "name": "Featured blog post",
+      "settings": {
+        "show_excerpt": true,
+        "show_date": true,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": true,
+        "show_overall_time": false,
+        "subheading": "",
+        "title": "Weitere Kochtipps entdecken",
+        "content": "",
+        "link_url": "shopify://blogs/kochtipps",
+        "link_text": "Alle Kochtipps ansehen",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto",
+        "blog_handle": "kochtipps",
+        "posts_count": 4
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_EXUTEC",
+    "rich_text_7jkMny",
+    "rich_text_gngmWe",
+    "rich_text_MKjb8f",
+    "blog_posts_UbHQQc"
+  ]
+}

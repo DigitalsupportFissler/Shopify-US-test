@@ -1,0 +1,328 @@
+{%- render 'section-spacing-collapsing' -%}
+
+<style>
+  #shopify-section-{{ section.id }} {
+    --shop-the-look-dot-background: {{ section.settings.background_dots.rgb }};
+    --shop-the-look-carousel-grid: {% if section.settings.stack_mobile %}auto-flow / auto{% else %}auto / auto-flow 75vw{% endif %};
+  }
+</style>
+
+{%- capture padding_classes -%}
+  section-padding-top-{{ section.settings.padding_top }} section-padding-bottom-{{ section.settings.padding_bottom }}
+{%- endcapture -%}
+{% assign section_classes = padding_classes %}
+{% if section.settings.full_width_background %}
+  {% assign section_classes = section_classes | append: 'no-padding' %}
+{% endif %}
+<div {% render 'section-properties', class: section_classes %}>
+  {% if section.settings.show_section_id %}
+    <div class="section-id-label" style="font-size: 12px; color: #666; margin-bottom: 10px;">
+      Section ID: {{ section.id }}
+    </div>
+  {% endif %}
+  {%- assign serienhauptgruppe = product.metafields.custom.ATTR_SERIES_GROUP.value | downcase | strip -%}
+  {%- case serienhauptgruppe -%}
+    {%- when 'original-profi collection®' -%}
+      {%- assign shop_the_look_key = 'opc-family' -%}
+    {%- when 'ceratal®' -%}
+      {%- assign shop_the_look_key = 'ceratal-family' -%}
+    {%- when 'phi collection' -%}
+      {%- assign shop_the_look_key = 'phi-family' -%}
+    {%- when 'fissler pure collection' -%}
+      {%- assign shop_the_look_key = 'pure-family' -%}
+    {%- when 'moments' -%}
+      {%- assign shop_the_look_key = 'moments-family' -%}
+    {%- else -%}
+      {%- assign shop_the_look_key = 'default' -%}
+  {%- endcase -%}
+  {%- assign shop_the_look_config = metaobjects.image_points_with_collection[shop_the_look_key] -%}
+
+  {%- assign all_points = shop_the_look_config.points.value -%}
+  {% assign amount_points = 0 %}
+  <ul>
+    {% for pt in all_points %}
+      {% assign amount_points = amount_points | plus: 1 %}
+    {% endfor %}
+  </ul>
+
+  <div class="section-stack">
+    {%- render 'section-header',
+      subheading: shop_the_look_config.subheading,
+      heading: shop_the_look_config.heading,
+      heading_color: section.settings.heading_color,
+      heading_gradient: section.settings.heading_gradient,
+      content: shop_the_look_config.content,
+      link_url: section.settings.button_url,
+      link_text: section.settings.button_text,
+      text_alignment: section.settings.content_alignment
+    -%}
+
+    <div class="shop-the-look">
+      <div class="relative">
+        {%- if shop_the_look_config.image != blank -%}
+          {%- capture sizes -%}(max-width:700px) 100vw, min({{ settings.page_width | divided_by: 2 }}px, 50vw){%- endcapture -%}
+          {{-
+            shop_the_look_config.image
+            | image_url: width: shop_the_look_config.image.width
+            | image_tag: widths: '300,400,500,600,800,1000', class: 'rounded w-full', sizes: sizes
+          -}}
+        {%- else -%}
+          {{- 'image' | placeholder_svg_tag: 'placeholder rounded' -}}
+        {%- endif -%}
+        {%- capture dots -%}
+            {%- for point in all_points -%}
+              <button type="button"
+                      style="--shop-the-look-dot-top: {{ point.y_position }}%; --shop-the-look-dot-left: {{ point.x_position }}%;"
+                      class="shop-the-look__dot"
+                      aria-current="{% if forloop.first %}true{% else %}false{% endif %}">
+                <span class="sr-only">{{ 'general.accessibility.go_to_item' | t: index: forloop.index }}</span>
+              </button>
+            {%- endfor -%}
+          {%- endcapture -%}
+        <shop-the-look-dots>
+          <page-dots aria-controls="scroll-carousel-{{ section.id }}" class="sm:hidden">
+            {{ dots }}
+          </page-dots>
+          <page-dots aria-controls="scroll-carousel-desktop-{{ section.id }}" class="sm-max:hidden">
+            {{ dots }}
+          </page-dots>
+        </shop-the-look-dots>
+      </div>
+
+      {%- if amount_points > 0 -%}
+        <div class="shop-the-look__products">
+          {%- assign horizontal_products_blends = true -%}
+          {%- assign section_background = section.settings.background_gradient
+            | default: section.settings.background
+            | default: settings.background
+          -%}
+
+          {%- if section.settings.product_card_mobile_background != blank
+            and section.settings.product_card_mobile_background != 'rgba(0,0,0,0)'
+            and section.settings.product_card_mobile_background != section_background
+          -%}
+            {%- assign horizontal_products_blends = false -%}
+          {%- endif -%}
+
+          {%- assign scroll_area_id = 'scroll-carousel-' | append: section.id -%}
+          <scroll-carousel
+            selector=".shop-the-look__carousel-product-wrapper"
+            id="{{ scroll_area_id }}"
+            class="md:hidden scroll-area {% if amount_points > 1 %}is-scrollable{% endif %}"
+          >
+            <reveal-items selector=".shop-the-look__carousel-products > *">
+              <div class="shop-the-look__carousel-products">
+                {%- for point in all_points -%}
+                  <div class="shop-the-look__carousel-product-wrapper">
+                    {%- render 'product-card',
+                      product: point.product.value,
+                      background: section.settings.product_card_background,
+                      text_color: section.settings.product_card_text_color,
+                      show_badges: true,
+                      show_go_to: true
+                    -%}
+                  </div>
+                {%- endfor -%}
+              </div>
+            </reveal-items>
+          </scroll-carousel>
+
+          {%- if amount_points > 1 -%}
+            {%- assign default_progress = 1 | times: 1.0 | divided_by: amount_points -%}
+            {%- render 'scrollbar',
+              observes: scroll_area_id,
+              default_progress: default_progress,
+              show_buttons: true,
+              class: 'w-full'
+            -%}
+          {%- endif -%}
+          <div class="is-scrollable">
+            {%- assign scroll_area_id_desktop = 'scroll-carousel-desktop-' | append: section.id -%}
+            <scroll-carousel
+              selector=".shop-the-look__carousel-product-wrapper"
+              id="{{ scroll_area_id_desktop }}"
+              class="shop-the-look__carousel hidden md:block scroll-area {% if amount_points > 1 %}is-scrollable{% endif %}"
+              role="region"
+            >
+              <reveal-items selector=".shop-the-look__carousel-products > *">
+                <div class="shop-the-look__carousel-products">
+                  {%- for point in all_points -%}
+                    <div class="shop-the-look__carousel-product-wrapper">
+                      {%- render 'product-card',
+                        product: point.product.value,
+                        background: section.settings.product_card_background,
+                        text_color: section.settings.product_card_text_color,
+                        show_badges: true,
+                        show_go_to: true
+                      -%}
+                    </div>
+                  {%- endfor -%}
+                </div>
+              </reveal-items>
+            </scroll-carousel>
+            {%- if amount_points > 1 -%}
+              {%- assign desktop_progress = 1 | times: 1.0 | divided_by: amount_points -%}
+              {%- render 'scrollbar',
+                observes: scroll_area_id_desktop,
+                default_progress: desktop_progress,
+                show_buttons: true,
+                class: 'hidden md:flex mt-4'
+              -%}
+            {%- endif -%}
+          </div>
+        </div>
+      {%- endif -%}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Shop the look",
+  "class": "shopify-section--shop-the-look",
+  "disabled_on": {
+    "templates": ["password"],
+    "groups": ["header", "custom.overlay"]
+  },
+  "tag": "section",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "stack_mobile",
+      "label": "Stack on mobile",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button text"
+    },
+    {
+      "type": "url",
+      "id": "button_url",
+      "label": "Button link"
+    },
+    {
+      "type": "color",
+      "id": "button_background",
+      "label": "Button background"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "label": "Button text"
+    },
+    {
+      "type": "select",
+      "id": "content_alignment",
+      "label": "Content alignment",
+      "options": [
+        {
+          "value": "start",
+          "label": "Start"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        }
+      ],
+      "default": "start"
+    },
+    {
+      "type": "header",
+      "content": "Colors",
+      "info": "Gradient replaces solid colors when set."
+    },
+    {
+      "type": "color",
+      "id": "background",
+      "label": "Background"
+    },
+    {
+      "type": "checkbox",
+      "id": "full_width_background",
+      "label": "Remove section margin",
+      "default": false
+    },
+    {
+      "type": "color_background",
+      "id": "background_gradient",
+      "label": "Background gradient"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text"
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Heading color"
+    },
+    {
+      "type": "color_background",
+      "id": "heading_gradient",
+      "label": "Heading gradient"
+    },
+    {
+      "type": "color",
+      "id": "product_card_background",
+      "label": "Product card background (desktop)"
+    },
+    {
+      "type": "color",
+      "id": "product_card_text_color",
+      "label": "Product card text (desktop)"
+    },
+    {
+      "type": "color",
+      "id": "product_card_mobile_background",
+      "label": "Product card background (mobile)"
+    },
+    {
+      "type": "color",
+      "id": "product_card_mobile_text_color",
+      "label": "Product card text (mobile)"
+    },
+    {
+      "type": "color",
+      "id": "background_dots",
+      "label": "Dots background",
+      "default": "#FFF"
+    },
+
+    {
+      "type": "checkbox",
+      "id": "show_section_id",
+      "label": "Section-ID",
+      "default": false
+    },
+    {
+      "type": "select",
+      "id": "padding_top",
+      "label": "Padding top",
+      "options": [
+        { "value": "auto", "label": "auto" },
+        { "value": "0", "label": "0" },
+        { "value": "sm", "label": "sm" },
+        { "value": "md", "label": "md" },
+        { "value": "xl", "label": "xl" }
+      ],
+      "default": "auto"
+    },
+    {
+      "type": "select",
+      "id": "padding_bottom",
+      "label": "Padding bottom",
+      "options": [
+        { "value": "auto", "label": "auto" },
+        { "value": "0", "label": "0" },
+        { "value": "sm", "label": "sm" },
+        { "value": "md", "label": "md" },
+        { "value": "xl", "label": "xl" }
+      ],
+      "default": "auto"
+    }
+  ]
+}
+{% endschema %}

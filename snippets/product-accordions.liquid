@@ -1,0 +1,189 @@
+{%- comment -%}
+  * product: the product to render
+  * desktop: boolean
+{%- endcomment -%}
+
+{% unless product == blank %}
+  <div class="product-accordions{% if desktop %}desktop{% endif %}">
+    {%- assign product_description_title = 'product.tabs.product_description' | t -%}
+    {%- assign product_details_title = 'product.tabs.product_details' | t -%}
+    {%- assign instructions_title = 'product.tabs.instructions' | t -%}
+    {%- capture productDetails -%}
+      <div class="product-details__table-wrapper">
+        <table class="product-details__table">
+          <tbody>
+            {% if variant.metafields.custom.ATTR_Capacity_JP != blank and request.locale.iso_code == "jp" %}
+              <tr id="ATTR_Capacity_JP">
+                <th>{{ "product.details_accordion.ATTR_Capacity_JP" | t }}</th>
+                <td>{{ variant.metafields.custom.ATTR_Capacity_JP.value }} {{ variant.metafields.custom.ATTR_Capacity_JP.unit }}</td>
+              </tr>
+            {% endif %}
+            {% if variant.metafields.custom.ATTR_Capacity_EU_norm != blank and request.locale.iso_code != "jp" %}
+              {% assign capacity = variant.metafields.custom.ATTR_Capacity_EU_norm.value %}
+              <tr id="ATTR_Capacity_EU_norm">
+                <th>{{ "product.details_accordion.ATTR_Capacity_EU_norm" | t }}</th>
+                <td>{{ capacity.value }} {{ capacity.unit }}</td>
+              </tr>
+            {% endif %}
+            {% if variant.metafields.custom.ATTR_Material != blank %}
+              <tr id="ATTR_Material">
+                <th>{{ "product.details_accordion.ATTR_Material" | t }}</th>
+                <td>{{ variant.metafields.custom.ATTR_Material.value }}</td>
+              </tr>
+            {% endif %}
+            {% if variant.metafields.custom.ATTR_Length != blank %}
+              {% assign length = variant.metafields.custom.ATTR_Length.value %}
+              <tr id="ATTR_Length">
+                <th>{{ "product.details_accordion.ATTR_Length" | t }}</th>
+                <td>{{ length.value }} {{ length.unit }}</td>
+              </tr>
+            {% endif %}
+            {% if variant.metafields.custom.ATTR_Width != blank %}
+              {% assign width = variant.metafields.custom.ATTR_Width.value %}
+              <tr id="ATTR_Width">
+                <th>{{ "product.details_accordion.ATTR_Width" | t }}</th>
+                <td>{{ width.value }} {{ width.unit }}</td>
+              </tr>
+            {% endif %}
+            {% if variant.metafields.custom.ATTR_Height != blank %}
+              {% assign height = variant.metafields.custom.ATTR_Height.value %}
+              <tr id="ATTR_Height">
+                <th>{{ "product.details_accordion.ATTR_Height" | t }}</th>
+                <td>{{ height.value }} {{ height.unit }}</td>
+              </tr>
+            {% endif %}
+            {% if variant.metafields.custom.ATTR_Diameter_bottom_outer != blank %}
+              {% assign diameter_bottom_outer = variant.metafields.custom.ATTR_Diameter_bottom_outer.value %}
+              <tr id="ATTR_Diameter_bottom_outer">
+                <th>{{ "product.details_accordion.ATTR_Diameter_bottom_outer" | t }}</th>
+                <td>{{ diameter_bottom_outer.value }} {{ diameter_bottom_outer.unit }}</td>
+              </tr>
+            {% endif %}
+            {% if variant.metafields.custom.ATTR_recommended_cooking_plate_size != blank %}
+              {% assign recommended_cooking_plate_size = variant.metafields.custom.ATTR_recommended_cooking_plate_size.value %}
+              <tr id="ATTR_recommended_cooking_plate_size">
+                <th>{{ "product.details_accordion.ATTR_recommended_cooking_plate_size" | t }}</th>
+                <td>{{ recommended_cooking_plate_size.value }} {{ recommended_cooking_plate_size.unit }}</td>
+              </tr>
+            {% endif %}
+            {% if variant.metafields.custom.ATTR_bottom_thickness != blank %}
+              {% assign bottom_thickness = variant.metafields.custom.ATTR_bottom_thickness.value %}
+              <tr id="ATTR_bottom_thickness">
+                <th>{{ "product.details_accordion.ATTR_bottom_thickness" | t }}</th>
+                <td>{{ bottom_thickness.value }} {{ bottom_thickness.unit }}</td>
+              </tr>
+            {% endif %}
+            {% if variant.metafields.custom.ATTR_Height_body!= blank %}
+              {% assign height_body = variant.metafields.custom.ATTR_Height_body.value %}
+              <tr id="ATTR_Height_body">
+                <th>{{ "product.details_accordion.ATTR_Object_height" | t }}</th>
+                <td>{{ height_body.value }} {{ height_body.unit }}</td>
+              </tr>
+            {% endif %}
+            {% if variant.metafields.custom.ATTR_Capacity_scaling!= blank %}
+              {% assign capacity_scaling = variant.metafields.custom.ATTR_Capacity_scaling.value %}
+              <tr id="ATTR_Capacity_scaling">
+                <th>{{ "product.details_accordion.ATTR_Capacity_scaling" | t }}</th>
+                <td>{{ capacity_scaling.value }} {{ capacity_scaling.unit }}</td>
+              </tr>
+            {% endif %}
+            {% if product.metafields.custom.ATTR_Country_of_origin != blank %}
+              <tr>
+                <th>{{ "product.details_accordion.ATTR_Country_of_origin" | t }}</th>
+                <td>{{ product.metafields.custom.ATTR_Country_of_origin.value }}</td>
+              </tr>
+            {% endif %}
+            {% if product.metafields.custom.ATTR_Surface_outside != blank %}
+              <tr id="ATTR_Surface_outside">
+                <th>{{ "product.details_accordion.ATTR_Surface_outside" | t }}</th>
+                <td>{{ product.metafields.custom.ATTR_Surface_outside.value }}</td>
+              </tr>
+            {% endif %}
+            {% if product.metafields.custom.ATTR_Surface_inside != blank %}
+              <tr id="ATTR_Surface_inside">
+                <th>{{ "product.details_accordion.ATTR_Surface_inside" | t }}</th>
+                <td>{{ product.metafields.custom.ATTR_Surface_inside.value }}</td>
+              </tr>
+            {% endif %}
+            {% if variant.metafields.custom.ATTR_Weight_without_pack != blank %}
+              {% assign weight_without_pack = variant.metafields.custom.ATTR_Weight_without_pack.value %}
+              <tr id="ATTR_Weight_without_pack">
+                <th>{{ "product.details_accordion.ATTR_Weight_without_pack" | t }}</th>
+                <td>{{ weight_without_pack.value }} {{ weight_without_pack.unit }}</td>
+              </tr>
+            {% endif %}
+            {% if variant.metafields.custom.ATTR_MATERIAL_HANDLE != blank %}
+              <tr>
+                <th>{{ "product.details_accordion.ATTR_MATERIAL_HANDLE" | t }}</th>
+                <td>{{ variant.metafields.custom.ATTR_MATERIAL_HANDLE.value }}</td>
+              </tr>
+            {% endif %}
+            {% if variant.sku != blank %}
+              <tr id="ATTR_Sku">
+                <th>{{ "product.details_accordion.Sku" | t }}</th>
+                <td>{{ variant.sku}}</td>
+              </tr>
+            {% endif %}
+            {% if variant.barcode != blank %}
+              <tr id="ATTR_Barcode">
+                <th>{{ "product.details_accordion.barcode" | t }}</th>
+                <td>{{ variant.barcode }}</td>
+              </tr>
+            {% endif %}
+            {% if product.metafields.custom.ATTR_Warranty != blank %}
+              <tr>
+                <th>{{ "product.details_accordion.ATTR_Warranty" | t }}</th>
+                <td>{{ product.metafields.custom.ATTR_Warranty.value }} {{ "product.details_accordion.ATTR_Warranty_Duration" | t }}</td>
+              </tr>
+            {% endif %}
+            {% if product.metafields.custom.ATTR_Series != blank %}
+              <tr>
+                <th>{{ "product.details_accordion.ATTR_Series" | t }}</th>
+                <td>{{ product.metafields.custom.ATTR_Series.value }}</td>
+              </tr>
+            {% endif %}
+            {% if variant.metafields.custom.ATTR_URL_YOUTUBE != blank %}
+              <tr>
+                <th>{{ "product.details_accordion.ATTR_URL_YOUTUBE" | t }}</th>
+                <td><a href="{{ variant.metafields.custom.ATTR_URL_YOUTUBE.value }}" target="_blank">Link</a></td>
+              </tr>
+            {% endif %}
+ {% if variant.metafields.custom.REF_SpareParts != blank %}
+            
+              <tr>
+                <th>{{ "product.details_accordion.REF_SpareParts" | t }}</th>
+                <td>
+                 <ul class="spare-parts-list">
+                  {% for spareParts in variant.metafields.custom.REF_SpareParts.value %}
+                  <li>
+                    <a class="link" target="_blank" href="/products/{{ spareParts.product.handle }}">{{ spareParts.product.title }}</a>{% unless forloop.last %} {% endunless %}
+                  </li>
+                  {% endfor %}
+                  </ul>
+                </td>
+              </tr>
+            {% endif %}  
+          </tbody>
+        </table>
+      </div>
+    {%- endcapture -%}
+
+    {%- capture user_manual -%}
+      {% if product.metafields.custom.REF_UserManual_PROD.value != blank %}
+        {%- assign manuals = product.metafields.custom.REF_UserManual_PROD.value -%}
+        {%- for manual in manuals -%}
+          <p>
+            <a class="link" href="{{ manual.file | file_url }}" target="_blank" rel="noopener noreferrer" download>
+              {% render 'icon' with 'file-download-fill' %} {{ manual.anzeigenamen | default: 'Gebrauchsanleitung' }}
+            </a>
+          </p>
+        {%- endfor -%}
+      {% endif %}
+    {%- endcapture -%}
+    {%- render 'accordion', title: product_description_title, content: product.description -%}
+    {%- render 'accordion', title: product_details_title, content: productDetails -%}
+    {% if product.metafields.custom.REF_UserManual_PROD != blank %}
+      {%- render 'accordion', title: instructions_title, content: user_manual -%}
+    {% endif %}
+  </div>
+{% endunless %}

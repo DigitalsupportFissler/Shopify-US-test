@@ -1,0 +1,147 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_KKqf7q": {
+      "type": "slideshow",
+      "blocks": {
+        "image_wHHFFY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Blog_Header_Tipp_des_Monats_2167x800_7b212f7e-449a-42c7-8e10-c4e766bbd647.png",
+            "image_content_width": false,
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "Alexander Herrmanns Tipp des Monats",
+            "heading_tag": "h1",
+            "button_text": "",
+            "button_link": "",
+            "heading_color": "#ffffff",
+            "subheading_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_wHHFFY"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "full_width": true,
+        "show_initial_transition": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "main": {
+      "type": "main-blog",
+      "blocks": {
+        "tag_mapping_mxJzyd": {
+          "type": "tag_mapping",
+          "settings": {
+            "tag": "",
+            "sub_heading": "",
+            "sub_content": ""
+          }
+        },
+        "tag_mapping_NbgnxP": {
+          "type": "tag_mapping",
+          "settings": {
+            "tag": "pfannen",
+            "sub_heading": "",
+            "sub_content": ""
+          }
+        }
+      },
+      "block_order": [
+        "tag_mapping_mxJzyd",
+        "tag_mapping_NbgnxP"
+      ],
+      "settings": {
+        "fallback_heading": "Blogposts",
+        "sub_heading": "",
+        "sub_content": "<p>Kochen beginnt mit guten Zutaten – und dem richtigen Know-how. <strong>Jeden Monat </strong>widmet sich Sternekoch Alexander Herrmann einer besonderen Zutat: mit spannenden Lebensmittel-Fakten, praktischen Kochtipps und kreativen Rezeptideen. Perfekt zum Nachlesen, Ausprobieren und Teilen.</p><p>Erfahre zum Beispiel, warum du den Strunk des Brokkolis zukünftig nicht mehr wegwerfen solltest.</p><p><strong>Lass dich inspirieren!</strong></p>",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "alignment": "center",
+        "allow_transparent_header": false,
+        "content": "",
+        "show_tags": true,
+        "show_heading": false,
+        "banner_background": "#ffffff",
+        "banner_text_color": "",
+        "button_background": "",
+        "button_text_color": "",
+        "articles_per_page": 24,
+        "feature_article_background": "",
+        "feature_article_text_color": "",
+        "show_date": false,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": true,
+        "show_prep_time": true,
+        "show_recipe_yield": true
+      }
+    },
+    "image_with_text_overlay_JtEKkV": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_exgUgN": {
+          "type": "heading",
+          "settings": {
+            "text": "\"Kochen ist Wertschätzung. Für den Koch, die Zutat und die Menschen, für die wir kochen.\"",
+            "heading_tag": "h2"
+          }
+        },
+        "richtext_WTQbXY": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>ALEXANDER HERRMANN</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_exgUgN",
+        "richtext_WTQbXY"
+      ],
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "image_size": "md",
+        "image": "shopify://shop_images/Blog_Tipp_des_Monats_Quote_AH_Image_with_Textoverlay_1300x1500_3200_x_1600_px_7.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30,
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    }
+  },
+  "order": [
+    "slideshow_KKqf7q",
+    "main",
+    "image_with_text_overlay_JtEKkV"
+  ]
+}

@@ -1,0 +1,313 @@
+{%- comment -%} Check if we are on a product or collection page and get the features metafield {%- endcomment -%}
+{%- assign features = null -%}
+{% if product %}
+  {%- assign features = product.metafields.custom.ATTR_Features.value -%}
+{% elsif collection %}
+  {%- assign features = collection.metafields.custom.ATTR_Features.value -%}
+{% endif %}
+
+{%- assign collection_size = features | size -%}
+{%- for feature in features -%}
+  {%- assign collection_size = forloop.index -%}
+{%- endfor -%}
+
+{% if collection_size > 0 %}
+  {%- render 'section-spacing-collapsing' -%}
+
+  <style>
+    #shopify-section-{{ section.id }} {
+      .section {
+        --context-section-spacing-block-end: 80px;
+      }
+      .collection-list {
+        {%- if section.settings.stack_collections -%}
+          --collection-list-grid: auto / repeat({{ section.settings.collections_per_row_mobile | times: 1 }}, minmax(0, 1fr));
+        {%- else -%}
+          --collection-list-grid: auto / auto-flow calc(50vw - 30px);
+        {%- endif -%}
+      }
+    }
+
+    @media screen and (min-width: 700px) {
+      #shopify-section-{{ section.id }} .collection-list {
+        --collection-list-grid: {% if section.settings.stack_collections %}auto / repeat(2, minmax(0, 1fr)){% else %}auto / auto-flow calc(25% - 15px){% endif %};
+      }
+    }
+
+    @media screen and (min-width: 1000px) {
+      #shopify-section-{{ section.id }} {
+        .collection-list {
+          --collection-list-grid: {% if section.settings.stack_collections %}auto / repeat({{ 3 | at_most: section.settings.collections_per_row }}, minmax(0, 1fr)){% else %}auto / auto-flow calc(var(--container-inner-width) / {{ section.settings.collections_per_row }} - (var(--grid-gutter) / 3 * 2)){% endif %};
+        }
+
+        .section {
+          --context-section-spacing-block-end: 120px;
+        }
+      }
+    }
+
+    @media screen and (min-width: 1400px) {
+      #shopify-section-{{ section.id }} .collection-list {
+        --collection-list-grid: {% if section.settings.stack_collections %}auto / repeat({{ section.settings.collections_per_row }}, minmax(0, 1fr)){% else %}auto / auto-flow calc(var(--container-inner-width) / {{ section.settings.collections_per_row }} - (var(--grid-gutter) / {{ section.settings.collections_per_row }} * {{ section.settings.collections_per_row | minus: 1 }})){% endif %};
+      }
+    }
+  </style>
+
+  {%- comment -%}
+    ------------------------------------------------------------------------------------------------------------------------
+    LIQUID
+    ------------------------------------------------------------------------------------------------------------------------
+  {%- endcomment -%}
+
+  {%- capture padding_classes -%}
+  section-padding-top-{{ section.settings.padding_top }} section-padding-bottom-{{ section.settings.padding_bottom }}
+{%- endcapture -%}
+  {% assign section_classes = padding_classes %}
+  {% if section.settings.full_width_background %}
+    {% assign section_classes = section_classes | append: 'no-padding' %}
+  {% endif %}
+  <div {% render 'section-properties', class: section_classes %}>
+    {% if section.settings.show_section_id %}
+      <div class="section-id-label" style="font-size: 12px; color: #666; margin-bottom: 10px;">
+        Section ID: {{ section.id }}
+      </div>
+    {% endif %}
+    <div class="section-stack">
+      {%- assign link_url = section.settings.link_url | default: section.settings.collection.url -%}
+      {%- render 'section-header',
+        subheading: section.settings.subheading,
+        heading: section.settings.title,
+        heading_color: section.settings.heading_color,
+        heading_gradient: section.settings.heading_gradient,
+        content: section.settings.content,
+        link_text: section.settings.link_text,
+        link_url: link_url
+      -%}
+
+      <div class="{% if section.settings.show_progress_bar %}scrollable-with-controls{% else %}floating-controls-container{% endif %}">
+        {%- assign scroll_area_id = 'scroll-area-' | append: section.id -%}
+
+        {%- assign collection_size = features | size -%}
+        {%- for feature in features -%}
+          {%- assign collection_size = forloop.index -%}
+        {%- endfor -%}
+        <scroll-carousel
+          selector=".sub-collection__card"
+          id="{{ scroll_area_id }}"
+          class="scroll-area bleed collection-features_wrapper{% if collection_size > section.settings.collections_per_row %}is-scrollable{% endif %}"
+        >
+          <collection-list class="collection-list">
+            {%- for feature in features -%}
+              <div class="collection-card sub-collection__card" reveal-js>
+                <div class="collection-card__content-wrapper">
+                  {%- if feature != blank -%}
+                    {%- assign image = feature.image -%}
+
+                    {%- if image != blank -%}
+                      {%- capture sizes -%}(max-width: 699px) 73vw, {{ settings.page_width | divided_by: section.settings.collections_per_row }}px{%- endcapture -%}
+                      {{-
+                        image
+                        | image_url: width: image.width
+                        | image_tag:
+                          loading: 'lazy',
+                          sizes: sizes,
+                          widths: '200,300,400,500,600,800,1000,1200,1400,1600',
+                          class: 'zoom-image sub-collection__card-background'
+                      -}}
+                    {%- endif -%}
+
+                    <div class="sub-collection__card-text">
+                      <h4 class="sub-collection__card-title h4 bold">{{ feature.heading }}</h4>
+                      <p class="sub-collection__card-description">{{ feature.description }}</p>
+                    </div>
+                  {%- endif -%}
+                </div>
+              </div>
+            {%- endfor -%}
+          </collection-list>
+        </scroll-carousel>
+
+        {%- if section.settings.stack_collections == false -%}
+          {%- if section.settings.show_progress_bar -%}
+            {%- assign default_progress = section.settings.collections_per_row
+              | times: 1.0
+              | divided_by: section.blocks.size
+            -%}
+            {%- render 'scrollbar', observes: scroll_area_id, default_progress: default_progress, show_buttons: true -%}
+          {%- else -%}
+            <button
+              is="prev-button"
+              class="circle-button circle-button--lg circle-button--fill border group"
+              aria-controls="{{ scroll_area_id }}"
+              disabled
+            >
+              <span class="sr-only">{{ 'general.accessibility.previous' | t }}</span>
+              <span class="animated-arrow animated-arrow--reverse"></span>
+            </button>
+
+            <button
+              is="next-button"
+              class="circle-button circle-button--lg circle-button--fill border group"
+              aria-controls="{{ scroll_area_id }}"
+            >
+              <span class="sr-only">{{ 'general.accessibility.next' | t }}</span>
+              <span class="animated-arrow"></span>
+            </button>
+          {%- endif -%}
+        {%- endif -%}
+      </div>
+    </div>
+  </div>
+{% endif %}
+
+{% schema %}
+{
+  "name": "Features",
+  "class": "shopify-section--sub-collection-list",
+  "tag": "section",
+  "disabled_on": {
+    "templates": ["password"],
+    "groups": ["header", "custom.overlay"]
+  },
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "stack_collections",
+      "label": "Stack collections",
+      "default": true
+    },
+    {
+      "type": "select",
+      "id": "collections_per_row_mobile",
+      "label": "Collections per row (mobile)",
+      "options": [
+        {
+          "value": "1",
+          "label": "1"
+        },
+        {
+          "value": "2",
+          "label": "2"
+        }
+      ],
+      "default": "1"
+    },
+    {
+      "type": "range",
+      "id": "collections_per_row",
+      "min": 2,
+      "max": 6,
+      "label": "Collections per row (desktop)",
+      "default": 3
+    },
+    {
+      "type": "checkbox",
+      "id": "show_progress_bar",
+      "label": "Show carousel progress bar",
+      "default": false
+    },
+    {
+      "type": "text",
+      "id": "subheading",
+      "label": "Subheading"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Collection list"
+    },
+    {
+      "type": "richtext",
+      "id": "content",
+      "label": "Content"
+    },
+    {
+      "type": "url",
+      "id": "link_url",
+      "label": "Link URL"
+    },
+    {
+      "type": "text",
+      "id": "link_text",
+      "label": "Link text",
+      "default": "View all"
+    },
+    {
+      "type": "header",
+      "content": "Colors",
+      "info": "Gradient replaces solid colors when set."
+    },
+    {
+      "type": "color",
+      "id": "background",
+      "label": "Background"
+    },
+    {
+      "type": "checkbox",
+      "id": "full_width_background",
+      "label": "Remove section margin",
+      "default": false
+    },
+    {
+      "type": "color_background",
+      "id": "background_gradient",
+      "label": "Background gradient"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text"
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Heading color"
+    },
+    {
+      "type": "color_background",
+      "id": "heading_gradient",
+      "label": "Heading gradient"
+    },
+
+    {
+      "type": "checkbox",
+      "id": "show_section_id",
+      "label": "Section-ID",
+      "default": false
+    },
+    {
+      "type": "select",
+      "id": "padding_top",
+      "label": "Padding top",
+      "options": [
+        { "value": "auto", "label": "auto" },
+        { "value": "0", "label": "0" },
+        { "value": "sm", "label": "sm" },
+        { "value": "md", "label": "md" },
+        { "value": "xl", "label": "xl" }
+      ],
+      "default": "auto"
+    },
+    {
+      "type": "select",
+      "id": "padding_bottom",
+      "label": "Padding bottom",
+      "options": [
+        { "value": "auto", "label": "auto" },
+        { "value": "0", "label": "0" },
+        { "value": "sm", "label": "sm" },
+        { "value": "md", "label": "md" },
+        { "value": "xl", "label": "xl" }
+      ],
+      "default": "auto"
+    }
+  ],
+  "blocks": [],
+  "presets": [
+    {
+      "name": "Features"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,293 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "navigation": {
+          "type": "navigation",
+          "disabled": true,
+          "settings": {}
+        },
+        "comments": {
+          "type": "comments",
+          "disabled": true,
+          "settings": {
+            "show_gravatar": true,
+            "comments_per_page": 5
+          }
+        }
+      },
+      "block_order": [
+        "navigation",
+        "comments"
+      ],
+      "settings": {
+        "layout": "image_text_overlay",
+        "image": "{{ article.image }}",
+        "show_author": true,
+        "show_date": true,
+        "show_comments_count": true,
+        "show_share_buttons": true,
+        "show_header_image": true,
+        "banner_background": "",
+        "banner_text_color": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "content_width": "750px",
+        "stats_color": "#556132",
+        "is_recipe": false,
+        "content_alignment": "start"
+      }
+    },
+    "rich_text_aWy6Eq": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_T9JLRi": {
+          "type": "heading",
+          "settings": {
+            "text": "Gemüse zu Spargel: Knackig und frisch",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_7aMYyt": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Der Klassiker zu Spargel sind natürlich Kartoffeln. Aber auch viele weitere Gemüsesorten lassen sich ideal zu grünem und weißem Spargel kombinieren.<br/><br/>Lust auf Frühling macht eine knackige Gemüsepfanne mit Spargel, Erbsen, grünen Bohnen oder jungen Möhren. Radieschen passen sowohl roh als auch gekocht zu Grün- oder Bleichspargel. Für eine Suppe mit Spargeleinlage sind saftige Mairübchen eine schmackhafte Basis. Mediterran geht es auf dem Teller mit karamellisierten Kirschtomaten als Beilage zu. Die Kombination mit Zuckerschoten verleiht Spargelgerichten hingegen eine asiatische Note.<br/><br/>Im Salat schmecken Babyspinat und Mangold toll zu weißem Spargel, nussiger Rucola und Lollo Rosso ergänzen grünen Spargel hervorragend. Wer es ungewöhnlich mag, gibt Sauerampfer oder Löwenzahnblätter dazu.</p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_T9JLRi",
+        "richtext_7aMYyt"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "rich_text_eewDWa": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_RXEkJb": {
+          "type": "heading",
+          "settings": {
+            "text": "Fleisch zu Spargel: Von mild bis Wild",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_j3Ymie": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Zu weißem Spargel wird traditionell gerne helles Fleisch mit mildem Eigengeschmack wie Lammrücken, Kalbs- oder Schweinemedaillons serviert. Auch ein zartrosa Rinderfilet passt gut dazu.<br/><br/>Zu grünem Spargel darf es ein wenig kräftiger sein: Rumpsteak, marinierte Hühnerbrust oder gegrilltes Schweinekotelett harmonieren mit seiner würzigeren Note. Sogar Wildfleisch wie Reh oder Perlhuhn schmeckt ausgezeichnet dazu.<br/><br/>Wer die Kombination mit Schinken bevorzugt, hat ebenfalls vielfältige Möglichkeiten. Eine milde Variante zu weißem Spargel ist saftiger Kochschinken. Eine kräftigere Komposition bieten geräucherte Sorten wie beispielsweise ein Schwarzwälder Schinken. Da die grünen Stangen schon einen herzhaften Eigengeschmack vorweisen, werden sie von nussigem, italienischem Parmaschinken oder spanischem Serrano gut ergänzt.</p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_RXEkJb",
+        "richtext_j3Ymie"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "media_with_text_P9iMyz": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_fdHkBc": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Ratgeber_Produktwissen_MEdia_with_Text_XXX___1500x1500_86d0f687-3cf2-4b22-bbe1-e9e35aed2804.png",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "text_position_mobil": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Fisch zu Spargel: Zwei Mal zart",
+            "heading_tag": "h3",
+            "content": "<p>Nicht nur Fleisch, auch Fisch ist ein geschmackvoller Partner für das Frühlingsgemüse. Es empfiehlt sich allerdings auf Fischsorten zurückzugreifen, die das Spargelaroma nicht überdecken. Lachs oder Zander sowie Garnelen oder Kabeljau lassen sich wunderbar mit weißem oder grünem Spargel kombinieren.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "image_fdHkBc"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "rich_text_RMtfVA": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_gxVACJ": {
+          "type": "heading",
+          "settings": {
+            "text": "Gewürze zu Spargel: Weniger ist mehr",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_ht33wE": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Zum Kochen wird dem Wasser typischerweise Salz, Zucker, Butter und Zitrone hinzugegeben. Beim finalen Abschmecken kann frisch gemahlener Pfeffer ergänzt werden.</p><p>Weniger klassisch, aber genauso lecker, sind Spargelgerichte mit einer orientalischen Note. Bei Pasta mit grünem Spargel sorgen beispielsweise zerstoßene Koriandersamen in der Soße für den fernöstlichen Geschmack. Sumach sorgt für den letzten Schliff bei gebratenem Spargel. Frisch und fruchtig wird es neben Zitrone mit rosa Pfefferbeeren. Eine besonders edle Alternative zur klassischen, zerlaufenen Butter ist Trüffelöl.</p><p>Aus dem Kräutergarten bieten sich frische Petersilie, Schnittlauch, Liebstöckel, Kerbel, Zitronenmelisse sowie alle Kressesorten an. Und nicht vergessen: In der Spargelsaison gibt es auch jede Menge Bärlauch! Dieser kann klein gehackt nicht nur als Dekoration verwendet werden, er verleiht auch Marinaden oder einem Spargelrisotto eine Extraportion Frühling.</p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_gxVACJ",
+        "richtext_ht33wE"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "rich_text_6XJMdi": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_YEn7rh": {
+          "type": "heading",
+          "settings": {
+            "text": "Die ideale Getränkebegleitung zu Spargel: Leicht und spritzig",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_nnHGqk": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Wo Spargel ist, ist der Weißwein nicht weit. Den einen “Spargelwein” gibt es allerdings nicht, denn auch auf die Art und Weise der Spargelzubereitung sowie seine Beilagen kommt es an.<br/><br/>Winzer empfehlen zu weißem Spargel milde, trockene Sorten wie Weißburgunder oder Chardonnay, Sauvignon-Blanc oder Müller-Thurgau. Etwas charaktervoller darf es zu violettem Spargel sein, hier bieten sich Rivaner und gereifte Rieslingsorten an.<br/><br/>Grüner Spargel verträgt im Allgemeinen mehr Würze: Aromatischer Riesling, Sauvignon Blanc, Silvaner oder Grauburgunder harmonieren perfekt.<br/><br/>Wer lieber Bier zum Spargel mag, liegt mit einem Pale Ale oder hellem Weizen genau richtig. Wenn rotes Fleisch oder Gegrilltes dazu gegessen wird, passt auch ein Maibock gut dazu. Einige Spargelhöfe bieten übrigens auch Spargelbier an!<br/><br/>Ohne Alkohol geht es natürlich ebenso. Feinperliges Mineralwasser mit moderatem Mineraliengehalt sensibilisiert die Geschmacksknospen für das feine Spargelaroma. Mit einem Schuss Zitrone und einer Scheibe Gurke wird es noch frischer und runder.<br/><br/>Für alle, die es gerne süß mögen, ist ein Schuss Rhabarber-, Holunder- oder Erdbeersirup im Mineralwasser eine köstliche Abwechslung. Diese fruchtigen Aromen passen gut zum Spargel und stimmen auf den nahen Sommer ein.<br/><br/>Bild: ©HLPhoto/adobestock</p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_YEn7rh",
+        "richtext_nnHGqk"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "xl"
+      }
+    },
+    "blog_posts_zUzUQt": {
+      "type": "blog-posts",
+      "blocks": {
+        "blog_wAJJHK": {
+          "type": "blog",
+          "settings": {
+            "blog": "news",
+            "posts_count": 3,
+            "stack_items": false
+          }
+        }
+      },
+      "block_order": [
+        "blog_wAJJHK"
+      ],
+      "name": "Blog posts",
+      "settings": {
+        "show_excerpt": true,
+        "show_date": true,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": true,
+        "show_overall_time": false,
+        "subheading": "",
+        "title": "Weitere Kochtipps entdecken",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto",
+        "blog_handle": "kochtipps",
+        "posts_count": 4
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_aWy6Eq",
+    "rich_text_eewDWa",
+    "media_with_text_P9iMyz",
+    "rich_text_RMtfVA",
+    "rich_text_6XJMdi",
+    "blog_posts_zUzUQt"
+  ]
+}

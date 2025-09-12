@@ -1,0 +1,343 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "navigation": {
+          "type": "navigation",
+          "disabled": true,
+          "settings": {}
+        },
+        "comments": {
+          "type": "comments",
+          "disabled": true,
+          "settings": {
+            "show_gravatar": true,
+            "comments_per_page": 5
+          }
+        }
+      },
+      "block_order": [
+        "navigation",
+        "comments"
+      ],
+      "settings": {
+        "layout": "image_text_overlay",
+        "image": "{{ article.image }}",
+        "show_author": true,
+        "show_date": true,
+        "show_comments_count": true,
+        "show_share_buttons": true,
+        "show_header_image": true,
+        "banner_background": "",
+        "banner_text_color": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "content_width": "750px",
+        "stats_color": "#556132",
+        "is_recipe": false,
+        "content_alignment": "start"
+      }
+    },
+    "media_with_text_GJjcMj": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_APzPBx": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Ratgeber_Druckdampfgaren_fissler-dampfgarer-steamer-funktionsweise-function_800x800_ac71a3e5-fc5c-4d60-a4bf-86ce2e5ab981.png",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "Here's how it works",
+            "title": "Steam cooking in a pressure cooker",
+            "heading_tag": "h2",
+            "content": "<p>The Vitavit® Premium has a pressureless steam cooking setting. With the help of an insert, you can also gently steam food in the pressure cooker. The steam escapes through the cooking crown and the cooking time is the same as for conventional cooking. You can find the cooking time finder <a href=\"/blogs/product-guide/schnellkochtopf-garzeitenfinder\" title=\"Pressure Cooking Time Finder\">here.</a></p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "image_APzPBx"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "show_section_id": false,
+        "padding_top": "sm",
+        "padding_bottom": "sm"
+      }
+    },
+    "multi_column_fhXicp": {
+      "type": "multi-column",
+      "blocks": {
+        "item_xUrR4N": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "1. Preservation of nutrients",
+            "heading_tag": "h4",
+            "content": "<p>Gentle cooking preserves vitamins and minerals.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_wYczTT": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "2. Easy handling",
+            "heading_tag": "h4",
+            "content": "<p>The pot is easy to use and the steam regulator allows precise control of the cooking time.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_tpcfbT": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "3. Wide range of uses",
+            "heading_tag": "h4",
+            "content": "<p>Steam cooking is suitable for meat, fish, vegetables, and even desserts.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_xUrR4N",
+        "item_wYczTT",
+        "item_tpcfbT"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "Advantages of steam cooking in a pressure cooker",
+        "content": "",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "multi_column_XtC9tz": {
+      "type": "multi-column",
+      "blocks": {
+        "item_kjtKAn": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Ratgeber_Produktwissen_Multi_Column_Wasser_einfuellen_1200x900_da106e6b-ff86-4269-9f66-adb639f3d315.png",
+            "column_size": "3",
+            "title": "1. Pour in water",
+            "heading_tag": "h4",
+            "content": "<p>Fill the pot with a minimum amount of water (see “Min” mark).</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_KGAheL": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Ratgeber_Produktwissen_Multi_Column_Gargut_eingeben_1200x900_30cdc71a-abad-40fd-acda-d7355031ee2b.png",
+            "column_size": "3",
+            "title": "2. Gargut eingeben",
+            "heading_tag": "h4",
+            "content": "<p>Gargut in den gelochten Einsatz geben. Das Dreibein in den Schnellkochtopf stellen und den Einsatz darauf platzieren.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_wwz8N9": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Productguide_Steaming_Pressurecooker_Cookinglevel_1200x900_28ec88cc-8d2e-4c00-bc5b-7df237fa01b2.png",
+            "column_size": "3",
+            "title": "3. Set the cooking level",
+            "heading_tag": "h4",
+            "content": "<p>Set the cooking crown to “steam cooking” and heat the pot for the regular duration.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_6ATX9L": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Productguide_Steaming_Pressurecooker_Nosteaming_1200x900_9049b0cd-55ba-4a90-8bf1-7bc4b2692695.png",
+            "column_size": "3",
+            "title": "4. No steaming necessary",
+            "heading_tag": "h4",
+            "content": "<p>Since no pressure builds up with this method, the cooking lid does not lift and the pot can be opened at any time without first releasing the steam.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_Ay6Nqp": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Ratgeber_Produktwissen_Multi_Column_Tipp_1200x900_139f6857-4393-490c-93e5-4109f344b5ec.png",
+            "column_size": "3",
+            "title": "Tipp",
+            "heading_tag": "h4",
+            "content": "<p>Remove the hot mixture from the pot with a fork after the cooking time has elapsed.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_kjtKAn",
+        "item_KGAheL",
+        "item_wwz8N9",
+        "item_6ATX9L",
+        "item_Ay6Nqp"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "Here's how it works:",
+        "content": "",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "faq_metaobjecte_JKWBPr": {
+      "type": "faq-metaobjecte",
+      "blocks": {
+        "item_EwezQc": {
+          "type": "item",
+          "settings": {
+            "title": "Do you ship overseas?",
+            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+          }
+        },
+        "item_VhTMpz": {
+          "type": "item",
+          "settings": {
+            "title": "How long will it take to get my orders?",
+            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+          }
+        },
+        "item_bcmFCj": {
+          "type": "item",
+          "settings": {
+            "title": "Any question?",
+            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_EwezQc",
+        "item_VhTMpz",
+        "item_bcmFCj"
+      ],
+      "name": "FAQ-meta",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "FAQ",
+        "content": "<p>Use this text to share information about your product or shipping policies.</p>",
+        "team_avatar_width": 160,
+        "support_hours": "Our customer support is available Monday to Friday: 8am-8:30pm.",
+        "answer_time": "Average answer time: 24h",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "featured_articles_dPYybD": {
+      "type": "featured-articles",
+      "name": "Featured articles",
+      "settings": {
+        "articles_per_row_mobile": "2",
+        "articles_per_row_desktop": 4,
+        "subheading": "",
+        "articel_handles": "product-guide/pressure-cooking-time-finder,product-guide/pressure-cooker-juicing,product-guide/multi-level-pressure-cooking,product-guide/pressure-cooker-steaming",
+        "title": "The pressure cooker can do even more:",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": "",
+        "padding_top": "md",
+        "padding_bottom": "auto"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "media_with_text_GJjcMj",
+    "multi_column_fhXicp",
+    "multi_column_XtC9tz",
+    "faq_metaobjecte_JKWBPr",
+    "featured_articles_dPYybD"
+  ]
+}

@@ -1,0 +1,348 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_AgR36Y": {
+      "type": "slideshow",
+      "blocks": {
+        "image_C7CpfF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Landingpage_Slideshow_Christmmas_2167x800_508c0a67-06df-4222-bbaf-4db7cc671bbe.png",
+            "image_content_width": false,
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "Vom 01.12. bis 31.12.2025",
+            "title": "Weihnachts- angebote bei Fissler",
+            "heading_tag": "h1",
+            "button_text": "",
+            "button_link": "",
+            "heading_color": "#ffffff",
+            "subheading_color": "#000000",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_C7CpfF"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "full_width": true,
+        "show_initial_transition": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "rich_text_KmwQJV": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_zTNex3": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Entdecken Sie hochwertiges Kochgeschirr zu unschlagbaren Preisen in unseren exklusiven Weihnachtsangeboten! Nutzen Sie jetzt die Gelegenheit, Ihre Küchenausstattung zu erneuern, und sichern Sie sich zusätzliche Vorteile:</p><p>15% Rabatt mit dem Code<strong> XMAS2315</strong> ab 150€*</p><p>20% Rabatt mit dem Code <strong>XMAS2320 </strong>ab 300€*</p>",
+            "font_size": "lg"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_zTNex3"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "show_section_id": false,
+        "content_width": "large",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "collection_tabs_jYybEm": {
+      "type": "collection-tabs",
+      "settings": {}
+    },
+    "multi_column_CmgJPE": {
+      "type": "multi-column",
+      "blocks": {
+        "spacer_94bxRz": {
+          "type": "spacer",
+          "settings": {
+            "column_size": "12"
+          }
+        },
+        "item_nwWQUC": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/landingpage_christmmas_lieblingsprodukte-aussuchen.png",
+            "column_size": "4",
+            "title": "1. Lieblingsprodukte aussuchen",
+            "heading_tag": "h4",
+            "content": "<p>Suche dein Lieblingsprodukt im Shop aus</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "spacer_E8kV7w": {
+          "type": "spacer",
+          "settings": {
+            "column_size": "12"
+          }
+        },
+        "item_9pGjNH": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/landingpage_christmas_rabattcode-einloesen.png",
+            "column_size": "4",
+            "title": "2. Lieblingsartikel in den Warenkorb legen",
+            "heading_tag": "h4",
+            "content": "<p>Wähle deinen Wunschartikel aus und lege ihn in den Warenkorb</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "spacer_ErkTqB": {
+          "type": "spacer",
+          "settings": {
+            "column_size": "12"
+          }
+        },
+        "item_8Yt6g7": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/landingapge_christmas_lieblingsartikel-in-den-warenkorb-legen.png",
+            "column_size": "4",
+            "title": "3. Rabattcode einlösen",
+            "heading_tag": "h4",
+            "content": "<p>Gebe den Rabattcode im Warenkorb unter \"Gutscheincode eingeben\" ein</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "spacer_94bxRz",
+        "item_nwWQUC",
+        "spacer_E8kV7w",
+        "item_9pGjNH",
+        "spacer_ErkTqB",
+        "item_8Yt6g7"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "So einfach funktioniert's",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "rich_text_8pbgCz": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_Fxwn7J": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>*Gültig auf fissler.com/de bis 31.12.2023; Nicht kombinierbar mit anderen Aktionen; Ausgeschlossen sind reduzierte Produkte und Produkte der Kategorie Bücher. Natürlich gelten diese Angebote auch in Ihrem Fissler Store vor Ort.</p>",
+            "font_size": "sm"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_Fxwn7J"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "show_section_id": false,
+        "content_width": "large",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "media_with_text_iqXX6g": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_QyUzmd": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Category_Webshop_1200x1200_0001s_0000_Fissler_2022_Recipes_Adamant_Premium_Fried_Potatoes_V2_Pfannen.jpg",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "Entdecke alle Pfannen und Woks",
+            "title": "Pfannen & Woks",
+            "heading_tag": "h3",
+            "content": "<p>Egal, ob Sie das perfekte Steak scharf und kross in einer Edelstahlpfanne anbraten, Gemüse schonend im Wok rösten oder bewusst mit wenig Fett in einer beschichteten Aluminiumpfanne zubereiten möchten – bei uns finden Sie die richtige Pfanne für jede Anwendung.</p>",
+            "link_text": "Alle Pfannen & Woks",
+            "link_url": "shopify://collections/pfannen",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": ""
+          }
+        },
+        "image_zUjdGi": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Fissler_PHI_Topf2_o_deafab78-a6a7-42ca-aefb-d759a26d52fd.jpg",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "Alle Töpfe und Topfsets auf einen Blick",
+            "title": "Töpfe",
+            "heading_tag": "h3",
+            "content": "<p>Mach deine Küche komplett - entdecke Topfsets sowie einzelne Töpfe und spare dabei.</p>",
+            "link_text": "Alle Töpfe",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": ""
+          }
+        },
+        "image_Hxqqke": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/vitavit-premium-schnellkochtopf-pm-v2.jpg",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "Alle Schnellkochtöpfe im Überblick",
+            "title": "Schnellkochtöpfe",
+            "heading_tag": "h3",
+            "content": "<p>Heben Sie Ihre Kocherfahrung auf das nächste Level und erleben Sie die Vorteile des Schnellkochens: Unsere Schnellkochtöpfe schenken Ihnen Zeit, sparen Energie und bewahren Vitamine. </p>",
+            "link_text": "Alle Schnellkocchtöpfe",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": ""
+          }
+        },
+        "image_p9TXUh": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Fissler_original_profi_collection_6_tlg_set_084-388-06-001_SA2.jpg",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "Entdecke alle Küchenhelfer",
+            "title": "Küchenhelfer",
+            "heading_tag": "h3",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "link_text": "Alle Küchenhelfer",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_QyUzmd",
+        "image_zUjdGi",
+        "image_Hxqqke",
+        "image_p9TXUh"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "show_section_id": false,
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    }
+  },
+  "order": [
+    "slideshow_AgR36Y",
+    "rich_text_KmwQJV",
+    "collection_tabs_jYybEm",
+    "multi_column_CmgJPE",
+    "rich_text_8pbgCz",
+    "media_with_text_iqXX6g",
+    "main"
+  ]
+}

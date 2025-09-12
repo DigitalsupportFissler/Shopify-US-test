@@ -1,0 +1,306 @@
+{% comment %}
+  ================================
+  SECTION: Collection Tabs (v2)
+  Reads tabs from
+  collection.metafields.custom.tabs
+  ================================
+{% endcomment %}
+
+{%- comment -%} Padding utility classes based on section settings {%- endcomment -%}
+{%- capture padding_classes -%}
+  section-padding-top-{{ section.settings.padding_top }}
+  section-padding-bottom-{{ section.settings.padding_bottom }}
+{%- endcapture -%}
+
+{%- assign tabs_size = 0 -%}
+{%- if collection.metafields.custom.tabs != blank -%}
+  {%- for tab in collection.metafields.custom.tabs.value -%}
+    {%- assign tabs_size = tabs_size | plus: 1 -%}
+  {%- endfor -%}
+{%- endif -%}
+
+{%- if tabs_size > 0 -%}
+  {{ 'collection-tabs.css' | asset_url | stylesheet_tag: preload: true }}
+  {%- render 'section-spacing-collapsing' -%}
+
+  <style>
+    @media screen and (min-width: 700px) {
+      #shopify-section-{{ section.id }} {
+        --tabs-max-width: {% if section.settings.content_size == 'small' %}760{% elsif section.settings.content_size == 'medium' %}1000{% elsif section.settings.content_size == 'large' %}1260{% else %}100{% endif %}px;
+        --section-stack-spacing-block: var(--spacing-8);
+      }
+    }
+    @media screen and (min-width: 1400px) {
+      #shopify-section-{{ section.id }} {
+        --section-stack-spacing-block: var(--spacing-10);
+      }
+    }
+  </style>
+
+  <div id="shopify-section-{{ section.id }}" class="section section-blends {{ padding_classes }}">
+    <div class="tabs">
+      <div class="section-stack">
+        {%- if section.settings.subheading or section.settings.title -%}
+          <div class="prose text-center">
+            {%- if section.settings.subheading != blank -%}
+              <p class="subheading">{{ section.settings.subheading | escape }}</p>
+            {%- endif -%}
+            {%- if section.settings.title != blank -%}
+              <p class="h2">{{ section.settings.title | escape }}</p>
+            {%- endif -%}
+          </div>
+        {%- endif -%}
+
+        <!-- Wrapper for both mobile and desktop -->
+        <div class="tabs-container">
+          <div class="sm:hidden">
+            {% for tab in collection.metafields.custom.tabs.value %}
+              {%- assign hasIntroTitle = tab.intro_title | default: '' | strip -%}
+              {%- assign hasIntro = tab.intro | default: '' | strip -%}
+
+              {%- capture _content -%}
+                <div class="prose">
+                  {% if hasIntroTitle != '' %}
+                    <h2 class="mt-2">{{ tab.intro_title }}</h2>
+                  {% endif %}
+                  {% if hasIntro != '' %}
+                    <div>{{ tab.intro | metafield_tag }}</div>
+                  {% endif %}
+
+                 
+                    {% for tab_item in tab.items.value %}
+                      <div class="collection-tabs__media-item {% cycle '', 'reversed' %}">
+                        <div class="collection-tabs__media-item-media">
+                          {%- if tab_item.image != blank and tab_item.product == blank -%}
+                            {{-
+                              tab_item.image
+                              | image_url: width: tab_item.image.width
+                              | image_tag: widths: '300,400,500,600,700,800,1000,1200,1400,1600,1800,2000,2200,2400,2600'
+                            -}}
+                          {%- endif -%}
+                          {%- if tab_item.image == blank
+                            and tab_item.product != blank
+                            and tab_item.product.value != blank
+                          -%}
+                            {%- render 'product-card', product: tab_item.product.value, show_badges: true -%}
+                          {%- endif -%}
+                        </div>
+                        <div class="collection-tabs__media-item-content {% if tab_item.product == blank and tab_item.image == blank %}full-width{% endif %}">
+                          {% if tab_item.title != blank %}
+                            <h3 class="collection-tabs__media-item-title">{{ tab_item.title }}</h3>
+                          {% endif %}
+                          {% if tab_item.content != blank %}
+                            <div class="collection-tabs__media-item-description prose">
+                              {{ tab_item.content | metafield_tag }}
+                            </div>
+                          {% endif %}
+                          {% if tab_item.button_text != blank and tab_item.button_link != blank %}
+                            <div>
+                              <a href="{{ tab_item.button_link }}" class="collection-tabs__media-item-button">
+                                {{- tab_item.button_text -}}
+                              </a>
+                            </div>
+                          {% endif %}
+                        </div>
+                      </div>
+                    {% endfor %}
+     
+                </div>
+              {%- endcapture -%}
+
+              {%
+                render 'accordion',
+                title: tab.tab_title,
+                content: _content,
+                open: forloop.first and section.settings.first_tab_open
+              %}
+            {% endfor %}
+          </div>
+          <div class="hidden sm:block">
+            <x-tabs class="tabs-inner sm:text-{{ section.settings.text_alignment | replace: 'left', 'start' | replace: 'right', 'end' }}">
+              <template shadowrootmode="open">
+                <slot role="tablist" part="tab-list" name="title"></slot>
+                <slot part="tab-panels" name="content"></slot>
+              </template>
+
+              {%- assign indexCounter = 0 -%}
+              {% for tab in collection.metafields.custom.tabs.value %}
+                {%- assign hasIntroTitle = tab.intro_title | default: '' | strip -%}
+                {%- assign hasIntro = tab.intro | default: '' | strip -%}
+
+                <!-- Tab button -->
+                <button
+                  type="button"
+                  slot="title"
+                  class="tabs-nav__button bold text-subdued text-center"
+                  {% if forloop.first %}
+                    aria-selected="true"
+                  {% endif %}
+                  data-index="{{ indexCounter }}"
+                >
+                  {{ tab.tab_title }}
+                </button>
+
+                <!-- Tab panel -->
+                <div
+                  role="tabpanel"
+                  class="tab-content prose mt-14"
+                  slot="content"
+                  style="
+                    padding-left: 40px;
+                    padding-right: 40px;
+                  "
+                  {% if forloop.first %}
+                  {% else %}
+                    hidden
+                  {% endif %}
+                  data-index="{{ indexCounter }}"
+                >
+                  {% if hasIntroTitle != '' %}
+                    <h2 class="mt-4">{{ tab.intro_title }}</h2>
+                  {% endif %}
+                  {% if hasIntro != '' %}
+                    <div>{{ tab.intro | metafield_tag }}</div>
+                  {% endif %}
+
+                  {% for tab_item in tab.items.value %}
+                    <div class="collection-tabs__media-item {% cycle '', 'reversed' %}">
+                      <div class="collection-tabs__media-item-media">
+                        {%- if tab_item.image != blank and tab_item.product == blank -%}
+                          {{-
+                            tab_item.image
+                            | image_url: width: tab_item.image.width
+                            | image_tag: widths: '300,400,500,600,700,800,1000,1200,1400,1600,1800,2000,2200,2400,2600'
+                          -}}
+                        {%- endif -%}
+                        {%- if tab_item.image == blank
+                          and tab_item.product != blank
+                          and tab_item.product.value != blank
+                        -%}
+                          {%- render 'product-card', product: tab_item.product.value, show_badges: true -%}
+                        {%- endif -%}
+                      </div>
+                      <div class="collection-tabs__media-item-content {% if tab_item.product == blank and tab_item.image == blank %}full-width{% endif %}">
+                        {% if tab_item.title != blank %}
+                          <h3 class="collection-tabs__media-item-title">{{ tab_item.title }}</h3>
+                        {% endif %}
+                        {% if tab_item.content != blank %}
+                          <div class="collection-tabs__media-item-description prose">
+                            {{ tab_item.content | metafield_tag }}
+                          </div>
+                        {% endif %}
+                        {% if tab_item.button_text != blank and tab_item.button_link != blank %}
+                          <div>
+                            <a href="{{ tab_item.button_link }}" class="collection-tabs__media-item-button">
+                              {{- tab_item.button_text -}}
+                            </a>
+                          </div>
+                        {% endif %}
+                      </div>
+                    </div>
+                  {% endfor %}
+                </div>
+                {%- assign indexCounter = indexCounter | plus: 1 -%}
+              {% endfor %}
+            </x-tabs>
+          </div>
+          <!-- /desktop tabs -->
+        </div>
+        <!-- /tabs-container -->
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="{{ 'collection-tabs.js' | asset_url }}"></script>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "Collection Tabs",
+  "class": "shopify-section--collection-tabs-v2",
+  "tag": "section",
+  "disabled_on": {
+    "templates": ["password"]
+  },
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "first_tab_open",
+      "label": "Open first tab by default on mobile"
+    },
+    {
+      "type": "select",
+      "id": "content_size",
+      "label": "Content size",
+      "options": [
+        {
+          "value": "small",
+          "label": "Small"
+        },
+        {
+          "value": "medium",
+          "label": "Medium"
+        },
+        {
+          "value": "large",
+          "label": "Large"
+        },
+        {
+          "value": "fill",
+          "label": "Fill page"
+        }
+      ],
+      "default": "medium"
+    },
+    {
+      "type": "text",
+      "id": "subheading",
+      "label": "Subheading",
+      "default": "Subheading"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Heading"
+    },
+    {
+      "type": "text_alignment",
+      "id": "text_alignment",
+      "label": "Desktop text alignment",
+      "default": "center"
+    },
+    {
+      "type": "select",
+      "id": "padding_top",
+      "label": "Padding top",
+      "options": [
+        { "value": "auto", "label": "auto" },
+        { "value": "0", "label": "0" },
+        { "value": "sm", "label": "sm" },
+        { "value": "md", "label": "md" },
+        { "value": "xl", "label": "xl" }
+      ],
+      "default": "auto"
+    },
+    {
+      "type": "select",
+      "id": "padding_bottom",
+      "label": "Padding bottom",
+      "options": [
+        { "value": "auto", "label": "auto" },
+        { "value": "0", "label": "0" },
+        { "value": "sm", "label": "sm" },
+        { "value": "md", "label": "md" },
+        { "value": "xl", "label": "xl" }
+      ],
+      "default": "auto"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Collection Tabs (MetaFields)"
+    }
+  ]
+}
+{% endschema %}

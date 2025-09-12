@@ -1,0 +1,335 @@
+{%- if section.blocks.size > 0 -%}
+  {%- render 'section-spacing-collapsing' -%}
+
+  <style>
+    @media screen and (min-width: 700px) {
+      #shopify-section-{{ section.id }} {
+        --tabs-max-width: {% if section.settings.content_size == 'small' %}760{% elsif section.settings.content_size == 'medium' %}1000{% elsif section.settings.content_size == 'large' %}1260{% endif %}px;
+        --section-stack-spacing-block: var(--spacing-8);
+      }
+    }
+
+    @media screen and (min-width: 1400px) {
+      #shopify-section-{{ section.id }} {
+        --section-stack-spacing-block: var(--spacing-10);
+      }
+    }
+
+    @media screen and (max-width: 699px) {
+      .tabs-container {
+        display: block;
+      }
+      .tabs-container details.accordion {
+        border-top: 1px solid var(--color-border);
+        padding: var(--spacing-4) 0;
+      }
+      .tabs-container details.accordion summary {
+        font-weight: bold;
+        cursor: pointer;
+        list-style: none;
+      }
+      .tabs-container details.accordion .prose {
+        padding-top: var(--spacing-3);
+      }
+    }
+  </style>
+
+  {%- capture padding_classes -%}
+    section-padding-top-{{ section.settings.padding_top }} section-padding-bottom-{{ section.settings.padding_bottom }}
+  {%- endcapture -%}
+  {% assign section_classes = padding_classes %}
+  {% if section.settings.full_width_background %}
+    {% assign section_classes = section_classes | append: 'no-padding' %}
+  {% endif %}
+  <div {% render 'section-properties', class: section_classes %}>
+    <div class="tabs">
+      <div class="section-stack">
+        {%- render 'section-header',
+          subheading: section.settings.subheading,
+          heading: section.settings.title,
+          heading_color: section.settings.heading_color,
+          heading_gradient: section.settings.heading_gradient,
+          content: section.settings.content,
+          link_text: section.settings.link_text,
+          link_url: section.settings.link_url,
+          text_alignment: section.settings.text_alignment
+        -%}
+
+        <div class="tabs-container">
+          <div class="sm:hidden tabs-container">
+            {%- for block in section.blocks -%}
+              {%- liquid
+                assign title = block.settings.title | default: ''
+                if block.type == 'liquid'
+                  assign content = block.settings.liquid
+                else
+                  assign content = block.settings.content
+                endif
+              -%}
+              {%- if title and content -%}
+                {%- capture accordion_content -%}
+                  <div class="prose text-{{ section.settings.text_alignment }}">{{ content }}</div>
+                {%- endcapture -%}
+                {%- render 'accordion', title: title, content: accordion_content, open: forloop.first and section.settings.first_tab_open -%}
+              {%- endif -%}
+            {%- endfor -%}
+          </div>
+
+          <x-tabs
+            class="tabs-inner text-{{ section.settings.text_alignment }} sm:text-{{ section.settings.text_alignment | replace: 'start','left' | replace:'end','right' }}"
+          >
+            <template shadowrootmode="open">
+              <slot role="tablist" part="tab-list" name="title"></slot>
+              <slot part="tab-panels" name="content"></slot>
+            </template>
+
+            {%- for block in section.blocks -%}
+              {%- liquid
+                assign title = block.settings.title | default: ''
+                if block.type == 'liquid'
+                  assign content = block.settings.liquid
+                else
+                  assign content = block.settings.content
+                endif
+              -%}
+
+              {%- if title != blank and content != blank -%}
+                <button
+                  type="button"
+                  slot="title"
+                  class="tabs-nav__button bold text-subdued text-center"
+                  {{ block.shopify_attributes }}
+                >
+                  {{ title | escape }}
+                </button>
+                <div
+                  role="tabpanel"
+                  class="tab-content prose"
+                  slot="content"
+                  {% cycle '', 'hidden', 'hidden', 'hidden', 'hidden' %}
+                >
+                  {{ content }}
+                </div>
+              {%- endif -%}
+            {%- endfor -%}
+          </x-tabs>
+        </div>
+      </div>
+    </div>
+  </div>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "Tabs",
+  "class": "shopify-section--tabs",
+  "disabled_on": {
+    "groups": ["header", "custom.overlay"]
+  },
+  "max_blocks": 10,
+  "settings": [
+    {
+      "type": "select",
+      "id": "content_size",
+      "label": "Content size",
+      "options": [
+        {
+          "value": "small",
+          "label": "Small"
+        },
+        {
+          "value": "medium",
+          "label": "Medium"
+        },
+        {
+          "value": "large",
+          "label": "Large"
+        },
+        {
+          "value": "fill",
+          "label": "Fill page"
+        }
+      ],
+      "default": "medium"
+    },
+    {
+      "type": "text",
+      "id": "subheading",
+      "label": "Subheading",
+      "default": "Subheading"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Heading"
+    },
+    {
+      "type": "richtext",
+      "id": "content",
+      "label": "Content"
+    },
+    {
+      "type": "url",
+      "id": "link_url",
+      "label": "Link URL"
+    },
+    {
+      "type": "text",
+      "id": "link_text",
+      "label": "Link text",
+      "default": "View all"
+    },
+    {
+      "type": "select",
+      "id": "text_alignment",
+      "label": "Text alignment",
+      "options": [
+        { "value": "start", "label": "Left" },
+        { "value": "center", "label": "Center" },
+        { "value": "end", "label": "Right" }
+      ],
+      "default": "start"
+    },
+    {
+      "type": "checkbox",
+      "id": "first_tab_open",
+      "label": "Open first tab on mobile"
+    },
+    {
+      "type": "header",
+      "content": "Colors",
+      "info": "Gradient replaces solid colors when set."
+    },
+    {
+      "type": "color",
+      "id": "background",
+      "label": "Background"
+    },
+    {
+      "type": "checkbox",
+      "id": "full_width_background",
+      "label": "Remove section margin",
+      "default": false
+    },
+    {
+      "type": "color_background",
+      "id": "background_gradient",
+      "label": "Background gradient"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text"
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Heading color"
+    },
+    {
+      "type": "color_background",
+      "id": "heading_gradient",
+      "label": "Heading gradient"
+    },
+    {
+      "type": "select",
+      "id": "padding_top",
+      "label": "Padding top",
+      "options": [
+        { "value": "auto", "label": "auto" },
+        { "value": "0", "label": "0" },
+        { "value": "sm", "label": "sm" },
+        { "value": "md", "label": "md" },
+        { "value": "xl", "label": "xl" }
+      ],
+      "default": "auto"
+    },
+    {
+      "type": "select",
+      "id": "padding_bottom",
+      "label": "Padding bottom",
+      "options": [
+        { "value": "auto", "label": "auto" },
+        { "value": "0", "label": "0" },
+        { "value": "sm", "label": "sm" },
+        { "value": "md", "label": "md" },
+        { "value": "xl", "label": "xl" }
+      ],
+      "default": "auto"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "tab",
+      "name": "Rich-text content",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Tab"
+        },
+        {
+          "type": "richtext",
+          "id": "content",
+          "label": "Content",
+          "default": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+        },
+        {
+          "type": "page",
+          "id": "page",
+          "label": "Page",
+          "info": "Replaces inline content if specified."
+        }
+      ]
+    },
+    {
+      "type": "liquid",
+      "name": "Liquid code",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Tab"
+        },
+        {
+          "type": "liquid",
+          "id": "liquid",
+          "label": "Liquid code",
+          "default": "<p>Write Liquid code to create advanced customizations.</p>"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Tabs",
+      "blocks": [
+        {
+          "type": "tab",
+          "settings": {
+            "title": "Tab 1",
+            "content": "<p>Use this text to share information about your brand with your customers.</p>"
+          }
+        },
+        {
+          "type": "tab",
+          "settings": {
+            "title": "Tab 2",
+            "content": "<p>Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        },
+        {
+          "type": "tab",
+          "settings": {
+            "title": "Tab 3",
+            "content": "<p>Share information about your shipping rates, return policy or contact information.</p>"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

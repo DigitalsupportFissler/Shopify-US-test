@@ -1,0 +1,719 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "100%"
+      }
+    },
+    "featured_product_Ha3man": {
+      "type": "featured-product",
+      "blocks": {
+        "vendor_kfY8zG": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "title_eEHeUd": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "badges_EeNKcy": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price_PAexq7": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating_Yz8bQi": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "separator_4W4U7A": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description_D7T67Y": {
+          "type": "description",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "collapse_content": false
+          }
+        },
+        "variant_picker_VJatLN": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector_4JA94m": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_jxFghn": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "pickup_availability_VRpwth": {
+          "type": "pickup_availability",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "vendor_kfY8zG",
+        "title_eEHeUd",
+        "badges_EeNKcy",
+        "price_PAexq7",
+        "rating_Yz8bQi",
+        "separator_4W4U7A",
+        "description_D7T67Y",
+        "variant_picker_VJatLN",
+        "quantity_selector_4JA94m",
+        "buy_buttons_jxFghn",
+        "pickup_availability_VRpwth"
+      ],
+      "disabled": true,
+      "settings": {
+        "product": "adamant-comfort-pfanne",
+        "desktop_media_width": 35,
+        "desktop_media_layout": "grid_one",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "slideshow_W7KUmi": {
+      "type": "slideshow",
+      "blocks": {
+        "image_ie8irr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Landingpages_AH_Event_Header_Image_2800x1000_2d454384-1c58-494e-abdb-21398839d890.png",
+            "image_content_width": false,
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "Am 26. September 2025",
+            "title": "Alexander Herrmann live in Frankfurt",
+            "heading_tag": "h1",
+            "button_text": "",
+            "button_link": "",
+            "heading_color": "#ffffff",
+            "subheading_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_ie8irr"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "full_width": true,
+        "show_initial_transition": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "rich_text_mHpHdr": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_8k3DQ6": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Stell dir vor, du tauchst einen Tag lang in die Welt der Kulinarik ein – mitten in Frankfurt, gemeinsam mit einem der bekanntesten Sterneköche Deutschlands. </p><p>Am <strong>26. September 2025</strong> öffnet der <strong>Fissler Store Frankfurt zwischen 11:00 und 17:00</strong> <strong>Uhr</strong> seine Türen für ein ganz besonderes Event: Alexander Herrmann ist live vor Ort und präsentiert die neue Messerkollektion <strong>Fissler PrimeCut Collection by Alexander Herrmann.</strong><br/><br/>Es geht nicht nur um Messer. Es geht um Leidenschaft. Um die Freude am Kochen und den ersten Schritt einer kulinarischen Reise. Denn jedes unvergessliche Gericht hat einen Anfang. Es beginnt mit dem ersten Schnitt.</p>",
+            "font_size": "base"
+          }
+        },
+        "button_rwkizP": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "xl",
+            "text": "Jetzt kostenlos anmelden",
+            "url": "https://fissler.com/pages/event-frankfurt-2025#shopify-section-template--26179249471837__rich_text_zJcB8G",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "richtext_8k3DQ6",
+        "button_rwkizP"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "show_section_id": false,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "padding_top": "xl",
+        "padding_bottom": "xl"
+      }
+    },
+    "text_with_icons_VYqFg6": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_HaxTVh": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-star",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Vorführung der Messerkollektion",
+            "content": "<p>Alexander Herrmann führt in kleinen Sessions die neue Fissler PrimeCut Collection vor.</p>"
+          }
+        },
+        "item_FrzAFw": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-star",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Interaktive Stationen",
+            "content": "<p>Erlebe Messer, Schneidetechniken & Schleifen zum Anfassen und Ausprobieren.</p>"
+          }
+        },
+        "item_mqCmBx": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-star",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Alexander Herrmann hautnah",
+            "content": "<p>Stelle deine Fragen & sichere dir ein Erinnerungsfoto mit dem Sternekoch.</p>"
+          }
+        },
+        "item_UgAVVR": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-star",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Verkostung",
+            "content": "<p>Genieße kulinarische Kostproben aus dem Live-Cooking vor Ort.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_HaxTVh",
+        "item_FrzAFw",
+        "item_mqCmBx",
+        "item_UgAVVR"
+      ],
+      "name": "Text with icons",
+      "settings": {
+        "padding_top": "auto",
+        "padding_bottom": "auto",
+        "title": "Diese Highlights erwarten dich:",
+        "subheading": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "content": "",
+        "link_text": "",
+        "link_url": "",
+        "text_alignment": "center",
+        "stack_on_mobile": true,
+        "heading_tag": "h5",
+        "icon_spacing": "medium",
+        "background": "#f0f0f0",
+        "full_width_background": true,
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "media_with_text_dzrEDQ": {
+      "type": "media-with-text",
+      "blocks": {
+        "video_ebpWLT": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/AH_Event_Frankfurt_weiß.mp4",
+            "external_video_url": "",
+            "autoplay": false,
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Persönliche Video-Botschaft von Alexander Herrmann",
+            "content": "<p>Im Video verrät Alexander Herrmann, warum das Event in Frankfurt ein unvergessliches Erlebnis wird und wieso du es dir nicht entgehen lassen solltest. Erfahre mehr über die Fissler PrimeCut Collection und melde dich zum Event an!</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "video_ebpWLT"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "show_section_id": true,
+        "padding_top": "xl",
+        "padding_bottom": "auto"
+      }
+    },
+    "rich_text_zJcB8G": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_EqKtpX": {
+          "type": "heading",
+          "settings": {
+            "text": "Jetzt kostenlos anmelden & teilnehmen",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_YLpQwH": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Melde dich jetzt für das Event an und erhalte alle wichtigen Infos direkt per E-Mail – inklusive Programm-Highlights und allen Details zum Tag mit Alexander Herrmann im Fissler Store Frankfurt.</p>",
+            "font_size": "lg"
+          }
+        },
+        "liquid_yyQjfK": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<center><p> Sollte dir das Formular nicht angezeigt werden, überprüfe bitte deine Cookie <a onclick=\"UC_UI.showSecondLayer();\" class=\"break-all text-base reversed-link hover:show cursor-pointer\" style=\"cursor: pointer;\">Einwilligungseinstellungen</a> </p></center>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_EqKtpX",
+        "richtext_YLpQwH",
+        "liquid_yyQjfK"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "show_section_id": false,
+        "content_width": "large",
+        "text_position": "center",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "padding_top": "md",
+        "padding_bottom": "0"
+      }
+    },
+    "175567358558690647": {
+      "type": "apps",
+      "blocks": {
+        "klaviyo_email_marketing_sms_form_embed_block_EpPnwj": {
+          "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "VFSi9d"
+          }
+        }
+      },
+      "block_order": [
+        "klaviyo_email_marketing_sms_form_embed_block_EpPnwj"
+      ],
+      "settings": {
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "full_width_background": false,
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "scrolling_text_6TCyxA": {
+      "type": "scrolling-text",
+      "name": "Scrolling text",
+      "settings": {
+        "text": "Ein kulinarisches Event für alle, die Kochen lieben.",
+        "text_size": "h3",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 10,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "text_gradient": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "xl"
+      }
+    },
+    "rich_text_ktYWRA": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_k6BEmx": {
+          "type": "subheading",
+          "settings": {
+            "text": "Fissler PrimeCut Collection by Alexander Herrmann",
+            "subheading_tag": "h3"
+          }
+        },
+        "heading_F9mA4j": {
+          "type": "heading",
+          "settings": {
+            "text": "Inspiriert von den besten Messern der Welt",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_pqCdrg": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Es geht nicht einfach nur um Messer, es geht um den ersten Schritt einer kulinarischen Reise. Der Moment, in dem die Klinge zum ersten Mal die Zutat berührt - scharf, überlegt, präzise. </p><p>Erlebe am 26. September die neue Kollektion und lass dich von Alexander Herrmann in die Welt der Messer einführen.</p>",
+            "font_size": "base"
+          }
+        },
+        "button_wLtk3R": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "style": "fill",
+            "size": "xl",
+            "text": "Kollektion online ansehen",
+            "url": "",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_k6BEmx",
+        "heading_F9mA4j",
+        "richtext_pqCdrg",
+        "button_wLtk3R"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "show_section_id": false,
+        "content_width": "large",
+        "text_position": "center",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "rich_text_aKijzY": {
+      "type": "rich-text",
+      "blocks": {
+        "button_H4MVqN": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "xl",
+            "text": "Kollektion entdecken",
+            "url": "shopify://collections/fissler-primecut-collection",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "button_YFTfCH": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "style": "fill",
+            "size": "xl",
+            "text": "Kollektion online ansehen",
+            "url": "",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_H4MVqN",
+        "button_YFTfCH"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "show_section_id": false,
+        "content_width": "large",
+        "text_position": "center",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "multi_column_nfxpcd": {
+      "type": "multi-column",
+      "blocks": {
+        "item_XKUpp8": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Pages_PrimeCut_Collection_Multi_Column_1400x1400_2.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_Q6RA76": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Pages_PrimeCut_Collection_Multi_Column_1400x1400_3.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_47A7DD": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Pages_PrimeCut_Collection_Multi_Column_1400x1400_4.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_yVEe3p": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Pages_PrimeCut_Collection_Multi_Column_1400x1400_b4bec40a-ae84-4dfe-9497-60a4856a2a01.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_hVTcCK": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Pages_Multi_Column_1400x1400_1.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_waJbi9": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Pages_Multi_Column_1400x1400_3cefee30-bb7f-47b9-a4e3-2505016915ec.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_XKUpp8",
+        "item_Q6RA76",
+        "item_47A7DD",
+        "item_yVEe3p",
+        "item_hVTcCK",
+        "item_waJbi9"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "xl"
+      }
+    },
+    "featured_collection_RExjnm": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "collection": "fissler-primecut-collection",
+        "products": [],
+        "stack_products": false,
+        "show_progress_bar": true,
+        "products_count": 8,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Entdecke die neuen Messer online",
+        "content": "",
+        "link_url": "shopify://collections/fissler-primecut-collection",
+        "link_text": "Kollektion ansehen",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "media_with_text_j3RFxb": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_ymXm69": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Pages_AH_Event_Shadowline_Teaser_Media_with_Text_1500x1500_348f01a1-1603-41b1-af8b-80b51cdbfbc9.png",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Die Original-Profi Collection® ShadowLine auf dem Event erleben",
+            "heading_tag": "h3",
+            "content": "<p>Außerdem erwartet dich beim Event die exklusive Original-Profi Collection® ShadowLine – die limitierte Jubiläumskollektion von Fissler in edlem, dunklem Edelstahl für echte Design-Liebhaber. Nur 1.800 Stück weltweit machen sie zu einem besonderen Highlight, das du am 26. September im Frankfurt Store live entdecken kannst.</p>",
+            "link_text": "Kollektion online ansehen",
+            "link_url": "shopify://collections/original-profi-collection-shadowline",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "image_ymXm69"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "featured_product_Ha3man",
+    "slideshow_W7KUmi",
+    "rich_text_mHpHdr",
+    "text_with_icons_VYqFg6",
+    "media_with_text_dzrEDQ",
+    "scrolling_text_6TCyxA",
+    "rich_text_zJcB8G",
+    "175567358558690647",
+    "rich_text_ktYWRA",
+    "rich_text_aKijzY",
+    "multi_column_nfxpcd",
+    "featured_collection_RExjnm",
+    "media_with_text_j3RFxb"
+  ]
+}

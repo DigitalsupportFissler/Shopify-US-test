@@ -1,0 +1,223 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_W6affT": {
+      "type": "slideshow",
+      "blocks": {
+        "image_xtqPJE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Kochtipps_aussergewoehnliche-lebensmittel-rare-regionale-delikatessen-fuer-entdecker-31025-83169.jpg",
+            "image_content_width": false,
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "Außergewöhnliche Zutaten",
+            "heading_tag": "h1",
+            "button_text": "",
+            "button_link": "",
+            "heading_color": "#ffffff",
+            "subheading_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 45,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_xtqPJE"
+      ],
+      "disabled": true,
+      "name": "Slideshow",
+      "settings": {
+        "full_width": true,
+        "show_initial_transition": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "navigation": {
+          "type": "navigation",
+          "disabled": true,
+          "settings": {}
+        },
+        "comments": {
+          "type": "comments",
+          "disabled": true,
+          "settings": {
+            "show_gravatar": true,
+            "comments_per_page": 5
+          }
+        }
+      },
+      "block_order": [
+        "navigation",
+        "comments"
+      ],
+      "settings": {
+        "layout": "content_first",
+        "show_author": false,
+        "show_date": true,
+        "show_comments_count": true,
+        "show_share_buttons": true,
+        "show_header_image": true,
+        "banner_background": "",
+        "banner_text_color": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "content_width": "750px",
+        "stats_color": "#556132",
+        "is_recipe": false,
+        "content_alignment": "start"
+      }
+    },
+    "rich_text_TKVeji": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_GNtiNc": {
+          "type": "heading",
+          "settings": {
+            "text": "Sauerklee",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_rnJqx6": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Die hübsche Wildpflanze wächst hierzulande auf fast jeder Wiese. Kaum bekannt ist allerdings, dass sie auch sehr schmackhaft ist. Wie der Name verrät, ist das Aroma leicht säuerlich. Anteilig in Wildkräutersalaten, als Garnitur oder in Quark verleiht Sauerklee genau die richtige geschmackliche Tiefe. Aufgrund der enthaltenen Oxalsäure sollte er allerdings nur in kleinen Mengen gegessen werden.<br/><br/></p>",
+            "font_size": "base"
+          }
+        },
+        "heading_Q3Uefb": {
+          "type": "heading",
+          "settings": {
+            "text": "Hopfenspargel",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_pHniRy": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Hopfenspargel bezeichnet die Wurzeltriebe der Hopfenpflanze. Eigentlich Abfallprodukt beim Hopfenanbau, werden sie mittlerweile von einigen Bauern als Delikatesse angeboten. Bis zu 13 Euro können 100 Gramm kosten, denn die Ernte ist aufwendig und die Saison von März bis April nur kurz. Hopfenspargel kann als Salat oder in der warmen Küche serviert werden. </p><p>Geschmacklich erinnern die feinen Wurzeln an Spargel, sind aber nussiger und eleganter im Aroma. Ein besonders feiner und unbekannter Genuss für Gourmets und Entdecker.<br/><br/></p>",
+            "font_size": "base"
+          }
+        },
+        "heading_mLYw6b": {
+          "type": "heading",
+          "settings": {
+            "text": "Schwarze Walnüsse",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_J4B3aW": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>In Südwestdeutschland eine Delikatesse, im Rest des Landes kaum bekannt sind schwarze Walnüsse – auch „Pfälzer Trüffel“ genannt. Dazu werden noch unreife Walnüsse im Hochsommer gepflückt und über mehrere Wochen eingelegt. Die eigentliche Haltbarmachung erfolgt schließlich durch das Einkochen mit Gewürzen und Zucker. </p><p>Abschließend müssen die Nüsse noch mindestens sechs Monate ziehen. Der Lohn für die Geduld: eine hocharomatische, süße, weiche Nuss. In Scheiben geschnitten, schmecken schwarze Walnüsse toll zu Käse, Wild oder auf Desserts. Der Sirup eignet sich zum Süßen. Ungewöhnlich – und ungewöhnlich köstlich!</p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_GNtiNc",
+        "richtext_rnJqx6",
+        "heading_Q3Uefb",
+        "richtext_pHniRy",
+        "heading_mLYw6b",
+        "richtext_J4B3aW"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "show_section_id": false,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "rich_text_BeGBbQ": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_hWjkTG": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Bild 1: ©rainboww33/Adobestock<br/>Bild 2: © Sylvie Cantot/iStock</p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_hWjkTG"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "show_section_id": false,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "padding_top": "auto",
+        "padding_bottom": "xl"
+      }
+    },
+    "featured_articles_x4FNhj": {
+      "type": "featured-articles",
+      "name": "Featured articles",
+      "settings": {
+        "articles_per_row_mobile": "2",
+        "articles_per_row_desktop": 3,
+        "subheading": "",
+        "articel_handles": "kochtipps/olivenoel,kochtipps/kleine-kraeuterkunde-thymian,kochtipps/spargel-wissen-unterschiede-zwischen-weissem-gruenem-und-violettem-spargel",
+        "title": "Weitere Kochtipps entdecken",
+        "content": "",
+        "link_url": "shopify://blogs/tips-and-tricks",
+        "link_text": "Alle Tipps ansehen",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    }
+  },
+  "order": [
+    "slideshow_W6affT",
+    "main",
+    "rich_text_TKVeji",
+    "rich_text_BeGBbQ",
+    "featured_articles_x4FNhj"
+  ]
+}

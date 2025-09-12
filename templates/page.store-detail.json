@@ -1,0 +1,133 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "media_with_text_hmh8Dd": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_taVjwh": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "start",
+            "text_position": "place-self-end-start text-start",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Store Name",
+            "heading_tag": "h3",
+            "content": "<p>Hier kommt ein Beispieltext über Metpbjects: </p><p>Salzstraße 26-28<br/>48143 Münster</p><p>Tel.: +49 (0) 251 - 857 115 25<br/>Mail: <a href=\"mailto:fissler-muenster@fissler.com\">fissler-muenster@fissler.com</a></p><p> </p><p><strong>Hinweis: Vorübergehende Schließung des Fissler Stores </strong>Unser Store ist bis zum 01. Dezember 2024 geschlossen.<br/>Ab dem 02. Dezember 2024 sind wir wieder wie gewohnt für Sie da. Vielen Dank für Ihr Verständnis!</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_taVjwh"
+      ],
+      "settings": {
+        "show_section_id": false,
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "testimonials_Ut8bJ3": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_UDbiyX": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "John S.",
+            "title": "Testimonial 1",
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+          }
+        },
+        "testimonial_pBkxqD": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "Mary U.",
+            "title": "Testimonial 2",
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+          }
+        },
+        "testimonial_VJiBc8": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "Joshua A.",
+            "title": "Testimonial 3",
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_UDbiyX",
+        "testimonial_pBkxqD",
+        "testimonial_VJiBc8"
+      ],
+      "disabled": true,
+      "settings": {
+        "stack_testimonials": true,
+        "subheading": "",
+        "title": "Testimonials",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "text_alignment": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "testimonial_card_background": "",
+        "testimonial_card_text_color": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    }
+  },
+  "order": [
+    "media_with_text_hmh8Dd",
+    "main",
+    "testimonials_Ut8bJ3"
+  ]
+}

@@ -1,0 +1,185 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "100%"
+      }
+    },
+    "featured_product_Ha3man": {
+      "type": "featured-product",
+      "blocks": {
+        "vendor_kfY8zG": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "title_eEHeUd": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "badges_EeNKcy": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price_PAexq7": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating_Yz8bQi": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "separator_4W4U7A": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description_D7T67Y": {
+          "type": "description",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "collapse_content": false
+          }
+        },
+        "variant_picker_VJatLN": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector_4JA94m": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_jxFghn": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "pickup_availability_VRpwth": {
+          "type": "pickup_availability",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "vendor_kfY8zG",
+        "title_eEHeUd",
+        "badges_EeNKcy",
+        "price_PAexq7",
+        "rating_Yz8bQi",
+        "separator_4W4U7A",
+        "description_D7T67Y",
+        "variant_picker_VJatLN",
+        "quantity_selector_4JA94m",
+        "buy_buttons_jxFghn",
+        "pickup_availability_VRpwth"
+      ],
+      "disabled": true,
+      "settings": {
+        "product": "adamant-comfort-pfanne",
+        "desktop_media_width": 35,
+        "desktop_media_layout": "grid_one",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "rich_text_bDc4zd": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_etRExG": {
+          "type": "heading",
+          "settings": {
+            "text": "Barrierefreiheitserklärung für fissler.com",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_etRExG"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "show_section_id": false,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "rich_text_HR6ktn": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_PVLMb9": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h2>1. Einleitung und Selbstverständnis</h2><p>Die Fissler GmbH setzt sich für die gleichberechtigte Teilhabe aller Menschen ein. Unser Ziel ist es, unsere digitalen Angebote – insbesondere unseren Webshop auf fissler.com – so barrierefrei wie möglich zu gestalten. </p><p>Wir möchten allen Nutzerinnen und Nutzern den Zugang zu Informationen, Produkten und Services ohne Einschränkungen ermöglichen.</p><p><br/></p><h2>2. Beschreibung der Dienstleistung</h2><p>Unsere Website fissler.com bietet Informationen zu hochwertigen Kochgeschirrprodukten sowie die Möglichkeit, diese direkt online zu erwerben.</p><p>Die Seite richtet sich an Verbraucherinnen und Verbraucher sowie Fachhändler und enthält Inhalte zu Produkten, Anwendungen, Pflegehinweisen und Unternehmensinformationen.</p><p><br/></p><h2>3. Stand der Barrierefreiheit</h2><p>Diese Website orientiert sich an den Anforderungen der EN 301 549 und berücksichtigt die technischen Vorgaben gemäß § 4 BFSG.</p><p>Aktuell wird fissler.com technisch und gestalterisch überarbeitet. Ziel ist es, bis Oktober 2025 eine weitgehende Konformität mit den Anforderungen der EN 301 549 zu erreichen, um die Website wahrnehmbar, bedienbar, verständlich und robust zu gestalten.</p><p></p><h5><strong>Beispiele bereits umgesetzter Maßnahmen:</strong></h5><ul><li>Responsives Design für mobile Endgeräte</li><li>Tastaturbedienbarkeit zentraler Funktionen</li><li>Optimierte Kontraste und Schriftgrößen</li><li>und weiteres</li></ul><p></p><h5><strong>Geplante und laufende Maßnahmen:</strong></h5><ul><li>Durchführung eines externen Accessibility Audits</li><li>Schulung von Redakteur:innen zur barrierefreien Inhaltspflege</li><li>Optimierung von Alternativtexten und semantischer HTML-Struktur</li></ul><p><br/></p><h2>4. Bekannte Einschränkungen</h2><p>Trotz unserer Bemühungen können aktuell noch folgende Barrieren bestehen:</p><p><br/></p><ul><li>Einzelne Drittanbieter-Plugins (z. B. für Zahlungsdienste) weisen barrierebezogene Einschränkungen auf</li><li>Einige Alternativtexte befinden sich noch in Überarbeitung</li></ul><p>Wir arbeiten kontinuierlich daran, bestehende Barrieren zu identifizieren und zu beheben.</p><p><br/></p><h2>5. Testumgebung und Technik</h2><p>Die Barrierefreiheitsprüfung wurde u. a. mit folgenden Technologien durchgeführt:</p><p></p><ul><li>Browser: Chrome, Firefox, Safari (aktuelle Versionen)</li><li>Betriebssysteme: Windows 11, macOS, iOS, Android</li><li>Unterstützende Technologien: Tastaturnavigation, Screenreader</li></ul><p><br/></p><h2>6. Feedback und Kontakt</h2><p>Wenn Sie Barrieren feststellen oder Hinweise zur Verbesserung der Barrierefreiheit haben, freuen wir uns über Ihre Rückmeldung:</p><p><br/></p><h5><strong>Anfrage via Kontaktformular:</strong></h5><p><a href=\"https://fissler.com/pages/kontakt\">https://fissler.com/pages/kontakt</a></p><p><br/></p><h5><strong>Postanschrift:</strong></h5><p>Fissler GmbH<br/>Barrierefreiheitsmanagement<br/>Harald-Fissler-Straße 1<br/>55743 Idar-Oberstein<br/>Deutschland</p><p><br/></p><h2>7. Marktüberwachungsbehörde</h2><p>Sollten Sie mit unserer Rückmeldung unzufrieden sein, können Sie sich an die zuständige Marktüberwachungsstelle wenden:</p><p>Marktüberwachungsstelle des Bundes<br/>Bundesfachstelle Barrierefreiheit<br/>Wilhelmstraße 139<br/>10963 Berlin</p><h2>8. Stand der Erklärung</h2><p>Diese Erklärung wurde am 27. Juni 2025 erstellt. Sie entspricht dem Stand zu diesem Datum.</p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_PVLMb9"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "show_section_id": false,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "featured_product_Ha3man",
+    "rich_text_bDc4zd",
+    "rich_text_HR6ktn"
+  ]
+}

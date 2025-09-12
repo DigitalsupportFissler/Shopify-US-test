@@ -1,0 +1,670 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "100%"
+      }
+    },
+    "featured_product_Ha3man": {
+      "type": "featured-product",
+      "blocks": {
+        "vendor_kfY8zG": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "title_eEHeUd": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "badges_EeNKcy": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price_PAexq7": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating_Yz8bQi": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "separator_4W4U7A": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description_D7T67Y": {
+          "type": "description",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "collapse_content": false
+          }
+        },
+        "variant_picker_VJatLN": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector_4JA94m": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_jxFghn": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "pickup_availability_VRpwth": {
+          "type": "pickup_availability",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "vendor_kfY8zG",
+        "title_eEHeUd",
+        "badges_EeNKcy",
+        "price_PAexq7",
+        "rating_Yz8bQi",
+        "separator_4W4U7A",
+        "description_D7T67Y",
+        "variant_picker_VJatLN",
+        "quantity_selector_4JA94m",
+        "buy_buttons_jxFghn",
+        "pickup_availability_VRpwth"
+      ],
+      "disabled": true,
+      "settings": {
+        "product": "adamant-comfort-pfanne",
+        "desktop_media_width": 35,
+        "desktop_media_layout": "grid_one",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "slideshow_EthDFd": {
+      "type": "slideshow",
+      "blocks": {
+        "image_kbdVNw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Landingpages_SKT_Jubilaeumsedition_Header_Image_2800x1000_faae4690-1c70-4972-9c64-9c3b893d6364.png",
+            "image_content_width": false,
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "70 Jahre Schnellkochen",
+            "title": "Vitavit® & Vitaquick® Jubiläumsedition",
+            "heading_tag": "h2",
+            "button_text": "",
+            "button_link": "",
+            "heading_color": "#ffffff",
+            "subheading_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_kbdVNw"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "full_width": true,
+        "show_initial_transition": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "rich_text_qYHrfq": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_FAVfnq": {
+          "type": "heading",
+          "settings": {
+            "text": "Zum Jubiläum kann man sich ruhig mal in Schale werfen",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_7iBga4": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Entdecke unsere exklusiven, limitierten Jubiläumsedition Schnellkochtöpfe. Das Design ist eine Hommage an die Mode und die Farben der 50er Jahre, als die Erfolgsgeschichte des Fissler Schnellkochtopfs begann. Zum 70. Jubiläum hat sich der vielseitige Fissler Schnellkochtopf in Schale geworfen und bringt Farbe in die gesunde und moderne Küche. </p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_FAVfnq",
+        "richtext_7iBga4"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "xl",
+        "padding_bottom": "md"
+      }
+    },
+    "video_HnJJPr": {
+      "type": "video",
+      "blocks": {
+        "play_GUgiEm": {
+          "type": "play",
+          "settings": {}
+        },
+        "heading_hWpLNf": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "play_GUgiEm",
+        "heading_hWpLNf"
+      ],
+      "name": "Video",
+      "settings": {
+        "show_section_id": false,
+        "full_width": false,
+        "autoplay": true,
+        "video_size": "md",
+        "external_video_url": "https://www.youtube.com/watch?v=_-rUoNKZKLE",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30,
+        "dynamic_video_url": "",
+        "dynamic_video_host": "",
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "comparison_table_ahwELb": {
+      "type": "comparison-table",
+      "blocks": {
+        "headings_KERMNd": {
+          "type": "headings",
+          "settings": {
+            "heading_1": "Qualität",
+            "heading_2": "Kochstufen",
+            "heading_3": "Kochkrone",
+            "heading_4": "Aufsetzhilfe/-orientierung",
+            "heading_5": "Mess-Skala",
+            "heading_6": "Abdampffunktion",
+            "heading_7": "Novogrill® Bratfläche ",
+            "heading_8": "Material",
+            "heading_9": "Dekoration",
+            "heading_10": "Boden",
+            "heading_11": "Herdarten",
+            "heading_12": "",
+            "heading_13": "",
+            "heading_14": "",
+            "heading_15": "",
+            "heading_16": "",
+            "heading_17": "",
+            "heading_18": "",
+            "heading_19": "",
+            "heading_20": "",
+            "heading_21": "",
+            "heading_22": "",
+            "heading_23": "",
+            "heading_24": "",
+            "heading_25": "",
+            "heading_26": "",
+            "heading_27": "",
+            "heading_28": "",
+            "heading_29": "",
+            "heading_30": "",
+            "heading_31": "",
+            "heading_32": "",
+            "heading_33": "",
+            "heading_34": "",
+            "heading_35": "",
+            "heading_36": "",
+            "heading_37": "",
+            "heading_38": "",
+            "heading_39": "",
+            "heading_40": ""
+          }
+        },
+        "values_YHXqDx": {
+          "type": "values",
+          "settings": {
+            "custom_heading": "",
+            "product": "vitavit-premium-schnellkochtopf",
+            "value_1": "<p>Premium Qualität – Made in Germany</p>",
+            "value_2": "<p>Vier Kochstufen für schonendes und schnelles Garen, inklusive druckloser Dampfgarstufe</p>",
+            "value_3": "<p>Kochkrone mit Ampelfunktion</p>",
+            "value_4": "<p>Praktische Aufsetzhilfe und Verriegelungsanzeige</p>",
+            "value_5": "<p>Mess-Skala zum Dosieren von Flüssigkeiten</p>",
+            "value_6": "<p>Abdampffunktion an Griff und Ventil zur einfachen Druckregulierung</p>",
+            "value_7": "<p>Novogrill® Bratfläche für Braten mit Grilleffekt – auch mit wenig Fett</p>",
+            "value_8": "<p>Polierter Körper nachhaltig aus bis zu 90 % recyceltem Edelstahl gefertigt</p>",
+            "value_9": "<p>Von Hand dekoriert</p>",
+            "value_10": "<p>Exklusiver, energieeffizienter CookStar® Boden für optimale Wärmeverteilung</p>",
+            "value_11": "<p>Geeignet für alle Herdarten einschließlich Induktion</p>",
+            "value_12": "",
+            "value_13": "",
+            "value_14": "",
+            "value_15": "",
+            "value_16": "",
+            "value_17": "",
+            "value_18": "",
+            "value_19": "",
+            "value_20": "",
+            "value_21": "",
+            "value_22": "",
+            "value_23": "",
+            "value_24": "",
+            "value_25": "",
+            "value_26": "",
+            "value_27": "",
+            "value_28": "",
+            "value_29": "",
+            "value_30": "",
+            "value_31": "",
+            "value_32": "",
+            "value_33": "",
+            "value_34": "",
+            "value_35": "",
+            "value_36": "",
+            "value_37": "",
+            "value_38": "",
+            "value_39": "",
+            "value_40": "",
+            "value_41": "",
+            "value_42": "",
+            "value_43": "",
+            "value_44": "",
+            "value_45": "",
+            "value_46": "",
+            "value_47": "",
+            "value_48": "",
+            "value_49": "",
+            "value_50": "",
+            "value_51": "",
+            "value_52": "",
+            "value_53": "",
+            "value_54": "",
+            "value_55": "",
+            "value_56": "",
+            "value_57": "",
+            "value_58": "",
+            "value_59": "",
+            "value_60": "",
+            "value_61": "",
+            "value_62": "",
+            "value_63": "",
+            "value_64": "",
+            "value_65": "",
+            "value_66": "",
+            "value_67": "",
+            "value_68": "",
+            "value_69": "",
+            "value_70": "",
+            "value_71": "",
+            "value_72": "",
+            "value_73": "",
+            "value_74": "",
+            "value_75": "",
+            "value_76": "",
+            "value_77": "",
+            "value_78": "",
+            "value_79": "",
+            "value_80": "",
+            "value_81": "",
+            "value_82": "",
+            "value_83": "",
+            "value_84": "",
+            "value_85": "",
+            "value_86": "",
+            "value_87": "",
+            "value_88": "",
+            "value_89": "",
+            "value_90": "",
+            "value_91": "",
+            "value_92": "",
+            "value_93": "",
+            "value_94": "",
+            "value_95": "",
+            "value_96": "",
+            "value_97": "",
+            "value_98": "",
+            "value_99": "",
+            "value_100": "",
+            "view_button_background": "",
+            "view_button_text_color": "",
+            "custom_link_url": "",
+            "custom_link_text": ""
+          }
+        },
+        "values_JP93Kg": {
+          "type": "values",
+          "settings": {
+            "custom_heading": "",
+            "product": "vitaquick-premium-schnellkochtopf",
+            "value_1": "<p>Premium Qualität – Made in Germany</p>",
+            "value_2": "<p>Zwei Kochstufen für schonendes und schnelles Garen</p>",
+            "value_3": "",
+            "value_4": "<p>Aufsetzorientierung und Verriegelungsanzeige</p>",
+            "value_5": "<p>Mess-Skala zum Dosieren von Flüssigkeiten</p>",
+            "value_6": "<p>Abdampffunktion am Griff zur einfachen Druckregulierung</p>",
+            "value_7": "",
+            "value_8": "<p>Polierter Körper nachhaltig aus bis zu 90 % recyceltem Edelstahl gefertigt</p>",
+            "value_9": "<p>Von Hand dekoriert</p>",
+            "value_10": "<p>Energieeffizienter Superthermic® Boden für ideale Wärmeverteilung</p>",
+            "value_11": "<p>Geeignet für alle Herdarten einschließlich Induktion</p>",
+            "value_12": "",
+            "value_13": "",
+            "value_14": "",
+            "value_15": "",
+            "value_16": "",
+            "value_17": "",
+            "value_18": "",
+            "value_19": "",
+            "value_20": "",
+            "value_21": "",
+            "value_22": "",
+            "value_23": "",
+            "value_24": "",
+            "value_25": "",
+            "value_26": "",
+            "value_27": "",
+            "value_28": "",
+            "value_29": "",
+            "value_30": "",
+            "value_31": "",
+            "value_32": "",
+            "value_33": "",
+            "value_34": "",
+            "value_35": "",
+            "value_36": "",
+            "value_37": "",
+            "value_38": "",
+            "value_39": "",
+            "value_40": "",
+            "value_41": "",
+            "value_42": "",
+            "value_43": "",
+            "value_44": "",
+            "value_45": "",
+            "value_46": "",
+            "value_47": "",
+            "value_48": "",
+            "value_49": "",
+            "value_50": "",
+            "value_51": "",
+            "value_52": "",
+            "value_53": "",
+            "value_54": "",
+            "value_55": "",
+            "value_56": "",
+            "value_57": "",
+            "value_58": "",
+            "value_59": "",
+            "value_60": "",
+            "value_61": "",
+            "value_62": "",
+            "value_63": "",
+            "value_64": "",
+            "value_65": "",
+            "value_66": "",
+            "value_67": "",
+            "value_68": "",
+            "value_69": "",
+            "value_70": "",
+            "value_71": "",
+            "value_72": "",
+            "value_73": "",
+            "value_74": "",
+            "value_75": "",
+            "value_76": "",
+            "value_77": "",
+            "value_78": "",
+            "value_79": "",
+            "value_80": "",
+            "value_81": "",
+            "value_82": "",
+            "value_83": "",
+            "value_84": "",
+            "value_85": "",
+            "value_86": "",
+            "value_87": "",
+            "value_88": "",
+            "value_89": "",
+            "value_90": "",
+            "value_91": "",
+            "value_92": "",
+            "value_93": "",
+            "value_94": "",
+            "value_95": "",
+            "value_96": "",
+            "value_97": "",
+            "value_98": "",
+            "value_99": "",
+            "value_100": "",
+            "view_button_background": "",
+            "view_button_text_color": "",
+            "custom_link_url": "",
+            "custom_link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "headings_KERMNd",
+        "values_YHXqDx",
+        "values_JP93Kg"
+      ],
+      "name": "Comparison table",
+      "settings": {
+        "subheading": "",
+        "title": "Vergleich der Fissler® Schnellkochtöpfe",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "link_text": "",
+        "link_url": "",
+        "text_alignment": "start",
+        "link_display": "text",
+        "max_rows": 5,
+        "view_all_text": "Alle Vorteile anzeigen",
+        "view_less_text": "Weniger anzeigen",
+        "view_product": "Anzeigen",
+        "show_product_info": true,
+        "show_product_image": true,
+        "show_product_swatch": true,
+        "viewing_product": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "chart_background": "",
+        "chart_text_color": "",
+        "chart_true_false_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "media_with_text_YQ9M8y": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_AH8wmC": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Landingpage_SKT_Jubilaeumsedition_Multi_Column_1500x1500_43f9ef5c-82af-4850-9002-1c420e403c83.png",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Feiere mit uns 70 Jahre Schnellkochen",
+            "heading_tag": "h3",
+            "content": "<p>Sicher, schnell und gesund - der Fissler Schnellkochtopf.</p>",
+            "link_text": "Jetzt entdecken",
+            "link_url": "shopify://pages/70-jahre-schnellkochen",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "image_AH8wmC"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "multi_column_9zxL8E": {
+      "type": "multi-column",
+      "blocks": {
+        "item_kDyDQt": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Landingpage_70_Jahre_Schnellkochen_Multi_Column_1200x900_871a9f6e-ae14-4653-aea6-6583e3c1b450.png",
+            "column_size": "3",
+            "title": "Die ganze Welt des Schnellkochens",
+            "heading_tag": "h4",
+            "content": "<p>Entdecke alle Vorteile, Funktionen und Rezepte rund um das Thema Schnellkochen.</p>",
+            "link_url": "shopify://blogs/produktwissen/schnellkochtopf-ratgeber",
+            "link_text": "Jetzt entdecken",
+            "link_style": "button"
+          }
+        },
+        "item_WwWTkV": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Landingpage_70_Jahre_Schnellkochen_Multi_Column_1200x900_2.png",
+            "column_size": "3",
+            "title": "Garzeitenfinder",
+            "heading_tag": "h4",
+            "content": "<p>Egal, ob empfindliches Gemüse, cremiges Risotto oder herzhafter Eintopf - die richtige Garzeit für jede Zutat.</p>",
+            "link_url": "shopify://blogs/produktwissen/schnellkochtopf-garzeitenfinder",
+            "link_text": "Zum Garzeitenfinder",
+            "link_style": "button"
+          }
+        },
+        "item_F4zqXD": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Landingpage_70_Jahre_Schnellkochen_Multi_Column_1200x900_3.png",
+            "column_size": "3",
+            "title": "Schnellkochtopf Rezepte",
+            "heading_tag": "h4",
+            "content": "<p>Gesund, schnell und lecker: Entdecke die Vielfalt des Schnellkochens.</p>",
+            "link_url": "https://fissler.com/blogs/rezepte/tagged/schnellkochtopf",
+            "link_text": "Zu den Rezepten",
+            "link_style": "button"
+          }
+        }
+      },
+      "block_order": [
+        "item_kDyDQt",
+        "item_WwWTkV",
+        "item_F4zqXD"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "featured_product_Ha3man",
+    "slideshow_EthDFd",
+    "rich_text_qYHrfq",
+    "video_HnJJPr",
+    "comparison_table_ahwELb",
+    "media_with_text_YQ9M8y",
+    "multi_column_9zxL8E"
+  ]
+}

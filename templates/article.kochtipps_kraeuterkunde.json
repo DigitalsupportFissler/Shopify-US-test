@@ -1,0 +1,187 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "navigation": {
+          "type": "navigation",
+          "disabled": true,
+          "settings": {}
+        },
+        "comments": {
+          "type": "comments",
+          "disabled": true,
+          "settings": {
+            "show_gravatar": true,
+            "comments_per_page": 5
+          }
+        }
+      },
+      "block_order": [
+        "navigation",
+        "comments"
+      ],
+      "settings": {
+        "layout": "image_text_overlay",
+        "image": "{{ article.image }}",
+        "show_author": false,
+        "show_date": true,
+        "show_comments_count": true,
+        "show_share_buttons": true,
+        "show_header_image": true,
+        "banner_background": "",
+        "banner_text_color": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "content_width": "750px",
+        "stats_color": "#556132",
+        "is_recipe": false,
+        "content_alignment": "start"
+      }
+    },
+    "rich_text_VXwwdz": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_yznjkD": {
+          "type": "heading",
+          "settings": {
+            "text": "Mediterrane Küche: Nicht ohne Thymian!",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_kLePJA": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Am bekanntesten ist er wahrscheinlich als Bestandteil der Würzmischung “Kräuter der Provence”: hier findet er sich gerebelt in getrockneter Form neben Thymian, Majoran, Bohnenkraut, Lavendel und Rosmarin und sorgt für südländisches Flair in der Küche, zum Beispiel in Ratatouille, geschmorten Fleischgerichten und zu Kartoffeln. Auch einzeln macht er sich hierzu hervorragend und besonders im Sommer gesellt er sich außerdem gern zu Zucchini, Aubergine und Paprika auf den Grill. Entweder werden die Blätter vom Stängel gerebelt oder gleich im Ganzen dazugegeben und später wieder entfernt. Und natürlich kommt eine selbstgemachte Tomatensoße auch nicht ohne die kleinen intensiven Thymianblättchen aus.<br/><br/></p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_yznjkD",
+        "richtext_kLePJA"
+      ],
+      "settings": {
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "rich_text_cAmjq6": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_RzARJe": {
+          "type": "heading",
+          "settings": {
+            "text": "Stark gegen Erkältungen und Krämpfe",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_cWytpG": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Der Grund für seinen starken Eigengeschmack sind die enthaltenen ätherischen Öle, das sogenannte Thymol. Es wirkt antibakteriell und fungizid – so stark, dass die Ägypter Essenzen aus Thymian nutzten, um ihre Mumien zu konservieren. Heutzutage ist er wegen seiner schleimlösenden Eigenschaften vor allem ein beliebtes Mittel gegen Atemwegserkrankungen wie Erkältungen oder Bronchitis. Als Tee aufgegossen oder eingekocht als Sirup in Honig spart er so manchen Gang zur Apotheke.</p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_RzARJe",
+        "richtext_cWytpG"
+      ],
+      "settings": {
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "rich_text_BMp7HY": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_tL4amj": {
+          "type": "heading",
+          "settings": {
+            "text": "Getrocknet, frisch und als Öl: Thymian in seinen verschiedenen Formen",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_axjetx": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Im Supermarkt bekommt man Thymian am häufigsten gerebelt und abgepackt. So hält er sich lange, verliert aber bei langer Lagerung an Aroma. Umso intensiver ist er im Ganzen getrocknet, da bleiben die Öle erhalten und werden bei Kontakt mit Kochflüssigkeiten wieder aktiviert. Am schönsten und leckersten ist er aber immer noch frisch von der Fensterbank direkt auf den Teller.</p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_tL4amj",
+        "richtext_axjetx"
+      ],
+      "settings": {
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "featured_articles_rdYx3g": {
+      "type": "featured-articles",
+      "settings": {
+        "show_progress_bar": true,
+        "articles_per_row_mobile": "2",
+        "articles_per_row_desktop": 3,
+        "subheading": "",
+        "articel_handles": "kochtipps/olivenoel,kochtipps/zwiebel-richtig-schneiden,kochtipps/fisch-filetieren",
+        "title": "Weitere Tipps aus unserem Kochratgeber",
+        "content": "",
+        "link_url": "shopify://blogs/kochtipps",
+        "link_text": "Alle Kochtipps ansehen",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_VXwwdz",
+    "rich_text_cAmjq6",
+    "rich_text_BMp7HY",
+    "featured_articles_rdYx3g"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "fissler-shop.myshopify.com",
+  "version": "1.0.0",
+  "repository": "git@github.com:Latori-GmbH/fissler-shop.myshopify.com.git",
+  "author": "Latori GmbH <developers@latori.com>",
+  "license": "MIT",
+  "scripts": {
+    "theme:eu:dev": "shopify theme dev --environment=eu",
+    "theme:eu:push": "shopify theme push --environment=eu",
+    "theme:eu-staging:dev": "shopify theme dev --environment=eu-staging",
+    "theme:eu-staging:push": "shopify theme push --environment=eu-staging",
+    "theme:us:dev": "shopify theme dev --environment=us",
+    "theme:us:push": "shopify theme push --environment=us",
+    "theme:jp:dev": "shopify theme dev --environment=jp",
+    "theme:jp:push": "shopify theme push --environment=jp"
+  },
+  "browserslist": [
+    "last 2 version"
+  ]
+}

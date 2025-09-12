@@ -1,0 +1,538 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "navigation": {
+          "type": "navigation",
+          "disabled": true,
+          "settings": {}
+        },
+        "comments": {
+          "type": "comments",
+          "disabled": true,
+          "settings": {
+            "show_gravatar": true,
+            "comments_per_page": 5
+          }
+        }
+      },
+      "block_order": [
+        "navigation",
+        "comments"
+      ],
+      "settings": {
+        "layout": "image_text_overlay",
+        "image": "{{ article.image }}",
+        "show_author": true,
+        "show_date": true,
+        "show_comments_count": true,
+        "show_share_buttons": true,
+        "show_header_image": true,
+        "banner_background": "",
+        "banner_text_color": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "content_width": "750px",
+        "stats_color": "#556132",
+        "is_recipe": false,
+        "content_alignment": "start"
+      }
+    },
+    "featured_articles_xVJakx": {
+      "type": "featured-articles",
+      "name": "Featured articles",
+      "settings": {
+        "articles_per_row_mobile": "2",
+        "articles_per_row_desktop": 3,
+        "subheading": "",
+        "articel_handles": "",
+        "title": "Featured Articles",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "multi_column_WzAMRe": {
+      "type": "multi-column",
+      "blocks": {
+        "item_tnGbzE": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Edelstahltöpfe: langlebig und vielseitig",
+            "heading_tag": "h4",
+            "content": "<p></p><p>Fissler stainless steel pots are made of high-quality, rustproof 18/10 stainless steel and are extremely robust. They are ideal for everyday cooking and score points with their even heat distribution. Thanks to their high heat resistance, they are suitable for cooking, braising, and steaming a wide variety of foods. They are also dishwasher-safe and particularly easy to care for.</p><p><strong>Stainless steel pots are particularly suitable for:</strong></p><p></p><ul><li>Pasta, rice, and vegetables</li><li>Soups and Stews</li><li>Meat dishes and casseroles<br/></li></ul>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_Keyhnd": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "column_size": "3",
+            "title": "PTFE-beschichtete Töpfe: Antihaft für empfindliche Speisen ",
+            "heading_tag": "h4",
+            "content": "<p>Fissler Töpfe mit PTFE-Antihaftbeschichtung ermöglichen ein fettarmes Kochen, da nichts anhaftet. Sie sind ideal für empfindliche Speisen und verhindern das Anbrennen. Durch die Antihaft-Oberfläche lassen sie sich besonders leicht reinigen. Damit die Beschichtung lange erhalten bleibt, empfiehlt es sich, Küchenhelfer aus Holz oder Silikon zu verwenden und hohe Temperaturen zu vermeiden.</p><p><strong>PTFE-beschichtete Töpfe eignen sich besonders für:</strong></p><p></p><ul><li>Milch- und Eierspeisen</li><li>Cremige Saucen und Pudding</li><li>Schonendes Garen von Gemüse</li></ul>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_CLxWdA": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Cast iron pots: Perfect for slow braising",
+            "heading_tag": "h4",
+            "content": "<p>Fissler cast iron pots are known for their excellent heat retention. They distribute heat evenly and ensure optimal braising and cooking results. Thanks to their robust construction, they are extremely durable and develop a natural patina over time, which improves their non-stick properties.</p><p><strong>Cast iron pots are particularly well suited for:</strong></p><p></p><ul><li>Braised dishes such as goulash or coq au vin</li><li>Baking bread in the oven</li><li>Slow simmering and roasting at low temperatures</li></ul>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_tnGbzE",
+        "item_Keyhnd",
+        "item_CLxWdA"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "The different types of pots – a comparison of materials",
+        "content": "",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "md",
+        "padding_bottom": "auto"
+      }
+    },
+    "rich_text_B7KyHx": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_EredtL": {
+          "type": "heading",
+          "settings": {
+            "text": "Which pot is suitable for which dish?",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_jAP9ww": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h3>Roasting pan – For stews and roasts</h3><h3></h3><p>Roasting pans and casserole dishes are ideal for preparing delicious stews on the stove and in the oven. In addition to stewing, these types of pots can also be used for gentle steaming and even baking.</p><h3>Saucepans – Perfect for sauces and small dishes</h3><h3></h3><p>Thanks to their low sides, casseroles are ideal for sauces, small vegetable dishes, or gently braising food.</p><h3>Milk pots – Specially designed for delicate liquids</h3><p></p><p>With their high sides and often a special spout, milk pots are perfect for heating milk or preparing delicate creams and sauces.</p><p></p><h3>Sauté pans – For delicate sautéing and reductions</h3><p></p><p>The rounded edges and flat shape make sauté pans perfect for tossing vegetables, reducing sauces, or gently sautéing.</p><p></p><h3>Soup pots – For stews and large quantities</h3><p></p><p>Thanks to their large volume, soup pots are ideal for soups, stews, and slowly simmering broths.</p><p></p><h3>Spaghetti pots – For pasta and large quantities of water</h3><p></p><p>With their high sides and often integrated strainer insert, spaghetti pots make it easier to cook and drain pasta.</p><h3>Vegetable pots – Perfect for vitamin-preserving cooking</h3><p>These pots are ideal for gently steaming or cooking vegetables, often with a matching steamer insert.</p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_EredtL",
+        "richtext_jAP9ww"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "show_section_id": false,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "rich_text_Fkjtpt": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_xCndWY": {
+          "type": "subheading",
+          "settings": {
+            "text": "Not all pots are created equal",
+            "subheading_tag": "h3"
+          }
+        },
+        "heading_zftDFW": {
+          "type": "heading",
+          "settings": {
+            "text": "Quality characteristics of high-quality pots",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_peHHGH": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>When choosing a new pot, the first things to consider are the body, base, lid, and handles.</p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_xCndWY",
+        "heading_zftDFW",
+        "richtext_peHHGH"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "show_section_id": false,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "media_with_text_KEGhGd": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_YBxV4R": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Fissler_original_profi_collection_5_tlg_set_084-389-05-000_SA2.jpg",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Body",
+            "heading_tag": "h3",
+            "content": "<p>A good pot is heavy and robust. High-quality stainless steel, identified by the designation 18/10 (18% chromium, 10% nickel, 72% steel), is ideal.  It is rustproof, particularly easy to clean, hygienic, and dishwasher-safe. Conical pot shapes allow for space-saving stacking (e.g., the Fissler Phi Collection series). In good pots, the bottom and sides are firmly connected without any cavities. Inside, the transition from the bottom to the sides should be rounded so that cooking spoons or whisks can reach everywhere.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        },
+        "image_BBrBMU": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/feature_cookstar_Allherdboden_MIG_pot__874.jpg",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Base",
+            "heading_tag": "h3",
+            "content": "<p>High-quality bases are made of stainless steel and contain an aluminum core that is completely enclosed. The aluminum serves as an important heat conductor and should not be exposed, as it will wash out permanently in the dishwasher, causing white spots to appear on the base. Thick bases with an aluminum core ensure optimal heat absorption, distribution, and storage. After heating on the hob, the base of the pot must always lie flat—this saves energy and time when cooking. It is essential to check the suitability of the stove, as not every pot is suitable for induction, for example.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        },
+        "image_pEwLJQ": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Original_profi_collection_Servierpfanne_Deckel_piu_v1_4f8e052c-8c6e-4ac8-a20c-42a2836b35f9.jpg",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Lid",
+            "heading_tag": "h3",
+            "content": "<p>Tight-fitting lids keep heat and liquid in the pot. This preserves flavors and saves energy. Glass lids allow you to keep an eye on the food. There are also lids that are concave, i.e., curved inward, so that the rising steam drips back into the pot, making the food even more flavorful and juicy (for example, in the Original Pro Collection® from Fissler).</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        },
+        "image_iBiRy9": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/feature_Griff_aus_poliertem_Edelstahl_Pure_812.jpg",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Handles",
+            "heading_tag": "h3",
+            "content": "<p>When it comes to handles, you can usually choose between stainless steel and plastic. It is important that the handles are firmly attached to the pot body, fit comfortably in your hand when cooking, and do not get hot. Stainless steel handles are dishwasher and oven safe. Plastic handles are not suitable for use in the oven due to the high temperatures (up to max. 80°C). They can be cleaned in the dishwasher, but the colors may fade over time. Therefore, pots with plastic handles should only be placed in the dishwasher occasionally and not on a regular basis.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "image_YBxV4R",
+        "image_BBrBMU",
+        "image_pEwLJQ",
+        "image_iBiRy9"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "rich_text_qAKRUU": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Dk6KLV": {
+          "type": "heading",
+          "settings": {
+            "text": "Practical equipment extras",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_NiHC7w": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>If the basic elements such as the base, handles, and lid are right, there are other extras in the different pot series that make cooking even easier:</p><p></p><ol><li>Integrated lid rests allow you to hook the lid onto the edge or handle of the pot. This leaves your hands free for stirring and seasoning, while condensation drips back into the pot, keeping the stove clean (for example, the Phi Collection series).</li><li>Practical pouring function: Some pots have an integrated pouring function that allows you to pour with the lid on. This eliminates the need for awkward handling with dishcloths, pot holders, or strainers.</li><li>A wide pouring rim ensures spill-free and accurate pouring and decanting. The stove and countertop remain clean.</li><li>A measuring scale on the inside of the pot makes it easy to measure out liquids. There is no need to wash measuring cups separately.</li></ol>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Dk6KLV",
+        "richtext_NiHC7w"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "show_section_id": false,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "collection_list_bpfVFW": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_xUkCG7": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_nndDBU": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_ba6Wjg": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_MrCrrV": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "collection_xUkCG7",
+        "collection_nndDBU",
+        "collection_ba6Wjg",
+        "collection_MrCrrV"
+      ],
+      "name": "Collection list",
+      "settings": {
+        "collection_list": [
+          "original-profi-collection",
+          "pure-collection"
+        ],
+        "stack_collections": false,
+        "collections_per_row_mobile": "1",
+        "collections_per_row": 3,
+        "show_progress_bar": true,
+        "subheading": "",
+        "title": "Discover the Fissler pot collections",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "show_subheading": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "featured_articles_tnniMN": {
+      "type": "featured-articles",
+      "disabled": true,
+      "name": "Featured articles",
+      "settings": {
+        "articles_per_row_mobile": "2",
+        "articles_per_row_desktop": 5,
+        "subheading": "",
+        "articel_handles": "kochtipps/richtige-herdeinstellung,kochtipps/richtig-garen,",
+        "title": "Alle Ratgeber-Artikel zu Töpfen",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "featured_articles_xVJakx",
+    "multi_column_WzAMRe",
+    "rich_text_B7KyHx",
+    "rich_text_Fkjtpt",
+    "media_with_text_KEGhGd",
+    "rich_text_qAKRUU",
+    "collection_list_bpfVFW",
+    "featured_articles_tnniMN"
+  ]
+}

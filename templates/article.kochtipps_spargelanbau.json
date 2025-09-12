@@ -1,0 +1,332 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "navigation": {
+          "type": "navigation",
+          "disabled": true,
+          "settings": {}
+        },
+        "comments": {
+          "type": "comments",
+          "disabled": true,
+          "settings": {
+            "show_gravatar": true,
+            "comments_per_page": 5
+          }
+        }
+      },
+      "block_order": [
+        "navigation",
+        "comments"
+      ],
+      "settings": {
+        "layout": "image_text_overlay",
+        "image": "{{ article.image }}",
+        "show_author": true,
+        "show_date": true,
+        "show_comments_count": true,
+        "show_share_buttons": true,
+        "show_header_image": true,
+        "banner_background": "",
+        "banner_text_color": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "content_width": "750px",
+        "stats_color": "#556132",
+        "is_recipe": false,
+        "content_alignment": "start"
+      }
+    },
+    "rich_text_tUFAYz": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_jcycVC": {
+          "type": "heading",
+          "settings": {
+            "text": "Wie lange dauert die Spargelsaison?",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_imCFBU": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Je nach Witterung beginnt die Erntezeit Anfang bis Mitte April. Ihr Ende fällt auf den Johannistag, den 24. Juni. Der Grund für das frühe Saisonende ist einfach: Die Spargelpflanzen müssen sich erholen und für die nächste Wachstumsperiode Kraft sammeln, damit der Ertrag für das nächste Jahr gesichert ist.<br/><br/>Vom Johannistag bis zum ersten Frost bleiben den Pflanzen dafür noch ungefähr 100 Tage, in denen sie in der Sommersonne durch Photosynthese Energie speichern.</p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_jcycVC",
+        "richtext_imCFBU"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "rich_text_icFQUg": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_G8r3a9": {
+          "type": "heading",
+          "settings": {
+            "text": "Wo kommt unser Spargel her?",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_Dw8LcB": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Innerhalb Deutschlands ist Spargel das am häufigsten angebaute Freilandgemüse. Die größten Anbauflächen finden sich in Niedersachsen, Brandenburg und Nordrhein-Westfalen. Hierher stammt auch der meiste Bio-Spargel, der in den letzten Jahren immer beliebter wird.<br/><br/>Damit ist Deutschland europaweit der größte Spargelproduzent und die Qualität des deutschen Spargels genießt einen guten Ruf. Spanien, Griechenland und die Niederlande sind weitere bedeutende Anbauländer. Überraschend: der weltweit größte Spargelproduzent ist China!</p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_G8r3a9",
+        "richtext_Dw8LcB"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "media_with_text_fpP8yn": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_QKGARA": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Ratgeber_Produktwissen_MEdia_with_Text_Spargelanbau__1500x1500_0033ea73-d5f1-40ce-b41a-28bbd6a36495.png",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "text_position_mobil": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Wie wird Spargel angebaut?",
+            "heading_tag": "h3",
+            "content": "<p>Spargel ist ein anspruchsvolles Gemüse und erfordert beim Anbau besondere Bedingungen. Allein die Vorbereitung des Bodens dauert 1-3 Jahre. Am liebsten hat Spargel gut gedüngte, sandige und luftige Böden. Von der Saat bis zur ersten Ernte dauert es schließlich ein weiteres Jahr.<br/><br/>Die weißen Spargelpflanzen wachsen unter Spargeldämmen, die mit Folie überzogen sind. Grüner Spargel hingegen darf Luft und Sonne genießen. Während bei Aussaat und Wachstum noch viele Spezialmaschinen zum Einsatz kommen, ist die Spargelernte, das sogenannte Stechen, nach wie vor reine Handarbeit.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "image_QKGARA"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "rich_text_w8MBqp": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_hbDGbr": {
+          "type": "heading",
+          "settings": {
+            "text": "Was bedeuten die Handelsklassen?",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_bpJM3c": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Im Verkauf wird Spargel in drei Handelsklassen unterteilt, die seine Qualität beschreiben. Für weißen oder violetten Spargel gilt:<br/><br/><strong>Klasse Extra:</strong> Die Stangen dieser Klasse haben einen Minimaldurchmesser von 12 Millimetern, sind gerade und besitzen fest geschlossene Köpfe.<br/><br/><strong>Klasse HKI: </strong>Der Spargel hat mindestens einen Durchmesser von 10 Millimetern, die Stagen sind nur leicht gebogen und die Köpfe fest geschlossen. Eine leichte Verfärbung kann auftreten.<br/><br/><strong>Klasse HKII:</strong> In dieser Kategorie besitzen die Stangen einen Durchmesser von mindestens 8 Millimetern. Sie sind weniger gut geformt und besitzen keine fest verschlossenen Köpfe. Eine stärkere Verfärbung kann auftreten.<br/><br/>Da grüner Spargel grundsätzlich dünner ist, gelten hier andere Durchmesserangaben von mindestens 10 mm bei der Klasse Extra sowie mindestens 6 mm bei den Klassen HKI und HKII.</p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_hbDGbr",
+        "richtext_bpJM3c"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "media_with_text_7Yp8UQ": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_yRp8Cg": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Ratgeber_Produktwissen_MEdia_with_Text_Spargel_kaufen__1500x1500_8bb16ed9-1aee-4f58-a2d4-c3d6fdfadbed.png",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "text_position_mobil": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Wo kann man guten Spargel kaufen?",
+            "heading_tag": "h3",
+            "content": "<p>Da Spargel empfindlich ist, hat er mit möglichst kurzen Transportwegen und Lagerungszeiten die beste Qualität. Das bedeutet: auf dem Wochenmarkt oder direkt auf dem Spargelhof bekommt man den frischesten Spargel.<br/><br/>Im Supermarkt sollte es nach Möglichkeit unverpackter Spargel aus der Region sein. Übrigens: Besonders für Suppen ist der günstigere Bruchspargel ideal, denn er steht den Stangen an Qualität in nichts nach.<br/><br/>Bild 1:©Kenny10/istock<br/>Bild 2:©no_limit_pictures/istock</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "image_yRp8Cg"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "xl"
+      }
+    },
+    "featured_articles_iKgEiN": {
+      "type": "featured-articles",
+      "name": "Featured articles",
+      "settings": {
+        "show_progress_bar": true,
+        "articles_per_row_mobile": "2",
+        "articles_per_row_desktop": 4,
+        "subheading": "",
+        "articel_handles": "kochtipps/von-gemuese-bis-wein-so-wird-spargel-richtig-kombiniert,kochtipps/spargel-zubereiten-tipps-tricks-und-vielfaeltige-zubereitungsmethoden,kochtipps/spargel-wissen-unterschiede-zwischen-weissem-gruenem-und-violettem-spargel,kochtipps/spargel-im-schnellkochtopf,kochtipps/so-gehts-frischen-spargel-erkennen-und-richtig-lagern",
+        "title": "Weitere Artikel zum Spargel",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "blog_posts_BrAcB8": {
+      "type": "blog-posts",
+      "blocks": {
+        "blog_4AyVLr": {
+          "type": "blog",
+          "settings": {
+            "blog": "news",
+            "posts_count": 3,
+            "stack_items": false
+          }
+        }
+      },
+      "block_order": [
+        "blog_4AyVLr"
+      ],
+      "disabled": true,
+      "name": "Blog posts",
+      "settings": {
+        "show_excerpt": true,
+        "show_date": true,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": true,
+        "show_overall_time": false,
+        "subheading": "",
+        "title": "Weitere Kochtipps",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto",
+        "blog_handle": "kochtipps",
+        "posts_count": 4
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_tUFAYz",
+    "rich_text_icFQUg",
+    "media_with_text_fpP8yn",
+    "rich_text_w8MBqp",
+    "media_with_text_7Yp8UQ",
+    "featured_articles_iKgEiN",
+    "blog_posts_BrAcB8"
+  ]
+}

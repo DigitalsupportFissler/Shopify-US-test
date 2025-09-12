@@ -1,0 +1,395 @@
+{%- assign show_blog_handle = section.settings.blog_handle | default: 'news' -%}
+
+{%- comment -%} Use the current article’s first tag, falling back to the setting {%- endcomment -%}
+{%- assign filter_tag = section.settings.tag -%}
+
+{%- comment -%} Collect all articles matching the tag into a new array of handles {%- endcomment -%}
+
+{%- comment -%} Filter articles whose tags contain "Gesund" and take the first match {%- endcomment -%}
+
+{%- render 'section-spacing-collapsing' -%}
+
+<style>
+  #shopify-section-{{ section.id }} .blog-posts {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--article-list-column-gap);
+  }
+  @media screen and (max-width: 1023px) {
+    #shopify-section-{{ section.id }} .blog-posts {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  @media screen and (max-width: 639px) {
+    #shopify-section-{{ section.id }} .blog-posts {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+
+{%- capture padding_classes -%}
+section-padding-top-{{ section.settings.padding_top }} section-padding-bottom-{{ section.settings.padding_bottom }}
+{%- endcapture -%}
+{% assign section_classes = padding_classes %}
+{% if section.settings.full_width_background %}
+  {% assign section_classes = section_classes | append: 'no-padding' %}
+{% endif %}
+<div {% render 'section-properties', class: section_classes %}>
+  <div class="section-stack">
+    {%- render 'section-header',
+      subheading: section.settings.subheading,
+      heading: section.settings.title,
+      heading_color: section.settings.heading_color,
+      heading_gradient: section.settings.heading_gradient,
+      content: section.settings.content,
+      link_text: section.settings.link_text,
+      link_url: section.settings.link_url
+    -%}
+  </div>
+  <div
+    id="similar-articles"
+    class="blog-posts scroll-area bleed is-scrollable"
+    data-blog-handle="{{ section.settings.blog_handle }}"
+    data-show-more-tag="{{ article.metafields.custom.show_more_tag }}"
+    data-article-tags="{{ article.tags | join: ',' }}"
+    data-current-article-gid="gid://shopify/Article/{{ article.id }}"
+  ></div>
+</div>
+<script>
+  (async () => {
+    const container = document.getElementById('similar-articles');
+    const blogHandle = container.dataset.blogHandle;
+    // Extract tag from URL if present, else fallback to metafield, else first article tag
+    const urlParams = new URLSearchParams(window.location.search);
+    let filterTag = urlParams.get('tag');
+    if (!filterTag) {
+      const allTags = container.dataset.articleTags.split(',');
+      filterTag = allTags.length ? allTags[0] : '';
+    }
+    const limit = 250;
+    const token = {{ section.settings.storefront_token | default: shop.metafields.custom.storefront_token | json }};
+    const apiVersion = {{ section.settings.api_version | default: '2025-04' | json }};
+    const endpoint = `${window.location.origin}/api/${apiVersion}/graphql.json`;
+    let cursor = null;
+    const allArticles = [];
+
+
+
+    // 1) Load all matching articles across pages
+    while (true) {
+      const query = `
+      {
+        blog(handle: "${blogHandle}") {
+          articles(
+            first: ${limit},
+            ${cursor ? `after: "${cursor}",` : ''}
+            ${filterTag ? `query: "tag:${filterTag}",` : ''}
+          ) {
+            edges {
+              node {
+                id
+                handle
+                title
+                tags
+                image { url }
+              }
+            }
+            pageInfo { hasNextPage endCursor }
+          }
+        }
+      }`;
+
+      const res = await fetch(endpoint, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'X-Shopify-Storefront-Access-Token': token,
+        },
+        body: JSON.stringify({ query }),
+      });
+
+      const json = await res.json();
+      const conn = json.data.blog.articles;
+
+      // Collect every matching node, excluding the current article
+      const currentArticleGid = container.dataset.currentArticleGid;
+      conn.edges.forEach((e) => {
+        if (e.node.id !== currentArticleGid) {
+          allArticles.push(e.node);
+        }
+      });
+
+      // Stop when no further pages
+      if (!conn.pageInfo.hasNextPage) break;
+      cursor = conn.pageInfo.endCursor;
+    }
+
+    // 2) Shuffle the entire array (Fisher–Yates)
+    function shuffle(array) {
+      for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+      }
+    }
+    shuffle(allArticles);
+
+    // 3) Render the first 4 random ones
+    const selected = allArticles.slice(0, 4);
+    container.innerHTML = selected
+      .map(
+        (art) => `
+      <div class="blog-post-card">
+        <a href="/blogs/${blogHandle}/${art.handle}?tag=${filterTag}">
+          ${art.image ? `<img src="${art.image.url}" alt="${art.title}">` : ''}
+          <h3 class="h5 mt-2">${art.title}</h3>
+        </a>
+      </div>
+    `
+      )
+      .join('');
+  })();
+</script>
+
+{% schema %}
+{
+  "name": "Blog posts",
+  "class": "shopify-section--blog-posts",
+  "tag": "section",
+  "disabled_on": {
+    "templates": ["password"],
+    "groups": ["header", "custom.overlay"]
+  },
+  "max_blocks": 1,
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "show_excerpt",
+      "label": "Show excerpt",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_date",
+      "label": "Show date",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_author",
+      "label": "Show author",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "show_comments_count",
+      "label": "Show comments count",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "show_category",
+      "label": "Show category",
+      "info": "Add tag organize blog posts [Learn more](https://help.shopify.com/en/manual/online-store/blogs/writing-blogs#add-tags-to-a-blog-post).",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_overall_time",
+      "label": "Show overall time for recipes",
+      "default": false
+    },
+    {
+      "type": "text",
+      "id": "subheading",
+      "label": "Subheading"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Blog posts"
+    },
+    {
+      "type": "richtext",
+      "id": "content",
+      "label": "Content"
+    },
+    {
+      "type": "url",
+      "id": "link_url",
+      "label": "Link URL"
+    },
+    {
+      "type": "text",
+      "id": "link_text",
+      "label": "Link text",
+      "default": "View all"
+    },
+    {
+      "type": "header",
+      "content": "Colors",
+      "info": "Gradient replaces solid colors when set."
+    },
+    {
+      "type": "color",
+      "id": "background",
+      "label": "Background"
+    },
+    {
+      "type": "checkbox",
+      "id": "full_width_background",
+      "label": "Remove section margin",
+      "default": false
+    },
+    {
+      "type": "color_background",
+      "id": "background_gradient",
+      "label": "Background gradient"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text"
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Heading color"
+    },
+    {
+      "type": "color_background",
+      "id": "heading_gradient",
+      "label": "Heading gradient"
+    },
+    {
+      "type": "select",
+      "id": "padding_top",
+      "label": "Padding top",
+      "options": [
+        { "value": "auto", "label": "auto" },
+        { "value": "0", "label": "0" },
+        { "value": "sm", "label": "sm" },
+        { "value": "md", "label": "md" },
+        { "value": "xl", "label": "xl" }
+      ],
+      "default": "auto"
+    },
+    {
+      "type": "select",
+      "id": "padding_bottom",
+      "label": "Padding bottom",
+      "options": [
+        { "value": "auto", "label": "auto" },
+        { "value": "0", "label": "0" },
+        { "value": "sm", "label": "sm" },
+        { "value": "md", "label": "md" },
+        { "value": "xl", "label": "xl" }
+      ],
+      "default": "auto"
+    },
+    {
+      "type": "text",
+      "id": "storefront_token",
+      "label": "Storefront API token (fallback: shop metafield)",
+      "info": "Public Storefront API access token. If empty, section will use shop metafield custom.storefront_token.",
+      "placeholder": "e.g. public token"
+    },
+    {
+      "type": "text",
+      "id": "api_version",
+      "label": "Storefront API version",
+      "default": "2025-04"
+    },
+    {
+      "type": "text",
+      "id": "blog_handle",
+      "label": "Blog handle",
+      "default": "news"
+    },
+    {
+      "type": "number",
+      "id": "posts_count",
+      "label": "Number of posts to show",
+      "default": 4
+    }
+  ],
+  "blocks": [
+    {
+      "type": "blog",
+      "name": "Blog",
+      "settings": [
+        {
+          "type": "blog",
+          "id": "blog",
+          "label": "Blog"
+        },
+        {
+          "type": "range",
+          "id": "posts_count",
+          "min": 2,
+          "max": 6,
+          "label": "Posts to show",
+          "default": 3
+        },
+        {
+          "type": "checkbox",
+          "id": "stack_items",
+          "label": "Stack on mobile",
+          "default": false
+        }
+      ]
+    },
+    {
+      "type": "article",
+      "name": "Blog post",
+      "settings": [
+        {
+          "type": "article",
+          "id": "article",
+          "label": "Blog post"
+        },
+        {
+          "type": "color",
+          "id": "background",
+          "label": "Background"
+        },
+        {
+          "type": "color",
+          "id": "text_color",
+          "label": "Text"
+        },
+        {
+          "type": "text",
+          "id": "article_handle",
+          "label": "Dynamic article handle"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Blog posts",
+      "blocks": [
+        {
+          "type": "blog",
+          "settings": {
+            "blog": "news"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Featured blog post",
+      "settings": {
+        "title": "",
+        "link_text": ""
+      },
+      "blocks": [
+        {
+          "type": "article"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

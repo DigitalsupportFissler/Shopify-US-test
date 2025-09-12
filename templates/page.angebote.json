@@ -1,0 +1,352 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "100%"
+      }
+    },
+    "slideshow_ywMqac": {
+      "type": "slideshow",
+      "blocks": {
+        "image_Hjkfht": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Startseite_Header_ceratal_2167x800_cd5f391d-e4c6-4d87-a8c9-1ee552c72c5e.png",
+            "image_content_width": false,
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "Aktionen & Angebote",
+            "heading_tag": "h1",
+            "button_text": "",
+            "button_link": "",
+            "heading_color": "#ffffff",
+            "subheading_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_Hjkfht"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "full_width": true,
+        "show_initial_transition": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "rich_text_ajqKPW": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_UUHHLx": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Herzlich Willkommen auf unserer Plattform für tolle Angebote und Aktionen! Hier findest du stets aktualisierte Sonderangebote und Promotions, die es nur für kurze Zeit gibt. Verpasse nicht die Gelegenheit, von unseren großartigen Deals zu profitieren. </p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_UUHHLx"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "md",
+        "padding_bottom": "auto"
+      }
+    },
+    "image_link_blocks_DeXNQg": {
+      "type": "image-link-blocks",
+      "blocks": {
+        "item_ipyTnc": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Categories_Ersatzteile-Pfannen_Teaser_1200x1200_228467ef-607c-49c6-b591-11302acaea49.jpg",
+            "stretch_image": true,
+            "link_text": "Sale",
+            "link_url": "shopify://pages/sale",
+            "background": "#ffffff",
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_cmdbAx": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Pages_Ueber_uns_Media_with_Text__Handwerkskunst_1200x1200_e4f0c440-10ad-4b8b-9134-93c265ebabbd.png",
+            "stretch_image": true,
+            "link_text": "Bestseller",
+            "link_url": "shopify://pages/bestseller",
+            "background": "#ffffff",
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_GJqPB9": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Shop_the_look_Family_Shot_1080_x_1080_16.jpg",
+            "stretch_image": true,
+            "link_text": "Unsere Kollektionen",
+            "link_url": "shopify://collections",
+            "background": "#ffffff",
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_c6YMkW": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Ratgeber_Produktwissen_Media_with_Text_Naehrstoff__1500x1500_cccd1aab-3348-448b-9b04-9909f014a676.png",
+            "stretch_image": true,
+            "link_text": "Ratgeber / Inspiration",
+            "link_url": "shopify://blogs/inspiration",
+            "background": "#ffffff",
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "item_ipyTnc",
+        "item_cmdbAx",
+        "item_GJqPB9",
+        "item_c6YMkW"
+      ],
+      "name": "Image link blocks",
+      "settings": {
+        "block_size": "medium",
+        "subheading": "",
+        "title": "Entdecke unsere Angebote",
+        "content": "",
+        "text_alignment": "start",
+        "link_url": "",
+        "link_text": "",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto",
+        "items_per_row_1000": 4,
+        "items_per_row_1400": 4
+      }
+    },
+    "collection_list_HAjTFA": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_3WJnPK": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_Vhcnjw": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_MUUgHY": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_zTFWyf": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "collection_3WJnPK",
+        "collection_Vhcnjw",
+        "collection_MUUgHY",
+        "collection_zTFWyf"
+      ],
+      "name": "Collection list",
+      "settings": {
+        "collection_list": [
+          "ceratal",
+          "phi-collection",
+          "original-profi-collection-edelstahl",
+          "vitavit",
+          "adamant",
+          "levital"
+        ],
+        "stack_collections": false,
+        "collections_per_row_mobile": "1",
+        "collections_per_row": 3,
+        "show_progress_bar": true,
+        "subheading": "Entdecke alle Kollektionen",
+        "title": "Unsere Kollektionen",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "show_subheading": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "collection_list_jDkfde": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_LLiCQP": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_Nh8ymM": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_iVLLHD": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "collection_LLiCQP",
+        "collection_Nh8ymM",
+        "collection_iVLLHD"
+      ],
+      "name": "Collection list",
+      "settings": {
+        "collection_list": [
+          "pfannen",
+          "toepfe",
+          "schnellkochtoepfe",
+          "kuechenhelfer"
+        ],
+        "stack_collections": false,
+        "collections_per_row_mobile": "1",
+        "collections_per_row": 3,
+        "show_progress_bar": true,
+        "subheading": "Kategorien entdecken",
+        "title": "Entdecke unsere Produktkategorien",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "show_subheading": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_ywMqac",
+    "rich_text_ajqKPW",
+    "image_link_blocks_DeXNQg",
+    "collection_list_HAjTFA",
+    "collection_list_jDkfde"
+  ]
+}

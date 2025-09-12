@@ -1,0 +1,289 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "navigation": {
+          "type": "navigation",
+          "disabled": true,
+          "settings": {}
+        },
+        "comments": {
+          "type": "comments",
+          "disabled": true,
+          "settings": {
+            "show_gravatar": true,
+            "comments_per_page": 5
+          }
+        }
+      },
+      "block_order": [
+        "navigation",
+        "comments"
+      ],
+      "settings": {
+        "layout": "image_text_overlay",
+        "image": "{{ article.image }}",
+        "show_author": true,
+        "show_date": true,
+        "show_comments_count": true,
+        "show_share_buttons": true,
+        "show_header_image": true,
+        "banner_background": "",
+        "banner_text_color": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "content_width": "750px",
+        "stats_color": "#556132",
+        "is_recipe": false,
+        "content_alignment": "start"
+      }
+    },
+    "media_with_text_P6fh8F": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_yttxGE": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Ratgeber_Produktwissen_MEdia_with_Text_Spargel_Farben__1500x1500_022d45ee-802f-4a2e-85df-f3a1bafd5fa7.png",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Unterschiede zwischen weißem und grünem Spargel",
+            "heading_tag": "h2",
+            "content": "<p>An der Gemüsetheke muss meist die Entscheidung gefällt werden: weißer oder grüner Spargel? Der offensichtlichste Unterschied zwischen den beiden gängigsten Sorten ist die Farbe. Diese resultiert aus unterschiedlichen Anbaumethoden.<br/><br/>Weißer Spargel, auch Bleichspargel genannt, wächst unter der Erde. Sobald die Köpfe die Erdoberfläche durchbrechen, werden die Stangen gestochen. Der grüne Spargel hingegen wächst oberhalb der Erde und ist dem direktem Sonnenlicht ausgesetzt. Da die Sonnenstrahlen Photosynthese in Gang setzen, entwickelt sich der Pflanzenfarbstoff Chlorophyll und somit seine grüne Farbe.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        },
+        "image_4iR6BR": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Ratgeber_Produktwissen_MEdia_with_Text_Spargel_Geschmack__1500x1500_64ce5002-b019-4cce-999a-3438b196b14e.png",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Sortenvielfalt: Violetter Spargel und wilder Spargel",
+            "heading_tag": "h2",
+            "content": "<p>Neben den weit verbreiteten weißen und grünen Stangen gibt es auch violetten Spargel sowie wilden Spargel.<br/><br/>Der violette Spargel ist eine Variante des grünen Spargels und wächst wie dieser ohne Erdwall am Sonnenlicht. Seine intensive Farbe verdankt er dem Pflanzenfarbstoff Anthocyan. Beim Kochen verwandelt sich die violette Färbung allerdings in ein Dunkelgrün.<br/><br/>Darüber hinaus gibt es auch Bleichspargel mit violetten Köpfen. Er entsteht, wenn die Köpfe des weißen Spargels kurz vor der Ernte noch einige Zeit dem Sonnenlicht ausgesetzt sind. Die Spitzen färben sich dadurch dekorativ lila, während der Stamm unter der Erde weiß bleibt.<br/><br/>Beim Einkauf auf dem Wochenmarkt kann einem zudem “wilder Spargel” begegnen. Dieser stammt aus dem Mittelmeerraum. Er besitzt sehr dünne Stangen, mit einer dunkelgrün-violetten Färbung und vielen Trieben.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "image_yttxGE",
+        "image_4iR6BR"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "rich_text_4QbDTq": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_y7pgeE": {
+          "type": "heading",
+          "settings": {
+            "text": "Unterschiede im Geschmack: Milder oder kräftiger Spargel",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_kwfaih": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Der weiße Spargel schmeckt mild und fein. Bitternoten machen sich beim weißen Spargel immer dann bemerkbar, wenn er unter zu kühlen oder schwankenden Wetterbedingungen gewachsen ist oder zu nah am Wurzelstock gestochen wurde. Mit violetten Köpfen wird der Geschmack der Stangen etwas nussiger.<br/><br/>Der Grünspargel hingegen weist ein kräftigeres Aroma auf und ist bissfester. Er schmeckt würzig und herzhaft. Noch kräftigere Aromen finden sich beim violetten Spargel sowie Wildspargel. Letzterer schmeckt besonders herb-nussig.</p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_y7pgeE",
+        "richtext_kwfaih"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "rich_text_GcJxJ7": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_8774B3": {
+          "type": "heading",
+          "settings": {
+            "text": "Kann Spargel roh gegessen werden?",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_LtnMbd": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Spargel kann vielfältig zubereitet werden. Das Königsgemüse lässt sich nicht nur klassisch kochen, auch vom Grill oder aus dem Backofen schmeckt es hervorragend. Wer hingegen keine Lust auf Kochen hat, kann weißen, grünen und violetten Spargel ebenso roh essen.<br/><br/>Das typische Spargelaroma ist in diesem Falle allerdings nicht präsent. Weil dieses erst im Kochprozess entsteht, schmeckt roher Spargel anders als gewohnt. Er erinnert im Aroma an Erbsenschoten und weist eine süßliche Note auf. Für den rohen Verzehr eignen sich besonders dünne, zarte Stangen. Sie sind weniger herb und bitter als die dicken Exemplare. Die rohe Variante auszuprobieren lohnt aber auf jeden Fall, besonders Salaten gibt roher Spargel Pepp.</p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8774B3",
+        "richtext_LtnMbd"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "rich_text_JdWJH9": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_kVk36r": {
+          "type": "heading",
+          "settings": {
+            "text": "Wie gesund ist Spargel?",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_QKBtC8": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Spargel ist nicht nur lecker, sondern auch ausgesprochen gesund. Neben Vitamin C, E und B-Vitaminen ist er ballaststoffreich und wirkt durch den hohen Kaliumgehalt entwässernd.<br/><br/>Grüner Spargel enthält zusätzlich Vitamin A und im Gegensatz zu Bleichspargel einen höheren Gehalt an Vitamin C. Auch der violette Spargel ist reich an vielen guten Inhaltsstoffen wie Kalium, Calcium, Magnesium sowie Eisen und an den Vitaminen A, B, C, E und H.<br/><br/>Weil Spargel zudem zu 90% aus Wasser besteht, ist er eine leichte, kalorienarmen Beilage und beliebte Zutat in der Frühlings- und Sommerküche.<br/><br/>Viel Spaß beim Zubereiten und Genießen!<br/><br/>Bild 1: ©Muenz/istock<br/>Bild 2: ©Tuned_In/istock<br/><br/> </p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_kVk36r",
+        "richtext_QKBtC8"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "xl"
+      }
+    },
+    "blog_posts_ixhWi7": {
+      "type": "blog-posts",
+      "blocks": {
+        "blog_t8qtaL": {
+          "type": "blog",
+          "settings": {
+            "blog": "news",
+            "posts_count": 3,
+            "stack_items": false
+          }
+        }
+      },
+      "block_order": [
+        "blog_t8qtaL"
+      ],
+      "name": "Blog posts",
+      "settings": {
+        "show_excerpt": true,
+        "show_date": true,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": true,
+        "show_overall_time": false,
+        "subheading": "",
+        "title": "Weitere Kochtipps entdecken",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto",
+        "blog_handle": "kochtipps",
+        "posts_count": 4
+      }
+    }
+  },
+  "order": [
+    "main",
+    "media_with_text_P6fh8F",
+    "rich_text_4QbDTq",
+    "rich_text_GcJxJ7",
+    "rich_text_JdWJH9",
+    "blog_posts_ixhWi7"
+  ]
+}

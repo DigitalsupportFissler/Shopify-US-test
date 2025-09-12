@@ -1,0 +1,1913 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "featured_product_Ha3man": {
+      "type": "featured-product",
+      "blocks": {
+        "vendor_kfY8zG": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "title_eEHeUd": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "badges_EeNKcy": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price_PAexq7": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating_Yz8bQi": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "separator_4W4U7A": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description_D7T67Y": {
+          "type": "description",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "collapse_content": false
+          }
+        },
+        "variant_picker_VJatLN": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector_4JA94m": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_jxFghn": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "pickup_availability_VRpwth": {
+          "type": "pickup_availability",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "vendor_kfY8zG",
+        "title_eEHeUd",
+        "badges_EeNKcy",
+        "price_PAexq7",
+        "rating_Yz8bQi",
+        "separator_4W4U7A",
+        "description_D7T67Y",
+        "variant_picker_VJatLN",
+        "quantity_selector_4JA94m",
+        "buy_buttons_jxFghn",
+        "pickup_availability_VRpwth"
+      ],
+      "settings": {
+        "product": "ceratal®-comfort-pfanne",
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "featured_collection_6F7GpR": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "",
+        "products": [],
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Featured collection",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "collection_list_yRPnfa": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_dBQGcy": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_APCfzq": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_KVPk4T": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_eFibAP": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_DTNk4g": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "collection_dBQGcy",
+        "collection_APCfzq",
+        "collection_KVPk4T",
+        "collection_eFibAP",
+        "collection_DTNk4g"
+      ],
+      "settings": {
+        "collection_list": [],
+        "stack_collections": false,
+        "collections_per_row_mobile": "1",
+        "collections_per_row": 3,
+        "show_progress_bar": true,
+        "subheading": "",
+        "title": "Collection list",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "show_subheading": true,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "accordion_content_TTJqmU": {
+      "type": "accordion-content",
+      "blocks": {
+        "item_TyTpGa": {
+          "type": "item",
+          "settings": {
+            "icon_width": 20,
+            "title": "Question 1",
+            "content": "<ul><li>Write content to help your customers to better understand your products or policies.Write content to help your </li><li>customers to better understand your products or policies.Write content to help your custom<a href=\"/products/adamant-comfort-pfanne\" title=\"Adamant® Comfort Pfanne\">ers to better </a></li><li><a href=\"/products/adamant-comfort-pfanne\" title=\"Adamant® Comfort Pfanne\">understand your products or policies.</a></li></ul>",
+            "page": ""
+          }
+        },
+        "item_tQaaLw": {
+          "type": "item",
+          "settings": {
+            "icon_width": 20,
+            "title": "Question 2",
+            "content": "<p>Write content to help your customers to better understand your products or policies.</p>",
+            "page": ""
+          }
+        },
+        "item_x7BMqA": {
+          "type": "item",
+          "settings": {
+            "icon_width": 20,
+            "title": "Question 3",
+            "content": "<p>Write content to help your customers to better understand your products or policies.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_TyTpGa",
+        "item_tQaaLw",
+        "item_x7BMqA"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Heading",
+        "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome custo<a href=\"/products/adamant-classic-pfanne\" title=\"Adamant® Classic Pfanne\">mers to your store.</a></p>",
+        "button_text": "Test Button",
+        "button_url": "",
+        "text_position": "start",
+        "first_open": true,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "before_after_image_wHni4P": {
+      "type": "before-after-image",
+      "settings": {
+        "subheading": "ygfdh",
+        "title": "Before/after",
+        "content": "<p>Showcase your product benefit by using before/after image comparison.</p><ul><li>Showcase your product benefit by using before/after image comparison.</li><li>Showcase your product benefit by using before/after ima<a href=\"/pages/contact\" title=\"Contact\">ge comparison.</a></li></ul>",
+        "button_text": "",
+        "button_url": "",
+        "button_background": "",
+        "button_text_color": "",
+        "before_image": "shopify://shop_images/Moments_Family_Shot_3_ca02056d-f99b-41af-a5e3-77d9dc43d6c2.jpg",
+        "after_image": "shopify://shop_images/Header_Category_Toepfe_2167_x_600_px.png",
+        "expand_image": false,
+        "text_position": "start",
+        "before_after_text_position": "top",
+        "before_text": "sgdfdfhb",
+        "after_text": "After",
+        "drag_initial_position": 62,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#1a1a1a",
+        "before_text_color": "#1a1a1a",
+        "after_text_color": "#ffffff",
+        "drag_cursor_background": "#556132",
+        "drag_cursor_color": "#000000",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "blog_posts_y7a4mf": {
+      "type": "blog-posts",
+      "blocks": {
+        "blog_chkPUF": {
+          "type": "blog",
+          "settings": {
+            "blog": "pressemitteilungen",
+            "posts_count": 6,
+            "stack_items": false
+          }
+        }
+      },
+      "block_order": [
+        "blog_chkPUF"
+      ],
+      "settings": {
+        "show_excerpt": false,
+        "show_date": true,
+        "show_author": true,
+        "show_comments_count": false,
+        "show_category": true,
+        "show_overall_time": false,
+        "subheading": "Subheading",
+        "title": "Blog posts",
+        "content": "<ul><li>Showcase your product benefit by using before/after image comparison.Showcase your product benefit by using before/after image </li><li>comparison.Showcase your product benefit by using before/after image comparison.</li></ul>",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto",
+        "blog_handle": "news",
+        "posts_count": 4
+      }
+    },
+    "comparison_table_LkCWrW": {
+      "type": "comparison-table",
+      "blocks": {
+        "headings_KXrWCj": {
+          "type": "headings",
+          "settings": {
+            "heading_1": "Test 1",
+            "heading_2": "Test 2",
+            "heading_3": "Heading 3",
+            "heading_4": "Dennis",
+            "heading_5": "Finn",
+            "heading_6": "Sscha",
+            "heading_7": "",
+            "heading_8": "",
+            "heading_9": "",
+            "heading_10": "",
+            "heading_11": "",
+            "heading_12": "",
+            "heading_13": "",
+            "heading_14": "",
+            "heading_15": "",
+            "heading_16": "",
+            "heading_17": "",
+            "heading_18": "",
+            "heading_19": "",
+            "heading_20": "",
+            "heading_21": "",
+            "heading_22": "",
+            "heading_23": "",
+            "heading_24": "",
+            "heading_25": "",
+            "heading_26": "",
+            "heading_27": "",
+            "heading_28": "",
+            "heading_29": "",
+            "heading_30": "",
+            "heading_31": "",
+            "heading_32": "",
+            "heading_33": "",
+            "heading_34": "",
+            "heading_35": "",
+            "heading_36": "",
+            "heading_37": "",
+            "heading_38": "",
+            "heading_39": "",
+            "heading_40": ""
+          }
+        },
+        "values_7prhFk": {
+          "type": "values",
+          "settings": {
+            "custom_image": "shopify://shop_images/Ratgeber_perfektesSteak_AH_Stielpfanne_400x400_5ef36878-97d6-47e6-bf3c-365804953b7b.png",
+            "custom_heading": "",
+            "product": "adamant-comfort-pfannenset-28-cm-24-cm",
+            "value_1": "<p>{{ block.settings.product.metafields.custom.ATTR_BULLET_5 | metafield_tag }} ssfgdfghfj</p>",
+            "value_2": "<p>{{ block.settings.product.metafields.custom.ATTR_BULLET_4 | metafield_tag }} hgjfj </p>",
+            "value_3": "{{ block.settings.product.metafields.custom.ATTR_Features | metafield_tag: field: 'heading' }}",
+            "value_4": "",
+            "value_5": "<p><strong>sfhfghfgsfhfghfgsfhfghfgsfhfghfgsfhfghfgsfhfghfgsfhfghfgsfhfghfgsfhfghfg</strong></p><ul><li>sdfgfdsgffffffffgfgfgfgfgfgfgfgfgfgfgsfgfghfdghfgh</li><li>fdg</li><li><a href=\"/blogs/ratgeber\" title=\"Ratgeber\">fgh</a></li></ul>",
+            "value_6": "",
+            "value_7": "",
+            "value_8": "",
+            "value_9": "",
+            "value_10": "",
+            "value_11": "",
+            "value_12": "",
+            "value_13": "",
+            "value_14": "",
+            "value_15": "",
+            "value_16": "",
+            "value_17": "",
+            "value_18": "",
+            "value_19": "",
+            "value_20": "",
+            "value_21": "",
+            "value_22": "",
+            "value_23": "",
+            "value_24": "",
+            "value_25": "",
+            "value_26": "",
+            "value_27": "",
+            "value_28": "",
+            "value_29": "",
+            "value_30": "",
+            "value_31": "",
+            "value_32": "",
+            "value_33": "",
+            "value_34": "",
+            "value_35": "",
+            "value_36": "",
+            "value_37": "",
+            "value_38": "",
+            "value_39": "",
+            "value_40": "",
+            "value_41": "",
+            "value_42": "",
+            "value_43": "",
+            "value_44": "",
+            "value_45": "",
+            "value_46": "",
+            "value_47": "",
+            "value_48": "",
+            "value_49": "",
+            "value_50": "",
+            "value_51": "",
+            "value_52": "",
+            "value_53": "",
+            "value_54": "",
+            "value_55": "",
+            "value_56": "",
+            "value_57": "",
+            "value_58": "",
+            "value_59": "",
+            "value_60": "",
+            "value_61": "",
+            "value_62": "",
+            "value_63": "",
+            "value_64": "",
+            "value_65": "",
+            "value_66": "",
+            "value_67": "",
+            "value_68": "",
+            "value_69": "",
+            "value_70": "",
+            "value_71": "",
+            "value_72": "",
+            "value_73": "",
+            "value_74": "",
+            "value_75": "",
+            "value_76": "",
+            "value_77": "",
+            "value_78": "",
+            "value_79": "",
+            "value_80": "",
+            "value_81": "",
+            "value_82": "",
+            "value_83": "",
+            "value_84": "",
+            "value_85": "",
+            "value_86": "",
+            "value_87": "",
+            "value_88": "",
+            "value_89": "",
+            "value_90": "",
+            "value_91": "",
+            "value_92": "",
+            "value_93": "",
+            "value_94": "",
+            "value_95": "",
+            "value_96": "",
+            "value_97": "",
+            "value_98": "",
+            "value_99": "",
+            "value_100": "",
+            "view_button_background": "",
+            "view_button_text_color": "",
+            "custom_link_url": "",
+            "custom_link_text": ""
+          }
+        },
+        "values_X8arUJ": {
+          "type": "values",
+          "settings": {
+            "custom_heading": "",
+            "product": "adamant-kochtopf-mit-metalldeckel",
+            "value_1": "",
+            "value_2": "",
+            "value_3": "",
+            "value_4": "",
+            "value_5": "",
+            "value_6": "",
+            "value_7": "",
+            "value_8": "",
+            "value_9": "",
+            "value_10": "",
+            "value_11": "",
+            "value_12": "",
+            "value_13": "",
+            "value_14": "",
+            "value_15": "",
+            "value_16": "",
+            "value_17": "",
+            "value_18": "",
+            "value_19": "",
+            "value_20": "",
+            "value_21": "",
+            "value_22": "",
+            "value_23": "",
+            "value_24": "",
+            "value_25": "",
+            "value_26": "",
+            "value_27": "",
+            "value_28": "",
+            "value_29": "",
+            "value_30": "",
+            "value_31": "",
+            "value_32": "",
+            "value_33": "",
+            "value_34": "",
+            "value_35": "",
+            "value_36": "",
+            "value_37": "",
+            "value_38": "",
+            "value_39": "",
+            "value_40": "",
+            "value_41": "",
+            "value_42": "",
+            "value_43": "",
+            "value_44": "",
+            "value_45": "",
+            "value_46": "",
+            "value_47": "",
+            "value_48": "",
+            "value_49": "",
+            "value_50": "",
+            "value_51": "",
+            "value_52": "",
+            "value_53": "",
+            "value_54": "",
+            "value_55": "",
+            "value_56": "",
+            "value_57": "",
+            "value_58": "",
+            "value_59": "",
+            "value_60": "",
+            "value_61": "",
+            "value_62": "",
+            "value_63": "",
+            "value_64": "",
+            "value_65": "",
+            "value_66": "",
+            "value_67": "",
+            "value_68": "",
+            "value_69": "",
+            "value_70": "",
+            "value_71": "",
+            "value_72": "",
+            "value_73": "",
+            "value_74": "",
+            "value_75": "",
+            "value_76": "",
+            "value_77": "",
+            "value_78": "",
+            "value_79": "",
+            "value_80": "",
+            "value_81": "",
+            "value_82": "",
+            "value_83": "",
+            "value_84": "",
+            "value_85": "",
+            "value_86": "",
+            "value_87": "",
+            "value_88": "",
+            "value_89": "",
+            "value_90": "",
+            "value_91": "",
+            "value_92": "",
+            "value_93": "",
+            "value_94": "",
+            "value_95": "",
+            "value_96": "",
+            "value_97": "",
+            "value_98": "",
+            "value_99": "",
+            "value_100": "",
+            "view_button_background": "",
+            "view_button_text_color": "",
+            "custom_link_url": "",
+            "custom_link_text": ""
+          }
+        },
+        "values_7WDMT6": {
+          "type": "values",
+          "settings": {
+            "custom_heading": "",
+            "product": "arcana-braeter-oval-rot",
+            "value_1": "<p>Value 1</p>",
+            "value_2": "<p>Value 2</p>",
+            "value_3": "<p>Value 3</p>",
+            "value_4": "",
+            "value_5": "",
+            "value_6": "",
+            "value_7": "",
+            "value_8": "",
+            "value_9": "",
+            "value_10": "",
+            "value_11": "",
+            "value_12": "",
+            "value_13": "",
+            "value_14": "",
+            "value_15": "",
+            "value_16": "",
+            "value_17": "",
+            "value_18": "",
+            "value_19": "",
+            "value_20": "",
+            "value_21": "",
+            "value_22": "",
+            "value_23": "",
+            "value_24": "",
+            "value_25": "",
+            "value_26": "",
+            "value_27": "",
+            "value_28": "",
+            "value_29": "",
+            "value_30": "",
+            "value_31": "",
+            "value_32": "",
+            "value_33": "",
+            "value_34": "",
+            "value_35": "",
+            "value_36": "",
+            "value_37": "",
+            "value_38": "",
+            "value_39": "",
+            "value_40": "",
+            "value_41": "",
+            "value_42": "",
+            "value_43": "",
+            "value_44": "",
+            "value_45": "",
+            "value_46": "",
+            "value_47": "",
+            "value_48": "",
+            "value_49": "",
+            "value_50": "",
+            "value_51": "",
+            "value_52": "",
+            "value_53": "",
+            "value_54": "",
+            "value_55": "",
+            "value_56": "",
+            "value_57": "",
+            "value_58": "",
+            "value_59": "",
+            "value_60": "",
+            "value_61": "",
+            "value_62": "",
+            "value_63": "",
+            "value_64": "",
+            "value_65": "",
+            "value_66": "",
+            "value_67": "",
+            "value_68": "",
+            "value_69": "",
+            "value_70": "",
+            "value_71": "",
+            "value_72": "",
+            "value_73": "",
+            "value_74": "",
+            "value_75": "",
+            "value_76": "",
+            "value_77": "",
+            "value_78": "",
+            "value_79": "",
+            "value_80": "",
+            "value_81": "",
+            "value_82": "",
+            "value_83": "",
+            "value_84": "",
+            "value_85": "",
+            "value_86": "",
+            "value_87": "",
+            "value_88": "",
+            "value_89": "",
+            "value_90": "",
+            "value_91": "",
+            "value_92": "",
+            "value_93": "",
+            "value_94": "",
+            "value_95": "",
+            "value_96": "",
+            "value_97": "",
+            "value_98": "",
+            "value_99": "",
+            "value_100": "",
+            "view_button_background": "",
+            "view_button_text_color": "",
+            "custom_link_url": "",
+            "custom_link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "headings_KXrWCj",
+        "values_7prhFk",
+        "values_X8arUJ",
+        "values_7WDMT6"
+      ],
+      "settings": {
+        "subheading": "Compare",
+        "title": "Product comparison",
+        "content": "<p>Give your customers useful information about your products and showcase differences between them. Give your customers useful information about your products and showcase differences between them.Give your customers useful information about your products and showcase differences between them.Give your customers useful information about your products and showcase differences between them.</p>",
+        "button_text": "Test Button",
+        "button_url": "shopify://products/adamant-kochtopf-mit-metalldeckel",
+        "link_text": "",
+        "link_url": "",
+        "text_alignment": "start",
+        "link_display": "text",
+        "max_rows": 11,
+        "view_all_text": "View all",
+        "view_less_text": "View less",
+        "view_product": "View",
+        "show_product_info": true,
+        "show_product_image": true,
+        "show_product_swatch": true,
+        "viewing_product": "",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "chart_background": "#f0f0f0",
+        "chart_text_color": "",
+        "chart_true_false_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "faq_EpmFPJ": {
+      "type": "faq",
+      "blocks": {
+        "item_YTKnmH": {
+          "type": "item",
+          "settings": {
+            "title": "Do you ship overseas?",
+            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+          }
+        },
+        "item_QAqMC3": {
+          "type": "item",
+          "settings": {
+            "title": "How long will it take to get my orders?",
+            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+          }
+        },
+        "item_yUaejK": {
+          "type": "item",
+          "settings": {
+            "title": "Any question?",
+            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_YTKnmH",
+        "item_QAqMC3",
+        "item_yUaejK"
+      ],
+      "settings": {
+        "show_userlike": true,
+        "subheading": "",
+        "title": "FAQ",
+        "content": "<p>Use this text to share information about your product or shipping policies.</p>",
+        "team_avatar_width": 160,
+        "support_hours": "Our customer support is available Monday to Friday: 8am-8:30pm.",
+        "answer_time": "Average answer time: 24h",
+        "button_text": "Test Button Wo bist",
+        "button_url": "",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "featured_articles_zbzgkp": {
+      "type": "featured-articles",
+      "settings": {
+        "show_progress_bar": false,
+        "articles_per_row_mobile": "2",
+        "articles_per_row_desktop": 3,
+        "subheading": "Test",
+        "articel_handles": "",
+        "title": "Featured Articles",
+        "content": "<p>Afsdfsdfh</p>",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "blog_posts_rHbNeT": {
+      "type": "blog-posts",
+      "blocks": {
+        "article_tNnxwn": {
+          "type": "article",
+          "settings": {
+            "article": "rezepte/spargel-zubereiten-tipps-tricks-methoden",
+            "background": "rgba(0,0,0,0)",
+            "text_color": "rgba(0,0,0,0)",
+            "article_handle": ""
+          }
+        }
+      },
+      "block_order": [
+        "article_tNnxwn"
+      ],
+      "settings": {
+        "show_excerpt": false,
+        "show_date": true,
+        "show_author": true,
+        "show_comments_count": false,
+        "show_category": true,
+        "show_overall_time": false,
+        "subheading": "Subheading",
+        "title": "Heading",
+        "content": "<ul><li>sadgdsfdfsh sadgdsfdfshsadgdsfdfshsadgdsfdfshsadgdsfdfshsadgdsfdfshsadgdsfdfshsadgdsfdfshsadgdsfdfshsadgdsfdfshsadgdsfdfshsadgdsfdfsh sadgdsfdfsh sadgdsfdfshsadgdsfdfshsadgdsfdfshsadgdsfdfshsadgdsfdfshsadgdsfdfshsadgdsfdfshsadgdsfdfshsadgdsfdfshsadgdsfdfshsadgdsfdfsh </li><li>sadgdsfdfsh</li><li>sadgdsfdfshsadgdsfdfshsadgdsfdfshsadgdsfdfshsadgdsfdfshsadgdsfdfshsadgdsfdfshsadgdsfdfshsadgdsfdfshsadgdsfdfshsadgdsfdfsh sadgdsfdfsh sadgdsfdfshsadgdsfdfshsadgdsfdfshsadgdsfdfshsadgdsfdfshsadgdsfdfshsadgdsfdfshsadgdsfdfshsadgdsfdfshsadgdsfdfshsadgdsfdfshsadgdsfdfsh sadgdsfdfshsadgdsfdfshsadgdsfdfshsadgdsfdfshsadgdsfdfshsadgdsfdfshsadgdsfdfshsadgdsfdfshsadgdsfdfshsadgdsfdfshsadgdsfdfsh</li></ul><p></p>",
+        "link_url": "shopify://blogs/inspiration",
+        "link_text": "Zum Ratgbeerr",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto",
+        "blog_handle": "news",
+        "posts_count": 4
+      }
+    },
+    "blog_posts_fidzwg": {
+      "type": "blog-posts",
+      "blocks": {
+        "blog_PVKMmP": {
+          "type": "blog",
+          "settings": {
+            "blog": "news",
+            "posts_count": 3,
+            "stack_items": false
+          }
+        }
+      },
+      "block_order": [
+        "blog_PVKMmP"
+      ],
+      "settings": {
+        "show_excerpt": true,
+        "show_date": true,
+        "show_author": true,
+        "show_comments_count": false,
+        "show_category": true,
+        "show_overall_time": false,
+        "subheading": "WARUM VERÄNDERT SICH HIER DER SECTION NAME?!",
+        "title": "Blog posts",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto",
+        "blog_handle": "news",
+        "posts_count": 4
+      }
+    },
+    "hot_spots_UeQm8b": {
+      "type": "hot-spots",
+      "blocks": {
+        "item_3j6bi6": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 35,
+            "vertical_position": 75,
+            "horizontal_position_mobile": 36,
+            "vertical_position_mobile": 70,
+            "icon": "shopify://shop_images/4009209405100_moments_dutch_oven_20cm_sa_topshot_cd8d381e-363e-45d6-8a69-2ae6ecf0173c.jpg",
+            "icon_width": 32,
+            "title": "Moments Guss Topf",
+            "content": "<p>Share useful information about your product features.</p><ul><li>Share useful information about your product features.</li><li>Share useful information about your product features.</li></ul><p><a href=\"/products/moments-collection-gusseisen-topf\" title=\"Moments Collection Gusseisen Topf\">Zum Artikel</a></p>"
+          }
+        },
+        "item_66ntC3": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 45,
+            "vertical_position": 60,
+            "horizontal_position_mobile": 45,
+            "vertical_position_mobile": 60,
+            "icon_width": 32,
+            "title": "Test Nummer 3",
+            "content": "<p>Share useful information about your product features.</p><p>Share useful information about your product features.</p><p>Share useful information about your product features.</p>"
+          }
+        },
+        "item_6Y46Qg": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 30,
+            "vertical_position": 30,
+            "horizontal_position_mobile": 30,
+            "vertical_position_mobile": 30,
+            "icon_width": 32,
+            "title": "Feature name",
+            "content": "<p>Share useful information about your product features.</p>"
+          }
+        },
+        "item_tN93A9": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 62,
+            "vertical_position": 14,
+            "horizontal_position_mobile": 62,
+            "vertical_position_mobile": 14,
+            "icon_width": 32,
+            "title": "Feature name",
+            "content": "<p>Share useful information about your product features.</p>"
+          }
+        },
+        "item_KJDhU6": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 83,
+            "vertical_position": 75,
+            "horizontal_position_mobile": 83,
+            "vertical_position_mobile": 75,
+            "icon_width": 32,
+            "title": "Feature name",
+            "content": "<p>Share useful information about your product features.</p>"
+          }
+        },
+        "item_6rJiXn": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 30,
+            "vertical_position": 30,
+            "horizontal_position_mobile": 30,
+            "vertical_position_mobile": 30,
+            "icon_width": 32,
+            "title": "Feature name",
+            "content": "<p>Share useful information about your product features.</p>"
+          }
+        },
+        "item_Cjhqkm": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 30,
+            "vertical_position": 30,
+            "horizontal_position_mobile": 30,
+            "vertical_position_mobile": 30,
+            "icon_width": 32,
+            "title": "Feature name",
+            "content": "<p>Share useful information about your product features.</p>"
+          }
+        },
+        "item_Tmaqkc": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 30,
+            "vertical_position": 30,
+            "horizontal_position_mobile": 30,
+            "vertical_position_mobile": 30,
+            "icon_width": 32,
+            "title": "Feature name",
+            "content": "<p>Share useful information about your product features.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_3j6bi6",
+        "item_66ntC3",
+        "item_6Y46Qg",
+        "item_tN93A9",
+        "item_KJDhU6",
+        "item_6rJiXn",
+        "item_Cjhqkm",
+        "item_Tmaqkc"
+      ],
+      "settings": {
+        "full_width": true,
+        "image": "shopify://shop_images/Moments_Family_Shot_3_ca02056d-f99b-41af-a5e3-77d9dc43d6c2.jpg",
+        "mobile_image": "shopify://shop_images/Moments_oil_preparing_5b18964b-ca39-4f15-8a8f-e91821d6f276.jpg",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "desktop_text_position": "place-self-start text-start",
+        "image_background": "",
+        "image_background_gradient": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "overlay_text_color": "#ffffff",
+        "overlay_button_background": "",
+        "overlay_button_text_color": "",
+        "hot_spot_dot_background": "#ffffff",
+        "hot_spot_dot_text_color": "#000000",
+        "hot_spot_content_background": "#ffffff",
+        "hot_spot_content_text_color": "#000000",
+        "hot_spot_content_opacity": 90,
+        "hot_spot_content_blur_radius": 3,
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "image_link_blocks_Uqnpkh": {
+      "type": "image-link-blocks",
+      "blocks": {
+        "item_LthTcd": {
+          "type": "item",
+          "settings": {
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_e8LWb8": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/4009209405100_moments_dutch_oven_20cm_sa_topshot_cd8d381e-363e-45d6-8a69-2ae6ecf0173c.jpg",
+            "stretch_image": true,
+            "link_text": "Moments",
+            "link_url": "",
+            "background": "#ffffff",
+            "text_color": "#000000",
+            "overlay_color": "#1a1a1a",
+            "overlay_opacity": 0
+          }
+        },
+        "item_3VL46t": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/AST_ECOM_SA_113979_82e5bacb-3968-4e39-90de-30cd053ad030.jpg",
+            "stretch_image": true,
+            "link_text": "Test s",
+            "link_url": "",
+            "background": "#ffffff",
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_yRiT4w": {
+          "type": "item",
+          "settings": {
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_QjwDgP": {
+          "type": "item",
+          "settings": {
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_UaEeYp": {
+          "type": "item",
+          "settings": {
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_xTkY7X": {
+          "type": "item",
+          "settings": {
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_FeMGVP": {
+          "type": "item",
+          "settings": {
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_EBjdH7": {
+          "type": "item",
+          "settings": {
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "item_LthTcd",
+        "item_e8LWb8",
+        "item_3VL46t",
+        "item_yRiT4w",
+        "item_QjwDgP",
+        "item_UaEeYp",
+        "item_xTkY7X",
+        "item_FeMGVP",
+        "item_EBjdH7"
+      ],
+      "settings": {
+        "block_size": "large",
+        "subheading": "Subheading",
+        "title": "Heading",
+        "content": "<p>Kein Center ode rPositionierung </p><p>Komisches Verhalten, aber geht feature-chart__row-heading md:hiddenfeature-chart__row-heading md:hiddenfeature-chart__row-heading md:hiddenfeature-chart__row-heading md:hidden</p><p>Mobil fehlt <a href=\"/products/adamant-bratentopf-mit-metalldeckel\" title=\"Adamant® Bratentopf mit Metalldeckel\">unsere Scrollbar</a></p><p>Button rechts oben zeiht sich mpbil als CTAüber die Bilder. Dann lieber direkt einen CTA haben </p><ul><li>Test </li><li>Test</li><li>Testsdgdfhfghfgjgdfjdfjdhjdghjdghjdghjdhjdjdhjdgghjghjdghjdhgjdhghjdhjdghjdghjdghjdghjdgjdgjghjdghjdghjdhgjdhgjdghhjghdjdghhjdgjdgjdghhjdghhjdjdhhhjdfgjdghjdghjdgjdghjdgjdghjdghjd dghjdghjdghjdgjdgjghjdghjdghjdhgjdhgjdghhjghdjdghhjdgjdgjdghhjdghhjdjdhhhjdfgjdghjdghjdgjdghjdgjdghjdghjd dghjdghjdghjdgjdgjghjdghjdghjdhgjdhgjdghhjghdjdghhjdgjdgjdghhjdghhjdjdhhhjdfgjdghjdghjdgjdghjdgjdghjdghjd  </li></ul><p>Tet bricht einfach um und ich kann es nicht einstellen, dass es mehr als über die halbe Seite geht. Tet bricht einfach um und ich kann es nicht einstellen, dass es mehr als über die halbe Seite geht.Tet bricht einfach um und ich kann es nicht einstellen, dass es mehr als über die halbe Seite geht.Tet bricht einfach um und ich kann es nicht einstellen, dass es mehr als über die halbe Seite geht.</p>",
+        "text_alignment": "start",
+        "link_url": "",
+        "link_text": "Test",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto",
+        "items_per_row_1000": 4,
+        "items_per_row_1400": 5
+      }
+    },
+    "image_with_points_aTz9RH": {
+      "type": "image-with-points",
+      "settings": {
+        "metafield_namespace_and_key": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "image_with_text_overlay_UfTkea": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_MfRYig": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_QV3phR": {
+          "type": "heading",
+          "settings": {
+            "text": "Ich kann hier ein Heading nehmen",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_XyYeea": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Obeowhl in der Section drüber auch weißraum ist, ahben wir hier einen Abstand bei den Elementen und bei längeren Texten wird dann die Ratio auch geändert! </p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_MfRYig",
+        "heading_QV3phR",
+        "richtext_XyYeea"
+      ],
+      "settings": {
+        "full_width": true,
+        "image_size": "auto",
+        "image": "shopify://shop_images/Header_Category_Toepfe_2167_x_600_px.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center-end sm:text-end",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30,
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "images_with_text_scrolling_q7HUMj": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "item_HVULwd": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Stainless_Steel_Dishwasher_0c6b1103-30c9-447f-aac7-4b3c03e9383c.jpg",
+            "icon": "none",
+            "custom_icon": "shopify://shop_images/AST_ECOM_SA_113979.jpg",
+            "icon_width": 76,
+            "title": "Heading 1",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store. </p><p></p><p>Hier bitte ceter, left, right </p><p></p><p>CTA bitte einfügen</p><p></p><p><a href=\"/products/adamant-kochtopf-mit-glasdeckel\" title=\"Adamant® Kochtopf mit Glasdeckel\">Textverlinkung </a></p><p></p>",
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_color": "#000000"
+          }
+        },
+        "item_D8N3AH": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Stainless_Steel_Dishwasher_0c6b1103-30c9-447f-aac7-4b3c03e9383c.jpg",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Heading 2",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "item_HVULwd",
+        "item_D8N3AH"
+      ],
+      "settings": {
+        "stack_on_mobile": false,
+        "show_counter": false,
+        "desktop_image_effect": "fade",
+        "image_position": "end",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "text_alignment": "start",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "impact_text_AqzqyN": {
+      "type": "impact-text",
+      "blocks": {
+        "item_KbgceC": {
+          "type": "item",
+          "settings": {
+            "title": "100%",
+            "subheading": "Showcase a benefit of your product",
+            "content": "<p>Conte Test sdguoisdfhg sdufihgfdulshg </p>",
+            "button_text": "Dennis test",
+            "button_url": "shopify://products/adamant-comfort-pfanne",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 4.6
+          }
+        },
+        "item_hXXbTC": {
+          "type": "item",
+          "settings": {
+            "title": "180 Jahre",
+            "subheading": "Showcase a benefit of your product",
+            "content": "<p>afdsgfsdhfg afdsgfsdhfg afdsgfsdhfg afdsgfsdhfg afdsgfsdhfg afdsgfsdhfg afdsgfsdhfg afdsgfsdhfg afdsgfsdhfg afdsgfsdhfg afdsgfsdhfg afdsgfsdhfg </p>",
+            "button_text": "Finn test",
+            "button_url": "",
+            "animate_impact_text": true,
+            "animate_impact_text_duration": 3.8
+          }
+        }
+      },
+      "block_order": [
+        "item_KbgceC",
+        "item_hXXbTC"
+      ],
+      "settings": {
+        "stack_mobile": true,
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "none",
+        "impact_text_size_ratio": 1,
+        "background": "",
+        "background_gradient": "",
+        "heading_text_color": "#ff0000",
+        "heading_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "media_grid_VUAHqR": {
+      "type": "media-grid",
+      "blocks": {
+        "image_4wf9PF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Pure_Saucepan_in_use_2_f6cb633a-3757-453f-8ba8-3b59ccb2b1ce.jpg",
+            "title": "Promote your products",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_column_span": 4,
+            "mobile_row_span": 2,
+            "mobile_height": 150,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "blog_post_handle": ""
+          }
+        },
+        "image_9mkmrX": {
+          "type": "image",
+          "settings": {
+            "title": "Promote your products",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_column_span": 4,
+            "mobile_row_span": 2,
+            "mobile_height": 150,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "blog_post_handle": ""
+          }
+        },
+        "image_MxxN8K": {
+          "type": "image",
+          "settings": {
+            "title": "Promote your products",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_column_span": 4,
+            "mobile_row_span": 2,
+            "mobile_height": 150,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "blog_post_handle": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_4wf9PF",
+        "image_9mkmrX",
+        "image_MxxN8K"
+      ],
+      "settings": {
+        "use_height": false,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
+        "background": "",
+        "background_gradient": ""
+      }
+    },
+    "media_with_text_EE3xa7": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_kiBk3V": {
+          "type": "image",
+          "settings": {
+            "collection": "braeter",
+            "image": "{{ block.settings.collection.image }}",
+            "media_width": 52,
+            "disable_content_vertical_padding": false,
+            "media_position": "start",
+            "text_position": "place-self-start text-start",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "Subheading",
+            "title": "Heading",
+            "heading_tag": "h3",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "link_text": "Test Button",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        },
+        "image_fnNdjc": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Heading",
+            "heading_tag": "h3",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        },
+        "video_Xkq3rj": {
+          "type": "video",
+          "settings": {
+            "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "autoplay": true,
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Heading",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_kiBk3V",
+        "image_fnNdjc",
+        "video_Xkq3rj"
+      ],
+      "settings": {
+        "full_width": true,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "multi_column_heeUiL": {
+      "type": "multi-column",
+      "blocks": {
+        "item_Y38rzL": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Kopie_von_landingpage-banner-mobile-mood-02.psd.png",
+            "column_size": "3",
+            "title": "Column title Tetst sdgfdsjlg",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "Button Test",
+            "link_style": "button"
+          }
+        },
+        "item_4c6CjC": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Moments_Family_Shot_3_f7f85943-d178-49f1-8e41-a918e59365ed.jpg",
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_34BGpk": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/4009209405100_moments_dutch_oven_20cm_sa_topshot2_df8c67a4-1a73-44b7-a42d-207e654fc008.jpg",
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_9UdJzk": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_Y38rzL",
+        "item_4c6CjC",
+        "item_34BGpk",
+        "item_9UdJzk"
+      ],
+      "settings": {
+        "stack_on_mobile": false,
+        "gap": "small",
+        "text_alignment": "start",
+        "subheading": "About",
+        "title": "Featured content",
+        "content": "<p>Organize content into multiple columns to share useful information to your customers about your products, values...</p><ul><li>Bei der mobilen Ansicht fehlt die Progress Bar </li><li>Einzelnen Inhalte auch auf dem DEsktop Scrollbar machen (zumindest die Auswahl haben)? </li></ul>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "multiple_images_with_text_rX6ANT": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "item_8UnVBc": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Pure_Sugar_Test_Heat_Distribution_1_90a10b66-024b-4415-85e8-ff2e3c714d23.jpg",
+            "image_rotation_degrees": 0,
+            "subheading": "",
+            "title": "Heading 1",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        },
+        "item_nAn9qR": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Kopie_von_landingpage-banner-mobile-mood-02.psd.png",
+            "image_rotation_degrees": 0,
+            "subheading": "",
+            "title": "Heading 2",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        },
+        "item_AdTyNJ": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Moments_oil_preparing_ae6f18c2-8774-4937-ab72-2f90ca32b8c4.jpg",
+            "image_rotation_degrees": 0,
+            "subheading": "",
+            "title": "Image with text",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        },
+        "item_nyUzft": {
+          "type": "item",
+          "settings": {
+            "image_rotation_degrees": 0,
+            "subheading": "",
+            "title": "Image with text",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        },
+        "item_AUyAip": {
+          "type": "item",
+          "settings": {
+            "image_rotation_degrees": 0,
+            "subheading": "",
+            "title": "Image with text",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_8UnVBc",
+        "item_nAn9qR",
+        "item_AdTyNJ",
+        "item_nyUzft",
+        "item_AUyAip"
+      ],
+      "settings": {
+        "images_layout": "stacked",
+        "collage_images_alignment": "top",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": "",
+        "heading_tag": "h4",
+        "content_alignment": "start"
+      }
+    },
+    "rich_text_mHbMjR": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_A47V4t": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading",
+            "subheading_tag": "h3"
+          }
+        },
+        "heading_a3HTLM": {
+          "type": "heading",
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_3UaWcw": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers <a href=\"/products/adamant-bratentopf-mit-glasdeckel\" title=\"Adamant® Bratentopf mit Glasdeckel\">to your store.</a></p>",
+            "font_size": "base"
+          }
+        },
+        "image_wYqdVG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/4009209405100_moments_dutch_oven_20cm_sa_perspective1_f54fbd0a-647a-41c5-ae91-927b52b249f5.jpg",
+            "width_mode": "custom",
+            "max_width": 260,
+            "mobile_max_width": 250
+          }
+        }
+      },
+      "block_order": [
+        "subheading_A47V4t",
+        "heading_a3HTLM",
+        "richtext_3UaWcw",
+        "image_wYqdVG"
+      ],
+      "settings": {
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "rich_text_QPH3e7": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_xWe3Pw": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "font_size": "lg"
+          }
+        },
+        "divider_xBdh8p": {
+          "type": "divider",
+          "settings": {}
+        },
+        "image_CWXaqN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Pure_Family_in_use_3_3ae1e849-d5f7-4a69-9b31-2a6c3579d4a2.jpg",
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        }
+      },
+      "block_order": [
+        "richtext_xWe3Pw",
+        "divider_xBdh8p",
+        "image_CWXaqN"
+      ],
+      "settings": {
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "faq_metaobjecte_TitpwR": {
+      "type": "faq-metaobjecte",
+      "blocks": {
+        "item_fBjPdU": {
+          "type": "item",
+          "settings": {
+            "title": "Do you ship overseas?",
+            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+          }
+        },
+        "item_xRhwdN": {
+          "type": "item",
+          "settings": {
+            "title": "How long will it take to get my orders?",
+            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+          }
+        },
+        "item_QVLMQw": {
+          "type": "item",
+          "settings": {
+            "title": "Any question?",
+            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_fBjPdU",
+        "item_xRhwdN",
+        "item_QVLMQw"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "FAQ",
+        "content": "<p>Use this text to share information about your product or shipping policies.</p>",
+        "team_avatar_width": 160,
+        "support_hours": "Our customer support is available Monday to Friday: 8am-8:30pm.",
+        "answer_time": "Average answer time: 24h",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "featured_product_Ha3man",
+    "featured_collection_6F7GpR",
+    "collection_list_yRPnfa",
+    "accordion_content_TTJqmU",
+    "before_after_image_wHni4P",
+    "blog_posts_y7a4mf",
+    "comparison_table_LkCWrW",
+    "faq_EpmFPJ",
+    "featured_articles_zbzgkp",
+    "blog_posts_rHbNeT",
+    "blog_posts_fidzwg",
+    "hot_spots_UeQm8b",
+    "image_link_blocks_Uqnpkh",
+    "image_with_points_aTz9RH",
+    "image_with_text_overlay_UfTkea",
+    "images_with_text_scrolling_q7HUMj",
+    "impact_text_AqzqyN",
+    "media_grid_VUAHqR",
+    "media_with_text_EE3xa7",
+    "multi_column_heeUiL",
+    "multiple_images_with_text_rX6ANT",
+    "rich_text_mHbMjR",
+    "rich_text_QPH3e7",
+    "faq_metaobjecte_TitpwR"
+  ]
+}

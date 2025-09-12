@@ -1,0 +1,585 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "navigation": {
+          "type": "navigation",
+          "disabled": true,
+          "settings": {}
+        },
+        "comments": {
+          "type": "comments",
+          "disabled": true,
+          "settings": {
+            "show_gravatar": true,
+            "comments_per_page": 5
+          }
+        }
+      },
+      "block_order": [
+        "navigation",
+        "comments"
+      ],
+      "settings": {
+        "layout": "image_text_overlay",
+        "image": "{{ article.image }}",
+        "show_author": true,
+        "show_date": true,
+        "show_comments_count": true,
+        "show_share_buttons": true,
+        "show_header_image": true,
+        "banner_background": "",
+        "banner_text_color": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "content_width": "750px",
+        "stats_color": "#556132",
+        "is_recipe": false,
+        "content_alignment": "start"
+      }
+    },
+    "featured_articles_C8nbWY": {
+      "type": "featured-articles",
+      "name": "Featured articles",
+      "settings": {
+        "show_progress_bar": true,
+        "articles_per_row_mobile": "2",
+        "articles_per_row_desktop": 5,
+        "subheading": "",
+        "articel_handles": "produktwissen/kochen-im-schnellkochtopf,produktwissen/schnellkochtopf-garzeitenfinder,produktwissen/entsaften-im-schnellkochtopf,produktwissen/dampfgaren-im-schnellkochtopf,produktwissen/schnellkochtopf-reinigen",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "rich_text_cqJHCP": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_m6QhHL": {
+          "type": "heading",
+          "settings": {
+            "text": "Vorteile des Schnellkochens",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_iEcUFh": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Ein Schnellkochtopf macht das tägliche Kochen nicht nur einfacher, sondern auch effizienter. Mit den Fissler Schnellkochtöpfen sparst du Zeit und genießt zugleich erstklassige Kochergebnisse. Wie genau? Entdecke die Vorteile und lass dich überzeugen!</p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_m6QhHL",
+        "richtext_iEcUFh"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "multiple_images_with_text_VfTRMc": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "item_wgVRRx": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Ratgeber_Produktwissen_Media_with_Text_Zeit_schenken__1500x1500_e520235c-2e21-43d2-a572-57504f4979ba.png",
+            "image_rotation_degrees": 0,
+            "subheading": "",
+            "title": "Schenkt dir Zeit, für das, was du liebst.",
+            "content": "<p></p><p>Der Vitavit® Premium Schnellkochtopf verkürzt die Garzeit um bis zu 70%. Das spart wertvolle Zeit, die du für Dinge nutzen kannst, die dir wichtiger sind als Kochen.</p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        },
+        "item_P3wd6d": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Ratgeber_Produktwissen_Media_with_Text_Naehrstoff__1500x1500_cccd1aab-3348-448b-9b04-9909f014a676.png",
+            "image_rotation_degrees": 0,
+            "subheading": "",
+            "title": "Nährstoffe",
+            "content": "<p>Im Schnellkochtopf gegarte Hülsenfrüchte wiesen zwischen 16 und 56 Prozent mehr Thiamin auf als herkömmlich gekochte Hülsenfrüchte.</p><p>Beim Schnellkochen erhöhte sich der Thiamingehalt sogar auf bis zu 105 Prozent, während die herkömmlich in Wasser gekochten Hülsenfrüchte nur 36 Prozent enthielten.</p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        },
+        "item_pTcddM": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Ratgeber_Produktwissen_Media_with_Text_Naehrstoff__1500x1500_2.png",
+            "image_rotation_degrees": 0,
+            "subheading": "",
+            "title": "Schützt, was dich schützt: Vitamine.",
+            "content": "<p>Der Vitavit® Premium umschließt Ihre<br/>Zutaten wie ein Tresor. Beim Schnellkochen unter Druck bleiben Vitamine,<br/>Nährstoffe und Aromen nahezu vollständig erhalten. Ein Unterschied, den man<br/>nicht nur schmecken, sondern auch sehen kann.</p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_wgVRRx",
+        "item_P3wd6d",
+        "item_pTcddM"
+      ],
+      "name": "Multiple images with text",
+      "settings": {
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": "",
+        "content_alignment": "start"
+      }
+    },
+    "rich_text_JaGPjb": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_DhNtQA": {
+          "type": "heading",
+          "settings": {
+            "text": "Die Fissler Vergleichsstudien",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_cTKmMk": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Als einer der führenden Hersteller von Schnellkochtöpfen „Made in Germany“ ist es selbstverständlich, dass wir bei Fissler uns für die Wissenschaft hinter unseren Produkten begeistern. Weil wir von den Vorteilen unseres Vitavit® Premium überzeugt sind, haben wir zwei unabhängige Studien in Auftrag gegeben, um die Überlegenheit unseres Produkts gegenüber herkömmlichen Kochmethoden überprüfen zu lassen.</p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_DhNtQA",
+        "richtext_cTKmMk"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "media_with_text_bqaxkn": {
+      "type": "media-with-text",
+      "blocks": {
+        "video_TYB7LY": {
+          "type": "video",
+          "settings": {
+            "external_video_url": "https://youtu.be/TAje9yb9DcM",
+            "autoplay": true,
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "So funktioniert ein Schnellkochtopf",
+            "content": "<p>Ein Schnellkochtopf, auch Dampfkochtopf genannt, unterscheidet sich durch das Kochen unter Druck von einem herkömmlichen Kochtopf. Das Geheimnis liegt im Deckel.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "video_TYB7LY"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "comparison_table_DGqa4b": {
+      "type": "comparison-table",
+      "blocks": {
+        "headings_DtyXqy": {
+          "type": "headings",
+          "settings": {
+            "heading_1": "Vorteile",
+            "heading_2": "Qualität",
+            "heading_3": "Kochstufen",
+            "heading_4": "Kochkrone",
+            "heading_5": "Aufsetzhilfe/- orientierung",
+            "heading_6": "Mess-Skala",
+            "heading_7": "Abdampffunktion",
+            "heading_8": "Novogrill® Bratfläche",
+            "heading_9": "Material",
+            "heading_10": "Boden",
+            "heading_11": "Herdarten",
+            "heading_12": "",
+            "heading_13": "",
+            "heading_14": "",
+            "heading_15": "",
+            "heading_16": "",
+            "heading_17": "",
+            "heading_18": "",
+            "heading_19": "",
+            "heading_20": "",
+            "heading_21": "",
+            "heading_22": "",
+            "heading_23": "",
+            "heading_24": "",
+            "heading_25": "",
+            "heading_26": "",
+            "heading_27": "",
+            "heading_28": "",
+            "heading_29": "",
+            "heading_30": "",
+            "heading_31": "",
+            "heading_32": "",
+            "heading_33": "",
+            "heading_34": "",
+            "heading_35": "",
+            "heading_36": "",
+            "heading_37": "",
+            "heading_38": "",
+            "heading_39": "",
+            "heading_40": ""
+          }
+        },
+        "values_Kq4GY9": {
+          "type": "values",
+          "settings": {
+            "custom_heading": "",
+            "product": "vitavit-premium-schnellkochtopf",
+            "value_1": "<p><strong>Die ganze Welt des gesunden und schnellen Kochens in einem Topf</strong></p>",
+            "value_2": "<p>Premium Qualität – Made in Germany</p>",
+            "value_3": "<p>Vier Kochstufen für schonendes und schnelles Garen, inklusive<br/>     druckloser Dampfgarstufe</p>",
+            "value_4": "<p>Kochkrone mit Ampelfunktion</p>",
+            "value_5": "<p>Praktische Aufsetzhilfe und Verriegelungsanzeige</p>",
+            "value_6": "<p>Mess-Skala zum Dosieren von Flüssigkeiten</p>",
+            "value_7": "<p>Abdampffunktion an Griff und Ventil zur einfachen Druckregulierung</p>",
+            "value_8": "<p>Novogrill® Bratfläche für Braten mit Grilleffekt – auch mit wenig Fett</p>",
+            "value_9": "<p>Satinierter Körper nachhaltig aus bis zu 90 % recyceltem Edelstahl gefertigt</p>",
+            "value_10": "<p>Exklusiver, energieeffizienter CookStar® Boden für optimale Wärmeverteilung</p>",
+            "value_11": "<p>Geeignet für alle Herdarten einschließlich Induktion</p>",
+            "value_12": "",
+            "value_13": "",
+            "value_14": "",
+            "value_15": "",
+            "value_16": "",
+            "value_17": "",
+            "value_18": "",
+            "value_19": "",
+            "value_20": "",
+            "value_21": "",
+            "value_22": "",
+            "value_23": "",
+            "value_24": "",
+            "value_25": "",
+            "value_26": "",
+            "value_27": "",
+            "value_28": "",
+            "value_29": "",
+            "value_30": "",
+            "value_31": "",
+            "value_32": "",
+            "value_33": "",
+            "value_34": "",
+            "value_35": "",
+            "value_36": "",
+            "value_37": "",
+            "value_38": "",
+            "value_39": "",
+            "value_40": "",
+            "view_button_background": "",
+            "view_button_text_color": "",
+            "custom_link_url": "",
+            "custom_link_text": ""
+          }
+        },
+        "values_GqYqBh": {
+          "type": "values",
+          "settings": {
+            "custom_heading": "",
+            "product": "vitaquick-premium-schnellkochtopf",
+            "value_1": "<p><strong>Der Einstieg in die Welt des gesunden und schnellen Kochens</strong></p>",
+            "value_2": "<p>Premium Qualität – Made in Germany</p>",
+            "value_3": "<p>Zwei Kochstufen für schonendes und schnelles Garen</p>",
+            "value_4": "",
+            "value_5": "<p>Aufsetzorientierung und Verriegelungsanzeige</p>",
+            "value_6": "<p>Mess-Skala zum Dosieren von Flüssigkeiten</p>",
+            "value_7": "<p>Abdampffunktion am Griff zu einfachen Druckregulierung</p>",
+            "value_8": "",
+            "value_9": "<p>Satinierter Körper nachhaltig aus bis zu 90 % recyceltem Edelstahl gefertigt</p>",
+            "value_10": "<p>Energieeffizienter Superthermic® Boden für ideale Wärmeverteilung</p>",
+            "value_11": "<p>Geeignet für alle Herdarten einschließlich Induktion</p>",
+            "value_12": "",
+            "value_13": "",
+            "value_14": "",
+            "value_15": "",
+            "value_16": "",
+            "value_17": "",
+            "value_18": "",
+            "value_19": "",
+            "value_20": "",
+            "value_21": "",
+            "value_22": "",
+            "value_23": "",
+            "value_24": "",
+            "value_25": "",
+            "value_26": "",
+            "value_27": "",
+            "value_28": "",
+            "value_29": "",
+            "value_30": "",
+            "value_31": "",
+            "value_32": "",
+            "value_33": "",
+            "value_34": "",
+            "value_35": "",
+            "value_36": "",
+            "value_37": "",
+            "value_38": "",
+            "value_39": "",
+            "value_40": "",
+            "view_button_background": "",
+            "view_button_text_color": "",
+            "custom_link_url": "",
+            "custom_link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "headings_DtyXqy",
+        "values_Kq4GY9",
+        "values_GqYqBh"
+      ],
+      "name": "Comparison table",
+      "settings": {
+        "subheading": "",
+        "title": "Fissler Schnellkochtöpfe im Vergleich",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "link_text": "",
+        "link_url": "",
+        "text_alignment": "start",
+        "link_display": "text",
+        "max_rows": 25,
+        "view_all_text": "View all",
+        "view_less_text": "View less",
+        "view_product": "View",
+        "show_product_info": true,
+        "show_product_image": true,
+        "show_product_swatch": true,
+        "viewing_product": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#000000",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "chart_background": "#ffffff",
+        "chart_text_color": "#000000",
+        "chart_true_false_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "media_with_text_xTzbzz": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_HqGF7X": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Ratgeber_Produktwissen_Media_with_Text_Garzeitenfinder__1500x1500_02edc5a2-bb6c-4118-ad72-e17bb6e1a995.png",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Garzeitenfinder– perfekte Garzeiten im Handumdrehen",
+            "heading_tag": "h2",
+            "content": "<p>Ob Gemüse, Fleisch oder Hülsenfrüchte – mit dem Schnellkochtopf sparst du Zeit und Energie. Aber wie lange braucht welches Lebensmittel? Unser Garzeitenfinder liefert dir die perfekten Zeiten auf einen Klick! <strong>Jetzt entdecken und stressfrei kochen.</strong></p>",
+            "link_text": "Zum Garzeitenfinder",
+            "link_url": "shopify://blogs/produktwissen/schnellkochtopf-garzeitenfinder",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "image_HqGF7X"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "rich_text_EV3prC": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_zPebAg": {
+          "type": "heading",
+          "settings": {
+            "text": "Sicherkochen mit dem Schnellkochtopf",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_ccCXik": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Moderne Schnellkochtöpfe von Fissler verfügen über verschiedene Sicherheitseinrichtungen, die automatisch funktionieren. So kann z. B. Druck überhaupt erst aufgebaut werden, wenn der Topf richtigverschlossen ist – erkennbar durch eine optische und akustische Verriegelungsanzeige am Griff. Damit werden die Sicherheitssysteme aktiv, die z. B. automatisch den Druck im Topf begrenzen oder dafür sorgen, dass der Topf nur geöffnet werden kann, wenn im Topf kein Überdruck herrscht.</p><p><strong>Grundsätzlich gilt für eine sichere Anwendung:</strong></p><p></p><ul><li>Der Schnellkochtopf baut nur Druckauf, wenn er richtig verschlossen ist</li><li>Der Druck wird automatisch begrenzt, eine Drucküberschreitung ist durch das mehrstufige Sicherheitskonzept praktisch ausgeschlossen</li><li>Der Schnellkochtopf kann nurgeöffnet werden, wenn er völlig drucklos ist</li><li>Die Ventile sind so konzipiert, dass sie vordem spritzenden Austritt des Garguts schützen</li><li>Die sicherheitsrelevanten Elementefunktionieren unabhängig voneinander und aktivieren sich im Ernstfallselbstständig nacheinander</li></ul>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_zPebAg",
+        "richtext_ccCXik"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "faq_metaobjecte_RhRCRb": {
+      "type": "faq-metaobjecte",
+      "blocks": {
+        "item_NmT7zQ": {
+          "type": "item",
+          "settings": {
+            "title": "Do you ship overseas?",
+            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+          }
+        },
+        "item_TMe7q3": {
+          "type": "item",
+          "settings": {
+            "title": "How long will it take to get my orders?",
+            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+          }
+        },
+        "item_hYEKRD": {
+          "type": "item",
+          "settings": {
+            "title": "Any question?",
+            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_NmT7zQ",
+        "item_TMe7q3",
+        "item_hYEKRD"
+      ],
+      "name": "FAQ-meta",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "FAQ",
+        "content": "<p>Use this text to share information about your product or shipping policies.</p>",
+        "team_avatar_width": 160,
+        "support_hours": "Our customer support is available Monday to Friday: 8am-8:30pm.",
+        "answer_time": "Average answer time: 24h",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "featured_articles_C8nbWY",
+    "rich_text_cqJHCP",
+    "multiple_images_with_text_VfTRMc",
+    "rich_text_JaGPjb",
+    "media_with_text_bqaxkn",
+    "comparison_table_DGqa4b",
+    "media_with_text_xTzbzz",
+    "rich_text_EV3prC",
+    "faq_metaobjecte_RhRCRb"
+  ]
+}

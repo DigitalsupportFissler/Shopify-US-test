@@ -1,0 +1,201 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "navigation": {
+          "type": "navigation",
+          "disabled": true,
+          "settings": {}
+        },
+        "comments": {
+          "type": "comments",
+          "disabled": true,
+          "settings": {
+            "show_gravatar": true,
+            "comments_per_page": 5
+          }
+        }
+      },
+      "block_order": [
+        "navigation",
+        "comments"
+      ],
+      "settings": {
+        "layout": "content_first",
+        "show_author": false,
+        "show_date": true,
+        "show_comments_count": true,
+        "show_share_buttons": true,
+        "show_header_image": true,
+        "banner_background": "",
+        "banner_text_color": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "content_width": "750px",
+        "stats_color": "#556132",
+        "is_recipe": false,
+        "content_alignment": "start"
+      }
+    },
+    "slideshow_3qHhkV": {
+      "type": "slideshow",
+      "blocks": {
+        "image_DfaGyU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Kochtipps_teaser-mitelgraete-abloesen.jpg",
+            "image_content_width": false,
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "Fisch filetieren",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "heading_color": "#ffffff",
+            "subheading_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_DfaGyU"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "show_initial_transition": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "multi_column_DrjFLj": {
+      "type": "multi-column",
+      "blocks": {
+        "item_nN6nWP": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Ratgeber_Fisch_filetieren_Multi_Column_722x361_e446dc92-8737-4f9a-a287-1c8f17dc227b.png",
+            "column_size": "2",
+            "title": "1. Schräg einschneiden",
+            "heading_tag": "h4",
+            "content": "<p>Den Fisch als erstes unmittelbar unterhalb des Kopfes leicht schräg bis zur Mittelgräte einschneiden.<br/><br/></p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_KQEh7L": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Ratgeber_Fisch_filetieren_Multi_Column_722x361_2.png",
+            "column_size": "2",
+            "title": "2. Mittelgräte ablösen",
+            "heading_tag": "h4",
+            "content": "<p>Anschließend mit der Klinge unter das Fleisch fahren und das Filet Richtung Schwanz vorsichtig von der Mittelgräte ablösen.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_AR7PAE": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Kochtipps_teaser-mitelgraete-abloesen.jpg",
+            "column_size": "2",
+            "title": "3. Fleisch abtrennen",
+            "heading_tag": "h4",
+            "content": "<p>Das Fischfilet nun auf die Hautseite legen und vom Schwanzende an beginnen, das Fleisch sauber von der Haut zu trennen. Das funktioniert am besten, wenn du das Ende der Haut mit der einen Hand strafffst und die Messerklinge mit nur leichter Neigung beinahe parallel zur Haut führst.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_wRJCa6": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Ratgeber_Fisch_filetieren_Multi_Column_722x361_f2e9e256-89f3-4f74-b451-19e833d374c6.png",
+            "column_size": "2",
+            "title": "4. Bauchfett entfernen",
+            "heading_tag": "h4",
+            "content": "<p>Zuletzt noch das Bauchfett entfernen, das durch seine hellere Färbung leicht zu erkennen ist. Fertig ist das Fischfilet.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_nN6nWP",
+        "item_KQEh7L",
+        "item_AR7PAE",
+        "item_wRJCa6"
+      ],
+      "settings": {
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "xl"
+      }
+    },
+    "featured_articles_bKVCGw": {
+      "type": "featured-articles",
+      "name": "Featured articles",
+      "settings": {
+        "show_progress_bar": true,
+        "articles_per_row_mobile": "2",
+        "articles_per_row_desktop": 3,
+        "subheading": "",
+        "articel_handles": "kochtipps/messertypen,kochtipps/kleine-messerkunde,kochtipps/ein-gutes-messer",
+        "title": "Messerwissen leicht gemacht: So findest du das richtige Messer zum Filetieren",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_3qHhkV",
+    "multi_column_DrjFLj",
+    "featured_articles_bKVCGw"
+  ]
+}

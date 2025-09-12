@@ -1,0 +1,368 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h4"
+          }
+        },
+        "text_EAJFXm": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>{{ product.metafields.custom.ATTR_BULLET_1 | metafield_tag }}</li><li>{{ product.metafields.custom.ATTR_BULLET_2 | metafield_tag }}</li><li>{{ product.metafields.custom.ATTR_BULLET_3 | metafield_tag }}</li><li>{{ product.metafields.custom.ATTR_BULLET_4 | metafield_tag }}</li><li>{{ product.metafields.custom.ATTR_BULLET_5 | metafield_tag }}</li><li>{{ product.metafields.custom.ATTR_BULLET_6 | metafield_tag }}</li></ul>"
+          }
+        },
+        "badges": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": true
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "payment_terms": {
+          "type": "payment_terms",
+          "settings": {}
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "availability_text_YmAJGF": {
+          "type": "availability_text",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "#000000",
+            "atc_button_text_color": "#ffffff",
+            "payment_button_background": "#ffffff",
+            "payment_button_text_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "text_EAJFXm",
+        "badges",
+        "price",
+        "rating",
+        "payment_terms",
+        "separator",
+        "variant_picker",
+        "quantity_selector",
+        "availability_text_YmAJGF",
+        "buy_buttons"
+      ],
+      "custom_css": [
+        ".section-full {--section-spacing-block-start: 40px;}"
+      ],
+      "settings": {
+        "show_fixed_add_to_cart": true,
+        "desktop_media_width": 65,
+        "desktop_media_layout": "carousel_thumbnails_bottom",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "thumbnails",
+        "enable_video_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "product_features_4mpKDD": {
+      "type": "features",
+      "custom_css": [
+        "@media screen and (max-width: 999px) {.collection-list {--collection-list-grid: auto / auto-flow calc(40% - 15px); }}",
+        "@media screen and (max-width: 699px) {.collection-list {--collection-list-grid: auto / auto-flow calc(75% - 15px); }}"
+      ],
+      "settings": {
+        "stack_collections": false,
+        "collections_per_row_mobile": "1",
+        "collections_per_row": 5,
+        "show_progress_bar": true,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "product_awards_cyiMj4": {
+      "type": "awards",
+      "custom_css": [
+        ".section-full {--calculated-section-spacing-block-end: 80px;}",
+        "@media screen and (min-width: 1000px) {.section-full {--calculated-section-spacing-block-end: 120px; }}"
+      ],
+      "settings": {
+        "stack_on_mobile": false,
+        "title": "",
+        "text_alignment": "center",
+        "icon_spacing": "medium",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "faq_eQUieb": {
+      "type": "faq",
+      "disabled": true,
+      "custom_css": [
+        ".section-full {--calculated-section-spacing-block-end: 80px;}",
+        "@media screen and (min-width: 1000px) {.section-full {--calculated-section-spacing-block-end: 120px; }}"
+      ],
+      "settings": {
+        "show_userlike": true,
+        "subheading": "FAQ",
+        "title": "Sie haben Fragen? Wir helfen Ihnen gerne!",
+        "content": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmotempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "shop_the_look_jpjcBh": {
+      "type": "shop-the-look",
+      "custom_css": [
+        ".section-full {--section-spacing-block-start: 0px;}"
+      ],
+      "settings": {
+        "stack_mobile": true,
+        "button_text": "Kollektionen entdecken",
+        "button_url": "shopify://collections",
+        "button_background": "",
+        "button_text_color": "",
+        "content_alignment": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": "",
+        "product_card_mobile_background": "",
+        "product_card_mobile_text_color": "",
+        "background_dots": "#ffffff",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "text_with_icons_DeA6QM": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_cbTw9w": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/Made_in_Germany_Signet_1.png",
+            "mobile_icon_width": 240,
+            "icon_width": 240,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Made in Germany",
+            "content": "<p>Aus unserer Heimat in Rheinland-Pfalz in Ihr zu Hause – seit 1845.</p>"
+          }
+        },
+        "item_xj9Y9k": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/1d52ed83ac3e024979db68d0e7138a8f.png",
+            "mobile_icon_width": 168,
+            "icon_width": 168,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Ausgezeichnet",
+            "content": "<p>Die Phi Collection wurde mit dem Kitchen Innovation Award 2024 ausgezeichnet.</p>"
+          }
+        },
+        "item_4fQnCQ": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/ebdf8b7d917139d47f7e35b320db35f7.png",
+            "mobile_icon_width": 240,
+            "icon_width": 240,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "15 Jahre Garantie",
+            "content": "<p>Jedes unserer Produkte wird sorgfältig aus hochwertigen, recycelten Materialien gefertigt.</p>"
+          }
+        },
+        "item_r4MYQe": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/siegel_W10_Garantie10Jahre.jpg",
+            "mobile_icon_width": 240,
+            "icon_width": 240,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "10 Jahre Garantie",
+            "content": "<p>Jedes unserer Produkte wird sorgfältig aus hochwertigen, recycelten Materialien gefertigt.</p>"
+          }
+        },
+        "item_rRaRT8": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/siegel_W5_Garantie5Jahre.jpg",
+            "mobile_icon_width": 240,
+            "icon_width": 240,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "5 Jahre Garantie",
+            "content": "<p>Jedes unserer Produkte wird sorgfältig aus hochwertigen, recycelten Materialien gefertigt.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_cbTw9w",
+        "item_xj9Y9k",
+        "item_4fQnCQ",
+        "item_r4MYQe",
+        "item_rRaRT8"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "@media screen and (max-width: 1000px) {scroll-carousel {--text-with-icons-template: auto-flow 50%; }}",
+        "@media screen and (max-width: 426px) {scroll-carousel {--text-with-icons-template: auto-flow 100%; }}"
+      ],
+      "settings": {
+        "padding_top": "auto",
+        "padding_bottom": "auto",
+        "title": "",
+        "subheading": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "content": "",
+        "link_text": "",
+        "link_url": "",
+        "text_alignment": "center",
+        "stack_on_mobile": false,
+        "heading_tag": "h5",
+        "icon_spacing": "large",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "recently_viewed_products_zrxzwR": {
+      "type": "recently-viewed-products",
+      "custom_css": [
+        ".section-full {--calculated-section-spacing-block-end: 80px;}",
+        "@media screen and (min-width: 1000px) {.section-full {--calculated-section-spacing-block-end: 120px; }}"
+      ],
+      "settings": {
+        "products_count": 6,
+        "stack_products": false,
+        "show_progress_bar": true,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "subheading": "PRODUKTE",
+        "title": "Zuletzt angesehen",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "image_with_points_yPFXzw": {
+      "type": "image-with-points",
+      "settings": {
+        "metafield_namespace_and_key": "custom.image_with_points_section",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product_features_4mpKDD",
+    "product_awards_cyiMj4",
+    "faq_eQUieb",
+    "shop_the_look_jpjcBh",
+    "text_with_icons_DeA6QM",
+    "recently_viewed_products_zrxzwR",
+    "image_with_points_yPFXzw"
+  ]
+}

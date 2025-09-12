@@ -1,0 +1,684 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "100%"
+      }
+    },
+    "featured_product_Ha3man": {
+      "type": "featured-product",
+      "blocks": {
+        "vendor_kfY8zG": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "title_eEHeUd": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "badges_EeNKcy": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price_PAexq7": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating_Yz8bQi": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "separator_4W4U7A": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description_D7T67Y": {
+          "type": "description",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "collapse_content": false
+          }
+        },
+        "variant_picker_VJatLN": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector_4JA94m": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_jxFghn": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "pickup_availability_VRpwth": {
+          "type": "pickup_availability",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "vendor_kfY8zG",
+        "title_eEHeUd",
+        "badges_EeNKcy",
+        "price_PAexq7",
+        "rating_Yz8bQi",
+        "separator_4W4U7A",
+        "description_D7T67Y",
+        "variant_picker_VJatLN",
+        "quantity_selector_4JA94m",
+        "buy_buttons_jxFghn",
+        "pickup_availability_VRpwth"
+      ],
+      "disabled": true,
+      "settings": {
+        "product": "adamant-comfort-pfanne",
+        "desktop_media_width": 35,
+        "desktop_media_layout": "grid_one",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "slideshow_3nzFbb": {
+      "type": "slideshow",
+      "blocks": {
+        "image_eCUeJC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Pages_AH_Jubilaeumsrezepte_Slideshow_2800x1000_9b536f1d-0045-4c01-9a3a-6ef81e71ea79.png",
+            "image_content_width": false,
+            "content_max_width": 1200,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "180 Jahre Fissler",
+            "title": "Jubiläumsrezepte von Alexander Herrmann",
+            "heading_tag": "h1",
+            "button_text": "",
+            "button_link": "",
+            "heading_color": "#ffffff",
+            "subheading_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_eCUeJC"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "full_width": true,
+        "show_initial_transition": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "rich_text_J6izEn": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_F3a4CN": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Zum <strong>180-jährigen Jubiläum</strong> hat 2-Sternekoch Alexander Herrmann gemeinsam mit Fissler ein besonderes Menü auf den Tisch gebracht: Eigens kreierte Gänge, die Kochkunst, Kreativität und puren Genuss vereinen. Vom ersten Bissen bis zum letzten Gang – jedes Gericht ist eine Einladung 180 Jahre Fissler kulinarisch zu feiern.</p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_F3a4CN"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "show_section_id": false,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "rich_text_tn33YH": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Pb7ehB": {
+          "type": "heading",
+          "settings": {
+            "text": "Gang 1: Vorspeise",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_Pb7ehB"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "show_section_id": false,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "media_with_text_cdnBww": {
+      "type": "media-with-text",
+      "blocks": {
+        "video_DYqbdK": {
+          "type": "video",
+          "settings": {
+            "external_video_url": "https://www.youtube.com/watch?v=Y77vFXZ8Nxs",
+            "poster_image": "shopify://shop_images/Pages_AH_Jubilaeumsrezepte_Poster_Image_3200x1600_4.png",
+            "autoplay": false,
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Geflämmte Meerettich-Forelle mit weißem Tomatensud und Kräuteröl",
+            "content": "<p>Ein leichter, moderner Einstieg ins Menü: feine Forelle, dezent abgeflämmt, trifft auf klare Tomatennoten und frische Kräuter. Die Schärfe des Meerrettichs bringt Raffinesse auf den Teller – und macht Lust auf mehr.</p>",
+            "link_text": "Zum Rezept",
+            "link_url": "shopify://blogs/rezepte/geflaemmte-meerrettich-forelle-mit-weissem-tomatensud-und-kraeuteroel",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "video_DYqbdK"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "rich_text_GYdH6f": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_xFNPMb": {
+          "type": "heading",
+          "settings": {
+            "text": "Rezepte als PDF zum Download",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_HrRJhn": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Einfach über das nachfolgende Formular anmelden und schon erhlst du nach Bestätigung die Rezepte als PDFs per E-Mail.</p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_xFNPMb",
+        "richtext_HrRJhn"
+      ],
+      "disabled": true,
+      "name": "Rich text",
+      "settings": {
+        "show_section_id": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "#f0f0f0",
+        "full_width_background": true,
+        "background_gradient": "",
+        "text_color": "",
+        "padding_top": "md",
+        "padding_bottom": "0"
+      }
+    },
+    "17556741337718ed84": {
+      "type": "apps",
+      "blocks": {
+        "klaviyo_email_marketing_sms_form_embed_block_HHYdFF": {
+          "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "Xcpavw"
+          }
+        }
+      },
+      "block_order": [
+        "klaviyo_email_marketing_sms_form_embed_block_HHYdFF"
+      ],
+      "disabled": true,
+      "settings": {
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "#f0f0f0",
+        "background_gradient": "",
+        "full_width_background": true,
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "0",
+        "padding_bottom": "sm"
+      }
+    },
+    "rich_text_b9XcGX": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_gdtqBa": {
+          "type": "heading",
+          "settings": {
+            "text": "Gang 2: Zwischengang",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_gdtqBa"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "show_section_id": false,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "media_with_text_WMfTTr": {
+      "type": "media-with-text",
+      "blocks": {
+        "video_FixEJh": {
+          "type": "video",
+          "settings": {
+            "external_video_url": "https://youtu.be/WJkH7t0eJEE",
+            "poster_image": "shopify://shop_images/Pages_AH_Jubilaeumsrezepte_Poster_Image_3200x1600_6.png",
+            "autoplay": false,
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Gebackene Lachs-Garnelen-Praline mit Ingwer-Zitronen-Mayonnaise",
+            "content": "<p>Außen knusprig, innen zart – diese kreative Praline aus Lachs und Garnele überrascht mit intensiven Aromen, frischer Säure und orientalischer Würze. Abgerundet wird der Zwischengang durch eine selbstgemachte Mayonnaise mit Ingwer und Zitrone. </p>",
+            "link_text": "Zum Rezept",
+            "link_url": "shopify://blogs/rezepte/gebackene-lachs-garnelen-praline-mit-ingwer-zitronen-mayonnaise",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "video_FixEJh"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "rich_text_apVyaL": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_cyhUQy": {
+          "type": "heading",
+          "settings": {
+            "text": "Gang 3: Hauptspeise",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_cyhUQy"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "show_section_id": false,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "media_with_text_bNdyPr": {
+      "type": "media-with-text",
+      "blocks": {
+        "video_tUHGFG": {
+          "type": "video",
+          "settings": {
+            "external_video_url": "https://youtu.be/Ii2HhTEO66A",
+            "poster_image": "shopify://shop_images/Pages_AH_Jubilaeumsrezepte_Poster_Image_3200x1600_5.png",
+            "autoplay": false,
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Steinpilz Risotto mit Nussbutter-Spargel",
+            "content": "<p>Cremiges Risotto, das auf der Zunge schmilzt. Kräftige Pilzaromen, feinster Parmesan, dazu nussiger Spargel mit goldener Butterwürze – und das Ganze in Minuten im Schnellkochtopf.</p>",
+            "link_text": "Zum Rezept",
+            "link_url": "shopify://blogs/rezepte/steinpilz-risotto-mit-nussbutter-spargel",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "video_tUHGFG"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "175553149422bdc3f5": {
+      "type": "apps",
+      "blocks": {
+        "klaviyo_email_marketing_sms_form_embed_block_cBpB9z": {
+          "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "XYr3uR"
+          }
+        }
+      },
+      "block_order": [
+        "klaviyo_email_marketing_sms_form_embed_block_cBpB9z"
+      ],
+      "settings": {
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "full_width_background": false,
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "image_with_text_overlay_QHwFjb": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_k4PPnJ": {
+          "type": "heading",
+          "settings": {
+            "text": "Fissler feiert 180 Jahre",
+            "heading_tag": "h2"
+          }
+        },
+        "richtext_Cc9KwW": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Entdecke unsere Jubiläumshighlights: exklusive Kochtipps aus dem Team, persönliche Lieblingsprodukte, das limitierte Jubiläums-Topfset im Retro-Design – und viele weitere Highlights.<br/><br/></p>"
+          }
+        },
+        "button_tBnKzx": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "lg",
+            "text": "Mehr erfahren",
+            "url": "shopify://pages/180-jahre-fissler",
+            "background": "#ffffff",
+            "text_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "heading_k4PPnJ",
+        "richtext_Cc9KwW",
+        "button_tBnKzx"
+      ],
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "image_size": "md",
+        "image": "shopify://shop_images/Pages_AH_Jubilaeumsrezepte_Image_with_Textoverlay_3200x1600_1.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center-end sm:text-end",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30,
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "rich_text_f4RFiE": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_tebHDP": {
+          "type": "heading",
+          "settings": {
+            "text": "Gang 4: Dessert",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_tebHDP"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "show_section_id": false,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "rich_text_qfJNf8": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_MXxkLy": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Gang 4: Nachspeise",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_MXxkLy"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "show_section_id": false,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "media_with_text_tjYGaA": {
+      "type": "media-with-text",
+      "blocks": {
+        "video_RdkAnL": {
+          "type": "video",
+          "settings": {
+            "external_video_url": "https://youtu.be/W5q7MOJ6jAw",
+            "poster_image": "shopify://shop_images/Pages_AH_Jubilaeumsrezepte_Poster_Image_3200x1600_7.png",
+            "autoplay": false,
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Kirschen im Tempurateig",
+            "content": "<p>Saftige Kirschen werden mit einer gerösteten Haselnuss gefüllt, in hauchzarten Tempurateig gehüllt und goldbraun frittiert - ein wahrer Dessert-Genuss!</p>",
+            "link_text": "Zum Rezept",
+            "link_url": "shopify://blogs/rezepte/alexander-herrmanns-kirschen-in-tempura",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "video_RdkAnL"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "featured_articles_DMzXet": {
+      "type": "featured-articles",
+      "name": "Featured articles",
+      "settings": {
+        "articles_per_row_mobile": "2",
+        "articles_per_row_desktop": 3,
+        "subheading": "",
+        "articel_handles": "tipp-des-monats/brokkoli,tipp-des-monats/spargel-das-beliebte-sommergemuese,tipp-des-monats/kohlrabi",
+        "title": "Exklusive Kochtipps vom Profi",
+        "content": "<p><strong>In der Rubrik Alexander Herrmanns „Tipp des Monats“</strong> teilt der 2-Sternekoch regelmäßig clevere Tipps und Wissen rund um das Kochen von saisonalem Gemüse - direkt aus seiner Praxis und mit viel Liebe zum Detail.<br/><br/>Ob Tipps zur richtigen Verwertung des Brokkolis, Spargelsuppe wie von Oma oder die Besonderheit von Kohlrabi - wer Freude am Kochen hat, ist hier genau richtig.</p>",
+        "link_url": "shopify://blogs/tipp-des-monats",
+        "link_text": "Alle Tipps entdecken",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "featured_product_Ha3man",
+    "slideshow_3nzFbb",
+    "rich_text_J6izEn",
+    "rich_text_tn33YH",
+    "media_with_text_cdnBww",
+    "rich_text_GYdH6f",
+    "17556741337718ed84",
+    "rich_text_b9XcGX",
+    "media_with_text_WMfTTr",
+    "rich_text_apVyaL",
+    "media_with_text_bNdyPr",
+    "175553149422bdc3f5",
+    "image_with_text_overlay_QHwFjb",
+    "rich_text_f4RFiE",
+    "rich_text_qfJNf8",
+    "media_with_text_tjYGaA",
+    "featured_articles_DMzXet"
+  ]
+}

@@ -1,0 +1,464 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "100%"
+      }
+    },
+    "featured_product_Ha3man": {
+      "type": "featured-product",
+      "blocks": {
+        "vendor_kfY8zG": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "title_eEHeUd": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "badges_EeNKcy": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price_PAexq7": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating_Yz8bQi": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "separator_4W4U7A": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description_D7T67Y": {
+          "type": "description",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "collapse_content": false
+          }
+        },
+        "variant_picker_VJatLN": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector_4JA94m": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_jxFghn": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "pickup_availability_VRpwth": {
+          "type": "pickup_availability",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "vendor_kfY8zG",
+        "title_eEHeUd",
+        "badges_EeNKcy",
+        "price_PAexq7",
+        "rating_Yz8bQi",
+        "separator_4W4U7A",
+        "description_D7T67Y",
+        "variant_picker_VJatLN",
+        "quantity_selector_4JA94m",
+        "buy_buttons_jxFghn",
+        "pickup_availability_VRpwth"
+      ],
+      "disabled": true,
+      "settings": {
+        "product": "adamant-comfort-pfanne",
+        "desktop_media_width": 35,
+        "desktop_media_layout": "grid_one",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "slideshow_n7QWXt": {
+      "type": "slideshow",
+      "blocks": {
+        "image_DPcYTA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Landingpage_Global_Cooking_Challenge_Header_2800x100_8e2ff318-820f-4623-b5a8-4b498ba049ca.png",
+            "image_content_width": false,
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "Global Cooking Challenge",
+            "heading_tag": "h1",
+            "button_text": "",
+            "button_link": "",
+            "heading_color": "#ffffff",
+            "subheading_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_DPcYTA"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "full_width": true,
+        "show_initial_transition": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "rich_text_qbiKcM": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_gD3H7A": {
+          "type": "heading",
+          "settings": {
+            "text": "Herzlichen Glückwunsch: Anna ist die Gewinnerin der Fissler Global Cooking Challenge 2023!",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_qRdd4h": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Unser Highlight im großen Finale:</strong><br/><br/>Mit ihrem „Perlhuhn mit Hummus aus roten Linsen“<br/>überzeugte Finalistin Anna unsere gesamte Jury und darf sich jetzt über den Hauptgewinn freuen:</p><p>Eine kulinarische Reise im Wert von 10.000 €.</p><p> <br/>Herzlichen Glückwunsch, liebe Anna!</p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_gD3H7A",
+        "richtext_qRdd4h"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "content_width": "large",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "xl",
+        "padding_bottom": "xl"
+      }
+    },
+    "video_EDW3ay": {
+      "type": "video",
+      "blocks": {
+        "play_xnCLrY": {
+          "type": "play",
+          "settings": {}
+        },
+        "heading_UDwUCc": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "play_xnCLrY",
+        "heading_UDwUCc"
+      ],
+      "name": "Video",
+      "settings": {
+        "show_section_id": false,
+        "full_width": false,
+        "autoplay": true,
+        "video_size": "auto",
+        "video": "shopify://files/videos/FIS_Global_Cooking_Challenge_Intro_1920_1080_V1_1.webm",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30,
+        "dynamic_video_url": "",
+        "dynamic_video_host": "",
+        "padding_top": "auto",
+        "padding_bottom": "xl"
+      }
+    },
+    "media_with_text_dQrwrU": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_bYzLee": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Landingpage_Global_Cooking_Challenge_Media_with_Text_1500x1500_f3e4d7e8-17b4-4ea5-902d-aceb98f4493d.png",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Das Finale der Fissler Global Cooking Challenge ist beendet",
+            "heading_tag": "h3",
+            "content": "<p>Am 28. Oktober war es endlich soweit: In München haben unsere 5 Finalistinnen um den Sieg gekocht. Online konnten kochbegeisterte Fans und Follower das Event live verfolgen – moderiert von Madita van Hülsen.</p><p>Alle Highlights und Infos zum Finale finden Sie auch auf unserem Instagram Kanal <a href=\"https://www.instagram.com/fissler_de/\" target=\"_blank\">@fissler_de</a></p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "image_bYzLee"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "xl"
+      }
+    },
+    "rich_text_tATRcV": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_i6dFVy": {
+          "type": "heading",
+          "settings": {
+            "text": "Eindrücke des großen Finales",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_i6dFVy"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "content_width": "large",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "0"
+      }
+    },
+    "slideshow_NUHyPe": {
+      "type": "slideshow",
+      "blocks": {
+        "image_EDBwD3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/global-cooking-challenge-finale.jpg",
+            "image_content_width": false,
+            "content_max_width": 860,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "heading_color": "#ffffff",
+            "subheading_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
+        "image_MDNDNf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/global-cooking-challenge-finale-gewinnerin.jpg",
+            "image_content_width": false,
+            "content_max_width": 760,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "heading_color": "#ffffff",
+            "subheading_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
+        "image_JnRzWY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/global-cooking-challenge-finale-gewinnerin2.jpg",
+            "image_content_width": false,
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "heading_color": "#ffffff",
+            "subheading_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
+        "image_RLBPD4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/global-cooking-challenge-finale-jury.jpg",
+            "image_content_width": false,
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "heading_color": "#ffffff",
+            "subheading_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
+        "image_bWeLmp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/global-cooking-challenge-finale-gerichte.jpg",
+            "image_content_width": false,
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "heading_color": "#ffffff",
+            "subheading_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_EDBwD3",
+        "image_MDNDNf",
+        "image_JnRzWY",
+        "image_RLBPD4",
+        "image_bWeLmp"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "full_width": false,
+        "show_initial_transition": true,
+        "image_size": "lg",
+        "controls_type": "filled_arrows",
+        "transition_type": "fade_with_text",
+        "autoplay": true,
+        "cycle_speed": 4,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "featured_product_Ha3man",
+    "slideshow_n7QWXt",
+    "rich_text_qbiKcM",
+    "video_EDW3ay",
+    "media_with_text_dQrwrU",
+    "rich_text_tATRcV",
+    "slideshow_NUHyPe"
+  ]
+}

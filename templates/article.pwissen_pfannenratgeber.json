@@ -1,0 +1,601 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "navigation": {
+          "type": "navigation",
+          "disabled": true,
+          "settings": {}
+        },
+        "comments": {
+          "type": "comments",
+          "disabled": true,
+          "settings": {
+            "show_gravatar": true,
+            "comments_per_page": 5
+          }
+        }
+      },
+      "block_order": [
+        "navigation",
+        "comments"
+      ],
+      "settings": {
+        "layout": "image_text_overlay",
+        "image": "{{ article.image }}",
+        "show_author": false,
+        "show_date": true,
+        "show_comments_count": true,
+        "show_share_buttons": true,
+        "show_header_image": true,
+        "banner_background": "",
+        "banner_text_color": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "content_width": "750px",
+        "stats_color": "#556132",
+        "is_recipe": false,
+        "content_alignment": "start"
+      }
+    },
+    "rich_text_dMHftc": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_iQejNy": {
+          "type": "heading",
+          "settings": {
+            "text": "Leading technology, craftsmanship, and high-quality materials – since 1845.",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_iQejNy"
+      ],
+      "settings": {
+        "show_section_id": false,
+        "content_width": "large",
+        "text_position": "center",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "padding_top": "md",
+        "padding_bottom": "md"
+      }
+    },
+    "video_t7U6w6": {
+      "type": "video",
+      "blocks": {
+        "play_KnEjYi": {
+          "type": "play",
+          "settings": {}
+        },
+        "heading_yKCafR": {
+          "type": "heading",
+          "settings": {
+            "text": "Mein Pfannen- und Wokspezialist",
+            "heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "play_KnEjYi",
+        "heading_yKCafR"
+      ],
+      "settings": {
+        "show_section_id": false,
+        "full_width": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "external_video_url": "https://youtu.be/Tms_d_82DUU",
+        "poster": "shopify://shop_images/Categories_Pfannen-2_Header-Latori_2167x800_4ce0304e-4c90-4efc-add1-b7b4cfe40807.jpg",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30,
+        "dynamic_video_url": "",
+        "dynamic_video_host": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "media_with_text_ARc7y3": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_QCgz3U": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Ratgeber_Produktwissen_MEdia_with_Text_XXX___1500x1500_6.png",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "#WHATREALLYCOUNTS",
+            "title": "For us, manufacturing cookware means appreciation.",
+            "heading_tag": "h2",
+            "content": "<p>Cooking is about appreciation—for the ingredients, the cook, and the people we cook for. We want to more than live up to this with the high quality standards we set for our products: because excellent dishes are cooked in excellent cookware.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "image_QCgz3U"
+      ],
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "press_Gb66xM": {
+      "type": "press",
+      "blocks": {
+        "quote_jhGWRt": {
+          "type": "quote",
+          "settings": {
+            "logo_width": 100,
+            "author": "2-STAR CHEF ALEXANDER HERRMANN",
+            "content": "“It's pure, it's unique, it's quality.”",
+            "show_rating": false,
+            "rating": 4
+          }
+        }
+      },
+      "block_order": [
+        "quote_jhGWRt"
+      ],
+      "settings": {
+        "content_size": "medium",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "",
+        "logo_item_border": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "video_XrKr3U": {
+      "type": "video",
+      "blocks": {
+        "play_YjWJNF": {
+          "type": "play",
+          "settings": {}
+        },
+        "heading_LgyNza": {
+          "type": "heading",
+          "settings": {
+            "text": "Cooking is appreciation",
+            "heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "play_YjWJNF",
+        "heading_LgyNza"
+      ],
+      "settings": {
+        "show_section_id": false,
+        "full_width": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "external_video_url": "https://youtu.be/hOqbLed8XGw",
+        "poster": "shopify://shop_images/Pages_180_Jahre_Pfannenfertigung_Fissler_Fakt_Image_with_Textoverlay_3200x1600_1.png",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30,
+        "dynamic_video_url": "",
+        "dynamic_video_host": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "media_with_text_tGBB4L": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_yMATWy": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Ratgeber_Produktwissen_MEdia_with_Text_XXX___1500x1500_4.png",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "DISCOVER UNEXPECTED DIVERSITY",
+            "title": "The queen of tubers.",
+            "heading_tag": "h3",
+            "content": "<p>The potato. In Germany, this nightshade plant is one of the most important staple foods. But what exactly is in this well-known tuber? Potatoes contain numerous minerals and a rich treasure trove of vitamins—especially vitamin C. They also come in many varieties and can be prepared in countless ways. Rediscover this humble superfood.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "image_yMATWy"
+      ],
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "comparison_table_fYHwaC": {
+      "type": "comparison-table",
+      "blocks": {
+        "headings_7Ah99V": {
+          "type": "headings",
+          "settings": {
+            "heading_1": "Description",
+            "heading_2": "Special features",
+            "heading_3": "Dishwasher safe",
+            "heading_4": "Types of stoves",
+            "heading_5": "Warranty",
+            "heading_6": "Country of production",
+            "heading_7": "",
+            "heading_8": "",
+            "heading_9": "",
+            "heading_10": "",
+            "heading_11": "",
+            "heading_12": "",
+            "heading_13": "",
+            "heading_14": "",
+            "heading_15": "",
+            "heading_16": "",
+            "heading_17": "",
+            "heading_18": "",
+            "heading_19": "",
+            "heading_20": "",
+            "heading_21": "",
+            "heading_22": "",
+            "heading_23": "",
+            "heading_24": "",
+            "heading_25": "",
+            "heading_26": "",
+            "heading_27": "",
+            "heading_28": "",
+            "heading_29": "",
+            "heading_30": "",
+            "heading_31": "",
+            "heading_32": "",
+            "heading_33": "",
+            "heading_34": "",
+            "heading_35": "",
+            "heading_36": "",
+            "heading_37": "",
+            "heading_38": "",
+            "heading_39": "",
+            "heading_40": ""
+          }
+        },
+        "values_EjDXrq": {
+          "type": "values",
+          "settings": {
+            "custom_heading": "",
+            "product": "ceratal-comfort-pfanne",
+            "value_1": "<p>For gentle and crispy frying of meat, vegetables or egg dishes</p>",
+            "value_2": "<p>Ceramic non-stick coating made without added PFAS/PTFE</p>",
+            "value_3": "<p>Hand wash recommended</p>",
+            "value_4": "<p>Suitable for all types of stoves including induction</p>",
+            "value_5": "<p>2 Years Warranty</p>",
+            "value_6": "<p>Made in Germany</p>",
+            "value_7": "",
+            "value_8": "",
+            "value_9": "",
+            "value_10": "",
+            "value_11": "",
+            "value_12": "",
+            "value_13": "",
+            "value_14": "",
+            "value_15": "",
+            "value_16": "",
+            "value_17": "",
+            "value_18": "",
+            "value_19": "",
+            "value_20": "",
+            "value_21": "",
+            "value_22": "",
+            "value_23": "",
+            "value_24": "",
+            "value_25": "",
+            "value_26": "",
+            "value_27": "",
+            "value_28": "",
+            "value_29": "",
+            "value_30": "",
+            "value_31": "",
+            "value_32": "",
+            "value_33": "",
+            "value_34": "",
+            "value_35": "",
+            "value_36": "",
+            "value_37": "",
+            "value_38": "",
+            "value_39": "",
+            "value_40": "",
+            "value_41": "",
+            "value_42": "",
+            "value_43": "",
+            "value_44": "",
+            "value_45": "",
+            "value_46": "",
+            "value_47": "",
+            "value_48": "",
+            "value_49": "",
+            "value_50": "",
+            "value_51": "",
+            "value_52": "",
+            "value_53": "",
+            "value_54": "",
+            "value_55": "",
+            "value_56": "",
+            "value_57": "",
+            "value_58": "",
+            "value_59": "",
+            "value_60": "",
+            "value_61": "",
+            "value_62": "",
+            "value_63": "",
+            "value_64": "",
+            "value_65": "",
+            "value_66": "",
+            "value_67": "",
+            "value_68": "",
+            "value_69": "",
+            "value_70": "",
+            "value_71": "",
+            "value_72": "",
+            "value_73": "",
+            "value_74": "",
+            "value_75": "",
+            "value_76": "",
+            "value_77": "",
+            "value_78": "",
+            "value_79": "",
+            "value_80": "",
+            "value_81": "",
+            "value_82": "",
+            "value_83": "",
+            "value_84": "",
+            "value_85": "",
+            "value_86": "",
+            "value_87": "",
+            "value_88": "",
+            "value_89": "",
+            "value_90": "",
+            "value_91": "",
+            "value_92": "",
+            "value_93": "",
+            "value_94": "",
+            "value_95": "",
+            "value_96": "",
+            "value_97": "",
+            "value_98": "",
+            "value_99": "",
+            "value_100": "",
+            "view_button_background": "",
+            "view_button_text_color": "",
+            "custom_link_url": "",
+            "custom_link_text": ""
+          }
+        },
+        "values_fCUV4D": {
+          "type": "values",
+          "settings": {
+            "custom_heading": "",
+            "product": "original-profi-collection-stielpfanne-mit-novogrill",
+            "value_1": "<p>For hot and low-fat frying of meat and crustaceans</p>",
+            "value_2": "<p>18/10 stainless steel with Novogrill® frying surface</p>",
+            "value_3": "<p>Dishwasher safe</p>",
+            "value_4": "<p>Suitable for all types of stoves including induction</p>",
+            "value_5": "<p>15 years warranty</p>",
+            "value_6": "<p>Made in Germany</p>",
+            "value_7": "",
+            "value_8": "",
+            "value_9": "",
+            "value_10": "",
+            "value_11": "",
+            "value_12": "",
+            "value_13": "",
+            "value_14": "",
+            "value_15": "",
+            "value_16": "",
+            "value_17": "",
+            "value_18": "",
+            "value_19": "",
+            "value_20": "",
+            "value_21": "",
+            "value_22": "",
+            "value_23": "",
+            "value_24": "",
+            "value_25": "",
+            "value_26": "",
+            "value_27": "",
+            "value_28": "",
+            "value_29": "",
+            "value_30": "",
+            "value_31": "",
+            "value_32": "",
+            "value_33": "",
+            "value_34": "",
+            "value_35": "",
+            "value_36": "",
+            "value_37": "",
+            "value_38": "",
+            "value_39": "",
+            "value_40": "",
+            "value_41": "",
+            "value_42": "",
+            "value_43": "",
+            "value_44": "",
+            "value_45": "",
+            "value_46": "",
+            "value_47": "",
+            "value_48": "",
+            "value_49": "",
+            "value_50": "",
+            "value_51": "",
+            "value_52": "",
+            "value_53": "",
+            "value_54": "",
+            "value_55": "",
+            "value_56": "",
+            "value_57": "",
+            "value_58": "",
+            "value_59": "",
+            "value_60": "",
+            "value_61": "",
+            "value_62": "",
+            "value_63": "",
+            "value_64": "",
+            "value_65": "",
+            "value_66": "",
+            "value_67": "",
+            "value_68": "",
+            "value_69": "",
+            "value_70": "",
+            "value_71": "",
+            "value_72": "",
+            "value_73": "",
+            "value_74": "",
+            "value_75": "",
+            "value_76": "",
+            "value_77": "",
+            "value_78": "",
+            "value_79": "",
+            "value_80": "",
+            "value_81": "",
+            "value_82": "",
+            "value_83": "",
+            "value_84": "",
+            "value_85": "",
+            "value_86": "",
+            "value_87": "",
+            "value_88": "",
+            "value_89": "",
+            "value_90": "",
+            "value_91": "",
+            "value_92": "",
+            "value_93": "",
+            "value_94": "",
+            "value_95": "",
+            "value_96": "",
+            "value_97": "",
+            "value_98": "",
+            "value_99": "",
+            "value_100": "",
+            "view_button_background": "",
+            "view_button_text_color": "",
+            "custom_link_url": "",
+            "custom_link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "headings_7Ah99V",
+        "values_EjDXrq",
+        "values_fCUV4D"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "The right pan for every application",
+        "content": "<p>Since we became the first German cookware manufacturer to start producing coated pans in 1956, our goal has been to offer passionate cooks pans that make a difference. Pans that give you the ideal cooking experience, make cooking easier, and make cleaning even easier. </p><p></p><p>Our patents and groundbreaking technologies have resulted in multiple award-winning pans and woks. Sustainably manufactured from recycled premium materials, with water-based coatings in our state-of-the-art production facility in Rhineland-Palatinate—free of PFOA* and harmful materials. With all our passion and experience. To express our appreciation – for the cook, the ingredients, and the people we cook for.</p><p></p><p>*PFOA-free, in accordance with EU Regulation No. 2019/1021</p>",
+        "button_text": "Mehr erfahren",
+        "button_url": "",
+        "link_text": "",
+        "link_url": "",
+        "text_alignment": "start",
+        "link_display": "text",
+        "max_rows": 6,
+        "view_all_text": "View all",
+        "view_less_text": "View less",
+        "view_product": "View",
+        "show_product_info": true,
+        "show_product_image": true,
+        "disable_product_image_link": false,
+        "show_product_swatch": true,
+        "viewing_product": "",
+        "background": "#ffffff",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "chart_background": "#ffffff",
+        "chart_text_color": "",
+        "chart_true_false_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_dMHftc",
+    "video_t7U6w6",
+    "media_with_text_ARc7y3",
+    "press_Gb66xM",
+    "video_XrKr3U",
+    "media_with_text_tGBB4L",
+    "comparison_table_fYHwaC"
+  ]
+}

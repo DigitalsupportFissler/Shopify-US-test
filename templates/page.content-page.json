@@ -1,0 +1,664 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_with_text_overlay_VFhRCR": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_crWXFi": {
+          "type": "heading",
+          "settings": {
+            "text": "Black Friday",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_crWXFi"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "md",
+        "image": "shopify://shop_images/aae2f2e2b4dfa32cb3da4dc125ff0eb2_7400ee97-9bcf-433c-b474-981a7882b1a5.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "rich_text_ydryeQ": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_BkGAnt": {
+          "type": "heading",
+          "settings": {
+            "text": "Leidenschaft für Perfektion - Kochen neu erleben mit Fissler",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_xpYRLM": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Bei Fissler setzen wir uns leidenschaftlich dafür ein, Kochen zu einem einzigartigen Erlebnis zu machen. Seit 1845 inspirieren und begeistern wir Köche auf der ganzen Welt mit Premium Kochgeschirr.</p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_BkGAnt",
+        "richtext_xpYRLM"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "scrolling_text_jpdqny": {
+      "type": "scrolling-text",
+      "settings": {
+        "full_width": true,
+        "text": "Helfende Hände, die nie müde werden.",
+        "text_size": "h1",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 10,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "text_gradient": "linear-gradient(180deg, rgba(85, 97, 50, 1) 15%, rgba(45, 51, 27, 1) 100%)"
+      }
+    },
+    "media_grid_RPg7CF": {
+      "type": "media-grid",
+      "blocks": {
+        "image_xb3q6e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/0a994aa727c413351b89be63f9ea01cf.jpg",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_column_span": 4,
+            "mobile_row_span": 2,
+            "mobile_height": 240,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 4,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "blog_post_handle": ""
+          }
+        },
+        "image_BDwXFW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3a8e8fb6aac6f2e9552988418097fb21.jpg",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_column_span": 4,
+            "mobile_row_span": 2,
+            "mobile_height": 320,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "blog_post_handle": ""
+          }
+        },
+        "image_M7hMxh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/a1e439d7ff5faa388b3423452fa7b843.jpg",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_column_span": 1,
+            "mobile_row_span": 1,
+            "mobile_height": 170,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "blog_post_handle": ""
+          }
+        },
+        "image_tdHCxV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/f4bf77951e94712511c6d0b8d8917c18.jpg",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_column_span": 1,
+            "mobile_row_span": 1,
+            "mobile_height": 170,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "blog_post_handle": ""
+          }
+        },
+        "image_g9xT4w": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/73a9d7b6283e855b258d61d865ffa2cf.jpg",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_column_span": 4,
+            "mobile_row_span": 2,
+            "mobile_height": 240,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "blog_post_handle": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_xb3q6e",
+        "image_BDwXFW",
+        "image_M7hMxh",
+        "image_tdHCxV",
+        "image_g9xT4w"
+      ],
+      "settings": {
+        "full_width": true,
+        "use_height": true,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
+        "background": "",
+        "background_gradient": ""
+      }
+    },
+    "blog_posts_gXjabx": {
+      "type": "blog-posts",
+      "blocks": {
+        "article_hwxEra": {
+          "type": "article",
+          "settings": {
+            "article": "rezepte/spargel-zubereiten-tipps-tricks-methoden",
+            "background": "",
+            "text_color": "",
+            "article_handle": ""
+          }
+        }
+      },
+      "block_order": [
+        "article_hwxEra"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_excerpt": true,
+        "show_date": true,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": true,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "shop_the_look_jpjcBh": {
+      "type": "shop-the-look",
+      "blocks": {
+        "product_i3LTD3": {
+          "type": "product",
+          "settings": {
+            "product": "adamant-classic-plus-pfanne",
+            "horizontal_position": 44,
+            "vertical_position": 35
+          }
+        },
+        "product_jTcEkF": {
+          "type": "product",
+          "settings": {
+            "product": "arcana-topf-rund-schwarz",
+            "horizontal_position": 51,
+            "vertical_position": 61
+          }
+        },
+        "product_KiaN7J": {
+          "type": "product",
+          "settings": {
+            "product": "adamant®-topfset-2-tlg-mit-glasdeckel-und-stielkasserolle",
+            "horizontal_position": 15,
+            "vertical_position": 50
+          }
+        },
+        "product_KacVC8": {
+          "type": "product",
+          "settings": {
+            "product": "adamant-comfort-pfannenset-28-cm-24-cm",
+            "horizontal_position": 73,
+            "vertical_position": 50
+          }
+        }
+      },
+      "block_order": [
+        "product_i3LTD3",
+        "product_jTcEkF",
+        "product_KiaN7J",
+        "product_KacVC8"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "image": "shopify://shop_images/image_with_pointings.png",
+        "title": "Kaufen Sie die Kollektion",
+        "subheading": "KOLLEKTIONEN",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": "",
+        "product_card_mobile_background": "",
+        "product_card_mobile_text_color": "",
+        "background_dots": "#ffffff"
+      }
+    },
+    "featured_collection_4frfqe": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "braeter",
+        "products": [],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": true,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "PRODUKTE",
+        "title": "Unsere beliebtesten Weihnachtsgeschenke",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "media_grid_RPg7Cc": {
+      "type": "media-grid",
+      "blocks": {
+        "image_xb3q6e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/0a994aa727c413351b89be63f9ea01cf.jpg",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_column_span": 4,
+            "mobile_row_span": 2,
+            "mobile_height": 240,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 4,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "blog_post_handle": ""
+          }
+        },
+        "image_BDwXFW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3a8e8fb6aac6f2e9552988418097fb21.jpg",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_column_span": 4,
+            "mobile_row_span": 2,
+            "mobile_height": 320,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "blog_post_handle": ""
+          }
+        },
+        "image_M7hMxh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/a1e439d7ff5faa388b3423452fa7b843.jpg",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_column_span": 1,
+            "mobile_row_span": 1,
+            "mobile_height": 170,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "blog_post_handle": ""
+          }
+        },
+        "image_tdHCxV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/f4bf77951e94712511c6d0b8d8917c18.jpg",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_column_span": 1,
+            "mobile_row_span": 1,
+            "mobile_height": 170,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "blog_post_handle": ""
+          }
+        },
+        "image_g9xT4w": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/73a9d7b6283e855b258d61d865ffa2cf.jpg",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_column_span": 4,
+            "mobile_row_span": 2,
+            "mobile_height": 240,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "blog_post_handle": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_xb3q6e",
+        "image_BDwXFW",
+        "image_M7hMxh",
+        "image_tdHCxV",
+        "image_g9xT4w"
+      ],
+      "settings": {
+        "full_width": true,
+        "use_height": true,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
+        "background": "",
+        "background_gradient": ""
+      }
+    },
+    "blog_posts_gXjabc": {
+      "type": "blog-posts",
+      "blocks": {
+        "article_hwxEra": {
+          "type": "article",
+          "settings": {
+            "article": "rezepte/spargel-zubereiten-tipps-tricks-methoden",
+            "background": "",
+            "text_color": "",
+            "article_handle": ""
+          }
+        }
+      },
+      "block_order": [
+        "article_hwxEra"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_excerpt": true,
+        "show_date": true,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": true,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "faq_ctfPUE": {
+      "type": "faq",
+      "blocks": {
+        "item_6Xwraa": {
+          "type": "item",
+          "settings": {
+            "title": "Do you ship overseas?",
+            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+          }
+        },
+        "item_mUHmcw": {
+          "type": "item",
+          "settings": {
+            "title": "How long will it take to get my orders?",
+            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+          }
+        },
+        "item_6U3xfX": {
+          "type": "item",
+          "settings": {
+            "title": "Any question?",
+            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_6Xwraa",
+        "item_mUHmcw",
+        "item_6U3xfX"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_userlike": true,
+        "subheading": "FAQ",
+        "title": "Sie haben Fragen? Wir helfen Ihnen gerne!",
+        "content": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmotempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "media_with_text_9n8Q6R": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_zMYNBC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3b09d0406e2982a40450c9927d7a91b2.jpg",
+            "media_width": 54,
+            "disable_content_vertical_padding": true,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "LEVITAL®+",
+            "title": "Die langlebige Antihaft-Bratpfanne - Made in Germany",
+            "heading_tag": "h2",
+            "content": "<p>Die Fissler Levital®+ Pfanne bietet einen besonders langanhaltenden Antihaft-Effekt und ist daher ideal zum Braten aller Gerichte, auch mit empfindlichen Zutaten, die leicht anhaften können. Empfohlen von Alexander Herrmann.</p>",
+            "link_text": "mehr lesen",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "second_image": "shopify://shop_images/Screenshot_2025-03-28_161049.png",
+            "third_image": "shopify://shop_images/9887d3efb17227e4e477b2588a5877a7.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_zMYNBC"
+      ],
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small"
+      }
+    }
+  },
+  "order": [
+    "image_with_text_overlay_VFhRCR",
+    "main",
+    "rich_text_ydryeQ",
+    "scrolling_text_jpdqny",
+    "media_grid_RPg7CF",
+    "blog_posts_gXjabx",
+    "shop_the_look_jpjcBh",
+    "featured_collection_4frfqe",
+    "media_grid_RPg7Cc",
+    "blog_posts_gXjabc",
+    "faq_ctfPUE",
+    "media_with_text_9n8Q6R"
+  ]
+}

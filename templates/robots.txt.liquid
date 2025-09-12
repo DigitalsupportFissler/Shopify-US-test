@@ -1,0 +1,30 @@
+{%- comment -%}
+# Caution! Please read https://help.shopify.com/en/manual/promoting-marketing/seo/editing-robots-txt before proceeding to make changes to this file.
+{% endcomment %}
+
+# Blocke alle Filter-URLs in Collections
+Disallow: /*/collections/*filter*
+
+# Blocke die Wishlist unter /apps/wichlist
+Disallow: /apps/wishlist
+
+# Blocke alle anderen App-Pfade
+Disallow: /apps/*
+
+{% for group in robots.default_groups %}
+  {{- group.user_agent -}}
+
+  {% for rule in group.rules %}
+    {{- rule -}}
+  {% endfor %}
+
+  {%- if group.user_agent.value == '*' -%}
+    Disallow: /collections/*filter*
+    Disallow: /apps/wishlist
+    Disallow: /apps/
+  {%- endif -%}
+
+  {%- if group.sitemap != blank -%}
+    Sitemap: https://fissler.com/sitemap.xml
+  {%- endif -%}
+{% endfor %}

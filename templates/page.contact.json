@@ -1,0 +1,223 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "slideshow_jpftM3": {
+      "type": "slideshow",
+      "blocks": {
+        "image_ijkDfr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Header_Kontakt_2167x800_44056a60-22ab-4b87-b84d-f1b38bc8b557.png",
+            "image_content_width": false,
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "Kontakt",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "heading_color": "#ffffff",
+            "subheading_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_ijkDfr"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "full_width": true,
+        "show_initial_transition": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "rich_text_HMQVjw": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_9xDPfF": {
+          "type": "heading",
+          "settings": {
+            "text": "So kannst du uns erreichen",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_rBwq9n": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Du hast Fragen, Anregungen oder Feedback zu unserem Produktsortiment? Dann melde dich gerne bei uns – dein Anliegen ist uns wichtig! <br/>Um deine Anfrage zeitnah beantworten zu können, fülle bitte das nachfolgende Formular vollständig aus.</p><p>Im Falle einer Produktreklamation benötigen wir zusätzlich folgende Angaben von dir:<br/> </p><ul><li>Um welches Produkt handelt es sich? (Bezeichnung und/oder Artikelnummer)</li><li>Grund der Beanstandung? (Erläuterung des Defekts)</li><li>Kaufbeleg oder Rechnung</li><li>Bilder des Produkts (Foto in Komplettansicht, Foto des Bodenstempels sowie eine Detailaufnahme des Defekts)</li></ul>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_9xDPfF",
+        "richtext_rBwq9n"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "show_section_id": false,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "custom_html_qzQrMM": {
+      "type": "custom-html",
+      "name": "Custom HTML",
+      "settings": {
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<script src=\"https://www.cognitoforms.com/f/seamless.js\" data-key=\"swmV6zN1C0OInTieTqDMhw\" data-form=\"2\"></script>",
+        "background": "rgba(0,0,0,0)",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "multi_column_gf3LHn": {
+      "type": "multi-column",
+      "blocks": {
+        "item_dYGCP4": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Versand",
+            "heading_tag": "h4",
+            "content": "<p>Hier findest du Antworten auf häufig gestellte Fragen unserer Kunden.</p>",
+            "link_url": "shopify://pages/faq-onlineshop",
+            "link_text": "Zu den FAQs",
+            "link_style": "link"
+          }
+        },
+        "item_Q889EU": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Rückgaben",
+            "heading_tag": "h4",
+            "content": "<p>Hier findest du Antworten auf häufig gestellte Fragen unserer Kunden.</p>",
+            "link_url": "shopify://pages/faq-onlineshop",
+            "link_text": "Zu den FAQs",
+            "link_style": "link"
+          }
+        },
+        "item_hwHcMa": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Zahlung",
+            "heading_tag": "h4",
+            "content": "<p>Hier findest du Antworten auf häufig gestellte Fragen unserer Kunden.</p>",
+            "link_url": "shopify://pages/faq",
+            "link_text": "Zu den FAQs",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_dYGCP4",
+        "item_Q889EU",
+        "item_hwHcMa"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "Häufige Fragen",
+        "content": "",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "rich_text_qnThCN": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Bnw6eG": {
+          "type": "heading",
+          "settings": {
+            "text": "Fissler Kundenservice",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_C9b3N7": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Fissler GmbH<br/><strong>Kundenservice<br/></strong>Harald-Fissler-Straße 10<br/>55768 Hoppstädten-Weiersbach<br/><br/>Telefon: + 49 6781 403-100</p><p><strong>Servicezeiten:</strong></p><ul><li>Montag: 08:00 -  16:00 Uhr</li><li>Dienstag: 08:00 -  16:00 Uhr</li><li>Mittwoch: 08:00 -  16:00 Uhr</li><li>Donnerstag: 08:00 -  16:00 Uhr</li><li>Freitag: 08:00 - 15:00 Uhr</li></ul>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Bnw6eG",
+        "richtext_C9b3N7"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "show_section_id": false,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "#f0f0f0",
+        "full_width_background": true,
+        "background_gradient": "",
+        "text_color": "",
+        "padding_top": "md",
+        "padding_bottom": "md"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_jpftM3",
+    "rich_text_HMQVjw",
+    "custom_html_qzQrMM",
+    "multi_column_gf3LHn",
+    "rich_text_qnThCN"
+  ]
+}

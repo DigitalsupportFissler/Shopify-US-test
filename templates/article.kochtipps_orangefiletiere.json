@@ -1,0 +1,160 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "navigation": {
+          "type": "navigation",
+          "disabled": true,
+          "settings": {}
+        },
+        "comments": {
+          "type": "comments",
+          "disabled": true,
+          "settings": {
+            "show_gravatar": true,
+            "comments_per_page": 5
+          }
+        }
+      },
+      "block_order": [
+        "navigation",
+        "comments"
+      ],
+      "settings": {
+        "layout": "image_text_overlay",
+        "image": "{{ article.image }}",
+        "show_author": true,
+        "show_date": true,
+        "show_comments_count": true,
+        "show_share_buttons": true,
+        "show_header_image": true,
+        "banner_background": "",
+        "banner_text_color": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "content_width": "750px",
+        "stats_color": "#556132",
+        "is_recipe": false,
+        "content_alignment": "start"
+      }
+    },
+    "multi_column_UXeka4": {
+      "type": "multi-column",
+      "blocks": {
+        "item_BLmDqr": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Ratgeber_Produktwissen_Multi_Column_Orange_filetieren_1_1200x900_ee0a8d8c-ce8c-4b4c-bc49-1ca06048536a.png",
+            "column_size": "3",
+            "title": "1. Schälen",
+            "heading_tag": "h4",
+            "content": "<p>Zunächst werden Deckel und Boden der Orange je so weit abgeschnitten, dass das Fruchtfleisch zu sehen ist. Die Orange jetzt auf eine der Schnittflächen stellen und die restliche Schale rundherum in Streifen abschälen. Wichtig ist, dass dabei auch die weiße Haut komplett entfernt wird.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_BhGwHw": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Ratgeber_Produktwissen_Multi_Column_Orange_filetieren_2_1200x900_4a2053fa-200f-489f-ace3-dc0fe6dd2d74.png",
+            "column_size": "3",
+            "title": "2. Filet herauslösen",
+            "heading_tag": "h4",
+            "content": "<p>Nun an den weißen Trennhäuten entlang vorsichtig die einzelnen Filets herauslösen.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_mCbt4i": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Ratgeber_Produktwissen_Multi_Column_Orange_filetieren_2_1200x900_2.png",
+            "column_size": "3",
+            "title": "3. Saft auffangen",
+            "heading_tag": "h4",
+            "content": "<p>Ein kleines Schälchen fängt den Orangensaft auf.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_BLmDqr",
+        "item_BhGwHw",
+        "item_mCbt4i"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "blog_posts_x8DiWJ": {
+      "type": "blog-posts",
+      "blocks": {
+        "blog_BYjcjG": {
+          "type": "blog",
+          "settings": {
+            "blog": "news",
+            "posts_count": 3,
+            "stack_items": false
+          }
+        }
+      },
+      "block_order": [
+        "blog_BYjcjG"
+      ],
+      "name": "Blog posts",
+      "settings": {
+        "show_excerpt": true,
+        "show_date": true,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": true,
+        "show_overall_time": false,
+        "subheading": "",
+        "title": "Weitere Kochtipps entdecken",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto",
+        "blog_handle": "kochtipps",
+        "posts_count": 4
+      }
+    }
+  },
+  "order": [
+    "main",
+    "multi_column_UXeka4",
+    "blog_posts_x8DiWJ"
+  ]
+}

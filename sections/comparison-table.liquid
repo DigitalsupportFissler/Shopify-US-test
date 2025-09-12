@@ -1,0 +1,1385 @@
+{%- render 'section-spacing-collapsing' -%}
+
+{%- assign text_alignment = section.settings.text_alignment -%}
+{%- assign values_column_count = section.blocks | where: 'type', 'values' | size -%}
+
+{%- comment -%}
+  ------------------------------------------------------------------------------------------------------------------------
+  CSS
+  ------------------------------------------------------------------------------------------------------------------------
+{%- endcomment -%}
+
+<style>
+  #shopify-section-{{ section.id }} {
+    --feature-chart-values-columns-count: {{ values_column_count }};
+  }
+
+  @media screen and (min-width: 700px) {
+    {%- if text_alignment == 'center' -%}
+      #shopify-section-{{ section.id }} .section-stack__main {
+        width: {% if values_column_count == 1 %}680px{% elsif values_column_count == 2 %}900px{% else %}100%{% endif %};
+        min-width: 680px;
+        margin-inline: auto;
+      }
+    {%- else -%}
+      #shopify-section-{{ section.id }} .section-stack {
+        flex-wrap: wrap;
+        justify-content: start;
+      }
+
+      #shopify-section-{{ section.id }} .section-stack__intro {
+        flex: 1 0 350px; /* Allow to grow and shrink with a range from 350px to 750px */
+        max-width: 750px;
+        width: auto;
+      }
+
+      #shopify-section-{{ section.id }} .section-stack__main {
+        flex: 1 1 {% if values_column_count == 1 %}600px{% elsif values_column_count == 2 %}900px{% else %}auto{% endif %};
+        min-width: 450px;
+        width: auto;
+      }
+    {%- endif -%}
+  }
+</style>
+
+{%- comment -%}
+  ------------------------------------------------------------------------------------------------------------------------
+  LIQUID
+  ------------------------------------------------------------------------------------------------------------------------
+{%- endcomment -%}
+
+{%- capture padding_classes -%}
+  section-padding-top-{{ section.settings.padding_top }} section-padding-bottom-{{ section.settings.padding_bottom }}
+{%- endcapture -%}
+{% assign section_classes = padding_classes %}
+{% if section.settings.full_width_background %}
+  {% assign section_classes = section_classes | append: 'no-padding' %}
+{% endif %}
+<div {% render 'section-properties', class: section_classes %}>
+  {% if section.settings.show_section_id %}
+    <div class="section-id-label" style="font-size: 12px; color: #666; margin-bottom: 10px;">
+      Section ID: {{ section.id }}
+    </div>
+  {% endif %}
+  <div class="section-stack gap-0">
+    {%- render 'section-header',
+      subheading: section.settings.subheading,
+      heading: section.settings.title,
+      heading_color: section.settings.heading_color,
+      heading_gradient: section.settings.heading_gradient,
+      content: section.settings.content,
+      link_text: section.settings.link_text,
+      link_url: section.settings.link_url,
+      text_alignment: section.settings.text_alignment
+    -%}
+    <div class="section-stack__main">
+      {%- assign text_color = section.settings.chart_text_color | default: settings.text_color -%}
+      {%- assign background_color = section.settings.chart_background -%}
+
+      {%- if background_color == blank or background_color == 'rgba(0,0,0,0)' -%}
+        {%- assign background_color = settings.background | color_mix: text_color, 95 -%}
+      {%- endif -%}
+
+      {%- assign scroll_area_id = 'feature-chart-scroll-' | append: section.id -%}
+      {%- assign default_progress = 0 -%}
+      <feature-chart
+        max-rows="{{ section.settings.max_rows }}"
+        {% render 'surface', class: 'feature-chart', background: background_color, text_color: text_color %}
+      >
+        <div
+          id="{{ scroll_area_id }}"
+          class="feature-chart__table {% if values_column_count > 1 %}feature-chart__table--multi-columns{% endif %} feature-chart__table--product divide-y scroll-area"
+        >
+          {%- assign headings_block = section.blocks | where: 'type', 'headings' | first -%}
+          {%- assign values_blocks = section.blocks | where: 'type', 'values' -%}
+          {%- assign outputted_count = 0 -%}
+          {%- assign total_rows_count = 0 -%}
+
+          {%- for i in (1..20) -%}
+            {%- assign heading_key = 'heading_' | append: i -%}
+            {%- assign value_key = 'value_' | append: i -%}
+
+            {%- assign heading_value = headings_block.settings[heading_key] -%}
+
+            {%- comment -%}We only output the line if at least one value is defined{%- endcomment -%}
+            {%- if heading_value != blank
+              and values_blocks[0].settings[value_key] != blank
+              or values_blocks[1].settings[value_key] != blank
+              or values_blocks[2].settings[value_key] != blank
+              or values_blocks[3].settings[value_key] != blank
+              or values_blocks[4].settings[value_key] != blank
+            -%}
+              {%- assign total_rows_count = total_rows_count | plus: 1 -%}
+            {%- endif -%}
+          {%- endfor -%}
+
+          {%- comment -%}We need to create a first row for the products if any{%- endcomment -%}
+          {%- capture product_row -%}
+            {%- for product_column in values_blocks -%}
+              {%- if product_column.settings.product != blank or product_column.settings.custom_image != blank or product_column.settings.custom_heading != blank -%}
+                {%- assign chart_product = product_column.settings.product -%}
+                {%- assign custom_image = product_column.settings.custom_image -%}
+                {%- assign custom_heading = product_column.settings.custom_heading -%}
+                {%- assign custom_link_url = product_column.settings.custom_link_url -%}
+                {%- assign custom_link_text = product_column.settings.custom_link_text -%}
+
+                <div class="feature-chart__product">
+                  {%- if section.settings.viewing_product != blank and request.page_type == 'product' and product == chart_product -%}
+                    <span class="badge">{{ section.settings.viewing_product }}</span>
+                  {%- endif -%}
+
+                  {%- if custom_image != blank -%}
+                    {%- if section.settings.disable_product_image_link -%}
+                      {{ custom_image | image_url: width: chart_product.featured_image.width | image_tag: sizes: '(max-width: 699px) 80px, 150px', widths: '80,150,160,300', alt: chart_product.title, class: 'feature-chart__product-image' }}
+                    {%- else -%}
+                      <a href="{{ chart_product.url }}">
+                        {{ custom_image | image_url: width: chart_product.featured_image.width | image_tag: sizes: '(max-width: 699px) 80px, 150px', widths: '80,150,160,300', alt: chart_product.title, class: 'feature-chart__product-image link' }}
+                      </a>
+                    {%- endif -%}
+                  {%- elsif section.settings.show_product_image and chart_product.featured_media -%}
+                    {%- if section.settings.disable_product_image_link -%}
+                      {{- chart_product.featured_image | image_url: width: chart_product.featured_image.width | image_tag: sizes: '(max-width: 699px) 80px, 150px', widths: '80,150,160,300', alt: chart_product.title, class: 'feature-chart__product-image' -}}
+                    {%- else -%}
+                      <a href="{{ chart_product.url }}">
+                        {{- chart_product.featured_image | image_url: width: chart_product.featured_image.width | image_tag: sizes: '(max-width: 699px) 80px, 150px', widths: '80,150,160,300', alt: chart_product.title, class: 'feature-chart__product-image link' -}}
+                      </a>
+                    {%- endif -%}
+                  {%- endif -%}
+
+                  {%- capture color_swatch -%}
+                    {%- if section.settings.show_product_swatch -%}
+                      {%- assign color_label_list = 'general.label.color' | t | replace: ', ', ',' | downcase | split: ',' -%}
+
+                      {%- for color_label in color_label_list -%}
+                        {%- if chart_product.options_by_name[color_label] != blank -%}
+                          <div class="h-stack gap-2 sm:gap-2-5">
+                            {%- for option_value in chart_product.options_by_name[color_label].values -%}
+                              {%- render 'option-value', type: 'swatch', option_value: option_value, url: option_value.variant.url, size: 'sm' -%}
+                            {%- endfor -%}
+                          </div>
+
+                          {%- break -%}
+                        {%- endif -%}
+                      {%- endfor -%}
+                    {%- endif -%}
+                  {%- endcapture -%}
+
+                  <div class="v-stack {% if color_swatch != blank %}gap-6{% else %}gap-5{% endif %}">
+                    <div class="v-stack gap-2">
+                      <div class="v-stack sm:gap-0.5">
+                        {%- if section.settings.disable_product_image_link -%}
+                          <span class="bold line-clamp">{{ custom_heading | default: chart_product.title }}</span>
+                        {%- else -%}
+                          <a href="{{ chart_product.url }}" class="bold line-clamp link">{{ custom_heading | default: chart_product.title }}</a>
+                        {%- endif -%}
+                      </div>
+
+                      {{- color_swatch -}}
+                    </div>
+
+                  </div>
+                </div>
+              {%- else -%}
+                <div class="feature-chart__product">
+                  {%- if section.settings.show_product_image -%}
+                    <div>
+                      {%- capture product_placeholder -%}{% cycle 'product-apparel-1', 'product-apparel-2', 'product-apparel-3' %}{%- endcapture -%}
+                      {{- product_placeholder | placeholder_svg_tag: 'feature-chart__product-placeholder' -}}
+                    </div>
+                  {%- endif -%}
+
+                  <div class="v-stack gap-5">
+                    <div class="v-stack gap-2">
+                      <div class="v-stack sm:gap-0.5">
+                        <span class="bold line-clamp">{{ 'general.on_boarding.product_title' | t }}</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              {%- endif -%}
+            {%- endfor -%}
+          {%- endcapture -%}
+
+          {%- if section.settings.show_product_info -%}
+            <div class="feature-chart__table-row feature-chart__table-row--product">
+              {{- product_row -}}
+            </div>
+
+            {%- if total_rows_count > 6 -%}
+              <div class="feature-chart__table-row feature-chart__table-row--product feature-chart__table-row--sticky">
+                {{- product_row -}}
+              </div>
+            {%- endif -%}
+          {%- endif -%}
+
+          {% assign last_filled = 1 %}
+          {%- for i in (1..20) -%}
+            {%- assign heading_key = 'heading_' | append: i -%}
+            {%- assign value_key = 'value_' | append: i -%}
+
+            {%- assign heading_value = headings_block.settings[heading_key] -%}
+            {%- if heading_value != blank -%}
+              {% assign last_filled = i %}
+            {%- endif -%}
+          {%- endfor -%}
+
+          {%- for i in (1..20) -%}
+            {%- assign heading_key = 'heading_' | append: i -%}
+            {%- assign value_key = 'value_' | append: i -%}
+            {% assign j = i %}
+
+            {%- assign heading_value = headings_block.settings[heading_key] -%}
+
+            {%- comment -%}We only output the line if at least one value is defined{%- endcomment -%}
+            {%- if heading_value != blank -%}
+              <div
+                class="feature-chart__table-row"
+                {% if outputted_count > section.settings.max_rows %}
+                  hidden
+                {% endif %}
+              >
+                <div
+                  class="feature-chart__heading bold {% if last_filled == j %}border-none{% endif %}"
+                  {% if outputted_count == 0 %}
+                    {{- headings_block.shopify_attributes -}}
+                  {% endif %}
+                >
+                  {{ heading_value }}
+                </div>
+
+                {%- for i in (0..4) -%}
+                  {%- if values_blocks[i] != blank -%}
+                    {%- assign value = values_blocks[i].settings[value_key] -%}
+                    {%- assign stripped_value = value | strip_html | strip -%}
+                    {%- assign chart_product = values_blocks[i].settings.product -%}
+                    {%- assign custom_link_url = values_blocks[i].settings.custom_link_url -%}
+                    {%- assign custom_link_text = values_blocks[i].settings.custom_link_text -%}
+
+                    <div
+                      class="feature-chart__value {% if last_filled == j %}border-none{% endif %}"
+                      {% if outputted_count == 0 %}
+                        {{- values_blocks[i].shopify_attributes -}}
+                      {% endif %}
+                    >
+                      <div class="prose text-subdued">
+                        {%- if stripped_value == 'FALSE' -%}
+                          <svg
+                            fill="none"
+                            class="icon offset-icon"
+                            width="16"
+                            height="16"
+                            viewBox="0 0 16 16"
+                            style="--icon-height: 16px"
+                          >
+                            <path d="m.94 3.06 12 12 2.12-2.12-12-12L.94 3.06Zm2.12 12 12-12L12.94.94l-12 12 2.12 2.12Z" fill="{{ section.settings.chart_true_false_color | default: section.settings.chart_text_color | default: settings.text_color }}"></path>
+                          </svg>
+                        {%- elsif stripped_value == 'TRUE' -%}
+                          <svg
+                            fill="none"
+                            class="icon offset-icon"
+                            width="20"
+                            height="16"
+                            viewBox="0 0 20 16"
+                            style="--icon-height: 16px"
+                          >
+                            <path d="m2 7.6 5.259 5.6L18 2" stroke="{{ section.settings.chart_true_false_color | default: section.settings.chart_text_color | default: settings.text_color }}" stroke-width="3"></path>
+                          </svg>
+                        {%- else -%}
+                          {{- value | default: '—' -}}
+                        {%- endif -%}
+                      </div>
+
+                      {% if last_filled == j %}
+                        {%- assign link_url = values_blocks[i].settings.custom_link_url | default: chart_product.url -%}
+                        {%- assign link_text = values_blocks[i].settings.custom_link_text
+                          | default: 'product.general.to_product'
+                          | t
+                        -%}
+                        {%- if section.settings.show_product_image and chart_product != blank -%}
+                          {%- if section.settings.link_display == 'button' -%}
+                            {% render 'button', content: link_text, href: link_url, size: 'lg', class: 'mt-6' %}
+                          {%- else -%}
+                            <div class="feature-chart__table-to-link-wrapper">
+                              <a href="{{ link_url }}">
+                                <span class="link">{{ link_text }}</span>
+                              </a>
+                            </div>
+                          {%- endif -%}
+                        {%- endif -%}
+                      {% endif %}
+                    </div>
+                  {%- endif -%}
+                {%- endfor -%}
+              </div>
+
+              {%- assign outputted_count = outputted_count | plus: 1 -%}
+            {%- endif -%}
+          {%- endfor -%}
+        </div>
+        <div class="feature-chart__scrollbar-wrapper mt-6 pb-4 md:hidden">
+          {%- render 'scrollbar', observes: scroll_area_id, default_progress: default_progress, show_buttons: true -%}
+        </div>
+        {%- if outputted_count > section.settings.max_rows -%}
+          <div class="feature-chart__toggle">
+            <button
+              data-action="toggle-rows"
+              data-view-more="{{ section.settings.view_all_text | escape }}"
+              data-view-less="{{ section.settings.view_less_text | escape }}"
+              class="text-with-icon group"
+            >
+              <span class="feature-chart__toggle-text reversed-link">
+                {{- section.settings.view_all_text | escape -}}
+              </span>
+              <span class="circle-chevron group-hover:colors">{%- render 'icon' with 'chevron-bottom-small' -%}</span>
+            </button>
+          </div>
+        {%- endif -%}
+      </feature-chart>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Comparison table",
+  "class": "shopify-section--comparison-table",
+  "tag": "section",
+  "disabled_on": {
+    "groups": ["header", "custom.overlay"]
+  },
+  "settings": [
+    {
+      "type": "header",
+      "content": "Content"
+    },
+    {
+      "type": "text",
+      "id": "subheading",
+      "label": "Subheading",
+      "default": "Compare"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Product comparison"
+    },
+    {
+      "type": "richtext",
+      "id": "content",
+      "label": "Content",
+      "default": "<p>Give your customers useful information about your products and showcase differences between them.</p>"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button text"
+    },
+    {
+      "type": "url",
+      "id": "button_url",
+      "label": "Button URL"
+    },
+    {
+      "type": "text",
+      "id": "link_text",
+      "label": "Link text"
+    },
+    {
+      "type": "url",
+      "id": "link_url",
+      "label": "Link URL"
+    },
+    {
+      "type": "select",
+      "id": "text_alignment",
+      "label": "Text alignment",
+      "options": [
+        { "value": "start", "label": "Left" },
+        { "value": "center", "label": "Center" },
+        { "value": "end", "label": "Right" }
+      ],
+      "default": "start"
+    },
+    {
+      "type": "select",
+      "id": "link_display",
+      "label": "Global Link Display",
+      "options": [
+        { "value": "text", "label": "Text link" },
+        { "value": "button", "label": "Button" }
+      ],
+      "default": "text"
+    },
+    {
+      "type": "header",
+      "content": "Chart"
+    },
+    {
+      "type": "range",
+      "id": "max_rows",
+      "min": 1,
+      "max": 40,
+      "label": "Rows revealed by default",
+      "default": 5
+    },
+    {
+      "type": "text",
+      "id": "view_all_text",
+      "label": "View all text",
+      "default": "View all"
+    },
+    {
+      "type": "text",
+      "id": "view_less_text",
+      "label": "View less text",
+      "default": "View less"
+    },
+    {
+      "type": "text",
+      "id": "view_product",
+      "label": "View product button text",
+      "default": "View"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_product_info",
+      "label": "Show product info",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_product_image",
+      "label": "Show product image",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "disable_product_image_link",
+      "label": "Disable product link (show only title instead of image)",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "show_product_swatch",
+      "label": "Show product swatch",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "viewing_product",
+      "label": "Currently viewing product label",
+      "info": "Badge added on the product page's main product. For best results, ensure that the product image is visible."
+    },
+    {
+      "type": "header",
+      "content": "Colors",
+      "info": "Gradient replaces solid colors when set."
+    },
+    {
+      "type": "color",
+      "id": "background",
+      "label": "Background"
+    },
+    {
+      "type": "checkbox",
+      "id": "full_width_background",
+      "label": "Remove section margin",
+      "default": false
+    },
+    {
+      "type": "color_background",
+      "id": "background_gradient",
+      "label": "Background gradient"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text"
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Heading color"
+    },
+    {
+      "type": "color_background",
+      "id": "heading_gradient",
+      "label": "Heading gradient"
+    },
+    {
+      "type": "color",
+      "id": "button_background",
+      "label": "Button background"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "label": "Button text"
+    },
+    {
+      "type": "color",
+      "id": "chart_background",
+      "label": "Chart background"
+    },
+    {
+      "type": "color",
+      "id": "chart_text_color",
+      "label": "Chart text"
+    },
+    {
+      "type": "color",
+      "id": "chart_true_false_color",
+      "label": "True/false color"
+    },
+
+    {
+      "type": "checkbox",
+      "id": "show_section_id",
+      "label": "Section-ID",
+      "default": false
+    },
+    {
+      "type": "select",
+      "id": "padding_top",
+      "label": "Padding top",
+      "options": [
+        { "value": "auto", "label": "auto" },
+        { "value": "0", "label": "0" },
+        { "value": "sm", "label": "sm" },
+        { "value": "md", "label": "md" },
+        { "value": "xl", "label": "xl" }
+      ],
+      "default": "auto"
+    },
+    {
+      "type": "select",
+      "id": "padding_bottom",
+      "label": "Padding bottom",
+      "options": [
+        { "value": "auto", "label": "auto" },
+        { "value": "0", "label": "0" },
+        { "value": "sm", "label": "sm" },
+        { "value": "md", "label": "md" },
+        { "value": "xl", "label": "xl" }
+      ],
+      "default": "auto"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Headings column",
+      "type": "headings",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "paragraph",
+          "content": "A heading without values is hidden automatically."
+        },
+        {
+          "type": "text",
+          "id": "heading_1",
+          "label": "Heading 1"
+        },
+        {
+          "type": "text",
+          "id": "heading_2",
+          "label": "Heading 2"
+        },
+        {
+          "type": "text",
+          "id": "heading_3",
+          "label": "Heading 3"
+        },
+        {
+          "type": "text",
+          "id": "heading_4",
+          "label": "Heading 4"
+        },
+        {
+          "type": "text",
+          "id": "heading_5",
+          "label": "Heading 5"
+        },
+        {
+          "type": "text",
+          "id": "heading_6",
+          "label": "Heading 6"
+        },
+        {
+          "type": "text",
+          "id": "heading_7",
+          "label": "Heading 7"
+        },
+        {
+          "type": "text",
+          "id": "heading_8",
+          "label": "Heading 8"
+        },
+        {
+          "type": "text",
+          "id": "heading_9",
+          "label": "Heading 9"
+        },
+        {
+          "type": "text",
+          "id": "heading_10",
+          "label": "Heading 10"
+        },
+        {
+          "type": "text",
+          "id": "heading_11",
+          "label": "Heading 11"
+        },
+        {
+          "type": "text",
+          "id": "heading_12",
+          "label": "Heading 12"
+        },
+        {
+          "type": "text",
+          "id": "heading_13",
+          "label": "Heading 13"
+        },
+        {
+          "type": "text",
+          "id": "heading_14",
+          "label": "Heading 14"
+        },
+        {
+          "type": "text",
+          "id": "heading_15",
+          "label": "Heading 15"
+        },
+        {
+          "type": "text",
+          "id": "heading_16",
+          "label": "Heading 16"
+        },
+        {
+          "type": "text",
+          "id": "heading_17",
+          "label": "Heading 17"
+        },
+        {
+          "type": "text",
+          "id": "heading_18",
+          "label": "Heading 18"
+        },
+        {
+          "type": "text",
+          "id": "heading_19",
+          "label": "Heading 19"
+        },
+        {
+          "type": "text",
+          "id": "heading_20",
+          "label": "Heading 20"
+        },
+        {
+          "type": "text",
+          "id": "heading_21",
+          "label": "Heading 21"
+        },
+        {
+          "type": "text",
+          "id": "heading_22",
+          "label": "Heading 22"
+        },
+        {
+          "type": "text",
+          "id": "heading_23",
+          "label": "Heading 23"
+        },
+        {
+          "type": "text",
+          "id": "heading_24",
+          "label": "Heading 24"
+        },
+        {
+          "type": "text",
+          "id": "heading_25",
+          "label": "Heading 25"
+        },
+        {
+          "type": "text",
+          "id": "heading_26",
+          "label": "Heading 26"
+        },
+        {
+          "type": "text",
+          "id": "heading_27",
+          "label": "Heading 27"
+        },
+        {
+          "type": "text",
+          "id": "heading_28",
+          "label": "Heading 28"
+        },
+        {
+          "type": "text",
+          "id": "heading_29",
+          "label": "Heading 29"
+        },
+        {
+          "type": "text",
+          "id": "heading_30",
+          "label": "Heading 30"
+        },
+        {
+          "type": "text",
+          "id": "heading_31",
+          "label": "Heading 31"
+        },
+        {
+          "type": "text",
+          "id": "heading_32",
+          "label": "Heading 32"
+        },
+        {
+          "type": "text",
+          "id": "heading_33",
+          "label": "Heading 33"
+        },
+        {
+          "type": "text",
+          "id": "heading_34",
+          "label": "Heading 34"
+        },
+        {
+          "type": "text",
+          "id": "heading_35",
+          "label": "Heading 35"
+        },
+        {
+          "type": "text",
+          "id": "heading_36",
+          "label": "Heading 36"
+        },
+        {
+          "type": "text",
+          "id": "heading_37",
+          "label": "Heading 37"
+        },
+        {
+          "type": "text",
+          "id": "heading_38",
+          "label": "Heading 38"
+        },
+        {
+          "type": "text",
+          "id": "heading_39",
+          "label": "Heading 39"
+        },
+        {
+          "type": "text",
+          "id": "heading_40",
+          "label": "Heading 40"
+        }
+      ]
+    },
+    {
+      "name": "Values column",
+      "type": "values",
+      "limit": 5,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "custom_image",
+          "label": "Custom image"
+        },
+        {
+          "type": "text",
+          "id": "custom_heading",
+          "label": "Custom heading"
+        },
+        {
+          "type": "product",
+          "id": "product",
+          "label": "Product",
+          "info": "Select a product to connect metafields or to show product information."
+        },
+        {
+          "type": "richtext",
+          "id": "value_1",
+          "label": "Value 1"
+        },
+        {
+          "type": "richtext",
+          "id": "value_2",
+          "label": "Value 2"
+        },
+        {
+          "type": "richtext",
+          "id": "value_3",
+          "label": "Value 3"
+        },
+        {
+          "type": "richtext",
+          "id": "value_4",
+          "label": "Value 4"
+        },
+        {
+          "type": "richtext",
+          "id": "value_5",
+          "label": "Value 5"
+        },
+        {
+          "type": "richtext",
+          "id": "value_6",
+          "label": "Value 6"
+        },
+        {
+          "type": "richtext",
+          "id": "value_7",
+          "label": "Value 7"
+        },
+        {
+          "type": "richtext",
+          "id": "value_8",
+          "label": "Value 8"
+        },
+        {
+          "type": "richtext",
+          "id": "value_9",
+          "label": "Value 9"
+        },
+        {
+          "type": "richtext",
+          "id": "value_10",
+          "label": "Value 10"
+        },
+        {
+          "type": "richtext",
+          "id": "value_11",
+          "label": "Value 11"
+        },
+        {
+          "type": "richtext",
+          "id": "value_12",
+          "label": "Value 12"
+        },
+        {
+          "type": "richtext",
+          "id": "value_13",
+          "label": "Value 13"
+        },
+        {
+          "type": "richtext",
+          "id": "value_14",
+          "label": "Value 14"
+        },
+        {
+          "type": "richtext",
+          "id": "value_15",
+          "label": "Value 15"
+        },
+        {
+          "type": "richtext",
+          "id": "value_16",
+          "label": "Value 16"
+        },
+        {
+          "type": "richtext",
+          "id": "value_17",
+          "label": "Value 17"
+        },
+        {
+          "type": "richtext",
+          "id": "value_18",
+          "label": "Value 18"
+        },
+        {
+          "type": "richtext",
+          "id": "value_19",
+          "label": "Value 19"
+        },
+        {
+          "type": "richtext",
+          "id": "value_20",
+          "label": "Value 20"
+        },
+        {
+          "type": "richtext",
+          "id": "value_21",
+          "label": "Value 21"
+        },
+        {
+          "type": "richtext",
+          "id": "value_22",
+          "label": "Value 22"
+        },
+        {
+          "type": "richtext",
+          "id": "value_23",
+          "label": "Value 23"
+        },
+        {
+          "type": "richtext",
+          "id": "value_24",
+          "label": "Value 24"
+        },
+        {
+          "type": "richtext",
+          "id": "value_25",
+          "label": "Value 25"
+        },
+        {
+          "type": "richtext",
+          "id": "value_26",
+          "label": "Value 26"
+        },
+        {
+          "type": "richtext",
+          "id": "value_27",
+          "label": "Value 27"
+        },
+        {
+          "type": "richtext",
+          "id": "value_28",
+          "label": "Value 28"
+        },
+        {
+          "type": "richtext",
+          "id": "value_29",
+          "label": "Value 29"
+        },
+        {
+          "type": "richtext",
+          "id": "value_30",
+          "label": "Value 30"
+        },
+        {
+          "type": "richtext",
+          "id": "value_31",
+          "label": "Value 31"
+        },
+        {
+          "type": "richtext",
+          "id": "value_32",
+          "label": "Value 32"
+        },
+        {
+          "type": "richtext",
+          "id": "value_33",
+          "label": "Value 33"
+        },
+        {
+          "type": "richtext",
+          "id": "value_34",
+          "label": "Value 34"
+        },
+        {
+          "type": "richtext",
+          "id": "value_35",
+          "label": "Value 35"
+        },
+        {
+          "type": "richtext",
+          "id": "value_36",
+          "label": "Value 36"
+        },
+        {
+          "type": "richtext",
+          "id": "value_37",
+          "label": "Value 37"
+        },
+        {
+          "type": "richtext",
+          "id": "value_38",
+          "label": "Value 38"
+        },
+        {
+          "type": "richtext",
+          "id": "value_39",
+          "label": "Value 39"
+        },
+        {
+          "type": "richtext",
+          "id": "value_40",
+          "label": "Value 40"
+        },
+        {
+          "type": "richtext",
+          "id": "value_41",
+          "label": "Value 41"
+        },
+        {
+          "type": "richtext",
+          "id": "value_42",
+          "label": "Value 42"
+        },
+        {
+          "type": "richtext",
+          "id": "value_43",
+          "label": "Value 43"
+        },
+        {
+          "type": "richtext",
+          "id": "value_44",
+          "label": "Value 44"
+        },
+        {
+          "type": "richtext",
+          "id": "value_45",
+          "label": "Value 45"
+        },
+        {
+          "type": "richtext",
+          "id": "value_46",
+          "label": "Value 46"
+        },
+        {
+          "type": "richtext",
+          "id": "value_47",
+          "label": "Value 47"
+        },
+        {
+          "type": "richtext",
+          "id": "value_48",
+          "label": "Value 48"
+        },
+        {
+          "type": "richtext",
+          "id": "value_49",
+          "label": "Value 49"
+        },
+        {
+          "type": "richtext",
+          "id": "value_50",
+          "label": "Value 50"
+        },
+        {
+          "type": "richtext",
+          "id": "value_51",
+          "label": "Value 51"
+        },
+        {
+          "type": "richtext",
+          "id": "value_52",
+          "label": "Value 52"
+        },
+        {
+          "type": "richtext",
+          "id": "value_53",
+          "label": "Value 53"
+        },
+        {
+          "type": "richtext",
+          "id": "value_54",
+          "label": "Value 54"
+        },
+        {
+          "type": "richtext",
+          "id": "value_55",
+          "label": "Value 55"
+        },
+        {
+          "type": "richtext",
+          "id": "value_56",
+          "label": "Value 56"
+        },
+        {
+          "type": "richtext",
+          "id": "value_57",
+          "label": "Value 57"
+        },
+        {
+          "type": "richtext",
+          "id": "value_58",
+          "label": "Value 58"
+        },
+        {
+          "type": "richtext",
+          "id": "value_59",
+          "label": "Value 59"
+        },
+        {
+          "type": "richtext",
+          "id": "value_60",
+          "label": "Value 60"
+        },
+        {
+          "type": "richtext",
+          "id": "value_61",
+          "label": "Value 61"
+        },
+        {
+          "type": "richtext",
+          "id": "value_62",
+          "label": "Value 62"
+        },
+        {
+          "type": "richtext",
+          "id": "value_63",
+          "label": "Value 63"
+        },
+        {
+          "type": "richtext",
+          "id": "value_64",
+          "label": "Value 64"
+        },
+        {
+          "type": "richtext",
+          "id": "value_65",
+          "label": "Value 65"
+        },
+        {
+          "type": "richtext",
+          "id": "value_66",
+          "label": "Value 66"
+        },
+        {
+          "type": "richtext",
+          "id": "value_67",
+          "label": "Value 67"
+        },
+        {
+          "type": "richtext",
+          "id": "value_68",
+          "label": "Value 68"
+        },
+        {
+          "type": "richtext",
+          "id": "value_69",
+          "label": "Value 69"
+        },
+        {
+          "type": "richtext",
+          "id": "value_70",
+          "label": "Value 70"
+        },
+        {
+          "type": "richtext",
+          "id": "value_71",
+          "label": "Value 71"
+        },
+        {
+          "type": "richtext",
+          "id": "value_72",
+          "label": "Value 72"
+        },
+        {
+          "type": "richtext",
+          "id": "value_73",
+          "label": "Value 73"
+        },
+        {
+          "type": "richtext",
+          "id": "value_74",
+          "label": "Value 74"
+        },
+        {
+          "type": "richtext",
+          "id": "value_75",
+          "label": "Value 75"
+        },
+        {
+          "type": "richtext",
+          "id": "value_76",
+          "label": "Value 76"
+        },
+        {
+          "type": "richtext",
+          "id": "value_77",
+          "label": "Value 77"
+        },
+        {
+          "type": "richtext",
+          "id": "value_78",
+          "label": "Value 78"
+        },
+        {
+          "type": "richtext",
+          "id": "value_79",
+          "label": "Value 79"
+        },
+        {
+          "type": "richtext",
+          "id": "value_80",
+          "label": "Value 80"
+        },
+        {
+          "type": "richtext",
+          "id": "value_81",
+          "label": "Value 81"
+        },
+        {
+          "type": "richtext",
+          "id": "value_82",
+          "label": "Value 82"
+        },
+        {
+          "type": "richtext",
+          "id": "value_83",
+          "label": "Value 83"
+        },
+        {
+          "type": "richtext",
+          "id": "value_84",
+          "label": "Value 84"
+        },
+        {
+          "type": "richtext",
+          "id": "value_85",
+          "label": "Value 85"
+        },
+        {
+          "type": "richtext",
+          "id": "value_86",
+          "label": "Value 86"
+        },
+        {
+          "type": "richtext",
+          "id": "value_87",
+          "label": "Value 87"
+        },
+        {
+          "type": "richtext",
+          "id": "value_88",
+          "label": "Value 88"
+        },
+        {
+          "type": "richtext",
+          "id": "value_89",
+          "label": "Value 89"
+        },
+        {
+          "type": "richtext",
+          "id": "value_90",
+          "label": "Value 90"
+        },
+        {
+          "type": "richtext",
+          "id": "value_91",
+          "label": "Value 91"
+        },
+        {
+          "type": "richtext",
+          "id": "value_92",
+          "label": "Value 92"
+        },
+        {
+          "type": "richtext",
+          "id": "value_93",
+          "label": "Value 93"
+        },
+        {
+          "type": "richtext",
+          "id": "value_94",
+          "label": "Value 94"
+        },
+        {
+          "type": "richtext",
+          "id": "value_95",
+          "label": "Value 95"
+        },
+        {
+          "type": "richtext",
+          "id": "value_96",
+          "label": "Value 96"
+        },
+        {
+          "type": "richtext",
+          "id": "value_97",
+          "label": "Value 97"
+        },
+        {
+          "type": "richtext",
+          "id": "value_98",
+          "label": "Value 98"
+        },
+        {
+          "type": "richtext",
+          "id": "value_99",
+          "label": "Value 99"
+        },
+        {
+          "type": "richtext",
+          "id": "value_100",
+          "label": "Value 100"
+        },
+        {
+          "type": "header",
+          "content": "Colors"
+        },
+        {
+          "type": "color",
+          "id": "view_button_background",
+          "label": "View product button background"
+        },
+        {
+          "type": "color",
+          "id": "view_button_text_color",
+          "label": "View product button text"
+        },
+        {
+          "type": "url",
+          "id": "custom_link_url",
+          "label": "Custom link URL"
+        },
+        {
+          "type": "text",
+          "id": "custom_link_text",
+          "label": "Custom link text"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Comparison table",
+      "blocks": [
+        {
+          "type": "headings",
+          "settings": {
+            "heading_1": "Heading 1",
+            "heading_2": "Heading 2",
+            "heading_3": "Heading 3"
+          }
+        },
+        {
+          "type": "values",
+          "settings": {
+            "value_1": "<p>Value 1</p>",
+            "value_2": "<p>Value 2</p>",
+            "value_3": "<p>Value 3</p>"
+          }
+        },
+        {
+          "type": "values",
+          "settings": {
+            "value_1": "<p>Value 1</p>",
+            "value_2": "<p>Value 2</p>",
+            "value_3": "<p>Value 3</p>"
+          }
+        },
+        {
+          "type": "values",
+          "settings": {
+            "value_1": "<p>Value 1</p>",
+            "value_2": "<p>Value 2</p>",
+            "value_3": "<p>Value 3</p>"
+          }
+        },
+        {
+          "type": "values",
+          "settings": {
+            "value_1": "<p>Value 1</p>",
+            "value_2": "<p>Value 2</p>",
+            "value_3": "<p>Value 3</p>"
+          }
+        },
+        {
+          "type": "values",
+          "settings": {
+            "value_1": "<p>Value 1</p>",
+            "value_2": "<p>Value 2</p>",
+            "value_3": "<p>Value 3</p>"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

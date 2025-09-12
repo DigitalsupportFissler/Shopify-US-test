@@ -1,0 +1,691 @@
+{%- if collection.metafields.custom.faqtagliste.value != blank
+  or product.metafields.custom.faqtagliste.value != blank
+  or page.metafields.custom.faqtagliste.value != blank
+-%}
+  {%- render 'section-spacing-collapsing' -%}
+
+  {%- assign text_position = section.settings.text_position -%}
+
+  <style>
+      #shopify-section-{{ section.id }} {
+        --section-stack-intro: {% if text_position == 'center' %}60%{% else %}50%{% endif %};
+        --section-stack-main: {% if text_position == 'center' %}60%{% else %}50%{% endif %};
+      }
+      .faq-search {
+        margin-bottom: 1rem;
+      }
+      .faq-search-input {
+        width: 100%;
+        padding: 0.75rem;
+        font-size: 1rem;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+      }
+
+      /* Container */
+    .accordion-box {
+      background-color: var(--color-background-accordion, #f5f5f5);
+      border-radius: 0.5rem;
+      padding: 1rem;
+    }
+
+    /* Entferne den Standard-Pfeil im <summary> */
+    .accordion summary::-webkit-details-marker {
+      display: none;
+    }
+
+    /* Jedes Panel */
+    .accordion {
+      border-bottom: 1px solid var(--color-divider, #ddd);
+      margin-bottom: 0.5rem;
+    }
+
+    /* Letztes Panel ohne Border-Bottom */
+    .accordion:last-of-type {
+      border-bottom: none;
+      margin-bottom: 0;
+    }
+
+    /* Der eigentliche Summary-Bereich */
+    .accordion__toggle {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.75rem 1rem;
+      cursor: pointer;
+    }
+
+    /* Titeltext */
+    .accordion__toggle span:first-child {
+      font-size: 1rem;
+      {% comment %} font-weight: 700;
+      color: var(--color-text-base, #333); {% endcomment %}
+    }
+
+    /* Das Chevron-Icon */
+    .circle-chevron {
+      display: inline-flex;
+      transition: transform 0.2s ease;
+    }
+
+    /* Rotate, wenn geöffnet */
+    .accordion[open] .circle-chevron {
+      transform: rotate(180deg);
+    }
+
+    /* Der Inhalt */
+    .accordion__content {
+      padding: 0.75rem 1rem;
+      font-family: "Sharp Grotesk 19", sans-serif;
+    }
+    .accordion__content__meta{
+       padding-right: 2.5rem;
+    }
+
+    /* Optional: Prose-Styling für Text im Content */
+    .accordion__content .prose p {
+      margin: 0 0 1rem;
+      line-height: 1.5;
+
+    }
+    .accordion__content .prose p {
+      white-space: pre-wrap;
+    }
+
+    /* Utility-Klasse für den "Mehr laden"-Button */
+    .faq-more-button {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.5rem 1rem;
+      background: var(--color-primary, #000);
+      color: var(--color-on-primary, #fff);
+      border: none;
+      border-radius: 0.25rem;
+      cursor: pointer;
+      font-weight: 600;
+    }
+  </style>
+  <div
+    id="faq-metaobjects-wrapper"
+    {% render 'section-properties' %}
+    data-sf-token="{{ shop.metafields.custom.storefront_token }}"
+  >
+    <!-- Hidden container for custom FAQ tag list -->
+    {%- assign faqtags = collection.metafields.custom.faqtagliste.value
+      | default: product.metafields.custom.faqtagliste.value
+      | default: page.metafields.custom.faqtagliste.value
+    -%}
+    
+
+    {%- if faqtags != blank -%}
+      {%- for tag in faqtags -%}
+        <input type="hidden" class="faq-tag-list" value="{{ tag.tag }}">
+      {%- endfor -%}
+    {%- endif -%}
+    <div class="section-stack {% if text_position != 'center' %}section-stack--horizontal{% else %}section-stack--center{% endif %} {% if text_position == 'end' %}section-stack--reverse{% endif %}">
+      {%- capture content -%}
+      {%- if section.settings.subheading != blank -%}
+        <p class="subheading">{{ section.settings.subheading | escape }}</p>
+      {%- endif -%}
+
+      {%- if section.settings.title != blank -%}
+        <h2 class="h2">
+          {%- render 'styled-text', content: section.settings.title, text_color: section.settings.heading_color, gradient: section.settings.heading_gradient -%}
+        </h2>
+      {%- endif -%}
+
+      {{- section.settings.content -}}
+    {%- endcapture -%}
+
+      {%- capture subcontent -%}
+      <div class="faq-availability">
+        {%- if section.settings.team_avatar != blank or section.settings.support_hours != blank or section.settings.answer_time != blank -%}
+          <div class="v-stack gap-4">
+            {%- if section.settings.team_avatar != blank -%}
+              {%- capture sizes -%}{{ section.settings.team_avatar_width }}px{%- endcapture -%}
+              {%- capture widths -%}{{ section.settings.team_avatar_width }}, {{ section.settings.team_avatar_width | times: 2 | at_most: section.settings.team_avatar.width }}{%- endcapture -%}
+              {%- capture style -%}max-width: {{ section.settings.team_avatar_width }}px{%- endcapture -%}
+              {{- section.settings.team_avatar | image_url: width: section.settings.team_avatar.width | image_tag: style: style, sizes: sizes, widths: widths -}}
+            {%- endif -%}
+
+            {%- if section.settings.support_hours != blank or section.settings.answer_time != blank -%}
+              <div class="v-stack">
+                {{- section.settings.support_hours -}}
+
+                {%- if section.settings.answer_time != blank -%}
+                  <span class="text-subdued">{{ section.settings.answer_time }}</span>
+                {%- endif -%}
+              </div>
+            {%- endif -%}
+          </div>
+        {%- endif -%}
+
+        {%- if section.settings.button_text != blank -%}
+          {% render 'button', content: section.settings.button_text, href: section.settings.button_url, size: 'xl', background: section.settings.button_background, text_color: section.settings.button_text_color %}
+        {%- endif -%}
+      </div>
+    {%- endcapture -%}
+
+      {%- if content != blank or subcontent != blank -%}
+        <div class="section-stack__intro">
+          <div class="v-stack gap-10">
+            {%- if content != blank -%}
+              <div class="prose {% if text_position == 'center' %}text-center{% endif %}">
+                {{- content -}}
+              </div>
+            {%- endif -%}
+
+            {%- if text_position != 'center' and subcontent != blank -%}
+              <div class="hidden lg:block">
+                {{- subcontent -}}
+              </div>
+            {%- endif -%}
+          </div>
+        </div>
+      {%- endif -%}
+      <div class="section-stack__main faq-meta">
+        <div
+          {% render 'surface',
+            class: 'accordion-box rounded',
+            background: section.settings.accordion_background,
+            text_color: section.settings.accordion_text_color,
+            background_fallback: 'bg-secondary'
+          %}
+        ></div>
+      </div>
+      <div
+        {% if text_position != 'center' %}
+          class="lg:hidden"
+        {% endif %}
+      >
+        {{- subcontent -}}
+      </div>
+    </div>
+  </div>
+{%- endif -%}
+<script>
+  // Verbesserte Hilfsfunktion für Richtext-Rendering, unterstützt Arrays und alle Blocktypen robust
+  function renderRichText(node) {
+    // Falls node ein Array ist (children!), rekursiv alle rendern
+    if (Array.isArray(node)) {
+      return node.map(renderRichText).join('');
+    }
+    if (!node) return '';
+
+    switch (node.type) {
+      case 'root':
+        return node.children.map(renderRichText).join('');
+      case 'paragraph':
+        return `<p>${node.children.map(renderRichText).join('')}</p>`;
+      case 'text':
+        let text = node.value || '';
+        if (node.bold) text = `<strong>${text}</strong>`;
+        if (node.italic) text = `<em>${text}</em>`;
+        if (node.underline) text = `<u>${text}</u>`;
+        return text;
+      case 'link':
+        return `<a href="${node.url}" target="_blank" rel="noopener">${node.children.map(renderRichText).join('')}</a>`;
+      case 'list':
+        const tag = node.listType === 'ordered' ? 'ol' : 'ul';
+        return `<${tag}>${node.children.map(renderRichText).join('')}</${tag}>`;
+      case 'list-item':
+        return `<li>${node.children.map(renderRichText).join('')}</li>`;
+      case 'heading':
+        const level = Math.min(Math.max(node.level || 1, 1), 6);
+        return `<h${level}>${node.children.map(renderRichText).join('')}</h${level}>`;
+      default:
+        if (node.children) return node.children.map(renderRichText).join('');
+        return '';
+    }
+  }
+
+  function renderInline(child) {
+    if (child.type === 'text') {
+      return child.value;
+    } else if (child.type === 'link') {
+      const linkText = child.children?.[0]?.value || '';
+      return `<a href="${child.url}" target="_blank" rel="noopener">${linkText}</a>`;
+    } else if (child.type === 'strong') {
+      return `<strong>${child.children?.map(renderInline).join('') || ''}</strong>`;
+    } else if (child.type === 'em') {
+      return `<em>${child.children?.map(renderInline).join('') || ''}</em>`;
+    }
+    return '';
+  }
+
+  document.addEventListener('DOMContentLoaded', async () => {
+    // Sicherstellen, dass wir im richtigen FAQ-Metaobjects-Bereich sind
+    const wrapper = document.querySelector('#faq-metaobjects-wrapper');
+    if (!wrapper) {
+      console.warn('Nicht im faq-metaobjects-wrapper – Skript wird nicht ausgeführt.');
+      return;
+    }
+
+    const endpoint = `${window.location.origin}/api/2025-04/graphql.json`;
+    const token = wrapper.dataset.sfToken;
+
+    // 1) GraphQL-Query zum Pagen aller FAQs
+    const faqQuery = `
+      query getMetaObjects($type: String!, $first: Int!, $after: String) {
+        metaobjects(type: $type, first: $first, after: $after) {
+          edges {
+            node {
+              id
+              handle
+              fields {
+                key
+                value
+              }
+            }
+          }
+          pageInfo { hasNextPage endCursor }
+        }
+      }
+    `;
+
+    async function fetchPage(after = null) {
+      const res = await fetch(endpoint, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'X-Shopify-Storefront-Access-Token': token,
+        },
+        body: JSON.stringify({
+          query: faqQuery,
+          variables: { type: 'faq', first: 100, after },
+        }),
+      });
+      const json = await res.json();
+      return json.data.metaobjects;
+    }
+
+    // 2) Alle Seiten zusammenführen
+    let allEdges = [];
+    let cursor = null;
+    do {
+      const page = await fetchPage(cursor);
+      allEdges = allEdges.concat(page.edges);
+      cursor = page.pageInfo.hasNextPage ? page.pageInfo.endCursor : null;
+    } while (cursor);
+
+    // 3) GIDs aus allen taglist-Feldern extrahieren und deduplizieren
+    const gidSet = new Set();
+    allEdges.forEach(({ node }) => {
+      const tagField = node.fields.find((f) => f.key === 'taglist');
+      if (tagField && tagField.value) {
+        try {
+          JSON.parse(tagField.value).forEach((gid) => gidSet.add(gid));
+        } catch (e) {
+          console.warn('Ungültiger JSON-String in taglist:', tagField.value);
+        }
+      }
+    });
+    const gids = Array.from(gidSet);
+
+    // 4) Je GID einmal per node-Query nachladen
+    const metaobjectQuery = `
+      query getMetaObject($id: ID!) { # A metaobject can be retrieved by handle or id
+        metaobject(id: $id) {
+          id
+          type
+          updatedAt
+          handle
+          
+          fields {
+            key
+            value
+            type
+          }
+          
+          fields {
+            key
+            value
+            type
+          }
+        }
+      }
+  `;
+
+    const resolved = {};
+    await Promise.all(
+      gids.map(async (gid) => {
+        const res = await fetch(endpoint, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'X-Shopify-Storefront-Access-Token': token,
+          },
+          body: JSON.stringify({
+            query: metaobjectQuery,
+            variables: { id: gid },
+          }),
+        });
+        const json = await res.json();
+        // hier heißt es jetzt json.data.metaobject statt json.data.node
+        resolved[gid] = json.data.metaobject;
+      })
+    );
+
+    // 5) Endgültige FAQ-Objekte zusammenbauen
+    const faqsWithTags = allEdges.map(({ node }) => {
+      const faq = { ...node };
+      const tagField = node.fields.find((f) => f.key === 'taglist');
+      if (tagField && tagField.value) {
+        try {
+          faq.taglist = JSON.parse(tagField.value)
+            .map((gid) => resolved[gid])
+            .filter(Boolean);
+        } catch (e) {
+          faq.taglist = [];
+        }
+      } else {
+        faq.taglist = [];
+      }
+      // Add question and answer fields from node.fields
+      faq.question = node.fields.find((f) => f.key === 'question')?.value || '';
+      const richAnswer = node.fields.find((f) => f.key === 'richtext')?.value || '';
+      const plainAnswer = node.fields.find((f) => f.key === 'answer')?.value || '';
+      faq.answer = richAnswer || plainAnswer;
+      return faq;
+    });
+
+    // 6) Aus den hidden inputs die gewünschten Collection-Tags auslesen
+    const hiddenTags = Array.from(document.querySelectorAll('input.faq-tag-list'))
+      .map((input) => input.value.trim())
+      .filter(Boolean);
+
+    // 7) FAQs filtern: mindestens ein gemeinsamer Tag
+    const matchingFaqs = faqsWithTags.filter((faq) =>
+      faq.taglist.some((tagObj) => {
+        const tagValue = tagObj.fields.find((f) => f.key === 'tag')?.value;
+        return hiddenTags.includes(tagValue);
+      })
+    );
+
+    // 8) Die ersten 5 FAQs auswählen
+    const faqsToShow = matchingFaqs.slice(0, 5);
+
+    // 9) HTML für das Accordion zusammenbauen
+    const accordionHtml = faqsToShow
+      .map(
+        (faq) => `
+  <details class="accordion">
+    <summary>
+      <div class="accordion__toggle text-base bold">
+        <h3>${faq.question}</h3>
+        <span class="circle-chevron">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M16.2197 14.7803C16.5126 15.0732 16.9874 15.0732 17.2803 14.7803C17.5732 14.4874 17.5732 14.0126 17.2803 13.7197L12.2803 8.71967C11.9874 8.42678 11.5126 8.42678 11.2197 8.71967L6.21967 13.7197C5.92678 14.0126 5.92678 14.4874 6.21967 14.7803C6.51256 15.0732 6.98744 15.0732 7.28033 14.7803L11.75 10.3107L16.2197 14.7803Z" fill="currentColor"></path>
+          </svg>
+        </span>
+      </div>
+    </summary>
+    <div class="accordion__content accordion__content__meta prose">${(() => {
+      try {
+        const answerObj = typeof faq.answer === 'string' ? JSON.parse(faq.answer) : faq.answer;
+        return renderRichText(answerObj?.children || []);
+      } catch (e) {
+        return faq.answer
+          .split(/\n{2,}/)
+          .map((p) => `<p>${p.trim().replace(/\n/g, '<br>')}</p>`)
+          .join('');
+      }
+    })()}</div>
+  </details>
+  `
+      )
+      .join('\n');
+
+    // 10) In deinen Accordion-Container injizieren
+    const container = document.querySelector('.faq-meta .accordion-box');
+    if (container) {
+      container.innerHTML = accordionHtml;
+    } else {
+      console.warn('Accordion-Container nicht gefunden!');
+    }
+
+    // Anzahl der aktuell angezeigten FAQs
+    let shownCount = 5;
+    // (Optional) Mehr-anzeigen-Button hinzufügen
+    if (matchingFaqs.length > 5) {
+      const moreBtn = document.createElement('button');
+      moreBtn.textContent = 'Weitere FAQs anzeigen';
+      moreBtn.className = 'link mt-4';
+      moreBtn.addEventListener('click', () => {
+        // nächste 5 FAQs laden
+        const batch = matchingFaqs.slice(shownCount, shownCount + 5);
+        const nextBatchHtml = batch
+          .map(
+            (faq) => `
+        <details class="accordion">
+          <summary>
+            <div class="accordion__toggle text-base bold">
+              <h3>${faq.question}</h3>
+              <span class="circle-chevron">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M16.2197 14.7803C16.5126 15.0732 16.9874 15.0732 17.2803 14.7803C17.5732 14.4874 17.5732 14.0126 17.2803 13.7197L12.2803 8.71967C11.9874 8.42678 11.5126 8.42678 11.2197 8.71967L6.21967 13.7197C5.92678 14.0126 5.92678 14.4874 6.21967 14.7803C6.51256 15.0732 6.98744 15.0732 7.28033 14.7803L11.75 10.3107L16.2197 14.7803Z" fill="currentColor"></path>
+                </svg>
+              </span>
+            </div>
+          </summary>
+          <div class="accordion__content accordion__content__meta prose">${(() => {
+            try {
+              const answerObj = typeof faq.answer === 'string' ? JSON.parse(faq.answer) : faq.answer;
+              return renderRichText(answerObj?.children || []);
+            } catch (e) {
+              return faq.answer
+                .split(/\n{2,}/)
+                .map((p) => `<p>${p.trim().replace(/\n/g, '<br>')}</p>`)
+                .join('');
+            }
+          })()}</div>
+        </details>
+        `
+          )
+          .join('\n');
+        container.insertAdjacentHTML('beforeend', nextBatchHtml);
+        shownCount += batch.length;
+        if (shownCount >= matchingFaqs.length) {
+          moreBtn.remove();
+        }
+      });
+      container.insertAdjacentElement('afterend', moreBtn);
+    }
+  });
+</script>
+
+{% schema %}
+{
+  "name": "FAQ-meta",
+  "class": "shopify-section--faq meta",
+  "tag": "section",
+  "disabled_on": {
+    "groups": ["header", "custom.overlay"]
+  },
+  "blocks": [
+    {
+      "name": "Item",
+      "type": "item",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Question",
+          "default": "Question"
+        },
+        {
+          "type": "richtext",
+          "id": "content",
+          "label": "Answer",
+          "default": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
+        }
+      ]
+    }
+  ],
+  "settings": [
+    {
+      "type": "paragraph",
+      "content": "Structured data is automatically created on FAQ page to improve SEO. [Learn more](https://developers.google.com/search/docs/advanced/structured-data/faqpage)"
+    },
+    {
+      "type": "checkbox",
+      "id": "full_width",
+      "label": "Full width",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "subheading",
+      "label": "Subheading"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "FAQ"
+    },
+    {
+      "type": "richtext",
+      "id": "content",
+      "label": "Content",
+      "default": "<p>Use this text to share information about your product or shipping policies.</p>"
+    },
+    {
+      "type": "image_picker",
+      "id": "team_avatar",
+      "label": "Team avatar",
+      "info": "700 x 160px .jpg recommended"
+    },
+    {
+      "type": "range",
+      "id": "team_avatar_width",
+      "min": 50,
+      "max": 350,
+      "step": 10,
+      "unit": "px",
+      "label": "Team avatar width",
+      "default": 160
+    },
+    {
+      "type": "text",
+      "id": "support_hours",
+      "label": "Support operating hours",
+      "default": "Our customer support is available Monday to Friday: 8am-8:30pm."
+    },
+    {
+      "type": "text",
+      "id": "answer_time",
+      "label": "Average answer time",
+      "default": "Average answer time: 24h"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button text"
+    },
+    {
+      "type": "url",
+      "id": "button_url",
+      "label": "Button link"
+    },
+    {
+      "type": "select",
+      "id": "text_position",
+      "label": "Text position",
+      "options": [
+        {
+          "value": "start",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "end",
+          "label": "Right"
+        }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "header",
+      "content": "Colors",
+      "info": "Gradient replaces solid colors when set."
+    },
+    {
+      "type": "color",
+      "id": "background",
+      "label": "Background"
+    },
+    {
+      "type": "color_background",
+      "id": "background_gradient",
+      "label": "Background gradient"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text"
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Heading color"
+    },
+    {
+      "type": "color_background",
+      "id": "heading_gradient",
+      "label": "Heading gradient"
+    },
+    {
+      "type": "color",
+      "id": "button_background",
+      "label": "Button background"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "label": "Button text"
+    },
+    {
+      "type": "color",
+      "id": "accordion_background",
+      "label": "Accordion background"
+    },
+    {
+      "type": "color",
+      "id": "accordion_text_color",
+      "label": "Accordion text"
+    }
+  ],
+  "presets": [
+    {
+      "name": "FAQ-meta",
+      "blocks": [
+        {
+          "type": "item",
+          "settings": {
+            "title": "Do you ship overseas?",
+            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+          }
+        },
+        {
+          "type": "item",
+          "settings": {
+            "title": "How long will it take to get my orders?",
+            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+          }
+        },
+        {
+          "type": "item",
+          "settings": {
+            "title": "Any question?",
+            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

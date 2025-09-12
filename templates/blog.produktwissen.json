@@ -1,0 +1,138 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_gwbzhY": {
+      "type": "slideshow",
+      "blocks": {
+        "image_T7Bbma": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Categories_Pfannen-2_Header-Latori_2167x800_4ce0304e-4c90-4efc-add1-b7b4cfe40807.jpg",
+            "image_content_width": false,
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "Product Guide",
+            "heading_tag": "h1",
+            "button_text": "",
+            "button_link": "",
+            "heading_color": "#ffffff",
+            "subheading_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_T7Bbma"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "full_width": true,
+        "show_initial_transition": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "main": {
+      "type": "main-blog",
+      "blocks": {
+        "tag_mapping_NbgnxP": {
+          "type": "tag_mapping",
+          "settings": {
+            "tag": "Pfannen-Ratgeber",
+            "sub_heading": "Pfannen-Ratgeber",
+            "sub_content": "<p>Die Wahl der richtigen Pfanne ist entscheidend für ein gelungenes Kocherlebnis. Eine qualitativ hochwertige Pfanne ermöglicht es, das Essen gleichmäßig zu garen und sorgt dafür, dass es nicht anbrennt. Darüber hinaus ist eine gute Pfanne langlebig und lässt sich leicht reinigen. Es gibt jedoch viele verschiedene Arten von Pfannen auf dem Markt, und es kann schwierig sein, die richtige zu finden.</p><p>In unserem großen Pfannen-Ratgeber findest du alle Antworten, die du suchst!</p>"
+          }
+        },
+        "tag_mapping_mxJzyd": {
+          "type": "tag_mapping",
+          "settings": {
+            "tag": "Schnellkochtopf-Ratgeber",
+            "sub_heading": "Schnellkochtopf-Ratgeber",
+            "sub_content": "<p>Hier findest du alles Wissenswerte über die verschiedenen Arten von Schnellkochtöpfen, ihre Funktionen und die richtige Verwendung. Entdecke jetzt, wie einfach und schnell das Kochen mit dem richtigen Schnellkochtopf sein kann!</p><p>In unserem großen Schnellkochtopf-Ratgeber findest du alle Antworten, die du suchst!</p>"
+          }
+        },
+        "tag_mapping_iibjNc": {
+          "type": "tag_mapping",
+          "settings": {
+            "tag": "Topf-Ratgeber",
+            "sub_heading": "Topf-Ratgeber",
+            "sub_content": "<p>Entdecke die Welt der Töpfe mit dem großen Topf Ratgeber von Fissler. Hier erfährst du alles, was du über die Auswahl, Pflege und Verwendung von Töpfen, Brätern und Co. wissen musst, damit du die beste Wahl für deine Küche treffen kannst. Finde Inspiration, wissenswerte Tipps und Tricks und die Qualitätsmerkmale von guten Töpfen.</p><p>In unserem großen Topf-Ratgeber findest du alle Antworten, die du suchst!</p>"
+          }
+        },
+        "tag_mapping_xVmpEU": {
+          "type": "tag_mapping",
+          "settings": {
+            "tag": "",
+            "sub_heading": "",
+            "sub_content": ""
+          }
+        },
+        "tag_mapping_84K6gc": {
+          "type": "tag_mapping",
+          "settings": {
+            "tag": "",
+            "sub_heading": "",
+            "sub_content": ""
+          }
+        }
+      },
+      "block_order": [
+        "tag_mapping_NbgnxP",
+        "tag_mapping_mxJzyd",
+        "tag_mapping_iibjNc",
+        "tag_mapping_xVmpEU",
+        "tag_mapping_84K6gc"
+      ],
+      "settings": {
+        "fallback_heading": "Blogposts",
+        "sub_heading": "Product Knowledge",
+        "sub_content": "<p>You'll find all the answers you're looking for in our guides!</p>",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "alignment": "center",
+        "allow_transparent_header": false,
+        "content": "",
+        "show_tags": true,
+        "use_tag_mapping": false,
+        "show_heading": false,
+        "banner_background": "#ffffff",
+        "banner_text_color": "",
+        "button_background": "",
+        "button_text_color": "",
+        "articles_per_page": 24,
+        "feature_article_background": "",
+        "feature_article_text_color": "",
+        "show_date": false,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": true,
+        "show_prep_time": true,
+        "show_recipe_yield": true
+      }
+    }
+  },
+  "order": [
+    "slideshow_gwbzhY",
+    "main"
+  ]
+}

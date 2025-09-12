@@ -1,0 +1,205 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "navigation": {
+          "type": "navigation",
+          "disabled": true,
+          "settings": {}
+        },
+        "comments": {
+          "type": "comments",
+          "disabled": true,
+          "settings": {
+            "show_gravatar": true,
+            "comments_per_page": 5
+          }
+        }
+      },
+      "block_order": [
+        "navigation",
+        "comments"
+      ],
+      "settings": {
+        "layout": "content_first",
+        "show_author": false,
+        "show_date": true,
+        "show_comments_count": true,
+        "show_share_buttons": true,
+        "show_header_image": true,
+        "banner_background": "",
+        "banner_text_color": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "content_width": "750px",
+        "stats_color": "#556132",
+        "is_recipe": false,
+        "content_alignment": "start"
+      }
+    },
+    "rich_text_rRNJ8L": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_J8KjUG": {
+          "type": "heading",
+          "settings": {
+            "text": "Material",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_Fzjc4f": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Der rostfreie Chrom-Molybdän-Vanadium-Stahl ist seit über 50 Jahren das Markenzeichen guter europäischer Messer. Dieser Messerspezialstahl garantiert absolute Schärfe und erfüllt höchste hygienische Anforderungen. Andere Klingenmaterialien sind für den alltäglichen Hausgebrauch weniger zu empfehlen: Keramik ist leicht zerbrechlich und kann nur professionell nachgeschärft werden. Damaststahl ist zwar hochwertig, aber auch sehr anfällig für Rost und darf nur am Schleifstein nachgeschärft werden.<br/><br/></p>",
+            "font_size": "base"
+          }
+        },
+        "heading_9Eth6d": {
+          "type": "heading",
+          "settings": {
+            "text": "Verarbeitung",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_Hk9LGC": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Ein geschmiedetes Messer besteht immer aus einem Stück Stahl. Zu erkennen am Kropf, der Verdickung zwischen Klinge und Griff. Nur diese Art der Herstellung verspricht höchste Stabilität und eine perfekte Balance. Beim Griff ist eine fugenlose Verbindung zwischen Schale und Klingenerl entscheidend, weil sich an diesen Stellen sonst Bakterien leichter festsetzen können. Bevor du nach einem neuen Messer greifst, ist es wichtig, Qualität zu begreifen. Hochwertige, geschmiedete Messer weisen typische Merkmale auf, die sie auf den ersten Blick von den weniger guten unterscheiden.<br/><br/></p>",
+            "font_size": "base"
+          }
+        },
+        "heading_DaapTJ": {
+          "type": "heading",
+          "settings": {
+            "text": "Schärfe",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_cWXpkx": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Von jedem Messer wird erwartet, dass es von Anfang an scharf ist. Doch nur ein gutes Messer bleibt es auch. Voraussetzungen für eine dauerhaft hohe Schnitthaltigkeit sind hochwertiger Stahl, konsequent durchgeführte Wärmebehandlungen und natürlich die präzise Bearbeitung der Schneide.<br/><br/></p>",
+            "font_size": "base"
+          }
+        },
+        "heading_QXDhA8": {
+          "type": "heading",
+          "settings": {
+            "text": "Griff",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_VQRVqj": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Schneiden geht leichter, wenn das Messer sicher in der Hand liegt. Ein ergonomisch geformter Griff aus hochwertigem Kunststoff verhindert ein gefährliches Abrutschen und das Ermüden der Hand. Bei genieteten Griffen solltest du darauf achten, dass die Nieten Teil des geschmiedeten Messers sind. Aufgesetzte Nieten rosten schneller. Holz als Griffmaterial braucht viel Pflege, da es als natürlicher Werkstoff nicht so fugendicht ist und zum Aufquellen neigt.<br/><br/></p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_J8KjUG",
+        "richtext_Fzjc4f",
+        "heading_9Eth6d",
+        "richtext_Hk9LGC",
+        "heading_DaapTJ",
+        "richtext_cWXpkx",
+        "heading_QXDhA8",
+        "richtext_VQRVqj"
+      ],
+      "settings": {
+        "show_section_id": false,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "padding_top": "auto",
+        "padding_bottom": "xl"
+      }
+    },
+    "featured_collection_XrzHcB": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "collection": "",
+        "products": [
+          "fissler-essential-santokumesser-16-5cm",
+          "fissler-essential-kochmesser-18cm",
+          "fissler-essential-brotmesser",
+          "fissler-essential-steakmesser-set-2tlg"
+        ],
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Hochwertige Fissler Messer entdecken",
+        "content": "<p><br/></p>",
+        "link_url": "shopify://collections/fissler-essential-messer",
+        "link_text": "Alle Messer entdecken",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "featured_articles_zyybYg": {
+      "type": "featured-articles",
+      "name": "Featured articles",
+      "settings": {
+        "show_progress_bar": true,
+        "articles_per_row_mobile": "2",
+        "articles_per_row_desktop": 3,
+        "subheading": "",
+        "articel_handles": "produktwissen/messertypen,produktwissen/kleine-messerkunde,kochtipps/richtig-schneiden",
+        "title": "Weitere Artikel zum Thema Messer",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_rRNJ8L",
+    "featured_collection_XrzHcB",
+    "featured_articles_zyybYg"
+  ]
+}

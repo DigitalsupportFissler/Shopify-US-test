@@ -1,0 +1,11 @@
+[environments.eu-staging]
+store = "fisslereustaging.myshopify.com"
+
+[environments.eu]
+store = "fissler-shop.myshopify.com"
+
+[environments.us]
+store = "fissler-shop-us.myshopify.com"
+
+[environments.jp]
+store = "fissler-shop-jp.myshopify.com"

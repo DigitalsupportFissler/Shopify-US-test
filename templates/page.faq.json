@@ -1,0 +1,210 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "slideshow_jgzL8M": {
+      "type": "slideshow",
+      "blocks": {
+        "image_Yzneah": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Page_Serviceleitfaden_Header_2800x1000_b5f00398-b47a-406e-b7c3-f8162ebb1e4f.png",
+            "image_content_width": false,
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "Häufig gestellte Fragen",
+            "heading_tag": "h1",
+            "button_text": "",
+            "button_link": "",
+            "heading_color": "#ffffff",
+            "subheading_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_Yzneah"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_initial_transition": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "multi_column_dtLJzH": {
+      "type": "multi-column",
+      "blocks": {
+        "item_i6kQMi": {
+          "type": "item",
+          "settings": {
+            "column_size": "4",
+            "title": "Fragen zu Onlineshop und Bestellungen",
+            "heading_tag": "h4",
+            "content": "<p></p><p>Alle Fragen zu unserem Fissler Onlineshop findest du unter nachfolgendem Link: </p>",
+            "link_url": "/pages/faq-onlineshop#shopify-section-template--25160974893405__faq_metaobjecte_dbjfhi",
+            "link_text": "Alle Frage zu Onlineshop und Bestellungen",
+            "link_style": "link"
+          }
+        },
+        "item_7ypbdc": {
+          "type": "item",
+          "settings": {
+            "column_size": "4",
+            "title": "Fragen zu Schnellkochtöpfen",
+            "heading_tag": "h4",
+            "content": "<p></p><p>Alle Fragen zu unseren Schnellkochtöpfen findest du auf unserer Kategorieseite.</p>",
+            "link_url": "/collections/schnellkochtoepfe#shopify-section-template--25160974893405__faq_metaobjecte_dbjfhi",
+            "link_text": "Alle Fragen zu Schnellkochtöpfen",
+            "link_style": "link"
+          }
+        },
+        "item_Fdqea8": {
+          "type": "item",
+          "settings": {
+            "column_size": "4",
+            "title": "Fragen zu Pfannen",
+            "heading_tag": "h4",
+            "content": "<p></p><p>Alle Fragen zu unseren Pfannen findest du auf unserer Kategorieseite zu den Fissler Pfannen.</p>",
+            "link_url": "/collections/pfannen#shopify-section-template--25160974893405__faq_metaobjecte_dbjfhi",
+            "link_text": "Alle Fragen zu Pfannen",
+            "link_style": "link"
+          }
+        },
+        "item_f3EH7g": {
+          "type": "item",
+          "settings": {
+            "column_size": "4",
+            "title": "Fragen zu Töpfen",
+            "heading_tag": "h4",
+            "content": "<p></p><p>Alle Fragen zu unseren Töpfen findest du auf unserer Kategorieseite zu den Fissler Töpfen.</p>",
+            "link_url": "/collections/toepfe#shopify-section-template--25160974893405__faq_metaobjecte_dbjfhi",
+            "link_text": "Alle Fragen zu Töpfen",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_i6kQMi",
+        "item_7ypbdc",
+        "item_Fdqea8",
+        "item_f3EH7g"
+      ],
+      "settings": {
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "<p>Wir haben für dich unsere Fragen nach Kategorien aufgeteilt. Wenn du direkt zu den allgemeinen Fragen gelangen möchtest, nutze den nachfolgenden Link: <a href=\"https://fissler.com/pages/faq#shopify-section-template--25145163776349__custom_html_Ak39jt\" title=\"https://fissler.com/pages/faq#shopify-section-template--25145163776349__custom_html_Ak39jt\">Allgemeine FAQs</a></p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "md",
+        "padding_bottom": "auto"
+      }
+    },
+    "faq_metaobjecte_J6pnnB": {
+      "type": "faq-metaobjecte",
+      "blocks": {
+        "item_THwkrD": {
+          "type": "item",
+          "settings": {
+            "title": "Do you ship overseas?",
+            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+          }
+        },
+        "item_YjzpRA": {
+          "type": "item",
+          "settings": {
+            "title": "How long will it take to get my orders?",
+            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+          }
+        },
+        "item_tT3iNQ": {
+          "type": "item",
+          "settings": {
+            "title": "Any question?",
+            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_THwkrD",
+        "item_YjzpRA",
+        "item_tT3iNQ"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Allgemeine häufig gestellte Fragen",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "custom_html_Ak39jt": {
+      "type": "custom-html",
+      "name": "Custom HTML",
+      "settings": {
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<div id=\"userlike-help-container\" data-userlike-help-account=\"https://56078-52362.userlike-automation.com\" data-userlike-help-api-key=\"HE-c217868f-9d56-4e9e-8f0b-176ef757336d\"></div>\n \n<script async=\"\" type=\"application/javascript\" src=\"https://56078-52362.userlike-automation.com/help/help.min.js\"></script>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": true,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_jgzL8M",
+    "multi_column_dtLJzH",
+    "faq_metaobjecte_J6pnnB",
+    "custom_html_Ak39jt"
+  ]
+}

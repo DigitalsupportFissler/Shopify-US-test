@@ -1,0 +1,238 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "navigation": {
+          "type": "navigation",
+          "disabled": true,
+          "settings": {}
+        },
+        "comments": {
+          "type": "comments",
+          "disabled": true,
+          "settings": {
+            "show_gravatar": true,
+            "comments_per_page": 5
+          }
+        }
+      },
+      "block_order": [
+        "navigation",
+        "comments"
+      ],
+      "settings": {
+        "layout": "image_text_overlay",
+        "image": "{{ article.image }}",
+        "show_author": true,
+        "show_date": true,
+        "show_comments_count": true,
+        "show_share_buttons": true,
+        "show_header_image": true,
+        "banner_background": "",
+        "banner_text_color": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "content_width": "750px",
+        "stats_color": "#556132",
+        "is_recipe": false,
+        "content_alignment": "start"
+      }
+    },
+    "rich_text_PbdPfB": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_zgfEU8": {
+          "type": "heading",
+          "settings": {
+            "text": "Obst und Gemüse: Am besten klein und knackig",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_yeAD9g": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Erfrischend und optimal ist alles, was Snackgröße hat, nicht geschält werden muss und auch ein paar Stunden Sonne verträgt, zum Beispiel Cherry-Tomaten, Mini-Gurken oder Kirschpaprika. Weintrauben schmecken besonders gut, wenn sie vorher eingefroren wurden – Eisbonbons aus der Natur! Nüsse und Trockenfrüchte knabbern sich am leichtesten in Riegelform, da bleiben auch die Finger sauber. Wer nicht auf Schokolade verzichten will, friert die Tafel am besten ein paar Stunden vorher ein, so schmilzt sie nicht so schnell davon.</p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_zgfEU8",
+        "richtext_yeAD9g"
+      ],
+      "settings": {
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "rich_text_VBhVDe": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_myVyVE": {
+          "type": "heading",
+          "settings": {
+            "text": "Erfrischende Durstlöscher",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_bgVMy6": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Neben Sonnenschutz ist an heißen Tagen vor allem eine ausreichende Flüssigkeitszufuhr wichtig - je nach Körpergröße und Aktivität erhöht sich der Flüssigkeitsbedarf auf drei bis vier Liter. Am besten eignet sich dafür Trink- und Mineralwasser, aufgepeppt mit ein paar Scheiben Limette, Orange oder Gurke, Minzblättern und Ingwer schmeckt es noch erfrischender. Mit Gemüsesäften wird nicht nur der Wasserbedarf gedeckt, sondern dem Körper auch Mineralstoffe wieder zugeführt, die beim Schwitzen verloren gehen. Smoothies mit Früchten und grünem Gemüse spenden ebenfalls Energie, Flüssigkeit und Vitamine und sind perfekt, wenn die Hitze den großen Hunger ausbleiben lässt.</p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_myVyVE",
+        "richtext_bgVMy6"
+      ],
+      "settings": {
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "rich_text_9QmnBt": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_GaqyV6": {
+          "type": "heading",
+          "settings": {
+            "text": "Salzige Knabbereien und herzhafte Snacks",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_g3tDDJ": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Wer viel schwitzt, sollte auch seinen Salzhaushalt im Auge behalten. Cracker, kleine Salzbrezeln oder getrocknete Tomaten ohne Öl sind sehr gut geeignet dafür. Für den größeren Hunger lassen sich Falafel, Frikadellen, gekochte Eier, Pellkartoffeln, Linsensalat und Nudelsalate gut mitnehmen – hier lieber ein Essig-Öl-Dressing wählen, das übersteht hohe Außentemperaturen besser als Mayo, Joghurt und Co. Grüner Salat, Käse und Wurst werden hingegen schnell schlaff und sollten zu Hause bleiben oder gleich gegessen werden.</p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_GaqyV6",
+        "richtext_g3tDDJ"
+      ],
+      "settings": {
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "rich_text_ty4WkC": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_3Bw387": {
+          "type": "heading",
+          "settings": {
+            "text": "Tipps zu Kühlung und Aufbewahrung",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_GhfmDg": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Eine Kühltasche und Kühlakkus sind schon für wenige Euro zu haben und halten Speisen und Getränke etwa einen halben Tag kalt. Getränkeflaschen bleiben leicht eingebuddelt in niedrigem Wasser oder ein paar Zentimeter tief im Sand kühl. Natürlich sollte alles möglichst schattig, mindestens aber unter einem Schirm oder einer Decke gelagert werden – das hält auch Insekten fern. Damit kein Sand ins Essen kommt, gibt es zwei Möglichkeiten: die Lebensmittel gut verschließen in Dosen, Bügelflaschen, Schraubgläsern und Zip-Tüten. Oder in ein spezielles Strandhandtuch investieren, dass durch seine spezielle Struktur den Sand einfach durchrieseln lässt (online ab ca. 10 Euro) und so alles sauber hält. Und wer doch sandige Finger hat, muss eben nochmal zum Abwaschen ins kühle Nass springen!</p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_3Bw387",
+        "richtext_GhfmDg"
+      ],
+      "settings": {
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "xl"
+      }
+    },
+    "blog_posts_qi97hQ": {
+      "type": "blog-posts",
+      "blocks": {
+        "blog_pWkX47": {
+          "type": "blog",
+          "settings": {
+            "blog": "kochtipps",
+            "posts_count": 3,
+            "stack_items": false
+          }
+        }
+      },
+      "block_order": [
+        "blog_pWkX47"
+      ],
+      "settings": {
+        "show_excerpt": true,
+        "show_date": true,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": true,
+        "show_overall_time": false,
+        "subheading": "",
+        "title": "Weitere Kochtipps entdecken",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto",
+        "blog_handle": "kochtipps",
+        "posts_count": 4
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_PbdPfB",
+    "rich_text_VBhVDe",
+    "rich_text_9QmnBt",
+    "rich_text_ty4WkC",
+    "blog_posts_qi97hQ"
+  ]
+}

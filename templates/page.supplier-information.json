@@ -1,0 +1,240 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "100%"
+      }
+    },
+    "slideshow_wXkAU8": {
+      "type": "slideshow",
+      "blocks": {
+        "image_QVfQYj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Header_Kontakt_2167x800_44056a60-22ab-4b87-b84d-f1b38bc8b557.png",
+            "image_content_width": false,
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "Fissler Supplier Portal",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "heading_color": "#ffffff",
+            "subheading_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
+        "image_NdXQXK": {
+          "type": "image",
+          "settings": {
+            "image_content_width": false,
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "Tell your story",
+            "title": "Slide 2",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "heading_color": "#ffffff",
+            "subheading_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_QVfQYj",
+        "image_NdXQXK"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "full_width": true,
+        "show_initial_transition": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#F2F2F2",
+        "background_gradient": ""
+      }
+    },
+    "rich_text_VFzhzk": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_pHGd8K": {
+          "type": "heading",
+          "settings": {
+            "text": "Willkommen im Fissler Lieferanten-Portal",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_fDjnzD": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Wir haben gemeinsame Ziele und teilen unser Wissen. Deswegen informieren wir Sie an dieser Stelle über Geschäftsprozesse, wichtige Änderungen, laufende Projekte und alles andere, was unsere Zusammenarbeit erleichtert.</p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_pHGd8K",
+        "richtext_fDjnzD"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "show_section_id": false,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "accordion_content_JVgtxL": {
+      "type": "accordion-content",
+      "blocks": {
+        "item_WT7rzm": {
+          "type": "item",
+          "settings": {
+            "icon_width": 20,
+            "title": "Hausnorm",
+            "content": "<p>Material- und Stoffbezogene Anforderungen aus nationalen und internationalen Gesetzen, Richtlinien, Normen und Kundenanforderungen</p><p>Ansprechpartner bei Rückfragen:</p><p><a href=\"http://web.archive.org/web/20221129021822/mailto:hausnorm@fissler.com\">hausnorm@fissler.com</a></p>",
+            "page": ""
+          }
+        },
+        "item_Wiy97n": {
+          "type": "item",
+          "settings": {
+            "icon_width": 20,
+            "title": "Erstmuster-Richtlinie",
+            "content": "<p>Der Leitfaden soll einen reibungslosen Ablauf bei Erstbemusterungen zwischen Fissler und den Lieferanten absichern.</p><p>Ansprechpartner bei Rückfragen:</p><p><a href=\"http://web.archive.org/web/20221129021822/mailto:erstmuster@fissler.com\">erstmuster@fissler.com</a></p>",
+            "page": ""
+          }
+        },
+        "item_7TVLbw": {
+          "type": "item",
+          "settings": {
+            "icon_width": 20,
+            "title": "Anlieferspezifikation",
+            "content": "<p>Allgemeinen Anforderungen, umfassende Informationen und Anweisungen zu Bestellung, Vorbereitung, Versand und Lieferung Ihrer Produkte an Fissler.</p><p>Ansprechpartner bei Rückfragen:</p><p><a href=\"http://web.archive.org/web/20221129021822/mailto:anlieferspezifikation@fissler.com\">anlieferspezifikation@fissler.com</a></p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_WT7rzm",
+        "item_Wiy97n",
+        "item_7TVLbw"
+      ],
+      "name": "Accordion content",
+      "settings": {
+        "subheading": "",
+        "title": "Hausnorm",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "first_open": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "full_width_background": false,
+        "button_background": "",
+        "button_text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "accordion_content_nHmTqG": {
+      "type": "accordion-content",
+      "blocks": {
+        "item_nyFTAV": {
+          "type": "item",
+          "settings": {
+            "icon_width": 20,
+            "title": "Einkaufsbedingungen",
+            "content": "<p>Hier werden Angebote, Bestellungen, Lieferungen, Fristen, Zahlungen, etc. geregelt.</p><p>Ansprechpartner bei Rückfragen:</p><p><a href=\"http://web.archive.org/web/20221129021822/mailto:einkaufsbedingungen@fissler.com\">einkauf@fissler.com</a></p>",
+            "page": ""
+          }
+        },
+        "item_wUQYPt": {
+          "type": "item",
+          "settings": {
+            "icon_width": 20,
+            "title": "Arbeitssicherheitbedingungen",
+            "content": "<p>Unsere Sicherheitsbestimmungen und betrieblichen Besonderheiten.</p><p>Ansprechpartner bei Rückfragen:</p><p><a href=\"http://web.archive.org/web/20221129021822/mailto:einkauf@fissler.com\">einkauf@fissler.com</a></p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_nyFTAV",
+        "item_wUQYPt"
+      ],
+      "name": "Accordion content",
+      "settings": {
+        "subheading": "",
+        "title": "Einkauf",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "first_open": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "full_width_background": false,
+        "button_background": "",
+        "button_text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_wXkAU8",
+    "rich_text_VFzhzk",
+    "accordion_content_JVgtxL",
+    "accordion_content_nHmTqG"
+  ]
+}

@@ -1,0 +1,333 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "rich_text_DdEdzF": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_REt6F4": {
+          "type": "heading",
+          "settings": {
+            "text": "Konformitätserklärung",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_REt6F4"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "content_width": "large",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "media_with_text_Jf7Wy7": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_DNzDPJ": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/konformitaetserklaerung_fissler-finecut_1500x1500_6c45e234-9f55-4657-9f9e-372afa68c60f.png",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Küchenhelfer Finecut",
+            "heading_tag": "h3",
+            "content": "<p><a href=\"https://cdn.shopify.com/s/files/1/0896/6029/3469/files/Konformitaetserklaerung_0105100062Finecut_1.pdf?v=1747236934\" title=\"https://cdn.shopify.com/s/files/1/0896/6029/3469/files/Konformitaetserklaerung_0105100062Finecut_1.pdf?v=1747236934\">Download Konformitätserklärung gemäß Richtlinie (EU) 10/2011 (pdf)</a></p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        },
+        "image_7xpPwU": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/konformitaetserklaerung_knoblauchpresse_1500x1500_fe0e1282-c84c-4e58-9c03-fd6d7813fc23.png",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Küchenhelfer Q! Knoblauchpresse",
+            "heading_tag": "h3",
+            "content": "<p><a href=\"https://cdn.shopify.com/s/files/1/0896/6029/3469/files/Konformitaetserklaerung_8902600000-Knoblauchpresse.pdf?v=1747236934\" title=\"https://cdn.shopify.com/s/files/1/0896/6029/3469/files/Konformitaetserklaerung_8902600000-Knoblauchpresse.pdf?v=1747236934\">Download Konformitätserklärung gemäß Richtlinie (EU) 10/2011 (pdf)</a></p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        },
+        "image_7eJKJk": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/konformitaetserklaerung_multitalent_1500x1500_603b5008-d1e6-4b82-881a-d89b807c0fde.png",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Küchenhelfer Q! Multiltalent",
+            "heading_tag": "h3",
+            "content": "<p><a href=\"https://cdn.shopify.com/s/files/1/0896/6029/3469/files/Konformitaetserklaerung_890410010X-Reibeinsaetze-Multitalent_1.pdf?v=1747236935\" title=\"https://cdn.shopify.com/s/files/1/0896/6029/3469/files/Konformitaetserklaerung_890410010X-Reibeinsaetze-Multitalent_1.pdf?v=1747236935\">Download Konformitätserklärung gemäß Richtlinie (EU) 10/2011 (pdf)</a></p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        },
+        "image_CEC9J9": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/konformitaetserklaerung_protection_1500x1500_78bfcf0a-a0d6-4963-a807-c85cd0b002e0.png",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Küchenhelfer Protection",
+            "heading_tag": "h3",
+            "content": "<p><a href=\"https://cdn.shopify.com/s/files/1/0896/6029/3469/files/Konformitaetserkl-Protection-Kuechenhelfer.pdf?v=1747236935\" title=\"https://cdn.shopify.com/s/files/1/0896/6029/3469/files/Konformitaetserkl-Protection-Kuechenhelfer.pdf?v=1747236935\">Download Konformitätserklärung gemäß Richtlinie (EU) 10/2011 (pdf)</a></p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        },
+        "image_QazFCy": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/konformitaetserklaerung_schnellkochtopf-vitavit-edition-digital_1500x1500_56864327-44d9-4a60-ba70-8343ae86d9f1.png",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Konformitätserklärungen Vitavit® Edition",
+            "heading_tag": "h3",
+            "content": "<p><a href=\"https://cdn.shopify.com/s/files/1/0896/6029/3469/files/Konformitaetserklaerung_1163102453PTFE-Kugel-weiss_Vitavit_Edition.pdf?v=1750076571\" title=\"https://cdn.shopify.com/s/files/1/0896/6029/3469/files/Konformitaetserklaerung_1163102453PTFE-Kugel-weiss_Vitavit_Edition.pdf?v=1750076571\">PTFE-Kugel, weiß Ventilkörper</a></p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        },
+        "image_6gXWaz": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/konformitaetserklaerung_schnellkochtopf_1500x1500_b89844b6-377c-44da-9de9-1cfd964e6abe.png",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Konformitätserklärungen Vitavit® Premium",
+            "heading_tag": "h3",
+            "content": "<p><a href=\"https://cdn.shopify.com/s/files/1/0896/6029/3469/files/Konformitaetserklaerung_1163102453PTFE-Kugel-weiss_Vitavit_Premium.pdf?v=1750076572\" title=\"https://cdn.shopify.com/s/files/1/0896/6029/3469/files/Konformitaetserklaerung_1163102453PTFE-Kugel-weiss_Vitavit_Premium.pdf?v=1750076572\">PTFE-Kugel, weiß Ventilkörper</a></p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        },
+        "image_D39PCh": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/konformitaetserklaerung_schnellkochtopf-vitavit-comfort_1500x1500_2aa73956-f29a-43d9-80c2-e0becfe180a9.png",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Konformitätserklärungen Vitavit® Comfort",
+            "heading_tag": "h3",
+            "content": "<p><a href=\"https://cdn.shopify.com/s/files/1/0896/6029/3469/files/Konformitaetserklaerung_1163102453PTFE-Kugel-weiss_Vitavit_Comfort.pdf?v=1750076572\">PTFE-Kugel, weiß Ventilkörper</a></p>",
+            "link_text": "",
+            "link_url": "https://cdn.shopify.com/s/files/1/0896/6029/3469/files/Konformitaetserklaerung_1163102453PTFE-Kugel-weiss_Vitaquick.pdf?v=1750076572",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        },
+        "image_T8pr3M": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/konformitaetserklaerung_schnellkochtopf-vitaquick_1500x1500_08224bc9-0bcf-44f6-a9be-87febe10400d.png",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Konformitätserklärungen Vitaquick®",
+            "heading_tag": "h3",
+            "content": "<p><a href=\"https://cdn.shopify.com/s/files/1/0896/6029/3469/files/Konformitaetserklaerung_1163102453PTFE-Kugel-weiss_Vitaquick.pdf?v=1750076572\" title=\"https://cdn.shopify.com/s/files/1/0896/6029/3469/files/Konformitaetserklaerung_1163102453PTFE-Kugel-weiss_Vitaquick.pdf?v=1750076572\">PTFE-Kugel, weiß Ventilkörper</a></p>",
+            "link_text": "",
+            "link_url": "https://cdn.shopify.com/s/files/1/0896/6029/3469/files/Konformitaetserklaerung_1163102453PTFE-Kugel-weiss_4.pdf?v=1747236934",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "image_DNzDPJ",
+        "image_7xpPwU",
+        "image_7eJKJk",
+        "image_CEC9J9",
+        "image_QazFCy",
+        "image_6gXWaz",
+        "image_D39PCh",
+        "image_T8pr3M"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_DdEdzF",
+    "media_with_text_Jf7Wy7"
+  ]
+}

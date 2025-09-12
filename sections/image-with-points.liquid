@@ -1,0 +1,180 @@
+{% if section.settings.metafield_namespace_and_key != blank %}
+  {% assign split_metafield_namespace_key = section.settings.metafield_namespace_and_key | split: '.' %}
+  {% assign metafield_namespace = split_metafield_namespace_key[0] %}
+  {% assign metafield_key = split_metafield_namespace_key[1] %}
+  {% assign assigned_metafield = product.metafields[metafield_namespace][metafield_key] %}
+  {% assign products_per_row_desktop = 1 %}
+  {% assign products_per_row_mobile = 1 %}
+
+  {% if assigned_metafield != blank %}
+    {% assign collection = assigned_metafield.value.collection.value %}
+    {% assign products_count = collection.products_count %}
+
+    {%- render 'section-spacing-collapsing' -%}
+
+    <style>
+      {%- assign section_background = settings.background -%}
+      {%- assign card_background = settings.product_card_background -%}
+      {%- assign card_blends = false -%}
+
+      #shopify-section-{{ section.id }} {
+        .section {
+          --context-section-spacing-block-end: 80px;
+        }
+        .product-list {
+          --product-list-gap: var(--product-list-row-gap) var(--product-list-column-gap);
+          --product-list-items-per-row: {{ products_per_row_mobile | times: 1 }};
+          --product-list-carousel-item-width: calc(100vw - 32px);
+          --product-list-grid: auto / auto-flow var(--product-list-carousel-item-width);
+        }
+      }
+
+      @media screen and (min-width: 1000px) {
+        #shopify-section-{{ section.id }} {
+          .section {
+            --context-section-spacing-block-end: 120px;
+          }
+          .product-list {
+            --product-list-items-per-row: {{ products_per_row_desktop }};
+            --product-list-carousel-item-width: 400px;
+          }
+        }
+      }
+    </style>
+
+    {%- capture padding_classes -%}
+  section-padding-top-{{ section.settings.padding_top }} section-padding-bottom-{{ section.settings.padding_bottom }}
+{%- endcapture -%}
+    <div {% render 'section-properties', class: padding_classes %}>
+      {% if section.settings.show_section_id %}
+        <div class="section-id-label" style="font-size: 12px; color: #666; margin-bottom: 10px;">
+          Section ID: {{ section.id }}
+        </div>
+      {% endif %}
+      <div class="section-stack">
+        {%- render 'section-header',
+          subheading: assigned_metafield.value.subheading,
+          heading: assigned_metafield.value.heading
+        -%}
+
+        <div class="image-with-points__wrapper">
+          <div class="image-with-points__image-wrapper">
+            {% if assigned_metafield.value.image != blank %}
+              <div class="image-with-points__image-container">
+                <img src="{{ assigned_metafield.value.image | img_url: "original" }}">
+                {% for point in assigned_metafield.value.points.value %}
+                  <button
+                    style="left: {{ point.x_position }}%; top: {{ point.y_position }}%;"
+                    class="image-with-points__point-button"
+                  >
+                    <span> </span>
+                    <div class="image-with-points__point-info">{{ point.info }}</div>
+                  </button>
+                {% endfor %}
+              </div>
+            {% endif %}
+          </div>
+          <div class="image-with-points__collection-wrapper">
+            {% comment %}
+              {% for collection_product in collection.products %}
+                {%- render 'product-card', product: collection_product, stacked: false, position: forloop.index, show_badges: true -%}
+              {% endfor %}
+            {% endcomment %}
+
+            <div class="scrollable-with-controls">
+              {%- assign scroll_area_id = 'scroll-area-' | append: section.id -%}
+
+              <scroll-carousel
+                selector="product-card"
+                id="{{ scroll_area_id }}"
+                class="scroll-area bleed {% if products_count > products_per_row_desktop %}is-scrollable{% endif %}"
+              >
+                <reveal-items selector=".product-list > *">
+                  <product-list class="product-list">
+                    {%- assign products = collection.products -%}
+
+                    {%- for product in products limit: products_count -%}
+                      {%- render 'product-card',
+                        product: product,
+                        show_go_to: true,
+                        stacked: false,
+                        position: forloop.index,
+                        show_badges: true
+                      -%}
+                    {%- endfor -%}
+                  </product-list>
+                </reveal-items>
+              </scroll-carousel>
+
+              {%- assign default_progress = products_per_row_desktop | times: 1.0 | divided_by: products_count -%}
+              {%- render 'scrollbar',
+                observes: scroll_area_id,
+                default_progress: default_progress,
+                show_buttons: true
+              -%}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  {% endif %}
+{% endif %}
+
+{% schema %}
+{
+  "name": "Image with points",
+  "class": "shopify-section--image-with-points",
+  "tag": "section",
+  "disabled_on": {
+    "templates": ["password"],
+    "groups": ["header", "custom.overlay"]
+  },
+  "settings": [
+    {
+      "type": "text",
+      "id": "metafield_namespace_and_key",
+      "label": "Metafield namespace and key",
+      "info": "Enter the namespace and key of the product metafield. For example, 'custom.image-with-points'."
+    },
+
+    {
+      "type": "checkbox",
+      "id": "show_section_id",
+      "label": "Section-ID",
+      "default": false
+    },
+    {
+      "type": "select",
+      "id": "padding_top",
+      "label": "Padding top",
+      "options": [
+        { "value": "auto", "label": "auto" },
+        { "value": "0", "label": "0" },
+        { "value": "sm", "label": "sm" },
+        { "value": "md", "label": "md" },
+        { "value": "xl", "label": "xl" }
+      ],
+      "default": "auto"
+    },
+    {
+      "type": "select",
+      "id": "padding_bottom",
+      "label": "Padding bottom",
+      "options": [
+        { "value": "auto", "label": "auto" },
+        { "value": "0", "label": "0" },
+        { "value": "sm", "label": "sm" },
+        { "value": "md", "label": "md" },
+        { "value": "xl", "label": "xl" }
+      ],
+      "default": "auto"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Image with points",
+      "blocks": []
+    }
+  ]
+}
+{% endschema %}

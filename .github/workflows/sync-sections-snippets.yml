@@ -1,0 +1,91 @@
+name: Sync Sections & Snippets to US Theme Repo
+
+on:
+  push:
+    branches:
+      - main
+      - stage
+    paths:
+      - "sections/**"
+      - "snippets/**"
+      - "assets/**"
+
+jobs:
+  sync-files:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout EU repo (source)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Copy Sections & Snippets
+        run: |
+          rm -rf sync-tmp
+          mkdir -p sync-tmp
+          cp -r sections sync-tmp/
+          cp -r snippets sync-tmp/
+
+      # ⬇️ Manuelles Klonen des US-Repos mit Token (robust gegen fehlenden Branch)
+      - name: Clone US repo (manual, with token)
+        run: |
+          set -euo pipefail
+          US_URL="https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/DigitalsupportFissler/Shopify-US.git"
+          BR="${{ github.ref_name }}"
+          echo "Cloning US repo..."
+          git clone --filter=blob:none --no-checkout "$US_URL" us-repo
+          cd us-repo
+          # Versuche zuerst den gleichen Branch wie im EU-Commit zu holen ...
+          if git ls-remote --exit-code origin "refs/heads/$BR" >/dev/null 2>&1; then
+            echo "Checkout US branch '$BR'"
+            git checkout -B "$BR" "origin/$BR"
+          else
+            # ... ansonsten auf main ausweichen und denselben Branch lokal anlegen
+            echo "Branch '$BR' not found on US repo, fallback to 'main' then create '$BR'"
+            git checkout -B main origin/main
+            git checkout -B "$BR"
+          fi
+
+      # 🟣 Sparse Checkout: nur sections & snippets im Working Tree
+      - name: Prepare sparse working tree (sections + snippets only)
+        run: |
+          cd us-repo
+          git sparse-checkout init --cone
+          git sparse-checkout set sections snippets
+
+      # 🔹 Nur diese Ordner syncen; shop-spezifische Group-JSONs NICHT überschreiben
+      - name: Sync files to US repo (only sections & snippets; exclude group JSONs)
+        run: |
+          rsync -a --delete \
+            --exclude="sections/header-group.json" \
+            --exclude="sections/footer-group.json" \
+            --exclude="sections/overlay-group.json" \
+            sync-tmp/ us-repo/
+
+      # 📤 Commit & Push (Token-Remote, force-with-lease, vorher fetchen)
+      - name: Commit and push to US repo (force-with-lease)
+        run: |
+          set -euo pipefail
+          cd us-repo
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+
+          # Remote IMMER mit Token setzen
+          git remote remove origin || true
+          git remote add origin "https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/DigitalsupportFissler/Shopify-US.git"
+
+          git add sections snippets
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+
+          git commit -m "Sync sections & snippets from EU ${GITHUB_SHA} (sparse, excluding section group JSONs)"
+
+          # Vor --force-with-lease: Remote-Head aktualisieren (verhindert 'stale info')
+          git fetch origin "${{ github.ref_name }}" --prune || true
+
+          # Sicherer Force-Push nur für diesen Branch
+          git push --force-with-lease origin HEAD:"${{ github.ref_name }}"

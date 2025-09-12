@@ -1,0 +1,1000 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "content_width": "100%"
+      }
+    },
+    "featured_product_Ha3man": {
+      "type": "featured-product",
+      "blocks": {
+        "vendor_kfY8zG": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "title_eEHeUd": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "badges_EeNKcy": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price_PAexq7": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating_Yz8bQi": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "separator_4W4U7A": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description_D7T67Y": {
+          "type": "description",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "collapse_content": false
+          }
+        },
+        "variant_picker_VJatLN": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector_4JA94m": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_jxFghn": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "pickup_availability_VRpwth": {
+          "type": "pickup_availability",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "vendor_kfY8zG",
+        "title_eEHeUd",
+        "badges_EeNKcy",
+        "price_PAexq7",
+        "rating_Yz8bQi",
+        "separator_4W4U7A",
+        "description_D7T67Y",
+        "variant_picker_VJatLN",
+        "quantity_selector_4JA94m",
+        "buy_buttons_jxFghn",
+        "pickup_availability_VRpwth"
+      ],
+      "disabled": true,
+      "settings": {
+        "product": "adamant-comfort-pfanne",
+        "desktop_media_width": 35,
+        "desktop_media_layout": "grid_one",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "rich_text_mMpWwV": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_prAh97": {
+          "type": "heading",
+          "settings": {
+            "text": "Aktionen",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_J4xehD": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h6>Alexander Herrmann live in Frankfurt</h6><p>Feiere mit uns die neue Fissler PrimeCut Collection!</p>",
+            "font_size": "base"
+          }
+        },
+        "button_T7ajRF": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "xl",
+            "text": "Mehr erfahren",
+            "url": "shopify://pages/event-frankfurt-2025",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "image_F4dP7b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/AH_Event_Home_Header_2167x800_1.png",
+            "width_mode": "custom",
+            "max_width": 540,
+            "mobile_max_width": 350
+          }
+        }
+      },
+      "block_order": [
+        "heading_prAh97",
+        "richtext_J4xehD",
+        "button_T7ajRF",
+        "image_F4dP7b"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "show_section_id": false,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "image_link_blocks_pd3FeH": {
+      "type": "image-link-blocks",
+      "blocks": {
+        "item_xyy6C9": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/IG_LinkTree_ShadowLine_1200x1400_4bd4337a-9590-4182-8c8e-a209ce8f4ac2.png",
+            "stretch_image": true,
+            "link_text": "Exklusive Kollektion entdecken",
+            "link_url": "shopify://pages/exklusive-kollektion",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_yzVMeK": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Social_Link_Tree_1200x1400_12.png",
+            "stretch_image": true,
+            "link_text": "Fissler Essential® entdecken",
+            "link_url": "shopify://collections/fissler-essential-messer",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_hn4yrc": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Social_Link_Tree_1200x1400_13.png",
+            "stretch_image": true,
+            "link_text": "180 Jahre Fissler",
+            "link_url": "shopify://pages/180-jahre-fissler",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_ipGLqp": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Social_Link_Tree_1200x1400_3.png",
+            "stretch_image": true,
+            "link_text": "Teilnahmebedingungen",
+            "link_url": "shopify://pages/teilnahmebedingungen",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_e8jA6N": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Social_Link_Tree_1200x1400_14.png",
+            "stretch_image": true,
+            "link_text": "Original-Profi Collection®",
+            "link_url": "shopify://collections/original-profi-collection",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_KLC9KL": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Social_Link_Tree_1200x1400_15.png",
+            "stretch_image": true,
+            "link_text": "Küchenhelfer",
+            "link_url": "shopify://collections/kuechenhelfer",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_GRTrr7": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Social_Link_Tree_1200x1400_16.png",
+            "stretch_image": true,
+            "link_text": "Rezeptsammlung",
+            "link_url": "shopify://blogs/rezepte",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "item_xyy6C9",
+        "item_yzVMeK",
+        "item_hn4yrc",
+        "item_ipGLqp",
+        "item_e8jA6N",
+        "item_KLC9KL",
+        "item_GRTrr7"
+      ],
+      "name": "Image link blocks",
+      "settings": {
+        "block_size": "medium",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "text_alignment": "start",
+        "link_url": "",
+        "link_text": "",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto",
+        "items_per_row_1000": 8,
+        "items_per_row_1400": 8
+      }
+    },
+    "image_link_blocks_3mA6W3": {
+      "type": "image-link-blocks",
+      "blocks": {
+        "item_dgYpMT": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Social_Link_Tree_1200x1400_17.png",
+            "stretch_image": true,
+            "link_text": "70 Jahre Schnellkochen",
+            "link_url": "shopify://pages/70-jahre-schnellkochen",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_gJpCQd": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Social_Link_Tree_1200x1400_18.png",
+            "stretch_image": true,
+            "link_text": "Vitavit® Premium",
+            "link_url": "shopify://collections/vitavit",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_PghUge": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Social_Link_Tree_1200x1400_19.png",
+            "stretch_image": true,
+            "link_text": "Vitaquick® Premium",
+            "link_url": "shopify://collections/vitaquick-premium",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_HNx6Ty": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Social_Link_Tree_1200x1400_20.png",
+            "stretch_image": true,
+            "link_text": "Die Welt des Schnelkochens",
+            "link_url": "shopify://pages/die-welt-des-schnellkochens",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_T4kbfw": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Social_Link_Tree_1200x1400_21.png",
+            "stretch_image": true,
+            "link_text": "Schnellkochtopf Rezepte",
+            "link_url": "https://fissler.com/blogs/rezepte/tagged/schnellkochtopf/",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_qiFHG8": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Social_Link_Tree_1200x1400_22.png",
+            "stretch_image": true,
+            "link_text": "Garzeitenfinder",
+            "link_url": "shopify://blogs/produktwissen/schnellkochtopf-garzeitenfinder",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_XVVqdz": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Social_Link_Tree_1200x1400_23.png",
+            "stretch_image": true,
+            "link_text": "Vergleichsstudie",
+            "link_url": "shopify://blogs/produktwissen/schnellkochtopf-ratgeber",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_HcrE6A": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Social_Link_Tree_1200x1400_24.png",
+            "stretch_image": true,
+            "link_text": "Schnellkochtopf FAQ",
+            "link_url": "https://fissler.com/collections/schnellkochtoepfe/#shopify-section-template--25160974893405__faq_metaobjecte_dbjfhi",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "item_dgYpMT",
+        "item_gJpCQd",
+        "item_PghUge",
+        "item_HNx6Ty",
+        "item_T4kbfw",
+        "item_qiFHG8",
+        "item_XVVqdz",
+        "item_HcrE6A"
+      ],
+      "name": "Image link blocks",
+      "settings": {
+        "block_size": "medium",
+        "subheading": "",
+        "title": "Schnellkochtöpfe",
+        "content": "",
+        "text_alignment": "start",
+        "link_url": "",
+        "link_text": "",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto",
+        "items_per_row_1000": 8,
+        "items_per_row_1400": 8
+      }
+    },
+    "image_link_blocks_QJYAai": {
+      "type": "image-link-blocks",
+      "blocks": {
+        "item_rDKFYY": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Social_Link_Tree_1200x1400_8.png",
+            "stretch_image": true,
+            "link_text": "Die richtige Pfanne für jede Anwendung",
+            "link_url": "shopify://blogs/produktwissen/pfannen-ratgeber",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_WcMagr": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Social_Media_Link_Tree_Essential_Pfannen_1200x1400_ff2759fa-3eaa-4427-9020-394603e3cb56.png",
+            "stretch_image": true,
+            "link_text": "Fissler Essential® Pfannen",
+            "link_url": "shopify://collections/fissler-essential-pfannen",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_ebdYpE": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Pages_Instagram_Link_Block_1200x1400_2.png",
+            "stretch_image": true,
+            "link_text": "Original-Profi® Collection",
+            "link_url": "shopify://collections/original-profi-collection-edelstahl",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_3LGA6p": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Social_Link_Tree_1200x1400_6.png",
+            "stretch_image": true,
+            "link_text": "Ceratal®",
+            "link_url": "shopify://collections/ceratal",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_tX93iQ": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Social_Link_Tree_1200x1400_7.png",
+            "stretch_image": true,
+            "link_text": "Ceratal® Comfort - bekannt aus Galileo/ProSieben",
+            "link_url": "https://youtu.be/EvaJZKYxZv8",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_9Nngda": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Social_Link_Tree_1200x1400_8.png",
+            "stretch_image": true,
+            "link_text": "Adamant®",
+            "link_url": "shopify://collections/adamant",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_xATkPM": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Pages_Instagram_Link_Block_1200x1400_3.png",
+            "stretch_image": true,
+            "link_text": "Pure Collection",
+            "link_url": "shopify://collections/pure-collection",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_93tjyY": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Pages_Instagram_Link_Block_1200x1400_4.png",
+            "stretch_image": true,
+            "link_text": "Levital®+",
+            "link_url": "shopify://collections/levital",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_CNEHhb": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Social_Link_Tree_1200x1400_5.png",
+            "stretch_image": true,
+            "link_text": "Rezepte",
+            "link_url": "shopify://blogs/rezepte",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_dRDVhG": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Pages_Instagram_Link_Block_1200x1400_3bd68811-9fc2-4c5f-99a1-0e7fbfeb3358.png",
+            "stretch_image": true,
+            "link_text": "Moments Collection",
+            "link_url": "shopify://collections/moments-collection",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_iJVNWC": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Pages_Instagram_Link_Block_1200x1400_1_f7f15bae-6e1e-42f5-9b08-a41d48e64fb6.png",
+            "stretch_image": true,
+            "link_text": "Original-Profi® Collection Gusseisen",
+            "link_url": "shopify://collections/original-profi-collection-gusseisen",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "item_rDKFYY",
+        "item_WcMagr",
+        "item_ebdYpE",
+        "item_3LGA6p",
+        "item_tX93iQ",
+        "item_9Nngda",
+        "item_xATkPM",
+        "item_93tjyY",
+        "item_CNEHhb",
+        "item_dRDVhG",
+        "item_iJVNWC"
+      ],
+      "name": "Image link blocks",
+      "settings": {
+        "block_size": "medium",
+        "subheading": "",
+        "title": "Pfannen",
+        "content": "",
+        "text_alignment": "start",
+        "link_url": "",
+        "link_text": "",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto",
+        "items_per_row_1000": 8,
+        "items_per_row_1400": 8
+      }
+    },
+    "image_link_blocks_tEHmNM": {
+      "type": "image-link-blocks",
+      "blocks": {
+        "item_QHhmxW": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Pages_Instagram_Link_Block_1200x1400_5.png",
+            "stretch_image": true,
+            "link_text": "Original-Profi® Collection",
+            "link_url": "shopify://collections/original-profi-collection-edelstahl",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_jKQa87": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Social_Link_Tree_1200x1400_9.png",
+            "stretch_image": true,
+            "link_text": "Phi Collection",
+            "link_url": "shopify://collections/phi-collection",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_GBVDGE": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Social_Link_Tree_1200x1400_10.png",
+            "stretch_image": true,
+            "link_text": "Pure Collection",
+            "link_url": "shopify://collections/pure-collection",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_FMyGRz": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Pages_Instagram_Link_Block_1200x1400_6.png",
+            "stretch_image": true,
+            "link_text": "Moments Collection",
+            "link_url": "shopify://collections/moments-collection",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_bPbJP9": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Pages_Instagram_Link_Block_1200x1400_1.png",
+            "stretch_image": true,
+            "link_text": "Original-Profi® Collection Gusseisen",
+            "link_url": "shopify://collections/original-profi-collection-gusseisen",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_i7jzqK": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Social_Link_Tree_1200x1400_11.png",
+            "stretch_image": true,
+            "link_text": "Adamant®",
+            "link_url": "shopify://collections/adamant",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "item_QHhmxW",
+        "item_jKQa87",
+        "item_GBVDGE",
+        "item_FMyGRz",
+        "item_bPbJP9",
+        "item_i7jzqK"
+      ],
+      "name": "Image link blocks",
+      "settings": {
+        "block_size": "medium",
+        "subheading": "",
+        "title": "Töpfe",
+        "content": "",
+        "text_alignment": "start",
+        "link_url": "",
+        "link_text": "",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto",
+        "items_per_row_1000": 8,
+        "items_per_row_1400": 8
+      }
+    },
+    "image_link_blocks_CJMXre": {
+      "type": "image-link-blocks",
+      "blocks": {
+        "item_QdqGie": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Social_Media_Link_Tree_Essential_Messer_1200x1400_3fb1c06e-dc44-4f51-92f2-7138b5426b42.png",
+            "stretch_image": true,
+            "link_text": "Fissler Essential® Messer",
+            "link_url": "shopify://collections/fissler-essential-messer",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_LzjRJ9": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Social_Media_Link_Tree_Essential_Kuechenhelfer_1200x1400_ea2793f8-13c2-4bb2-8609-c587772359ee.png",
+            "stretch_image": true,
+            "link_text": "Fissler Essential® Küchenhelfer",
+            "link_url": "shopify://collections/fissler-essential-kuechenhelfer",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "item_QdqGie",
+        "item_LzjRJ9"
+      ],
+      "name": "Image link blocks",
+      "settings": {
+        "block_size": "medium",
+        "subheading": "",
+        "title": "Küchenhelfer",
+        "content": "",
+        "text_alignment": "start",
+        "link_url": "",
+        "link_text": "",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto",
+        "items_per_row_1000": 8,
+        "items_per_row_1400": 8
+      }
+    },
+    "image_link_blocks_r9UFUF": {
+      "type": "image-link-blocks",
+      "blocks": {
+        "item_b3g9pd": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Social_Link_Tree_1200x1400_1.png",
+            "stretch_image": true,
+            "link_text": "Made in Germany",
+            "link_url": "shopify://pages/made-in-germany",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_E6QyfK": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Social_Link_Tree_1200x1400_2.png",
+            "stretch_image": true,
+            "link_text": "Storefinder",
+            "link_url": "shopify://pages/store-locator",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_NdtLBN": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Social_Link_Tree_1200x1400_4.png",
+            "stretch_image": true,
+            "link_text": "Datenschutzerklärung",
+            "link_url": "shopify://policies/privacy-policy",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_ijR3Yt": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Social_Link_Tree_1200x1400_3.png",
+            "stretch_image": true,
+            "link_text": "Impressum",
+            "link_url": "shopify://policies/legal-notice",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "item_b3g9pd",
+        "item_E6QyfK",
+        "item_NdtLBN",
+        "item_ijR3Yt"
+      ],
+      "name": "Image link blocks",
+      "settings": {
+        "block_size": "medium",
+        "subheading": "",
+        "title": "Unternehmen",
+        "content": "",
+        "text_alignment": "start",
+        "link_url": "",
+        "link_text": "",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto",
+        "items_per_row_1000": 8,
+        "items_per_row_1400": 8
+      }
+    },
+    "collection_list_kRTjQ8": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_bHMDH4": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_4BjyaV": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_h4iXNN": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "collection_bHMDH4",
+        "collection_4BjyaV",
+        "collection_h4iXNN"
+      ],
+      "name": "Collection list",
+      "settings": {
+        "collection_list": [
+          "ceratal",
+          "vitavit",
+          "phi-collection",
+          "original-profi-collection",
+          "moments-collection",
+          "pure-collection"
+        ],
+        "stack_collections": true,
+        "collections_per_row_mobile": "1",
+        "collections_per_row": 4,
+        "show_progress_bar": false,
+        "subheading": "",
+        "title": "Entdecke unsere Produktkategorien",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "show_subheading": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "featured_product_Ha3man",
+    "rich_text_mMpWwV",
+    "image_link_blocks_pd3FeH",
+    "image_link_blocks_3mA6W3",
+    "image_link_blocks_QJYAai",
+    "image_link_blocks_tEHmNM",
+    "image_link_blocks_CJMXre",
+    "image_link_blocks_r9UFUF",
+    "collection_list_kRTjQ8"
+  ]
+}

@@ -1,0 +1,206 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "navigation": {
+          "type": "navigation",
+          "disabled": true,
+          "settings": {}
+        },
+        "comments": {
+          "type": "comments",
+          "disabled": true,
+          "settings": {
+            "show_gravatar": true,
+            "comments_per_page": 5
+          }
+        }
+      },
+      "block_order": [
+        "navigation",
+        "comments"
+      ],
+      "settings": {
+        "layout": "image_text_overlay",
+        "image": "{{ article.image }}",
+        "show_author": true,
+        "show_date": true,
+        "show_comments_count": true,
+        "show_share_buttons": true,
+        "show_header_image": true,
+        "banner_background": "",
+        "banner_text_color": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "content_width": "750px",
+        "stats_color": "#556132",
+        "is_recipe": false,
+        "content_alignment": "start"
+      }
+    },
+    "rich_text_WxkGNE": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_QXnige": {
+          "type": "heading",
+          "settings": {
+            "text": "Einfach dünsten.",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_G664HY": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Dünsten ist die einfachste und schonendste Garmethode. Sie eignet sich für zartes Gemüse und Obst, Fisch und empfindliche Fleischsorten wie Kalb oder Huhn. Als Dünsten wird das Garen im eigenen Saft unter Zugabe von wenig Fett und Flüssigkeit bezeichnet.<br/>Besonders gesundheitsbewusste Köche sparen das Fett dabei ganz ein oder geben es in Form von wenigen Tropfen Öl, Butter oder Sahne zum Schluss dazu. Da viele Aromastoffe und Vitamine fettlöslich sind, wird Fett gerne als Geschmacksträger verwendet.</p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_QXnige",
+        "richtext_G664HY"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "rich_text_hA7tAe": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_NehMnG": {
+          "type": "heading",
+          "settings": {
+            "text": "Saftig schmoren.",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_GAEX8r": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Schmoren ist ein Garverfahren, das die Vorteile von Fett, Flüssigkeit und Dampf kombiniert. Das Gargut wird kurz in wenig heißem Fett gebräunt oder angebraten und mit etwas heißer Flüssigkeit bei geschlossenem Deckel langsam fertig gegart. Durch das langsame Garen werden Schmorgerichte besonders saftig und aromatisch. Beim Anbraten mit Fett bildet sich eine braune Kruste – mit diesen Röststoffen kannst du anschließend eine schmackhafte Sauce herstellen. In antihaftbeschichtetem Kochgeschirr kannst du Gargut auch ohne Fett anbraten.</p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_NehMnG",
+        "richtext_GAEX8r"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "rich_text_GYLArT": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_wrFaKQ": {
+          "type": "heading",
+          "settings": {
+            "text": "Sparsam quellen.",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_yVDxJc": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Quellen ist das Garen in reichlich Flüssigkeit bei niedriger Temperatur. Das Gargut saugt das Wasser auf und vergrößert dadurch sein Volumen. Quellen eignet sich für Reis und Getreide. Und so funktioniert es: Setze den Reis kalt auf. Je Tasse Reis benötigst du 2 Tassen Wasser und etwas Salz. Erhitze den Topf auf höchster (Elektroherd) oder mittlerer bis höherer (Gas- und Induktionsherd) Stufe. Wenn das Wasser zu kochen beginnt, schalte auf die kleinste Stufe zurück und lasse den Reis ausquellen. Der Topf muss immer geschlossen sein, damit keine Flüssigkeit verloren geht. Während des Quellens sollte die Temperatur der Flüssigkeit immer unter dem Siedepunkt bleiben.</p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_wrFaKQ",
+        "richtext_yVDxJc"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "blog_posts_47mePh": {
+      "type": "blog-posts",
+      "blocks": {
+        "blog_TLikj3": {
+          "type": "blog",
+          "settings": {
+            "blog": "news",
+            "posts_count": 3,
+            "stack_items": false
+          }
+        }
+      },
+      "block_order": [
+        "blog_TLikj3"
+      ],
+      "name": "Blog posts",
+      "settings": {
+        "show_excerpt": true,
+        "show_date": true,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": true,
+        "show_overall_time": false,
+        "subheading": "",
+        "title": "Mehr Kochtipps",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto",
+        "blog_handle": "Kochtipps",
+        "posts_count": 4
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_WxkGNE",
+    "rich_text_hA7tAe",
+    "rich_text_GYLArT",
+    "blog_posts_47mePh"
+  ]
+}

@@ -1,0 +1,58 @@
+{% assign url_parts = request.path | split: '/' %}
+{% assign breadcrumbs = "" %}
+
+<nav class="breadcrumb" aria-label="Breadcrumb">
+  <ol class="flex space-x-2 text-gray-600">
+
+    <!-- Statischer erster Punkt -->
+    <li>
+      <a href="/blogs/inspiration" class="hover:underline">Inspiration</a>
+    </li>
+
+    {% if url_parts.size > 2 %}
+      {% assign category = url_parts[2] %}
+      <li>
+        <span class="mx-1">/</span>
+        <a href="/blogs/{{ category }}" class="hover:underline">{{ category | capitalize }}</a>
+      </li>
+    {% endif %}
+
+    {% if article and article.metafields.custom.breadcrumb %}
+      <li>
+        <span class="mx-1">/</span>
+        <span class="font-semibold text-black">{{ article.metafields.custom.breadcrumb }}</span>
+      </li>
+    {% endif %}
+
+  </ol>
+</nav>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var params = new URLSearchParams(window.location.search);
+    var tag = params.get('tag');
+    // Remove any leftover query parts, e.g. "?page=2"
+    if (tag && tag.indexOf('?') !== -1) {
+      tag = tag.split('?')[0];
+    }
+    // Fallback: extract tag from URL path if no query param (ignoring page queries)
+    if (!tag) {
+      var pathParts = window.location.pathname.split('/');
+      var taggedIndex = pathParts.indexOf('tagged');
+      if (taggedIndex > -1 && pathParts.length > taggedIndex + 1) {
+        tag = pathParts[taggedIndex + 1];
+      }
+    }
+    if (!tag) return;
+    var ol = document.querySelector('nav.breadcrumb ol');
+    if (!ol) return;
+    var parts = window.location.pathname.split('/');
+    var blogHandle = parts.length > 2 ? parts[2] : 'blogs';
+    var li = document.createElement('li');
+    li.innerHTML =
+      '<span class="mx-1">/</span> ' +
+      '<a href="/blogs/' + blogHandle + '/tagged/' + tag + '" class="hover:underline breadcrumb-tag">' +
+        decodeURIComponent(tag.replace(/-/g,' ')) +
+      '</a>';
+    ol.appendChild(li);
+  });
+</script>

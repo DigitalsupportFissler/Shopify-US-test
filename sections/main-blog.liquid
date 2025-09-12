@@ -1,0 +1,641 @@
+{%- render 'section-spacing-collapsing' -%}
+
+<style>
+    #shopify-section-{{ section.id }} {
+      {%- if section.settings.allow_transparent_header -%}
+        --banner-spacing-block-added: var(--header-height);
+
+        margin-block-start: calc(-1 * var(--header-height) * var(--section-is-first));
+      {%- endif -%}
+      --banner-content-padding-block-start: {%- if section.settings.allow_transparent_header -%}var(--spacing-12){% else %}var(--spacing-16){% endif %};
+    }
+
+    @media screen and (min-width: 700px) {
+      #shopify-section-{{ section.id }} {
+        --banner-content-padding-block-start: {%- if section.settings.allow_transparent_header -%}var(--spacing-18){% else %}var(--spacing-28){% endif %};
+      }
+    }
+    .shopify-section--header{
+      z-index: 100
+    }
+
+    /* Unterstreicht den aktive Tab schwarz */
+  .blog-filter-list li[aria-selected="true"] a {
+    font-weight: 700;
+  }
+
+    .blog-filter-list {
+      position: -webkit-sticky;
+      position: sticky;
+      top: var(--header-height);
+      width: 100%;
+
+    }
+    .blog-filter-list ul::-webkit-scrollbar {
+      display: none;              /* Chrome/Safari/Opera */
+    }
+    .blog-filter-list ul[role="tablist"] {
+      display: flex;
+      flex-wrap: nowrap;
+      overflow-x: auto;
+      padding: 0;
+      margin: 0;
+      scrollbar-width: none;      /* Firefox */
+     -ms-overflow-style: none;   /* IE/Edge */
+    }
+    .blog-filter-list li {
+      flex: 1;
+      min-width: 130px;
+      text-align: center;
+      min-height: 50px;
+    }
+    .blog-filter-list a {
+      padding: 20px 0;
+      display: block;
+      /* allow wrapping instead of truncation */
+      white-space: normal;
+      overflow-wrap: break-word;
+      /* remove these: */
+      /* overflow: hidden; */
+      /* text-overflow: ellipsis; */
+    }
+
+    .sticky-wrapper {
+      position: -webkit-sticky;
+      position: sticky;
+      top: var(--header-height, 120px);
+      z-index: 1;
+      padding-top: 30px;
+
+    }
+    @media screen and (max-width: 1149px) {
+      .sticky-wrapper {
+        top: 90px;
+         padding-top: 0px;
+      }
+    }
+    .sticky-container {
+     padding: var(--spacing-4);
+     background: var(--color-background, #fff);
+    }
+
+    .sticky-wrapper.is-stopped {
+      position: static !important;
+      top: auto !important;
+      /* Optional: komplett ausblenden
+      opacity: 0;
+      pointer-events: none;
+      */
+    }
+</style>
+<div
+  class="blog"
+  {% if section.settings.allow_transparent_header %}
+    allow-transparent-header
+  {% endif %}
+>
+  {% if section.settings.show_section_id %}
+    <div class="section-id-label" style="font-size: 12px; color: #666; margin-bottom: 10px;">
+      Section ID: {{ section.id }}
+    </div>
+  {% endif %}
+  {%- if blog.articles_count == 0 -%}
+    <div class="empty-state">
+      <div class="empty-state__icon-wrapper">
+        {%- render 'icon' with 'picto-comment', width: 32, height: 32, stroke_width: 1 -%}
+      </div>
+
+      <div class="prose">
+        <h1 class="h4">{{ 'blog.general.empty_blog' | t }}</h1>
+
+        {%- assign button_content = 'blog.general.back_to_home' | t -%}
+        {%- render 'button', size: 'xl', content: button_content, href: routes.root_url -%}
+      </div>
+    </div>
+  {%- else -%}
+    <header
+      {% render 'surface',
+        class: 'blog-banner',
+        text_color: section.settings.banner_text_color,
+        background: section.settings.banner_background,
+        background_fallback: 'bg-white'
+      %}
+    >
+      <div class="container">
+        {%- if section.settings.show_heading -%}
+          <div class="blog-banner-content v-stack gap-10 text-center justify-items-center">
+            <div class="v-stack gap-5 sm:gap-8">
+              <h1 class="h0">{{- blog.title -}}</h1>
+            </div>
+          </div>
+        {%- endif -%}
+        {%- comment -%} Tag underline calculation {%- endcomment -%}
+      </div>
+    </header>
+  {%- endif -%}
+
+  <div class="sticky-wrapper container">
+    <div class="sticky-container">
+      {%- assign scroll_area_id = 'blog-tag-scroll-' | append: section.id -%}
+      {%- assign default_progress = 0 -%}
+      {%- assign total_tags = blog.all_tags.size -%}
+      {%- assign active_position = 1 -%}
+      {%- if current_tags != blank -%}
+        {%- assign idx = 0 -%}
+        {%- for tag in blog.all_tags -%}
+          {%- assign idx = idx | plus: 1 -%}
+          {%- if current_tags contains tag -%}
+            {%- assign active_position = idx -%}
+          {%- endif -%}
+        {%- endfor -%}
+      {%- endif -%}
+
+      {%- if section.settings.show_tags and blog.all_tags.size > 0 -%}
+        {%- if section.settings.use_tag_mapping -%}
+          <div class="blog-filter-list is-scrollable">
+            <ul role="tablist" class="h-stack bold text-base peer scroll-area" id="{{ scroll_area_id }}">
+              <li role="tab" aria-selected="{% if current_tags == blank %}true{% endif %}">
+                <a href="{{ blog.url }}">
+                  {% unless current_tags == blank %}
+                    <span class="reversed-link hover:show">{{ 'blog.general.all_posts' | t }}</span>
+                  {% else %}
+                    <span class="link">{{ 'blog.general.all_posts' | t }}</span>
+                  {% endunless %}
+                </a>
+              </li>
+              {%- for block in section.blocks -%}
+                {%- assign tag = block.settings.tag -%}
+                <li role="tab" aria-selected="{% if current_tags contains tag %}true{% endif %}">
+                  <a
+                    href="{{ blog.url }}/tagged/{{ tag | handle }}?tag={{ tag }}"
+                    class="{% if current_tags contains tag %}link{% endif %}"
+                  >
+                    {% unless current_tags contains tag %}
+                      <span class="reversed-link hover:show">{{ tag }}</span>
+                    {% else %}
+                      <span class="link">{{ tag }}</span>
+                    {% endunless %}
+                  </a>
+                </li>
+              {%- endfor -%}
+            </ul>
+            {%- render 'scrollbar', observes: scroll_area_id, default_progress: default_progress, show_buttons: true -%}
+          </div>
+        {%- else -%}
+          <div class="blog-filter-list is-scrollable">
+            <ul role="tablist" class="h-stack bold text-base peer scroll-area" id="{{ scroll_area_id }}">
+              <li role="tab" aria-selected="{% if current_tags == blank %}true{% endif %}">
+                <a href="{{ blog.url }}">
+                  {% if current_tags == blank %}
+                    <span class="link">{{ 'blog.general.all_posts' | t }}</span>
+                  {% else %}
+                    <span class="reversed-link hover:show">{{ 'blog.general.all_posts' | t }}</span>
+                  {% endif %}
+                </a>
+              </li>
+              {%- for tag in blog.all_tags -%}
+                <li role="tab" aria-selected="{% if current_tags contains tag %}true{% endif %}">
+                  {%- if current_tags contains tag -%}
+                    {{ tag | link_to_remove_tag: tag | replace: '>', '><span class="link">' | replace: '</a>', '</span></a>' }}
+                  {%- else -%}
+                    <a
+                      href="{{ blog.url }}/tagged/{{ tag | handle }}"
+                      title="Show products matching tag {{ tag | escape }}"
+                    >
+                      <span class="reversed-link hover:show">{{ tag }}</span>
+                    </a>
+                  {%- endif -%}
+                </li>
+              {%- endfor -%}
+            </ul>
+            {%- render 'scrollbar', observes: scroll_area_id, default_progress: default_progress, show_buttons: true -%}
+          </div>
+        {%- endif -%}
+      {%- endif -%}
+    </div>
+  </div>
+
+  <script>
+    (function () {
+      function initBlogTagScroll() {
+        const scrollArea = document.getElementById('{{ scroll_area_id }}');
+        if (!scrollArea) return;
+
+        const nextBtn = document.querySelector(`button[is="next-button"][aria-controls="{{ scroll_area_id }}"]`);
+        const prevBtn = document.querySelector(`button[is="prev-button"][aria-controls="{{ scroll_area_id }}"]`);
+        const progressEl = document.querySelector(`scroll-progress[observes="{{ scroll_area_id }}"]`);
+
+        const items = scrollArea.querySelectorAll('li');
+        const total = items.length || 1; // avoid division by zero
+
+        function updateScrollableFlag() {
+          const overflow = scrollArea.scrollWidth > scrollArea.clientWidth + 1;
+          scrollArea.classList.toggle('is-scrollable', overflow);
+        }
+
+        function stepWidth() {
+          // Approximate a step by average item width plus gap
+          const first = items[0];
+          if (!first) return 0;
+          const style = window.getComputedStyle(scrollArea);
+          const gap = parseFloat(style.columnGap || style.gap || 0) || 0;
+          return first.offsetWidth + gap;
+        }
+
+        function indexFromScroll() {
+          const w = stepWidth();
+          if (w === 0) return 0;
+          return Math.round(scrollArea.scrollLeft / w);
+        }
+
+        function setProgressByIndex(idx) {
+          const denom = Math.max(total - 1, 1);
+          const progress = Math.min(Math.max(idx / denom, 0), 1);
+          if (progressEl) progressEl.style.setProperty('--scroll-progress', progress);
+        }
+
+        function updateButtons() {
+          updateScrollableFlag();
+          const maxLeft = scrollArea.scrollWidth - scrollArea.clientWidth;
+          if (prevBtn) prevBtn.disabled = scrollArea.scrollLeft <= 0;
+          if (nextBtn) nextBtn.disabled = scrollArea.scrollLeft >= maxLeft - 1;
+          setProgressByIndex(indexFromScroll());
+        }
+
+        function scrollByStep(dir) {
+          const w = stepWidth() || 200;
+          scrollArea.scrollBy({ left: dir * w, behavior: 'smooth' });
+        }
+
+        if (nextBtn)
+          nextBtn.onclick = function () {
+            scrollByStep(1);
+          };
+        if (prevBtn)
+          prevBtn.onclick = function () {
+            scrollByStep(-1);
+          };
+
+        scrollArea.addEventListener('scroll', updateButtons, { passive: true });
+        updateScrollableFlag();
+        window.addEventListener('resize', function () {
+          setTimeout(function () {
+            updateScrollableFlag();
+            updateButtons();
+          }, 150);
+        });
+        updateButtons();
+      }
+
+      document.addEventListener('DOMContentLoaded', initBlogTagScroll);
+    })();
+  </script>
+
+  <div class="blog-posts__container container">
+    {%- assign raw_tags = current_tags | remove: '[' | remove: ']' | remove: '"' -%}
+    {%- assign active_tags = raw_tags | split: ',' -%}
+    {%- assign matched = false -%}
+    {%- for block in section.blocks -%}
+      {%- if block.type == 'tag_mapping' and active_tags contains block.settings.tag -%}
+        {%- assign matched = true -%}
+        <div
+          class="blog-posts__container-content"
+          style="
+            padding-top: {{ section.settings.padding_top }}px;
+            padding-bottom: {{ section.settings.padding_bottom }}px;
+            text-align: {{ section.settings.alignment }};
+          "
+        >
+          {%- if block.settings.sub_heading != blank -%}
+            <h2 class="h2 blog-posts-subheading">{{ block.settings.sub_heading }}</h2>
+          {%- endif -%}
+          {%- if block.settings.sub_content != blank -%}
+            <div class="prose blog-posts-content">{{ block.settings.sub_content }}</div>
+          {%- endif -%}
+        </div>
+      {%- endif -%}
+    {%- endfor -%}
+    {%- unless matched -%}
+      <div
+        class="blog-posts__container-content"
+        style="padding-top: {{ section.settings.padding_top }}px; padding-bottom: {{ section.settings.padding_bottom }}px; text-align: {{ section.settings.alignment }};"
+      >
+        {%- if section.settings.sub_heading != blank -%}
+          <h2 class="h2 blog-posts-subheading">{{ section.settings.sub_heading }}</h2>
+        {%- endif -%}
+        {%- if section.settings.sub_content != blank -%}
+          <div class="prose blog-posts-content">{{ section.settings.sub_content }}</div>
+        {%- endif -%}
+      </div>
+    {%- endunless -%}
+    {%- paginate blog.articles by section.settings.articles_per_page -%}
+      <div class="blog-posts">
+        {%- for article in blog.articles -%}
+          {%- assign article_index = forloop.index -%}
+
+          {%- if section.blocks.size > 0 -%}
+            {%- for block in section.blocks -%}
+              {%- assign block_position = block.settings.position | at_most: section.settings.articles_per_page -%}
+
+              {%- if block_position == article_index -%}
+                <div
+                  {% render 'surface',
+                    class: 'blog-posts-newsletter v-stack gap-6 sm:gap-8 text-center rounded',
+                    text_color: block.settings.text_color,
+                    background: block.settings.background,
+                    background_fallback: 'bg-secondary'
+                  %}
+                >
+                  <div class="blog-posts-newsletter__content v-stack gap-4 justify-items-center sm:gap-6">
+                    {%- render 'icon' with 'picto-envelope', width: 24, height: 24 -%}
+
+                    {%- if block.settings.title != blank -%}
+                      <p class="h4">{{- block.settings.title -}}</p>
+                    {%- endif -%}
+
+                    {%- if block.settings.content != blank -%}
+                      <div class="prose">
+                        {{- block.settings.content -}}
+                      </div>
+                    {%- endif -%}
+                  </div>
+
+                  {%- form 'customer', id: 'blog-posts-newsletter-form', class: 'form form--tight' -%}
+                    <div class="fieldset">
+                      {%- if form.posted_successfully? -%}
+                        {%- capture success_message -%}{{ 'general.newsletter.subscribed_successfully' | t }}{%- endcapture -%}
+                        {%- render 'banner', content: success_message, status: 'success' -%}
+                      {%- else -%}
+                        {%- if form.errors -%}
+                          {%- assign content = form.errors | default_errors -%}
+                          {%- render 'banner', status: 'error', content: content -%}
+                        {%- endif -%}
+                      {%- endif -%}
+
+                      <input type="hidden" name="contact[tags]" value="newsletter">
+
+                      {%- assign label = 'blog.comments.email' | t -%}
+                      {%- render 'input',
+                        type: 'email',
+                        name: 'contact[email]',
+                        label: label,
+                        value: customer.email,
+                        required: true,
+                        autocomplete: 'email'
+                      -%}
+                    </div>
+
+                    {%- render 'button',
+                      content: block.settings.button_text,
+                      icon: 'picto-envelope',
+                      type: 'submit',
+                      size: 'xl',
+                      secondary: true
+                    -%}
+                  {%- endform -%}
+
+                  {%- if block.settings.subtext != blank -%}
+                    <p class="text-sm text-subdued">{{- block.settings.subtext -}}</p>
+                  {%- endif -%}
+                </div>
+              {%- endif -%}
+            {%- endfor -%}
+          {%- endif -%}
+
+          {%- capture sizes -%}(max-width: 699px) 100vw, (max-width: 1149px) calc(100vw / 2 - 40px), (max-width: 1399px) calc(min(100vw, {{ settings.page_width }}px) / 3 - 40px) , calc(min(100vw, {{ settings.page_width }}px) / 3 - 80px) {%- endcapture -%}
+          {%- render 'blog-post-card',
+            article: article,
+            show_excerpt: false,
+            show_date: section.settings.show_date,
+            show_author: section.settings.show_author,
+            show_comments_count: section.settings.show_comments_count,
+            show_category: section.settings.show_category,
+            sizes: sizes,
+            position: forloop.index,
+            show_prep_time: section.settings.show_prep_time,
+            prep_time: article.metafields.custom.total_time,
+            show_recipe_yield: section.settings.show_recipe_yield,
+            recipe_yield: article.metafields.custom.yield
+          -%}
+        {%- endfor -%}
+      </div>
+      {%- render 'pagination', paginate: paginate -%}
+    {%- endpaginate -%}
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    // Sucht das Header-Element mit dem Attribut allow-transparency
+    var storeHeader = document.querySelector('store-header[allow-transparency]');
+    if (storeHeader) {
+      storeHeader.removeAttribute('allow-transparency');
+    }
+  });
+</script>
+
+{% schema %}
+{
+  "name": "Blog",
+  "class": "shopify-section--main-blog",
+  "tag": "section",
+  "blocks": [
+    {
+      "type": "tag_mapping",
+      "name": "Tag-Mapping",
+      "settings": [
+        {
+          "type": "text",
+          "id": "tag",
+          "label": "Tag-Name to match exsiting tags"
+        },
+        {
+          "type": "text",
+          "id": "sub_heading",
+          "label": "Sub-Heading for this Tag"
+        },
+        {
+          "type": "richtext",
+          "id": "sub_content",
+          "label": "Content for this Tag"
+        }
+      ]
+    }
+  ],
+  "settings": [
+    {
+      "type": "text",
+      "id": "fallback_heading",
+      "label": "Fallback-Überschrift",
+      "default": "Blogposts"
+    },
+    {
+      "type": "image_picker",
+      "id": "fallback_image",
+      "label": "Fallback-Bild"
+    },
+    {
+      "type": "header",
+      "content": "Banner"
+    },
+    {
+      "type": "text",
+      "id": "sub_heading",
+      "label": "Sub-Heading",
+      "default": "Rezeptideen leicht gemacht: Inspiration für jeden Anlass"
+    },
+    {
+      "type": "richtext",
+      "id": "sub_content",
+      "label": "Content",
+      "default": " <p>Im Rezepte-Dschungel kann man schon einmal die Orientierung verlieren. Mit unseren thematischen Rezeptsammlungen findet ihr schnell und gezielt Inspiration, egal ob ihr Verwendung für eure Zucchinis sucht oder sich vegane Gäste zum Kuchen angekündigt haben: Wir haben die passenden Sammlungen mit unseren besten Rezepten parat!</p>"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Padding oben (px)",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Padding unten (px)",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "default": 20
+    },
+    {
+      "type": "select",
+      "id": "alignment",
+      "label": "Ausrichtung",
+      "options": [
+        { "value": "left", "label": "Links" },
+        { "value": "center", "label": "Zentriert" },
+        { "value": "right", "label": "Rechts" }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "checkbox",
+      "id": "allow_transparent_header",
+      "label": "Allow transparent header",
+      "info": "This setting only applies when this section is the first one.",
+      "default": false
+    },
+    {
+      "type": "richtext",
+      "id": "content",
+      "label": "Content",
+      "default": "<p>Get access to our latest news by signing up for our newsletter.</p>"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_tags",
+      "label": "Show tags",
+      "default": true,
+      "info": "Categorize your blog posts by [adding tags](https://help.shopify.com/en/manual/online-store/blogs/writing-blogs#add-tags-to-a-blog-post)."
+    },
+    {
+      "type": "checkbox",
+      "id": "use_tag_mapping",
+      "label": "Use tag mapping logic",
+      "default": false,
+      "info": "When enabled, only tags defined in Tag-Mapping blocks are displayed in the specified order."
+    },
+    {
+      "type": "checkbox",
+      "id": "show_heading",
+      "label": "Show heading",
+      "default": true
+    },
+    {
+      "type": "color",
+      "id": "banner_background",
+      "label": "Background"
+    },
+    {
+      "type": "color",
+      "id": "banner_text_color",
+      "label": "Text"
+    },
+    {
+      "type": "color",
+      "id": "button_background",
+      "label": "Button background"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "label": "Button text"
+    },
+    {
+      "type": "header",
+      "content": "Blog post listing"
+    },
+    {
+      "type": "range",
+      "id": "articles_per_page",
+      "label": "Articles per page",
+      "min": 5,
+      "max": 24,
+      "step": 1,
+      "default": 6
+    },
+    {
+      "type": "color",
+      "id": "feature_article_background",
+      "label": "Featured article background"
+    },
+    {
+      "type": "color",
+      "id": "feature_article_text_color",
+      "label": "Featured article text"
+    },
+    {
+      "type": "header",
+      "content": "Blog post card"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_date",
+      "label": "Show date",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_author",
+      "label": "Show author",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "show_comments_count",
+      "label": "Show comments count",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "show_category",
+      "label": "Show category",
+      "info": "The first post's tag will be shown as category.",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_prep_time",
+      "label": "Show prep time",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "show_recipe_yield",
+      "label": "Show recipe yield",
+      "default": false
+    }
+  ]
+}
+{% endschema %}

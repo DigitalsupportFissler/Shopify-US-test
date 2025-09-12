@@ -1,0 +1,207 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "navigation": {
+          "type": "navigation",
+          "disabled": true,
+          "settings": {}
+        },
+        "comments": {
+          "type": "comments",
+          "disabled": true,
+          "settings": {
+            "show_gravatar": true,
+            "comments_per_page": 5
+          }
+        }
+      },
+      "block_order": [
+        "navigation",
+        "comments"
+      ],
+      "settings": {
+        "layout": "image_text_overlay",
+        "image": "{{ article.image }}",
+        "show_author": true,
+        "show_date": true,
+        "show_comments_count": true,
+        "show_share_buttons": true,
+        "show_header_image": true,
+        "banner_background": "",
+        "banner_text_color": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "content_width": "750px",
+        "stats_color": "#556132",
+        "is_recipe": false,
+        "content_alignment": "start"
+      }
+    },
+    "multi_column_mTCC6D": {
+      "type": "multi-column",
+      "blocks": {
+        "item_99izQA": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Schritt 1:",
+            "heading_tag": "h4",
+            "content": "<p>Weißer Spargel wird zunächst geschält. </p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_RHeprw": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Schritt 2:",
+            "heading_tag": "h4",
+            "content": "<p>Dann kommen mindestens 200 bis 300 ml Wasser in den Schnellkochtopf. Werden die Stangen liegend gegart, sollten sie am besten nur gerade eben mit Wasser bedeckt sein. </p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_c6N39e": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Schritt 3:",
+            "heading_tag": "h4",
+            "content": "<p>Nach kurzer Garzeit ist der Spargel servierfähig. Die Zubereitung von 500 g Spargel (ganze Stangen) im Gareinsatz dauert auf Stufe 1 zum Beispiel gerade einmal 3 bis 6 Minuten. Ebenso schnell und schonend lassen sich auch komplette Spargelgerichte im Vitavit® Premium zubereiten.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_99izQA",
+        "item_RHeprw",
+        "item_c6N39e"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "Schnell, schneller, Schnellkochtopf",
+        "content": "<p>Ob weißer oder grüner Spargel, die Zubereitungszeit wird mit dem Schnellkochtopf auf ein Minimum reduziert und das Gemüse auf den Punkt gar. Und so geht’s: </p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "sm",
+        "padding_bottom": "md"
+      }
+    },
+    "media_with_text_harTPq": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_nLXWt3": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Ratgeber_Produktwissen_MEdia_with_Text_Spargel_SKT__1500x1500_847c51bb-8e4f-43c1-8f77-951ebc3e31b7.png",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Ein zusätzlicher Tipp:",
+            "heading_tag": "h3",
+            "content": "<p>Größere Portionen Spargel werden besonders lecker, wenn Butter, Salz und Zucker ins Wasser gegeben werden und für zusätzliche Aromen sorgen. Der Einsatz wird dazu einfach auf den Boden des Schnellkochtopfs gestellt (ohne Drehbein).</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "image_nLXWt3"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "xl"
+      }
+    },
+    "blog_posts_CBKUUh": {
+      "type": "blog-posts",
+      "blocks": {
+        "blog_JMFa7C": {
+          "type": "blog",
+          "settings": {
+            "blog": "news",
+            "posts_count": 3,
+            "stack_items": false
+          }
+        }
+      },
+      "block_order": [
+        "blog_JMFa7C"
+      ],
+      "name": "Blog posts",
+      "settings": {
+        "show_excerpt": true,
+        "show_date": true,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": true,
+        "show_overall_time": false,
+        "subheading": "",
+        "title": "Weitere Kochtipps entdecken",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto",
+        "blog_handle": "kochtipps",
+        "posts_count": 4
+      }
+    }
+  },
+  "order": [
+    "main",
+    "multi_column_mTCC6D",
+    "media_with_text_harTPq",
+    "blog_posts_CBKUUh"
+  ]
+}

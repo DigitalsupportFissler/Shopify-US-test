@@ -1,0 +1,248 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "navigation": {
+          "type": "navigation",
+          "disabled": true,
+          "settings": {}
+        },
+        "comments": {
+          "type": "comments",
+          "disabled": true,
+          "settings": {
+            "show_gravatar": true,
+            "comments_per_page": 5
+          }
+        }
+      },
+      "block_order": [
+        "navigation",
+        "comments"
+      ],
+      "settings": {
+        "layout": "image_text_overlay",
+        "image": "{{ article.image }}",
+        "show_author": true,
+        "show_date": true,
+        "show_comments_count": true,
+        "show_share_buttons": true,
+        "show_header_image": true,
+        "banner_background": "",
+        "banner_text_color": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "content_width": "750px",
+        "stats_color": "#556132",
+        "is_recipe": false,
+        "content_alignment": "start"
+      }
+    },
+    "multi_column_bz8V6F": {
+      "type": "multi-column",
+      "blocks": {
+        "item_Qf9jnm": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Ratgeber_Produktwissen_Multi_Column_Zwiebel_Schale_entfernen_1200x900_1132ad2b-852a-4131-b074-b292e519ddda.png",
+            "column_size": "4",
+            "title": "1. Schale entfernen",
+            "heading_tag": "h4",
+            "content": "<p>Vorsichtig die Schale entfernen und die Zwiebel anschließend längs von der Wurzel zur Spitze halbieren. Wichtig: Die Wurzel der Zwiebel nicht entfernen! Eine Hälfte der Zwiebel mit der Schnittfläche nach unten auf das Schneidebrett legen. Kleiner Tipp zur optimalen Handhaltung, damit du dich nicht schneidest: Die Fingerkuppen so auf die Zwiebel aufsetzen, dass sie leicht gebeugt auf der Zwiebel aufliegen. So kann das Messer ganz leicht an den Fingergliedern entlang geführt werden.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_yVK38b": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Ratgeber_Produktwissen_Multi_Column_Zwiebel_Streifen_schneiden_1200x900_b528f6ff-80bb-4ba3-be4f-8657b5e68c42.png",
+            "column_size": "4",
+            "title": "2. Streifen schneiden",
+            "heading_tag": "h4",
+            "content": "<p>Die Zwiebelhälfte längs bis kurz vor die Wurzel in Streifen schneiden, so dass sie noch von der Wurzel zusammen gehalten werden.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_ACPMJw": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Ratgeber_Produktwissen_Multi_Column_Zwiebel_Wurzel_einschneiden_1200x900_1c07ee88-4116-4585-9835-000a44af7ac6.png",
+            "column_size": "4",
+            "title": "3. Wurzel einschneiden",
+            "heading_tag": "h4",
+            "content": "<p>Nun die Zwiebel zwei- bis dreimal horizontal bis kurz vor der Wurzel einschneiden. Je öfter du die Zwiebel mit dem Gemüsemesser schneidest, desto feiner werden nachher die Würfel.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_wctBTn": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Ratgeber_Produktwissen_Multi_Column_Zwiebel_Wuerfel_schneiden_1200x900_f31294bd-d12e-4905-8c1a-2529e16fefb0.png",
+            "column_size": "4",
+            "title": "4. In Würfel  schneiden",
+            "heading_tag": "h4",
+            "content": "<p>Zum Schluss die Zwiebel quer zur Faser schneiden, dabei zerfällt sie von selbst in viele feine Würfel.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_Qf9jnm",
+        "item_yVK38b",
+        "item_ACPMJw",
+        "item_wctBTn"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "Schritt für Schritt Anleitung",
+        "title": "Mit diesen 4 Schritten gelingen die perfekten Zwiebelwürfel:",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "rich_text_3MTdXb": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_QLe7b6": {
+          "type": "heading",
+          "settings": {
+            "text": "Tipps für tränenfreies Zwiebelschneiden",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_QRHzJA": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Das Schneiden von Zwiebeln kann oft zu tränenden Augen führen. Einige Tipps, um dies zu minimieren, umfassen das Schneiden der Zwiebeln unter einem Dunstabzug oder das Eintauchen der Zwiebel in kaltes Wasser vor dem Schneiden. Auch das Verwenden eines scharfen Messers, kann die Reizung reduzieren, da weniger Zellwände beschädigt werden.</p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_QLe7b6",
+        "richtext_QRHzJA"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "rich_text_DK6MVd": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_9gkgdy": {
+          "type": "heading",
+          "settings": {
+            "text": "Die Bedeutung von Schnittgröße und -form",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_dX4XPa": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Die Art, wie eine Zwiebel geschnitten wird, kann den Geschmack und die Textur eines Gerichts erheblich beeinflussen. Fein gewürfelte Zwiebeln sind ideal für Saucen oder als Basis für Braten, da sie schnell weich werden und ihren Geschmack gleichmäßig abgeben. Gröbere Schnitte oder Ringe hingegen eignen sich hervorragend für Grillgerichte oder als Topping für Burger und Salate, wo eine deutlichere Textur und Form gewünscht ist.<br/><br/><br/>Durch das Beherrschen dieser Techniken und Tipps kann das Zwiebelschneiden von einer tränenreichen Aufgabe zu einem schnellen, effizienten und sogar freudigen Teil der Kochvorbereitung werden. Jede Schnitttechnik eröffnet unterschiedliche Möglichkeiten, die Zwiebel in einer Vielzahl von Gerichten einzusetzen, und hebt die Rolle dieses vielseitigen Gemüses in der kulinarischen Welt hervor.</p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_9gkgdy",
+        "richtext_dX4XPa"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "xl"
+      }
+    },
+    "blog_posts_gFVRAi": {
+      "type": "blog-posts",
+      "blocks": {
+        "blog_DCHbN4": {
+          "type": "blog",
+          "settings": {
+            "blog": "news",
+            "posts_count": 3,
+            "stack_items": false
+          }
+        }
+      },
+      "block_order": [
+        "blog_DCHbN4"
+      ],
+      "name": "Blog posts",
+      "settings": {
+        "show_excerpt": true,
+        "show_date": true,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": true,
+        "show_overall_time": false,
+        "subheading": "",
+        "title": "Weitere Kochtipps entdecken",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto",
+        "blog_handle": "kochtipps",
+        "posts_count": 4
+      }
+    }
+  },
+  "order": [
+    "main",
+    "multi_column_bz8V6F",
+    "rich_text_3MTdXb",
+    "rich_text_DK6MVd",
+    "blog_posts_gFVRAi"
+  ]
+}

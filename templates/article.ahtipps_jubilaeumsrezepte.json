@@ -1,0 +1,273 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "navigation": {
+          "type": "navigation",
+          "disabled": true,
+          "settings": {}
+        },
+        "comments": {
+          "type": "comments",
+          "disabled": true,
+          "settings": {
+            "show_gravatar": true,
+            "comments_per_page": 5
+          }
+        }
+      },
+      "block_order": [
+        "navigation",
+        "comments"
+      ],
+      "settings": {
+        "layout": "image_text_overlay",
+        "image": "{{ article.image }}",
+        "show_author": true,
+        "show_date": true,
+        "show_comments_count": true,
+        "show_share_buttons": true,
+        "show_header_image": true,
+        "banner_background": "",
+        "banner_text_color": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "content_width": "750px",
+        "stats_color": "#556132",
+        "is_recipe": true,
+        "content_alignment": "start"
+      }
+    },
+    "featured_collection_nTBLcV": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "",
+        "products": "{{ article.metafields.custom.products_and_accessroies.value }}",
+        "stack_products": false,
+        "show_progress_bar": true,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Für die Zubereitung verwendetes Kochgeschirr",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "media_grid_4CJKiF": {
+      "type": "media-grid",
+      "blocks": {
+        "image_6B8xFe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Rezept_Winterlicher_Feldsalat_im_Parmesankoerbchen_2167x1200_8793c867-03f6-4f35-8188-5be2bb49026e.png",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_column_span": 2,
+            "mobile_row_span": 1,
+            "mobile_height": 150,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "blog_post_handle": ""
+          }
+        },
+        "image_rikigk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Rezept_Weisse_Mousse-Cannoli_mit_marinierten_Birnen_Granola_und_Joghurt-Creme-Eis_2167x1200_3a582840-ab16-4248-b000-dc6c4a8d5c2a.png",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_column_span": 4,
+            "mobile_row_span": 1,
+            "mobile_height": 150,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "blog_post_handle": ""
+          }
+        },
+        "image_yXmTmW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Rezept_Suesskartoffel-Moehren-Pasta_mit_Cashewsosse_2167x1200_3cec4dbd-ea12-4f70-9b6e-1c4626813c49.png",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_column_span": 4,
+            "mobile_row_span": 2,
+            "mobile_height": 150,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "blog_post_handle": ""
+          }
+        },
+        "image_4wcCHR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Rezept_Rehburger_2167x1200_0624e700-0bb4-4974-bd1f-2167010dad9d.png",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_column_span": 4,
+            "mobile_row_span": 2,
+            "mobile_height": 150,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "blog_post_handle": ""
+          }
+        },
+        "image_WYEY8z": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Rezept_Thai_Curry_Panang_Style_2167x1200_dd8370ec-77c2-468a-884e-25ed9760bede.png",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_column_span": 4,
+            "mobile_row_span": 1,
+            "mobile_height": 150,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "blog_post_handle": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_6B8xFe",
+        "image_rikigk",
+        "image_yXmTmW",
+        "image_4wcCHR",
+        "image_WYEY8z"
+      ],
+      "settings": {
+        "use_height": false,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
+        "background": "",
+        "background_gradient": ""
+      }
+    },
+    "blog_posts_imrjHy": {
+      "type": "blog-posts",
+      "blocks": {
+        "article_8WaryL": {
+          "type": "article",
+          "settings": {
+            "article": "",
+            "background": "",
+            "text_color": "",
+            "article_handle": ""
+          }
+        }
+      },
+      "block_order": [
+        "article_8WaryL"
+      ],
+      "settings": {
+        "show_excerpt": true,
+        "show_date": true,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": true,
+        "show_overall_time": false,
+        "subheading": "REZEPTE",
+        "title": "Weitere Rezeptideen",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto",
+        "blog_handle": "rezepte",
+        "posts_count": 4
+      }
+    }
+  },
+  "order": [
+    "main",
+    "featured_collection_nTBLcV",
+    "media_grid_4CJKiF",
+    "blog_posts_imrjHy"
+  ]
+}

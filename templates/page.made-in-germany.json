@@ -1,0 +1,457 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "100%"
+      }
+    },
+    "featured_product_Ha3man": {
+      "type": "featured-product",
+      "blocks": {
+        "vendor_kfY8zG": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "title_eEHeUd": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "badges_EeNKcy": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price_PAexq7": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating_Yz8bQi": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "separator_4W4U7A": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description_D7T67Y": {
+          "type": "description",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "collapse_content": false
+          }
+        },
+        "variant_picker_VJatLN": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector_4JA94m": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_jxFghn": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "pickup_availability_VRpwth": {
+          "type": "pickup_availability",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "vendor_kfY8zG",
+        "title_eEHeUd",
+        "badges_EeNKcy",
+        "price_PAexq7",
+        "rating_Yz8bQi",
+        "separator_4W4U7A",
+        "description_D7T67Y",
+        "variant_picker_VJatLN",
+        "quantity_selector_4JA94m",
+        "buy_buttons_jxFghn",
+        "pickup_availability_VRpwth"
+      ],
+      "disabled": true,
+      "settings": {
+        "product": "adamant-comfort-pfanne",
+        "desktop_media_width": 35,
+        "desktop_media_layout": "grid_one",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "slideshow_dQbBjw": {
+      "type": "slideshow",
+      "blocks": {
+        "image_YAyqJW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Made_in_Germany_Header_2167x800_8a7cb457-1d6e-42c6-938c-b3c67b7c3a88.png",
+            "image_content_width": false,
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "Made in Germany",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "heading_color": "#ffffff",
+            "subheading_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_YAyqJW"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_initial_transition": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "revealed_image_on_scroll_tVVRqa": {
+      "type": "revealed-image-on-scroll",
+      "disabled": true,
+      "name": "Revealed image on scroll",
+      "settings": {
+        "image": "shopify://shop_images/Made_in_Germany_Header_2167x800_8a7cb457-1d6e-42c6-938c-b3c67b7c3a88.png",
+        "subheading": "",
+        "title": "Made in Germany",
+        "background": "",
+        "text_color_inside": "#ffffff",
+        "text_color_outside": "#000000"
+      }
+    },
+    "rich_text_jVJNVM": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_r39KVz": {
+          "type": "heading",
+          "settings": {
+            "text": "Creating lasting value",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_MRDKV6": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>The heart of our brand beats in Rhineland-Palatinate, Germany. This is where we produce the finest cookware using the highest quality materials, leading technology and the passion and skill of our great craftsmanship.</p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_r39KVz",
+        "richtext_MRDKV6"
+      ],
+      "settings": {
+        "show_section_id": false,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "media_with_text_f8fjwM": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_3bgURD": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Made_in_Germany_Media_with_Text_harald_fissler.png",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Know-how",
+            "heading_tag": "h3",
+            "content": "<p>In 1845, Carl Phillipp Fissler, a tinsmith in a small workshop, laid the foundation stone for the Fissler brand in Idar-Oberstein. We are deeply rooted in this region, which has nurtured our know-how and rich expertise in cooking, technology and unsurpassed craftsmanship.<br/></p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "image_3bgURD"
+      ],
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "media_with_text_djUBVN": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_KdQy3t": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Made_in_Germany_Media_with_text_fissler-craftsmanship.gif",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Craftmanship",
+            "heading_tag": "h3",
+            "content": "<p>We drive innovation, train future generations, ensure first-class quality through strict quality controls - and even manufacture our own tools. Every curve, edge and surface is a testament to our experience and passion.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "image_KdQy3t"
+      ],
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "media_with_text_DaJCYD": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_3QqrBP": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Made_in_Germany_Media_with_text_fissler-made-in-germany.gif",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Permanent value",
+            "heading_tag": "h3",
+            "content": "<p>We are proud that Fissler is still a family business that carries on the legacy and values of our grandparents and great-grandparents. This enables us to make independent decisions that are characterized by long-term and sustainable thinking. The result is Fissler's first-class quality and the promise of a 15-year guarantee on stainless steel cookware. This is what we mean by creating lasting value.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "image_3QqrBP"
+      ],
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "media_with_text_wxK7TD": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_t6wLRg": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Made_in_Germany_Media_with_Text_fissler-production.gif",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Our Production",
+            "heading_tag": "h3",
+            "content": "<p>In times of increased environmental awareness and changing consumer expectations, \"Made in Germany\" also means investing in innovative and sustainable production. For example, we recently opened a new production facility for frying pans in Neubrücke, Germany, where we use solvent-free paints, conserve water and energy resources and reduce CO2 emissions by up to 70% per year. We also use high-quality recycled aluminum and green steel for our production.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "image_t6wLRg"
+      ],
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "video_C3UVHB": {
+      "type": "video",
+      "blocks": {
+        "play_RCdfag": {
+          "type": "play",
+          "settings": {}
+        },
+        "heading_N9KbQq": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Made in Germany",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "play_RCdfag",
+        "heading_N9KbQq"
+      ],
+      "settings": {
+        "show_section_id": false,
+        "full_width": true,
+        "autoplay": false,
+        "video_size": "auto",
+        "external_video_url": "https://youtu.be/eTuAc62BnBI",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30,
+        "dynamic_video_url": "",
+        "dynamic_video_host": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "featured_product_Ha3man",
+    "slideshow_dQbBjw",
+    "revealed_image_on_scroll_tVVRqa",
+    "rich_text_jVJNVM",
+    "media_with_text_f8fjwM",
+    "media_with_text_djUBVN",
+    "media_with_text_DaJCYD",
+    "media_with_text_wxK7TD",
+    "video_C3UVHB"
+  ]
+}

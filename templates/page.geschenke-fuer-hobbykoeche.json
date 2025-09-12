@@ -1,0 +1,781 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "100%"
+      }
+    },
+    "slideshow_kN4H3g": {
+      "type": "slideshow",
+      "blocks": {
+        "image_hhQynT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Landingpages_Geschenkeratgeber_Header_Image_2800x1000_1.png",
+            "image_content_width": false,
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "Geschenke ab 13 € für alle, die das Kochen lieben.",
+            "title": "Geschenke für Köche & Hobbyköche",
+            "heading_tag": "h2",
+            "button_text": "",
+            "button_link": "",
+            "heading_color": "#ffffff",
+            "subheading_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_hhQynT"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "full_width": true,
+        "show_initial_transition": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "rich_text_DkDjGr": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_aYeFhq": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Du suchst nach dem perfekten Geschenk für Kochliebhaber und Hobbyköche? Dann bist du bei uns genau richtig! Ob als kleine Aufmerksamkeit oder als besonderes Geschenk – hochwertige Küchenprodukte sind stets eine wertvolle Wahl. <strong>Schon ab 13 € </strong>findest du bei uns passende Geschenkideen <strong>für jedes Budget</strong>. Mit unseren Tipps bringst du Kochfreude und Qualität in jede Küche. Lass dich inspirieren und entdecke unsere Ideen für praktische und stilvolle Küchen-Geschenke, die Profis und Neulinge gleichermaßen begeistern.</p>",
+            "font_size": "lg"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_aYeFhq"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "content_width": "large",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "xl",
+        "padding_bottom": "xl"
+      }
+    },
+    "media_with_text_hkLPyL": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_TY6UCT": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Landingpage_Geschenkeratgeber_Media_with_Text_1500x1500_489f0a71-0804-4525-9320-e56316c089b5.png",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Warum Kochgeschirr ein schönes Geschenk ist",
+            "heading_tag": "h3",
+            "content": "<p>Kochgeschirr als Geschenk vereint Funktionalität und Freude am Kochen. Es zeigt Wertschätzung und unterstützt den Beschenkten in seiner Leidenschaft. Hochwertige Pfannen, Töpfe oder Küchenhelfer sind langlebig und bieten einen täglichen Nutzen, der über Jahre hinweg Freude bereitet. </p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "image_TY6UCT"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "xl"
+      }
+    },
+    "rich_text_gkxp8G": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_QUpemH": {
+          "type": "heading",
+          "settings": {
+            "text": "Praktische Küchenhelfer: Kleine Geschenke mit großem Nutzen",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_QUpemH"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "media_with_text_pawUJe": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_6ENhBb": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Landingpage_Geschenkeratgeber_Media_with_Text_1500x1500_2.png",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Kleine Helfer, die Großes bewirken",
+            "heading_tag": "h3",
+            "content": "<p>Auch kleine Helfer können in der Küche Großes bewirken und bieten eine ideale Geschenkoption für Hobbyköche, die ihre Kochutensilien-Sammlung erweitern möchten.</p><p>Wie wäre es zum Beispiel mit einem <strong>Gemüseschneider</strong>? Dieser Küchenhelfer ist praktisch, spart Zeit und ist perfekt für den täglichen Gebrauch. Ein ideales Geschenk für gesundheitsbewusste Hobbyköche. </p><p>Unser hochwertiges Küchenhelfer-Sortiment bietet alle Utensilien, die ein Hobbykoch braucht, und sind in einem eleganten, langlebigen Design gehalten. Perfekt als <strong>Ergänzung </strong>zu einem <strong>größeren Geschenk oder </strong>für<strong> kleinere Budgets</strong>.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "image_6ENhBb"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "featured_collection_np6UXg": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "collection": "",
+        "products": [
+          "fissler-essential-santokumesser-16-5cm",
+          "pfannenschutz-set-2-teilig",
+          "original-profi-collection-pizzaschneider",
+          "original-profi-collection-schaumloeffel-mit-sieb"
+        ],
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Eine Auswahl an Küchenhelfern",
+        "content": "",
+        "link_url": "shopify://collections/kuechenhelfer",
+        "link_text": "Alle Küchenhelfer ansehen",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": "",
+        "padding_top": "auto",
+        "padding_bottom": "xl"
+      }
+    },
+    "image_with_text_overlay_x9wHrQ": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_fD6mVg": {
+          "type": "heading",
+          "settings": {
+            "text": "Verschenke unser Kochbuch",
+            "heading_tag": "h2"
+          }
+        },
+        "richtext_qi4AHe": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Für alle, die gerne schnell und lecker kochen: Entdecke unser Schnellkochtopf-Kochbuch – das ideale Geschenk für die schnelle Alltagsküche!</p>"
+          }
+        },
+        "button_cDbcHX": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "lg",
+            "text": "Zum Kochbuch",
+            "url": "shopify://products/die-welt-des-schnellkochens-gebundene-ausgabe",
+            "background": "#ffffff",
+            "text_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "heading_fD6mVg",
+        "richtext_qi4AHe",
+        "button_cDbcHX"
+      ],
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "image_size": "auto",
+        "image": "shopify://shop_images/Lsndingpage_Die_Welt_des_Schnellkochens_Header_2800x1000_1.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 51,
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "media_with_text_wGzi6r": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_xUGHTN": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Landingpage_Geschenkeratgeber_Media_with_Text_1500x1500_ca4bec68-d72a-4204-ab31-b0445055b711.png",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Hochwertige Pfannen: Geschenke, die in keiner Hobbykoch-Küche fehlen dürfen",
+            "heading_tag": "h3",
+            "content": "<p>Eine gute Pfanne ist das Herzstück jeder Küche und damit ein ideales Geschenk für jeden Hobbykoch.</p><p>Hier sind einige unserer Top-Empfehlungen, die jede Kochleidenschaft bereichern:</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "image_xUGHTN"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "show_section_id": false,
+        "padding_top": "xl",
+        "padding_bottom": "md"
+      }
+    },
+    "multi_column_Akr7Gm": {
+      "type": "multi-column",
+      "blocks": {
+        "item_heKxhf": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Landingpage_Geschenkeratgeber_Multi_Column_1200x600_e142188a-c893-4ccd-a898-30b2375bfc51.png",
+            "column_size": "3",
+            "title": "Ceratal® Pfanne",
+            "heading_tag": "h4",
+            "content": "<p>Diese PTFE-freie Pfanne mit wasserbasierter Keramikbeschichtung ist perfekt für gesundheitsbewusste Köche. Sie ermöglicht fettfreies Braten und bietet eine nachhaltige, umweltfreundliche Kochoption für gesundheitsbewusste Hobbyköche.</p>",
+            "link_url": "shopify://collections/ceratal",
+            "link_text": "Jetzt entdecken",
+            "link_style": "button"
+          }
+        },
+        "item_dKckrp": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Landingpage_Geschenkeratgeber_Multi_Column_1200x600_2.png",
+            "column_size": "3",
+            "title": "Adamant® Pfanne",
+            "heading_tag": "h4",
+            "content": "<p>Eine besonders robuste, kratzfeste Pfanne, die für ihre Langlebigkeit und Widerstandsfähigkeit bekannt ist. Ob für den täglichen Gebrauch oder für spezielle Gerichte – die Adamant® Pfanne hält, was sie verspricht, und ist daher ein unverzichtbares Geschenk für Kochbegeisterte. </p>",
+            "link_url": "shopify://collections/adamant",
+            "link_text": "Jetzt entdecken",
+            "link_style": "button"
+          }
+        },
+        "item_PTDzKc": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Landingpage_Geschenkeratgeber_Multi_Column_1200x600_4.png",
+            "column_size": "3",
+            "title": "Cenit Pfanne",
+            "heading_tag": "h4",
+            "content": "<p>Unsere Cenit Pfannen bieten eine hervorragende Antihaftleistung zu einem erschwinglichen Preis und sind perfekt für Einsteiger. Mit und ohne Induktion erhältlich, eignen sie sich hervorragend als praktisches Geschenk für Neulinge im Kochbereich. </p>",
+            "link_url": "shopify://collections/cenit",
+            "link_text": "Jetzt entdecken",
+            "link_style": "button"
+          }
+        },
+        "item_EaDR3p": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Landingpage_Geschenkeratgeber_Multi_Column_1200x600_3.png",
+            "column_size": "3",
+            "title": "Original-Profi Collection® Pfanne",
+            "heading_tag": "h4",
+            "content": "<p>Unsere Original-Profi Collection® Pfannen stehen für langlebige Profi-Qualität für zu Hause. Aus robustem Edelstahl gefertigt, überzeugen sie mit exzellenter Wärmespeicherung und Vielseitigkeit. Ideal für ambitionierte Hobbyköche – geeignet für alle Herdarten, auch Induktion.</p>",
+            "link_url": "shopify://collections/original-profi-collection-edelstahl",
+            "link_text": "Jetzt entdecken",
+            "link_style": "button"
+          }
+        }
+      },
+      "block_order": [
+        "item_heKxhf",
+        "item_dKckrp",
+        "item_PTDzKc",
+        "item_EaDR3p"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "rich_text_FfPGN6": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_bz4DyX": {
+          "type": "heading",
+          "settings": {
+            "text": "Kochtöpfe und Schnellkochtöpfe: Für Hobbyköche, die Effizienz und Geschmack schätzen",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_bz4DyX"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "media_with_text_6fy9qq": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_ywcfbr": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Landingpage_Geschenkeratgeber_Media_with_Text_1500x1500_3.png",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Schnellkochtöpfe und Töpfe verschenken",
+            "heading_tag": "h3",
+            "content": "<p>Ein Kochtopf ist mehr als nur ein Küchengerät – er ist das Fundament für zahlreiche Gerichte und ein <strong>Symbol für Gastfreundschaft</strong>. Töpfe und Schnellkochtöpfe gehören daher zu den besten Geschenkideen für Köche.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "image_ywcfbr"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "multi_column_KGCgjm": {
+      "type": "multi-column",
+      "blocks": {
+        "item_ami3kg": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Landingpage_Geschenkeratgeber_Multi_Column_1200x600_e10bb14f-da55-4213-bff1-92899e4fd4ce.png",
+            "column_size": "3",
+            "title": "Fissler Schnellkochtopf",
+            "heading_tag": "h4",
+            "content": "<p>Dieser Schnellkochtopf<strong>spart Zeit</strong>und<strong>bewahrt wertvolle Vitamine</strong>im Essen. Mit seinen Sicherheitsfeatures und der Zeitersparnis ist er das perfekte Geschenk für alle Köche, die schnelle und gesunde Mahlzeiten lieben. </p>",
+            "link_url": "shopify://collections/schnellkochtoepfe",
+            "link_text": "Jetzt entdecken",
+            "link_style": "button"
+          }
+        },
+        "item_wzQdRW": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Landingpage_Geschenkeratgeber_Multi_Column_1200x600_4_c0f6303c-5476-4b37-ba12-7cd4b08dbfaf.png",
+            "column_size": "3",
+            "title": "Original-Profi Collection® Topfset",
+            "heading_tag": "h4",
+            "content": "<p>Seit 1974 bietet die Original-Profi Collection® langlebige Profi-Qualität für zu Hause. Die Kollektion wurde<strong>von und mit Spitzenköchen für leidenschaftliche Hobbyköche entwickelt</strong>und zählt zu einer der erfolgreichsten Premium-Kochgeschirrserien der Welt. </p>",
+            "link_url": "shopify://collections/original-profi-collection-edelstahl",
+            "link_text": "Jetzt entdecken",
+            "link_style": "button"
+          }
+        },
+        "item_fGq7LD": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Landingpage_Geschenkeratgeber_Multi_Column_1200x600_5.png",
+            "column_size": "3",
+            "title": "Phi Collection",
+            "heading_tag": "h4",
+            "content": "<p>Für leidenschaftliche Köche, die nicht nur Wert auf Funktion, sondern auch auf Form legen. Die elegante und doch extravangete Kollektion besticht durch ihr<strong>modernes Design und komfortable Features</strong>wie die Ausgießfunktion von Flüssigkeiten und die 360° Einhängefunktion des Deckels​.</p>",
+            "link_url": "shopify://collections/phi-collection",
+            "link_text": "Jetzt entdecken",
+            "link_style": "button"
+          }
+        }
+      },
+      "block_order": [
+        "item_ami3kg",
+        "item_wzQdRW",
+        "item_fGq7LD"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "xl"
+      }
+    },
+    "rich_text_cJeUJq": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_agW3bn": {
+          "type": "heading",
+          "settings": {
+            "text": "Bräter & Töpfe aus Gusseisen: Für mehr Farbe & Vielfalt in der Küche",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_agW3bn"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "media_with_text_kTgcA4": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_NtMnDw": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Landingpage_Geschenkeratgeber_Media_with_Text_1500x1500_4.png",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Ein Geschenk aus Gusseisen, das Freude bereitet",
+            "heading_tag": "h3",
+            "content": "<p>Vom scharfen Anbraten des perfekten Fleisches, über Backen von knusprigen Broten, bis hin zum langsamen Schmoren von Eintöpfen - die Fissler Töpfe und Bräter bestehen aus robustem und langlebigen Gusseisen und sind <strong>wahre Multitalente in der Küche</strong>. Das perfekte Geschenk für Hobbyköche, die sich ausprobieren und noch mehr Geschmack in ihre Küche bringen möchten. </p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "image_NtMnDw"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "multi_column_zXUiP7": {
+      "type": "multi-column",
+      "blocks": {
+        "item_nV7n6y": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Landingpage_Geschenkeratgeber_Multi_Column_1200x600_2_0098dc15-544c-4b5b-8e01-e0e4f3c2acca.png",
+            "column_size": "3",
+            "title": "Moments Collection",
+            "heading_tag": "h4",
+            "content": "<p>Ideal für <strong>Anfänger aber auch erfahrenere Hobbyköche</strong>. Die gusseisernen Töpfe und Bräter in Fissler-Qualität wurden ohne PFAS/PTFE hergestellt, sind vielseitig verwendbar und für alle Herdarten geeignet, einschließlich Induktion. Verschenken Sie unsere Moments Collection für mehr Farbe und Geschmack in der Küche.</p>",
+            "link_url": "shopify://collections/moments-collection",
+            "link_text": "Jetzt entdecken",
+            "link_style": "button"
+          }
+        },
+        "item_YpL9Xr": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Landingpage_Geschenkeratgeber_Multi_Column_1200x600_3_8b281eba-151c-4cef-bdd3-4bbe47aa6937.png",
+            "column_size": "3",
+            "title": "Original-Profi Collection® Gusseisen",
+            "heading_tag": "h4",
+            "content": "<p>Hergestellt in Europa - wie gemacht für<strong>leidenschaftliche Hobbyköche und Gourmets</strong>. Eine Gusseisenkollektion, die 180 Jahre Wissen und Erfahrung in der Herstellung von Edelstahlkochgeschirr vereint und mit Qualität und innovativen Features überzeugt. Anbraten, sautieren, braten, backen, grillen und sogar einfrieren mit nur einem Topf.</p>",
+            "link_url": "shopify://collections/original-profi-collection-gusseisen",
+            "link_text": "Jetzt entdecken",
+            "link_style": "button"
+          }
+        }
+      },
+      "block_order": [
+        "item_nV7n6y",
+        "item_YpL9Xr"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "stack_on_mobile": false,
+        "gap": "large",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "rich_text_hgJj4y": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_8iCKtb": {
+          "type": "heading",
+          "settings": {
+            "text": "Mehr als Kochgeschirr - ein echtes Erlebnis",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_6XfdYf": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Du suchst nach dem perfekten Geschenk für Genussmenschen? Die <strong>Original-Profi Collection®</strong> macht Kochen zu einem besonderen Erlebnis. Wie das gelingt? Durch innovative Features, die das Kochen revolutionieren. </p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8iCKtb",
+        "richtext_6XfdYf"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "content_width": "large",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "video_UzQLHA": {
+      "type": "video",
+      "blocks": {
+        "play_MQqPdF": {
+          "type": "play",
+          "settings": {}
+        },
+        "heading_cjBTJg": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "play_MQqPdF",
+        "heading_cjBTJg"
+      ],
+      "name": "Video",
+      "settings": {
+        "show_section_id": false,
+        "full_width": false,
+        "autoplay": true,
+        "video_size": "auto",
+        "external_video_url": "https://www.youtube.com/watch?v=Frjp_XK__7g",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30,
+        "dynamic_video_url": "",
+        "dynamic_video_host": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_kN4H3g",
+    "rich_text_DkDjGr",
+    "media_with_text_hkLPyL",
+    "rich_text_gkxp8G",
+    "media_with_text_pawUJe",
+    "featured_collection_np6UXg",
+    "image_with_text_overlay_x9wHrQ",
+    "media_with_text_wGzi6r",
+    "multi_column_Akr7Gm",
+    "rich_text_FfPGN6",
+    "media_with_text_6fy9qq",
+    "multi_column_KGCgjm",
+    "rich_text_cJeUJq",
+    "media_with_text_kTgcA4",
+    "multi_column_zXUiP7",
+    "rich_text_hgJj4y",
+    "video_UzQLHA"
+  ]
+}

@@ -1,0 +1,543 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "navigation": {
+          "type": "navigation",
+          "disabled": true,
+          "settings": {}
+        },
+        "comments": {
+          "type": "comments",
+          "disabled": true,
+          "settings": {
+            "show_gravatar": true,
+            "comments_per_page": 5
+          }
+        }
+      },
+      "block_order": [
+        "navigation",
+        "comments"
+      ],
+      "settings": {
+        "layout": "image_text_overlay",
+        "image": "{{ article.image }}",
+        "show_author": false,
+        "show_date": true,
+        "show_comments_count": true,
+        "show_share_buttons": true,
+        "show_header_image": true,
+        "banner_background": "",
+        "banner_text_color": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "content_width": "750px",
+        "stats_color": "#556132",
+        "is_recipe": false,
+        "content_alignment": "start"
+      }
+    },
+    "featured_collection_nTBLcV": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "",
+        "products": "{{ article.metafields.custom.products_and_accessroies.value }}",
+        "stack_products": false,
+        "show_progress_bar": true,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Für die Zubereitung verwendetes Kochgeschirr",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "before_after_image_E88QMA": {
+      "type": "before-after-image",
+      "name": "Before/after image",
+      "settings": {
+        "subheading": "",
+        "title": "Vom Feld auf den Teller - Spargel wie du ihn liebst",
+        "content": "<p><strong>Spargelzeit ist Genusszeit!</strong> Ob gedämpft, als Suppe oder knackiger Salat – das kalorienarme Lieblingsgemüse besteht zum Großteil aus Wasser, ist gesund und steckt voller Geschmack. Sternekoch Alexander Herrmann zeigt dir, wie Spargel zum Highlight auf deinem Teller wird.</p><p><strong>Jetzt entdecken und nachkochen!</strong></p>",
+        "button_text": "",
+        "button_url": "",
+        "button_background": "",
+        "button_text_color": "",
+        "before_image": "shopify://shop_images/Blogs_Kochtipp_des_Monats_Spargel_BeforeAfter_Image_1200x700_1.png",
+        "after_image": "shopify://shop_images/Blogs_Kochtipp_des_Monats_Spargel_BeforeAfter_Image_1200x700_3d8efc8d-3e7a-4915-9e92-ca77410cffe2.png",
+        "expand_image": false,
+        "text_position": "start",
+        "before_after_text_position": "top",
+        "before_text": "",
+        "after_text": "",
+        "drag_initial_position": 50,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "before_text_color": "#ffffff",
+        "after_text_color": "#ffffff",
+        "drag_cursor_background": "#ffffff",
+        "drag_cursor_color": "#000000",
+        "show_section_id": false,
+        "padding_top": "sm",
+        "padding_bottom": "auto"
+      }
+    },
+    "specification_table_kJdktq": {
+      "type": "specification-table",
+      "blocks": {
+        "row_77HGNx": {
+          "type": "row",
+          "settings": {
+            "heading": "Nährwertangaben pro 100 g Spargel",
+            "value": "<p><br/></p>"
+          }
+        },
+        "row_xVgNaf": {
+          "type": "row",
+          "settings": {
+            "heading": "Energie",
+            "value": "<p>ca. 20 kcal</p>"
+          }
+        },
+        "row_QyKN6q": {
+          "type": "row",
+          "settings": {
+            "heading": "Wasser",
+            "value": "<p>ca. 93 g</p>"
+          }
+        },
+        "row_etT7Yt": {
+          "type": "row",
+          "settings": {
+            "heading": "Eiweiß",
+            "value": "<p>ca. 2,2 g</p>"
+          }
+        },
+        "row_ye3kic": {
+          "type": "row",
+          "settings": {
+            "heading": "Fett",
+            "value": "<p>ca. 0,1 g</p>"
+          }
+        },
+        "row_WLGhP4": {
+          "type": "row",
+          "settings": {
+            "heading": "Kohlenhydrate",
+            "value": "<p>ca. 3,7 g</p>"
+          }
+        },
+        "row_3zhKnD": {
+          "type": "row",
+          "settings": {
+            "heading": "Kalium",
+            "value": "<p>ca. 202 mg</p>"
+          }
+        },
+        "row_G83Yw3": {
+          "type": "row",
+          "settings": {
+            "heading": "Folsäure",
+            "value": "<p>ca. 52 µg</p>"
+          }
+        }
+      },
+      "block_order": [
+        "row_77HGNx",
+        "row_xVgNaf",
+        "row_QyKN6q",
+        "row_etT7Yt",
+        "row_ye3kic",
+        "row_WLGhP4",
+        "row_3zhKnD",
+        "row_G83Yw3"
+      ],
+      "name": "Specification table",
+      "settings": {
+        "subheading": "Spargelwissen",
+        "title": "Darum ist Spargel so gesund",
+        "content": "<p><br/>Spargel ist nicht nur lecker, sondern auch richtig gesund! Er besteht zu 93 % aus Wasser, ist kalorienarm und liefert wichtige Nährstoffe wie Eiweiß, Kalium und Folsäure – perfekt für alle, die bewusst genießen und sich gesund ernähren wollen.</p>",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "alignment": "horizontal",
+        "max_rows": 5,
+        "view_all_text": "Alle Nährwerte ansehen",
+        "view_less_text": "Weniger ansehen",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "chart_background": "",
+        "chart_text_color": "",
+        "chart_true_false_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "rich_text_wFeHwx": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_jx4jUJ": {
+          "type": "subheading",
+          "settings": {
+            "text": "",
+            "subheading_tag": "h4"
+          }
+        },
+        "heading_b67tXk": {
+          "type": "heading",
+          "settings": {
+            "text": "Kochtipps von Alexander Herrmann",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_jx4jUJ",
+        "heading_b67tXk"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "media_with_text_pkVikK": {
+      "type": "media-with-text",
+      "blocks": {
+        "video_hHnYeh": {
+          "type": "video",
+          "settings": {
+            "external_video_url": "https://www.youtube.com/watch?v=yo05xi1Wc4Y",
+            "poster_image": "shopify://shop_images/Poster_Image_Kochtipp_des_Monats_AH_Spargelsuppe_Video_3200x1600_1659a886-42fe-4e7c-bef8-508366ae9e99.png",
+            "autoplay": false,
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Spargelsuppe wie von Oma",
+            "content": "<p>Cremig, herzhaft, ehrlich - für alle, die den Geschmack von früher lieben und in den Genuss von Heimatküche kommen möchten. In diesem Video zeigt Alexander Herrmann, wie du eine klassische Spargelsuppe mit Mehlschwitze zubereitest – ganz wie früher, aber mit dem Wissen von heute. </p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#f0f0f0",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "video_hHnYeh"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "media_with_text_inWhAF": {
+      "type": "media-with-text",
+      "blocks": {
+        "video_CYNCcj": {
+          "type": "video",
+          "settings": {
+            "external_video_url": "https://www.youtube.com/watch?v=SFvTCnFfalo",
+            "poster_image": "shopify://shop_images/Poster_Image_Kochtipp_des_Monats_AH_Spargel_mit_Ei-Mayonnaise_Video_3200x1600_de86bb4e-797d-4b37-a039-c79d92640cbb.png",
+            "autoplay": false,
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Pochierter Spargel mit Alexander Herrmanns 7-Minuten-Ei-Mayonnaise",
+            "content": "<p>Du liebst Spargel, suchst aber nach einer kreativen, leichten Alternative zur klassischen Sauce Hollandaise? Alexander Herrmann zeigt im Video eine einfache Methode: Pochierter Spargel trifft auf eine cremige Mayonnaise – ganz ohne viel Fett, dafür mit einem 7-Minuten-Ei! </p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#f0f0f0",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "video_CYNCcj"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "show_section_id": false,
+        "padding_top": "xl",
+        "padding_bottom": "auto"
+      }
+    },
+    "rich_text_BV8dF7": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_MTfjjU": {
+          "type": "heading",
+          "settings": {
+            "text": "Spargel wie ein Profi garen - mit Kochgeschirr von Fissler",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_WGwjBx": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Aromatisch, bissfest und nährstoffschonend: Mit dem passenden Zubehör von Fissler gelingt Spargel ganz einfach. Ob klassisch gedämpft im Kochtopf mit <strong>Dämpfeinsatz</strong>, vielseitig zubereitet im <strong>Original-Profi Collection®</strong> <strong>Multistar</strong> oder besonders schnell und schonend im <strong>Schnellkochtopf mit integriertem Einsatz. </strong></p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_MTfjjU",
+        "richtext_WGwjBx"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": true,
+        "padding_top": "xl",
+        "padding_bottom": "sm"
+      }
+    },
+    "featured_collection_9xgt4H": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "collection": "",
+        "products": [
+          "original-profi-collection-daempfeinsatz",
+          "original-profi-collection-multistar-20-cm",
+          "vitavit-zubehor-einsatz-gelocht-inkl-dreibein"
+        ],
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "image_with_text_overlay_UGjbq9": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_yeU3dj": {
+          "type": "subheading",
+          "settings": {
+            "text": "WISSENSWERTES"
+          }
+        },
+        "heading_G4HWyr": {
+          "type": "heading",
+          "settings": {
+            "text": "Spargel kann unter idealen Bedingungen bis zu 7 cm pro Stunde wachsen.",
+            "heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_yeU3dj",
+        "heading_G4HWyr"
+      ],
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": false,
+        "image_size": "md",
+        "image": "shopify://shop_images/Blog_Kochtipp_des_Monats_Spargel_Image_with_Textoverlay_3200x1600_99aa6f02-2809-427f-a244-7d04f2f5188d.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30,
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "rich_text_N6JJqd": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_4jJqj3": {
+          "type": "heading",
+          "settings": {
+            "text": "Lieblingsrezepte für die Spargelsaison - leicht, erfrischend & voller Geschmack",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_4jJqj3"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": true,
+        "padding_top": "xl",
+        "padding_bottom": "sm"
+      }
+    },
+    "media_with_text_9dexqh": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_783hi3": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Blog_Tipp_des_Monats_Spargel_Spargelsalat_Media_with_Text_1500x1500_b81a7908-3c87-489a-a4a5-c16a6499ede7.png",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Mediterraner Spargelsalat mit Zucchini und Serranoschinken",
+            "heading_tag": "h3",
+            "content": "<p>Spargel mediterran zubereitet. Ein echter Genuss für jeden Grillabend. Jetzt entdecken!</p>",
+            "link_text": "Zum Rezept",
+            "link_url": "shopify://blogs/rezepte/mediterraner-spargelsalat-mit-zucchini-und-serranoschinken",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "image_783hi3"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "show_section_id": false,
+        "padding_top": "md",
+        "padding_bottom": "md"
+      }
+    },
+    "featured_articles_6PKiKz": {
+      "type": "featured-articles",
+      "name": "Featured articles",
+      "settings": {
+        "show_progress_bar": true,
+        "articles_per_row_mobile": "2",
+        "articles_per_row_desktop": 3,
+        "subheading": "",
+        "articel_handles": "rezepte/spargelsalat-mit-erdbeeren-und-burrata,rezepte/kartoffelsalat-mit-eingelegtem-spargel-und-tahin-honig-senf-dressing,rezepte/fruehlingssalat-mit-krossem-tofu-spargel-erdbeeren,rezepte/gruener-spargel-mit-bacon,rezepte/gebratener-spargelsalat-mit-orangen-estragon-vinaigrette-und-knoblauchbaguette,rezepte/tofu-curry-mit-gruenem-spargel,rezepte/schnell-und-einfach-risotto-mit-gruenem-spargel-und-baerlauch-aus-dem-schnellkochtopf,rezepte/nudeln-mit-spargel-ricotta-und-knusprigen-semmelbroeseln,rezepte/mediterraner-spargelsalat-mit-zucchini-und-serranoschinken",
+        "title": "",
+        "content": "",
+        "link_url": "shopify://blogs/rezepte",
+        "link_text": "Alle Rezepte entdecken",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "featured_collection_nTBLcV",
+    "before_after_image_E88QMA",
+    "specification_table_kJdktq",
+    "rich_text_wFeHwx",
+    "media_with_text_pkVikK",
+    "media_with_text_inWhAF",
+    "rich_text_BV8dF7",
+    "featured_collection_9xgt4H",
+    "image_with_text_overlay_UGjbq9",
+    "rich_text_N6JJqd",
+    "media_with_text_9dexqh",
+    "featured_articles_6PKiKz"
+  ]
+}

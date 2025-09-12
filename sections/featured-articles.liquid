@@ -1,0 +1,269 @@
+{%- assign handles = section.settings.articel_handles | split: ',' -%}
+{%- assign articel_size = handles | size -%}
+
+{% if articel_size > 0 %}
+  {%- render 'section-spacing-collapsing' -%}
+
+  <style>
+    {%- assign section_background = section.settings.background | default: settings.background -%}
+    {%- assign card_background = section.settings.product_card_background | default: settings.product_card_background -%}
+    {%- assign card_blends = false -%}
+
+    {%- unless section_background != 'rgba(0,0,0,0)' and card_background != 'rgba(0,0,0,0)' and section_background != card_background -%}
+      {%- assign card_blends = true -%}
+    {%- endunless -%}
+
+    #shopify-section-{{ section.id }} .blog-post-list__posts {
+      --article-list-gap: {% if section.settings.stack_products and section.settings.articles_per_row_mobile == '2' %}{% if card_blends %}var(--article-list-row-gap){% endif %} var(--spacing-2){% else %}var(--article-list-row-gap) var(--article-list-column-gap){% endif %};
+      --article-list-items-per-row: {{ section.settings.articles_per_row_mobile | times: 1 }};
+      --article-list-carousel-item-width: 74vw;
+      --article-list-grid: {% if section.settings.stack_products %}auto / repeat(var(--article-list-items-per-row), minmax(0, 1fr)){% else %}auto / auto-flow var(--article-list-carousel-item-width){% endif %};
+    }
+
+    @media screen and (min-width: 700px) {
+      #shopify-section-{{ section.id }} .blog-post-list__posts {
+        --article-list-gap: var(--article-list-row-gap) var(--article-list-column-gap);
+        --article-list-items-per-row: 2;
+        --article-list-carousel-item-width: 36vw;
+      }
+    }
+
+    @media screen and (min-width: 1000px) {
+      #shopify-section-{{ section.id }} .blog-post-list__posts {
+        --article-list-items-per-row: {{ section.settings.articles_per_row_desktop }};
+        --article-list-carousel-item-width: calc(var(--container-inner-width) / {{ section.settings.articles_per_row_desktop }} - (var(--article-list-column-gap) / {{ section.settings.articles_per_row_desktop }} * {{ section.settings.articles_per_row_desktop | minus: 1 }}));
+      }
+    }
+  </style>
+
+  {%- capture padding_classes -%}
+  section-padding-top-{{ section.settings.padding_top }} section-padding-bottom-{{ section.settings.padding_bottom }}
+{%- endcapture -%}
+  {% assign section_classes = padding_classes %}
+  {% if section.settings.full_width_background %}
+    {% assign section_classes = section_classes | append: 'no-padding' %}
+  {% endif %}
+  <div {% render 'section-properties', class: section_classes %}>
+    <div class="section-stack">
+      {%- assign link_url = section.settings.link_url | default: section.settings.collection.url -%}
+      {%- render 'section-header',
+        subheading: section.settings.subheading,
+        heading: section.settings.title,
+        heading_color: section.settings.heading_color,
+        heading_gradient: section.settings.heading_gradient,
+        content: section.settings.content,
+        link_text: section.settings.link_text,
+        link_url: link_url
+      -%}
+
+      <div class="scrollable-with-controls">
+        {%- assign scroll_area_id = 'scroll-area-' | append: section.id -%}
+        {%- assign handles = section.settings.articel_handles | split: ',' -%}
+        {%- assign articel_size = handles | size -%}
+
+        <scroll-carousel
+          selector=".blog-post-list__post-item"
+          id="{{ scroll_area_id }}"
+          class="scroll-area bleed {% if articel_size > section.settings.articles_per_row_desktop %}is-scrollable{% endif %}"
+        >
+          <reveal-items selector=".blog-post-list__posts > *">
+            <div class="blog-post-list__posts">
+              {% for blog_handle in handles %}
+                <div class="blog-post-list__post-item">
+                  {%- assign article = articles[blog_handle] -%}
+                  {%- if article.image != blank -%}
+                    <div class="blog-post-list__post-image-wrapper group">
+                      {%- capture sizes -%}
+                        (max-width: 699px) 74vw, (max-width: 999px) 38vw, calc((100vw - 96px) / {{ section.settings.articles_per_row_desktop }} - (24px / {{ section.settings.articles_per_row_desktop }} * {{ section.settings.articles_per_row_desktop | minus: 1 }}))
+                      {%- endcapture -%}
+                      <a href="{{ article.url }}">
+                        {{-
+                          article.image
+                          | image_url: width: article.image.width
+                          | image_tag:
+                            loading: main_media_loading_strategy,
+                            sizes: sizes,
+                            widths: '200,300,400,500,600',
+                            class: 'zoom-image--enabled group zoom-image'
+                        -}}
+                      </a>
+
+                      {% if article.metafields.custom.category != blank %}
+                        <span
+                          class="blog-post-list__post-category-badge text-sm uppercase"
+                          style="{% if article.metafields.custom.category_card_color != blank %}background-color:{{ article.metafields.custom.category_card_color }};{% endif %}"
+                        >
+                          {{ article.metafields.custom.category.value }}
+                        </span>
+                      {% endif %}
+                    </div>
+                  {%- endif -%}
+                  <div>
+                    <a href="{{ article.url }}" class="text-lg bold">
+                      {{ article.title }}
+                    </a>
+                  </div>
+                </div>
+              {% endfor %}
+            </div>
+          </reveal-items>
+        </scroll-carousel>
+
+        {%- assign default_progress = section.settings.articles_per_row_desktop
+          | times: 1.0
+          | divided_by: articel_size
+        -%}
+        {%- render 'scrollbar', observes: scroll_area_id, default_progress: default_progress, show_buttons: true -%}
+      </div>
+    </div>
+  </div>
+{% endif %}
+
+{% schema %}
+{
+  "name": "Featured articles",
+  "class": "shopify-section--featured-articles",
+  "tag": "section",
+  "disabled_on": {
+    "templates": ["password"],
+    "groups": ["header", "custom.overlay"]
+  },
+  "settings": [
+    {
+      "type": "select",
+      "id": "articles_per_row_mobile",
+      "label": "Articles per row (mobile)",
+      "options": [
+        {
+          "value": "1",
+          "label": "1"
+        },
+        {
+          "value": "2",
+          "label": "2"
+        }
+      ],
+      "default": "2"
+    },
+    {
+      "type": "range",
+      "id": "articles_per_row_desktop",
+      "min": 2,
+      "max": 5,
+      "label": "Articles per row (desktop)",
+      "default": 3
+    },
+    {
+      "type": "text",
+      "id": "subheading",
+      "label": "Subheading"
+    },
+    {
+      "type": "text",
+      "id": "articel_handles",
+      "label": "Article handles",
+      "info": "Add the handles of the blogs you want to display. Separate multiple handles with a comma."
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Featured Articles"
+    },
+    {
+      "type": "richtext",
+      "id": "content",
+      "label": "Content"
+    },
+    {
+      "type": "url",
+      "id": "link_url",
+      "label": "Link URL",
+      "info": "Default to collection URL."
+    },
+    {
+      "type": "text",
+      "id": "link_text",
+      "label": "Link text",
+      "default": "View all"
+    },
+    {
+      "type": "header",
+      "content": "Colors",
+      "info": "Gradient replaces solid colors when set."
+    },
+    {
+      "type": "color",
+      "id": "background",
+      "label": "Background"
+    },
+    {
+      "type": "checkbox",
+      "id": "full_width_background",
+      "label": "Remove section margin",
+      "default": false
+    },
+    {
+      "type": "color_background",
+      "id": "background_gradient",
+      "label": "Background gradient"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text"
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Heading color"
+    },
+    {
+      "type": "color_background",
+      "id": "heading_gradient",
+      "label": "Heading gradient"
+    },
+    {
+      "type": "color",
+      "id": "product_card_background",
+      "label": "Product card background"
+    },
+    {
+      "type": "color",
+      "id": "product_card_text_color",
+      "label": "Product card text"
+    },
+    {
+      "type": "select",
+      "id": "padding_top",
+      "label": "Padding top",
+      "options": [
+        { "value": "auto", "label": "auto" },
+        { "value": "0", "label": "0" },
+        { "value": "sm", "label": "sm" },
+        { "value": "md", "label": "md" },
+        { "value": "xl", "label": "xl" }
+      ],
+      "default": "auto"
+    },
+    {
+      "type": "select",
+      "id": "padding_bottom",
+      "label": "Padding bottom",
+      "options": [
+        { "value": "auto", "label": "auto" },
+        { "value": "0", "label": "0" },
+        { "value": "sm", "label": "sm" },
+        { "value": "md", "label": "md" },
+        { "value": "xl", "label": "xl" }
+      ],
+      "default": "auto"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Featured articles"
+    }
+  ]
+}
+{% endschema %}

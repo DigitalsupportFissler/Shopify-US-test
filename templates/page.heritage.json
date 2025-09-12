@@ -1,0 +1,459 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_ViYFC9": {
+      "type": "slideshow",
+      "blocks": {
+        "image_aCN8tj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Heritage_Header_2167x800_4613e9ac-043a-442d-b092-d2a6cab55deb.png",
+            "image_content_width": false,
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "Heritage",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "heading_color": "#ffffff",
+            "subheading_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 35,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_aCN8tj"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "full_width": true,
+        "show_initial_transition": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "rich_text_V7k6DU": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_Pxt8jh": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>With our unique combination of leading technology, craftsmanship, and high-quality materials, we manufacture the finest cookware. In Germany. Since 1845.<br/><br/>Responsibly designed and developed, using as many recycled materials as possible in the most sustainable way. With consideration for the environment, society, and future generations.<br/><br/>For us, cooking means much more than just preparing food. That's why we inspire and encourage passionate cooks around the world to cook with joy and confidence—while promoting diversity and individual needs.<br/><br/>We are proud to be part of a large community of passionate cooks—we celebrate cooking and express our appreciation for the cook, the ingredients, and the people we cook for.</p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_Pxt8jh"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "show_section_id": false,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "padding_top": "md",
+        "padding_bottom": "md"
+      }
+    },
+    "timeline_93xYbK": {
+      "type": "timeline",
+      "blocks": {
+        "slide_9irghP": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Made_in_Germany_Media_with_Text_harald_fissler.png",
+            "navigation_label": "1845",
+            "subheading": "",
+            "title": "1845",
+            "content": "<p>Plumber Carl Philipp Fissler establishes a small workshop for the production of kettles in Idar-Oberstein, Germany.</p>"
+          }
+        },
+        "slide_7dQWWC": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/heritage_timeline_1870_1200x1200_63ee3a9f-bf85-4259-bc58-8abe1e1aeb9d.png",
+            "navigation_label": "1870",
+            "subheading": "",
+            "title": "1870",
+            "content": "<p>Fissler patents the “Henkelmann,” a double-walled insulated container in which food can be safely transported and easily reheated.</p>"
+          }
+        },
+        "slide_Un3arF": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/heritage_timeline_1908_1200x1200_e1558258-7641-4572-9b65-37d970fb230d.png",
+            "navigation_label": "1908",
+            "subheading": "",
+            "title": "1908",
+            "content": "<p>“Stay Cool” handles made of aluminum coated with hard rubber: Fissler receives a patent for an innovation that replaces the cast iron handles commonly used until now. Burnt fingers are a thing of the past.</p>"
+          }
+        },
+        "slide_Ntdxkj": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/heritage_timeline_1925_1200x1200_5cf4e4b7-77ad-423b-a95a-393874e09d0d.png",
+            "navigation_label": "1925",
+            "subheading": "",
+            "title": "1925",
+            "content": "<p>Innovative mechanical engineering: With the help of a specially developed machine, Fissler is one of the few companies capable of manufacturing cookware with a diameter of up to 90 cm for hotels and cruise ships.</p>"
+          }
+        },
+        "slide_hwFHFJ": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/heritage_timeline_1928_1200x1200_2d8d220e-267c-44aa-a88c-e602d490334f.png",
+            "navigation_label": "1928",
+            "subheading": "",
+            "title": "1928",
+            "content": "<p>The pioneer: Fissler is the first German company to launch aluminum cookware for electric stoves that is seamlessly manufactured from a single piece.</p>"
+          }
+        },
+        "slide_zHPqkL": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/heritage_timeline_1951_1200x1200_c7b71243-049d-47a0-83d7-2a76bbed3510.png",
+            "navigation_label": "1951",
+            "subheading": "",
+            "title": "1951",
+            "content": "<p>Searing with a grill effect: Fissler invents a waffle structure for its pans that allows frying and searing even with little fat. Today, this innovation is registered as Fissler Novogrill®.</p>"
+          }
+        },
+        "slide_3wkRmi": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/heritage_timeline_1953_1200x1200_71c30cf7-ae49-4dd3-9ebb-d094fd23f62e.png",
+            "navigation_label": "1953",
+            "subheading": "",
+            "title": "1953",
+            "content": "<p>The taming of the pressure cooker: Fissler invents and patents a multi-stage safety valve that makes the pressure cooker safe for home use for the first time.</p>"
+          }
+        },
+        "slide_jWFa3P": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/heritage_timeline_1956_1200x1200_ce47b657-519e-4c28-9738-f40451e1e280.png",
+            "navigation_label": "1956",
+            "subheading": "",
+            "title": "1956",
+            "content": "<p>The original nonstick coating: Fissler is the first German manufacturer to produce pans with a PTFE coating that prevents food from sticking, is particularly durable, and is easy to clean.</p>"
+          }
+        },
+        "slide_tnCENp": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/heritage_timeline_1973_1200x1200_6cf21c3c-6d93-4cb1-a57f-4a4dac7ca4fb.png",
+            "navigation_label": "1973",
+            "subheading": "",
+            "title": "1973",
+            "content": "<p>Leading technology: In Hoppstädten-Weiersbach, 25 km from Idar-Oberstein, Fissler opens a new production site with a manufacturing area of 11,000 m².<br/><br/>While the head office remains in Idar-Oberstein, Fissler is consolidating the brand's production expertise at the new Neubrücke site, investing in efficient technologies and thus laying the foundation for the sustainable production of premium cookware “Made in Germany.”</p>"
+          }
+        },
+        "slide_H6BxhR": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/heritage_timeline_1974_1200x1200_1f825f84-d360-4cd5-96b0-ab0dea9814db.png",
+            "navigation_label": "1974",
+            "subheading": "",
+            "title": "1974",
+            "content": "<p>The birth of an icon: Together with professional chefs, Fissler has developed a cookware series that exceeds the highest standards. The Original Pro Collection® sets a new standard in quality and performance. It is sustainably manufactured, durable, and timeless in design.</p>"
+          }
+        },
+        "slide_Q3GMAx": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/heritage_timeline_1995_1200x1200_6dc10a3f-c80c-47f3-b43f-86a29cae7202.png",
+            "navigation_label": "1995",
+            "subheading": "",
+            "title": "1995",
+            "content": "<p>Fissler invents and patents the CookStar® base, which ensures optimum heat distribution - a multi-award-winning innovation for future-oriented and energy-efficient cooking.</p>"
+          }
+        },
+        "slide_PqhCza": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/heritage_timeline_2003_1200x1200_36af7ca5-953f-4571-9c8e-567f3d5912ca.png",
+            "navigation_label": "2003",
+            "subheading": "",
+            "title": "2003",
+            "content": "<p>The right pot and pan for every application: Fissler refines the iconic design, functionality and even the quality of the Original-Profi Collection®. The series offers the most comprehensive range of pots and pans.</p>"
+          }
+        },
+        "slide_je3Fqd": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/heritage_timeline_2005_1200x1200_69e5e6cf-8753-4eae-90af-ef3f900af2bb.png",
+            "navigation_label": "2005",
+            "subheading": "",
+            "title": "2005",
+            "content": "<p>Cooking convenience at the highest level: the Intensa® collection offers additional convenience thanks to a pouring function, retractable lids and the practical stacking function.</p>"
+          }
+        },
+        "slide_NitTdY": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/heritage_timeline_2009_1200x1200_fa4113a2-f578-4eab-8616-6fca10aadae0.png",
+            "navigation_label": "2009",
+            "subheading": "",
+            "title": "2009",
+            "content": "<p>The next level of passionate cooking: With the Vita® series, Fissler is launching a new generation of safe pressure cookers. The Vitavit® Premium and Vitavit® Comfort from Fissler stand for a healthy lifestyle, save time and energy and preserve vitamins.</p>"
+          }
+        },
+        "slide_zG76RW": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/heritage_timeline_2013_1200x1200_9809ee50-cf06-4160-b02d-dcc9e932ac3a.png",
+            "navigation_label": "2013",
+            "subheading": "",
+            "title": "2013",
+            "content": "<p>Luno® - the aluminum cookware series with non-stick effect, practical Protectal Plus coating and Fissler Planium® technology is launched.</p>"
+          }
+        },
+        "slide_3CdAhT": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/heritage_timeline_2017_1200x1200_9fced63e-7ee2-46f0-a10b-f57776a609dd.png",
+            "navigation_label": "2017",
+            "subheading": "",
+            "title": "2017",
+            "content": "<p>Fissler launches °SensoRed® - a pan series with a thermosensitive non-stick coating that indicates the optimum frying temperature by changing color.</p>"
+          }
+        },
+        "slide_4UPEwT": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/heritage_timeline_2018_1200x1200_f852edfb-b84f-46bc-a9ea-eb97e7a0bc11.png",
+            "navigation_label": "2018",
+            "subheading": "",
+            "title": "2018",
+            "content": "<p>The scratch-resistant all-rounder: The Fissler Adamant® series with a particularly scratch-resistant non-stick coating with silicon carbide particles is launched on the market. The frying pans are suitable for crispy frying of meat, roasting vegetables and gentle frying of delicate foods.</p>"
+          }
+        },
+        "slide_cVWayD": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/heritage_timeline_2020_1200x1200_cfa2fc4b-5eab-4f97-8a2f-b4c92b244149.png",
+            "navigation_label": "2020",
+            "subheading": "",
+            "title": "2020",
+            "content": "<p>175 years of passion for cooking - the Fissler brand celebrates its 175th anniversary.</p>"
+          }
+        },
+        "slide_qEdFFi": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/heritage_timeline_2020_1200x1200_2.png",
+            "navigation_label": "2020",
+            "subheading": "",
+            "title": "2020",
+            "content": "<p>An innovation for even more sustainability: Fissler is renewing the production process for coated aluminum pans and almost completely eliminating the use of solvent-based coatings. The investment in an innovative production facility enables the use of water-based coatings for all pans and woks with a non-stick effect \"Made in Germany\", which reduces CO2 emissions by around 70% per year.</p>"
+          }
+        },
+        "slide_Bpmd8z": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/heritage_timeline_2020_1200x1200_3.png",
+            "navigation_label": "2020",
+            "subheading": "",
+            "title": "2020",
+            "content": "<p>The best non-stick coating: The Fissler Levital® series comes onto the market and defines a new standard. Levital® is the best Fissler pan with a non-stick effect based on PTFE.</p>"
+          }
+        },
+        "slide_4j7WXH": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/heritage_timeline_2021_1200x1200_761c8d96-09d7-428a-9113-de3c58eee3a6.png",
+            "navigation_label": "2021",
+            "subheading": "",
+            "title": "2021",
+            "content": "<p>Healthy cooking at the highest level: Fissler launches the Vitavit® Premium Pressure Cooker \"S4\", which enables particularly gentle or very fast cooking with 3 cooking levels and a pressureless steam cooking level.</p>"
+          }
+        },
+        "slide_gGgREt": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/heritage_timeline_2022_1200x1200_5142afea-87d3-412a-aa46-a55f7ec020f5.png",
+            "navigation_label": "2022",
+            "subheading": "",
+            "title": "2022",
+            "content": "<p>The ceramic alternative: Fissler launches the PFAS/PTFE-free Ceratal® pan for responsible frying. The pan with water-based ceramic coating is suitable for both gentle and crispy frying and thus shows special appreciation for the people we cook for.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "slide_9irghP",
+        "slide_7dQWWC",
+        "slide_Un3arF",
+        "slide_Ntdxkj",
+        "slide_hwFHFJ",
+        "slide_zHPqkL",
+        "slide_3wkRmi",
+        "slide_jWFa3P",
+        "slide_tnCENp",
+        "slide_H6BxhR",
+        "slide_Q3GMAx",
+        "slide_PqhCza",
+        "slide_je3Fqd",
+        "slide_NitTdY",
+        "slide_zG76RW",
+        "slide_3CdAhT",
+        "slide_4UPEwT",
+        "slide_cVWayD",
+        "slide_qEdFFi",
+        "slide_Bpmd8z",
+        "slide_4j7WXH",
+        "slide_gGgREt"
+      ],
+      "name": "Timeline",
+      "settings": {
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "featured_product_Ha3man": {
+      "type": "featured-product",
+      "blocks": {
+        "vendor_kfY8zG": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "title_eEHeUd": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "badges_EeNKcy": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price_PAexq7": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating_Yz8bQi": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "separator_4W4U7A": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description_D7T67Y": {
+          "type": "description",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "collapse_content": false
+          }
+        },
+        "variant_picker_VJatLN": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector_4JA94m": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_jxFghn": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "pickup_availability_VRpwth": {
+          "type": "pickup_availability",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "vendor_kfY8zG",
+        "title_eEHeUd",
+        "badges_EeNKcy",
+        "price_PAexq7",
+        "rating_Yz8bQi",
+        "separator_4W4U7A",
+        "description_D7T67Y",
+        "variant_picker_VJatLN",
+        "quantity_selector_4JA94m",
+        "buy_buttons_jxFghn",
+        "pickup_availability_VRpwth"
+      ],
+      "disabled": true,
+      "settings": {
+        "product": "adamant-comfort-pfanne",
+        "desktop_media_width": 35,
+        "desktop_media_layout": "grid_one",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "100%"
+      }
+    }
+  },
+  "order": [
+    "slideshow_ViYFC9",
+    "rich_text_V7k6DU",
+    "timeline_93xYbK",
+    "featured_product_Ha3man",
+    "main"
+  ]
+}

@@ -1,0 +1,331 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "100%"
+      }
+    },
+    "featured_product_Ha3man": {
+      "type": "featured-product",
+      "blocks": {
+        "vendor_kfY8zG": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "title_eEHeUd": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "badges_EeNKcy": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price_PAexq7": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating_Yz8bQi": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "separator_4W4U7A": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description_D7T67Y": {
+          "type": "description",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "collapse_content": false
+          }
+        },
+        "variant_picker_VJatLN": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector_4JA94m": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_jxFghn": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "pickup_availability_VRpwth": {
+          "type": "pickup_availability",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "vendor_kfY8zG",
+        "title_eEHeUd",
+        "badges_EeNKcy",
+        "price_PAexq7",
+        "rating_Yz8bQi",
+        "separator_4W4U7A",
+        "description_D7T67Y",
+        "variant_picker_VJatLN",
+        "quantity_selector_4JA94m",
+        "buy_buttons_jxFghn",
+        "pickup_availability_VRpwth"
+      ],
+      "disabled": true,
+      "settings": {
+        "product": "adamant-comfort-pfanne",
+        "desktop_media_width": 35,
+        "desktop_media_layout": "grid_one",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "slideshow_p9idJN": {
+      "type": "slideshow",
+      "blocks": {
+        "image_KUbGbm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Landingpages_SKT_Jubilaeumsedition_Header_Image_2800x1000_faae4690-1c70-4972-9c64-9c3b893d6364.png",
+            "image_content_width": false,
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "Meilensteine",
+            "title": "70 Jahre Schnellkochen",
+            "heading_tag": "h2",
+            "button_text": "",
+            "button_link": "",
+            "heading_color": "#ffffff",
+            "subheading_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_KUbGbm"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "full_width": true,
+        "show_initial_transition": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#F2F2F2",
+        "background_gradient": ""
+      }
+    },
+    "timeline_R3TF6J": {
+      "type": "timeline",
+      "blocks": {
+        "slide_8ihQqf": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/SKT_Meilensteine_timeline_1200x1200_10_8edb4d85-5f13-49ef-b406-fc9ca89deed0.png",
+            "navigation_label": "1953",
+            "subheading": "1953",
+            "title": "Patentiertes, mehrstufiges Sicherheitsventil",
+            "content": "<p>Fissler erfindet den Schnellkochtopf mit patentiertem, mehrstufigem Sicherheitsventil, das den Schnellkochtopf erstmals sicher für den Hausgebrauch macht. Fissler revolutioniert damit das Kochen in Küchen auf der ganzen Welt.</p>"
+          }
+        },
+        "slide_ixeVPk": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/SKT_Meilensteine_timeline_1200x1200_9_71ce4ab5-4867-42da-80a0-ba520059e192.png",
+            "navigation_label": "1958",
+            "subheading": "1958",
+            "title": "Vitavit® Schnellkochtopf",
+            "content": "<p>Der Fissler Vitavit® Schnellkochtopf erscheint erstmals mit einem unverwechselbaren, roten Deckel. Das Sicherheitsventil des Topfes war das erste seiner Art und schont bis heute Aromen und Vitamine.</p>"
+          }
+        },
+        "slide_yq3yRw": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/SKT_Meilensteine_timeline_1200x1200_8_cd4d4a29-d549-4388-9afb-4f0ac7863cf1.png",
+            "navigation_label": "1962",
+            "subheading": "1962",
+            "title": "Patentierte Unimatik",
+            "content": "<p>Fissler patentiert die Unimatik - ein „Sicherheits- und Entlüftungsventil für einen Dampfdrucktopf“. Neben dem automatischen Entlüften des Überdrucks, verhindert das Ventil erstmals ein unerwünschtes Austreten des Topfinhalts über das Ventil.</p>"
+          }
+        },
+        "slide_VHWqVa": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/SKT_Meilensteine_timeline_1200x1200_7_987f1a77-874f-4b2e-a5c0-a05dceb8e9b3.png",
+            "navigation_label": "1969",
+            "subheading": "1969",
+            "title": "Die ersten Schnellbratpfannen",
+            "content": "<p>16 Jahre nach dem Welterfolg des Schnellkochtopfs, reagiert Fissler auf die Bedürfnisse passionierter Köche und bringt die erste Schnellbratpfanne auf den Markt. </p>"
+          }
+        },
+        "slide_pMV3FE": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/SKT_Meilensteine_timeline_1200x1200_6.png",
+            "navigation_label": "1973",
+            "subheading": "1973",
+            "title": "Neue Produktionsstätte",
+            "content": "<p>Führende Technologie: In Hoppstädten-Weiersbach, 25 km von Idar-Oberstein entfernt, eröffnet Fissler eine neue Produktionsstätte. Dies ist der Grundstein für eine nachhaltige Produktion von Premium Kochgeschirr – Made in Germany. Bis heute wird jeder Fissler Schnellkochtopf in Hoppstädten-Weiersbach produziert und von Hand geprüft.</p>"
+          }
+        },
+        "slide_g8HgDp": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/SKT_Meilensteine_timeline_1200x1200_15.png",
+            "navigation_label": "1976",
+            "subheading": "1976",
+            "title": "Der Fissler Solaryme",
+            "content": "<p>Der Fissler Schnellkochtopf erscheint erstmals mit dem ikonischen Solar-Dekor, das die Farben des Wappens von Hoppstädten-Weiersbach widerspiegelt. Das Dekor verweist stolz auf die Herkunft der Marke Fissler – „Made in Germany“ – und erfreut sich bis heute insbesondere in Asien großer Beliebtheit. Noch heute werden Produkte mit dem traditionsreichen Dekor unter dem Namen „Solaryme“ erfolgreich international vertrieben.</p>"
+          }
+        },
+        "slide_FYFPbF": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/SKT_Meilensteine_timeline_1200x1200_18_ce8a96f0-4313-4e0a-a559-62442fa483fc.png",
+            "navigation_label": "1982",
+            "subheading": "1982",
+            "title": "Die Quattro Schnellbratpfanne",
+            "content": "<p>Fissler präsentiert die Quattro Schnellbratpfanne. In Verbindung mit dem zusätzlichen Pfannendeckel wird die Schnellbratpfanne zu einem echten Multitalent, das schnell Kochen, Braten, Dämpfen und Frittieren kann.</p>"
+          }
+        },
+        "slide_HUN6GD": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/SKT_Meilensteine_timeline_1200x1200_14_eb360bf3-2559-4cef-bf65-75ae814eafa0.png",
+            "navigation_label": "1989",
+            "subheading": "1989",
+            "title": "Schnellkochtöpfe in floralem Design",
+            "content": "<p>In den 80er Jahren treffen Fissler und die Annweiler Emaille- & Metallwerke, einem Spezialisten für emailliertes Kochgeschirr in Deutschland, den Zeitgeist einer Generation. Die floralen, bunten Designs der emaillierten Schnellkochtöpfe begeistern passionierte Köche weltweit und setzen einen Trend in der Branche.</p>"
+          }
+        },
+        "slide_6kCbNq": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/SKT_Meilensteine_timeline_1200x1200_2_db761b22-f729-444f-bd1c-da1f420e3d75.png",
+            "navigation_label": "1992",
+            "subheading": "1992",
+            "title": "Die Magic Serie",
+            "content": "<p>Mit der Magic Serie definiert Fissler Ende der 80er Jahre neue Standards in Funktion und Design. Der innovative Look des neuen Fissler Schnellkochtopfs setzt Maßstäbe für eine ganze Kategorie.</p>"
+          }
+        },
+        "slide_Ec3eTx": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/SKT_Meilensteine_timeline_1200x1200_3_bdc3dd40-e7e2-41e9-8219-dc6ffa305441.png",
+            "navigation_label": "1995",
+            "subheading": "1995",
+            "title": "Die Vitaquick® Schnellkochtöpfe",
+            "content": "<p>Fissler führt die Vitaquick® Schnellkochtöpfe ein. Sie überzeugen mit allen wesentlichen Funktionen eines sicheren Schnellkochtopfs und bieten den unkomplizierten Einstieg in die Welt des gesunden und geschmackvollen Schnellkochens – „Made in Germany“.</p>"
+          }
+        },
+        "slide_zkUfUw": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/SKT_Meilensteine_timeline_1200x1200_bc350ffd-6f2b-48ce-8acf-f2bc9cc4f492.png",
+            "navigation_label": "2009",
+            "subheading": "2009",
+            "title": "Führungsanspruch der Marke",
+            "content": "<p>Die Vitavit® Premium und Vitaquick® Schnellkochtöpfe werden noch besser und sicherer: eine Koch- und Verriegelungsanzeige, das mehrstufige Sicherheitssystem mit patentierter Technologie und bis zu 90% recycelter Edelstahl 18/10 definieren den Führungsanspruch der Marke Fissler im Schnellkochen. </p>"
+          }
+        },
+        "slide_eYicEC": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/SKT_Meilensteine_timeline_1200x1200_11_df960118-b2fa-447d-a451-4be537cd15a3.png",
+            "navigation_label": "2021",
+            "subheading": "2021",
+            "title": "Der Vitavit® Premium Schnellkochtopf",
+            "content": "<p>Führende Technologie und premium Materialien: der Vitavit® Premium Schnellkochtopf glänzt ab sofort mit einer edlen, satinierten Oberfläche und einer zusätzlichen Kochstufe: Vier Kochstufen, einschließlich einer drucklosen Dampfgarstufe zum gesundheitsbewussten Dämpfen von zum Beispiel Fisch oder Gemüse, ermöglichen ein noch schonenderes oder sehr schnelles Garen.</p>"
+          }
+        },
+        "slide_XW8wXA": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/SKT_Meilensteine_timeline_1200x1200_17_808b78be-a6e1-434e-9851-615d81af2215.png",
+            "navigation_label": "2023",
+            "subheading": "2023",
+            "title": "70 Jahre Schnellkochen",
+            "content": "<p>70 Jahre Schnellkochen: Fissler feiert die Erfindung des sicheren Schnellkochtopfs mit zwei besonderen Jubiläumseditionen. Das Design der limitierten Vitavit®und Vitaquick® Serie ist inspiriert von der Mode und den Farben der modernen Kunst der 50er Jahre. Die Schnellkochtöpfe erstrahlen im „Colour Blocking“ Design, das diese Epoche geprägt hat.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "slide_8ihQqf",
+        "slide_ixeVPk",
+        "slide_yq3yRw",
+        "slide_VHWqVa",
+        "slide_pMV3FE",
+        "slide_g8HgDp",
+        "slide_FYFPbF",
+        "slide_HUN6GD",
+        "slide_6kCbNq",
+        "slide_Ec3eTx",
+        "slide_zkUfUw",
+        "slide_eYicEC",
+        "slide_XW8wXA"
+      ],
+      "name": "Timeline",
+      "settings": {
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "featured_product_Ha3man",
+    "slideshow_p9idJN",
+    "timeline_R3TF6J"
+  ]
+}

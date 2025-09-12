@@ -1,0 +1,172 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "navigation": {
+          "type": "navigation",
+          "disabled": true,
+          "settings": {}
+        },
+        "comments": {
+          "type": "comments",
+          "disabled": true,
+          "settings": {
+            "show_gravatar": true,
+            "comments_per_page": 5
+          }
+        }
+      },
+      "block_order": [
+        "navigation",
+        "comments"
+      ],
+      "settings": {
+        "layout": "image_text_overlay",
+        "image": "{{ article.image }}",
+        "show_author": true,
+        "show_date": true,
+        "show_comments_count": true,
+        "show_share_buttons": true,
+        "show_header_image": true,
+        "banner_background": "",
+        "banner_text_color": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "content_width": "750px",
+        "stats_color": "#556132",
+        "is_recipe": false,
+        "content_alignment": "start"
+      }
+    },
+    "multi_column_tezfjY": {
+      "type": "multi-column",
+      "blocks": {
+        "item_demmft": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Ratgeber_Produktwissen_Multi_Column_Fleisch_anbraten_1200x900_a84d14c8-c4d4-47be-883a-36ed90b95d83.png",
+            "column_size": "3",
+            "title": "1. Sear the meat",
+            "heading_tag": "h4",
+            "content": "<p>Meat is first seared briefly in a pressure cooker to keep it nice and juicy. Then a little broth or other liquid is added, and herbs or spices can be added.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_xHEJ8q": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Ratgeber_Produktwissen_Multi_Column_Beilage_hinzugeben_1200x900_76f8c4cd-64f0-4b2a-98d8-2b4eb6fcd609.png",
+            "column_size": "3",
+            "title": "2. Add side dishes",
+            "heading_tag": "h4",
+            "content": "<p>The side dishes, such as vegetables, are cleaned, cut into even pieces, and placed in the special perforated insert of the pressure cooker. The accompanying trivet is placed on the bottom of the pot and the insert is placed on top of it.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_LLnaAM": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Ratgeber_Produktwissen_Multi_Column_Deckel_verschliessen_1200x900_c21224ee-877f-4f6e-9cc5-43a65ca24dff.png",
+            "column_size": "3",
+            "title": "3. Close the lid",
+            "heading_tag": "h4",
+            "content": "<p>Now close the lid. Thanks to the attachment aid and an acoustic and visual signal, this is very easy to do.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_aAieXz": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Productguide_Steaming_Pressurecooker_ReleaseSteam_1200x900_5b0fc5a3-a461-42f2-9e10-780f9d39b6a6.png",
+            "column_size": "3",
+            "title": "4. Steaming",
+            "heading_tag": "h4",
+            "content": "<p>When the cooking time is up, the steam must be released before the pressure cooker can be opened.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_33GqKL": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Ratgeber_Produktwissen_Multi_Column_Tipp_1200x900_139f6857-4393-490c-93e5-4109f344b5ec.png",
+            "column_size": "3",
+            "title": "5. Remove the insert",
+            "heading_tag": "h4",
+            "content": "<p>First, remove the insert from the open pressure cooker. Thanks to the handle, which curves slightly inward in the middle, this is particularly easy to do with a tablespoon. Since the handle can only be moved in one direction, there is no risk of it swaying back and forth while you are lifting it out. Then remove the trivet from the pot and finally take out the meat.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_demmft",
+        "item_xHEJ8q",
+        "item_LLnaAM",
+        "item_aAieXz",
+        "item_33GqKL"
+      ],
+      "settings": {
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "Here's how it works:",
+        "content": "",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "featured_articles_7C6jDz": {
+      "type": "featured-articles",
+      "settings": {
+        "articles_per_row_mobile": "2",
+        "articles_per_row_desktop": 3,
+        "subheading": "",
+        "articel_handles": "product-guide/pressure-cooking-time-finder,product-guide/pressure-cooker-juicing,product-guide/multi-level-pressure-cooking,product-guide/pressure-cooker-steaming",
+        "title": "The pressure cooker can do even more:",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "multi_column_tezfjY",
+    "featured_articles_7C6jDz"
+  ]
+}

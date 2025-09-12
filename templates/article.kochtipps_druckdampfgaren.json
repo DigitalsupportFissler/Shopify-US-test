@@ -1,0 +1,397 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "navigation": {
+          "type": "navigation",
+          "disabled": true,
+          "settings": {}
+        },
+        "comments": {
+          "type": "comments",
+          "disabled": true,
+          "settings": {
+            "show_gravatar": true,
+            "comments_per_page": 5
+          }
+        }
+      },
+      "block_order": [
+        "navigation",
+        "comments"
+      ],
+      "settings": {
+        "layout": "image_text_overlay",
+        "image": "{{ article.image }}",
+        "show_author": false,
+        "show_date": true,
+        "show_comments_count": true,
+        "show_share_buttons": true,
+        "show_header_image": true,
+        "banner_background": "",
+        "banner_text_color": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "content_width": "750px",
+        "stats_color": "#556132",
+        "is_recipe": false,
+        "content_alignment": "start"
+      }
+    },
+    "media_grid_4CJKiF": {
+      "type": "media-grid",
+      "blocks": {
+        "image_6B8xFe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Rezept_Winterlicher_Feldsalat_im_Parmesankoerbchen_2167x1200_8793c867-03f6-4f35-8188-5be2bb49026e.png",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_column_span": 2,
+            "mobile_row_span": 1,
+            "mobile_height": 150,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "blog_post_handle": ""
+          }
+        },
+        "image_rikigk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Rezept_Weisse_Mousse-Cannoli_mit_marinierten_Birnen_Granola_und_Joghurt-Creme-Eis_2167x1200_3a582840-ab16-4248-b000-dc6c4a8d5c2a.png",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_column_span": 4,
+            "mobile_row_span": 1,
+            "mobile_height": 150,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "blog_post_handle": ""
+          }
+        },
+        "image_yXmTmW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Rezept_Suesskartoffel-Moehren-Pasta_mit_Cashewsosse_2167x1200_3cec4dbd-ea12-4f70-9b6e-1c4626813c49.png",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_column_span": 4,
+            "mobile_row_span": 2,
+            "mobile_height": 150,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "blog_post_handle": ""
+          }
+        },
+        "image_4wcCHR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Rezept_Rehburger_2167x1200_0624e700-0bb4-4974-bd1f-2167010dad9d.png",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_column_span": 4,
+            "mobile_row_span": 2,
+            "mobile_height": 150,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "blog_post_handle": ""
+          }
+        },
+        "image_WYEY8z": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Rezept_Thai_Curry_Panang_Style_2167x1200_dd8370ec-77c2-468a-884e-25ed9760bede.png",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_column_span": 4,
+            "mobile_row_span": 1,
+            "mobile_height": 150,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "blog_post_handle": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_6B8xFe",
+        "image_rikigk",
+        "image_yXmTmW",
+        "image_4wcCHR",
+        "image_WYEY8z"
+      ],
+      "disabled": true,
+      "settings": {
+        "use_height": false,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
+        "background": "",
+        "background_gradient": ""
+      }
+    },
+    "blog_posts_imrjHy": {
+      "type": "blog-posts",
+      "blocks": {
+        "article_8WaryL": {
+          "type": "article",
+          "settings": {
+            "article": "",
+            "background": "",
+            "text_color": "",
+            "article_handle": ""
+          }
+        }
+      },
+      "block_order": [
+        "article_8WaryL"
+      ],
+      "disabled": true,
+      "settings": {
+        "show_excerpt": true,
+        "show_date": true,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": true,
+        "show_overall_time": false,
+        "subheading": "REZEPTE",
+        "title": "Weitere Rezeptideen",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto",
+        "blog_handle": "rezepte",
+        "posts_count": 4
+      }
+    },
+    "media_with_text_xczrfc": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_3Dkbxq": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Ratgeber_Druckdampfgaren_fissler-dampfgarer-steamer-funktionsweise-function_800x800_ac71a3e5-fc5c-4d60-a4bf-86ce2e5ab981.png",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Wie kommt es zum Druckaufbau im Schnellkochtopf?",
+            "heading_tag": "h3",
+            "content": "<p>Topfkörper und Deckel des Schnellkochtopfs sind über einen Verschlussmechanismus und einen im Deckel sitzenden Dichtungsring fest verschlossen. Indem eine Mindestmenge an Flüssigkeit in den Topf gegeben wird, verdampft beim Kochen ein Teil des Wassers. Dieser Wasserdampf drückt den für Vitamine schädlichen Sauerstoff durch das Entlüftungsventil (Euromatic) nach außen. Nach Entweichen der Luft schließt sich die Euromatic und verschließt den Topf hermetisch. Da der Dampf jetzt nicht mehr austreten kann, baut sich im Topfinneren ein höherer Druck auf.<br/><br/></p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "image_3Dkbxq"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "show_section_id": false,
+        "padding_top": "sm",
+        "padding_bottom": "sm"
+      }
+    },
+    "rich_text_M9t4Xm": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_giKgwM": {
+          "type": "heading",
+          "settings": {
+            "text": "Wie wird die Sicherheit beim Druckdampfgaren gewährleistet?",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_QkbczU": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Moderne Schnellkochtöpfe von Fissler verfügen über verschiedene Sicherheitseinrichtungen, die automatisch funktionieren. So kann z. B. Druck überhaupt erst aufgebaut werden, wenn der Topf richtig verschlossen ist – erkennbar durch eine optische und akustische Verriegelungsanzeige am Griff. Damit werden die Sicherheitssysteme aktiv, die z. B. automatisch den Druck im Topf begrenzen oder dafür sorgen, dass der Topf nur geöffnet werden kann, wenn im Topf kein Überdruck herrscht. Darüber hinaus können Nutzer durch die Ampelanzeige der Kochkrone den Druck selbst kontrollieren und durch Herunterschalten der Temperatur bzw. manuelles Abdampfen den Druck abbauen.<br/></p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_giKgwM",
+        "richtext_QkbczU"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "rich_text_TAwNWi": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_piGQ3F": {
+          "type": "heading",
+          "settings": {
+            "text": "Was ist der Unterschied zwischen Druckdampfgaren und Dampfgaren?",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_RfH9fB": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Während beim Druckdampfgaren Druck aufgebaut wird, geschieht das Dampfgaren bei Umgebungsdruck, also „drucklos“, da der Wasserdampf durch die Kochkrone entweicht. Die Speisen werden besonders sanft im Dampf des kochenden Wassers, also bei 100°C, gegart. Im Schnellkochtopf kann nur über eine zusätzliche Dampfgarstufe und mit einem Einsatz drucklos in Dampf gegart werden – sie ersetzt somit einen separaten Dampfgarer. Die Garzeit entspricht der beim herkömmlichen Kochen.</p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_piGQ3F",
+        "richtext_RfH9fB"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "xl"
+      }
+    },
+    "featured_articles_Np4XnB": {
+      "type": "featured-articles",
+      "name": "Featured articles",
+      "settings": {
+        "show_progress_bar": true,
+        "articles_per_row_mobile": "2",
+        "articles_per_row_desktop": 3,
+        "subheading": "",
+        "articel_handles": "produktwissen/dampfgaren-im-schnellkochtopf,produktwissen/etagenkochen-im-schnellkochtopf,produktwissen/entsaften-im-schnellkochtopf",
+        "title": "Weitere Artikel zum Schnellkochtopf",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "media_grid_4CJKiF",
+    "blog_posts_imrjHy",
+    "media_with_text_xczrfc",
+    "rich_text_M9t4Xm",
+    "rich_text_TAwNWi",
+    "featured_articles_Np4XnB"
+  ]
+}

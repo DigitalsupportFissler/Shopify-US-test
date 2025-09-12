@@ -1,0 +1,30 @@
+<div class="pdp-custom-recommendations">
+  <div class="pdp-custom-recommendations__header">
+    <h3 class="pdp-custom-recommendations__header-title text-base"></h3>
+    <div class="pdp-custom-recommendations__header-buttons">
+      <button class="pdp-custom-recommendations__header-button pdp-custom-recommendations__header-prev">{%- render 'icon' with 'right-left' -%}</button>
+      <button class="pdp-custom-recommendations__header-button pdp-custom-recommendations__header-next">{%- render 'icon' with 'left-right' -%}</button>
+    </div>
+  </div>
+  <div class="pdp-custom-recommendations__wrapper">
+    {% for releated_product in recommendations.products %}
+      <div class="pdp-custom-recommendations__item {% if forloop.index0 == 0 %}active{% endif %}">
+        <div class="pdp-custom-recommendations__item-image">
+          <img src="{{ releated_product.featured_image.src | img_url: '300x' }}" alt="{{ releated_product.featured_image.alt }}">
+        </div>
+        <div class="pdp-custom-recommendations__item-info">
+          <a href="/products/{{ releated_product.handle }}" class="pdp-custom-recommendations__item-title text-sm">{{ releated_product.title }}</a>
+          {%- render 'price-list', product: releated_product, variant: releated_product.selected_or_first_available_variant -%}
+        </div>
+        <div class="pdp-custom-recommendations__item-buttons">
+          {%- form 'product', product, is: 'product-form' -%}
+            <input type="hidden" name="id" value="{{ releated_product.selected_or_first_available_variant.id }}" />
+            <button type="submit" class="pdp-custom-recommendations__item-button">
+              {%- render 'icon' with 'custom-plus' -%}
+            </button>
+          {%- endform -%}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>

@@ -1,0 +1,111 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_KKqf7q": {
+      "type": "slideshow",
+      "blocks": {
+        "image_wHHFFY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Categories_Kuechenhelfer-kochen-und-braten_Header-Latori_2167x800_ee904f4d-eddc-494f-998e-8558bdc18d14.jpg",
+            "image_content_width": false,
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "Tips and Tricks",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "heading_color": "#ffffff",
+            "subheading_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_wHHFFY"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "full_width": true,
+        "show_initial_transition": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "main": {
+      "type": "main-blog",
+      "blocks": {
+        "tag_mapping_mxJzyd": {
+          "type": "tag_mapping",
+          "settings": {
+            "tag": "",
+            "sub_heading": "",
+            "sub_content": ""
+          }
+        },
+        "tag_mapping_NbgnxP": {
+          "type": "tag_mapping",
+          "settings": {
+            "tag": "pfannen",
+            "sub_heading": "",
+            "sub_content": ""
+          }
+        }
+      },
+      "block_order": [
+        "tag_mapping_mxJzyd",
+        "tag_mapping_NbgnxP"
+      ],
+      "settings": {
+        "fallback_heading": "Blogposts",
+        "sub_heading": "Recipe ideas made easy: Inspiration for every occasion",
+        "sub_content": "<p>It's easy to lose your bearings in the recipe jungle. With our themed recipe collections, you'll find quick and targeted inspiration, whether you're looking for a use for your zucchinis or vegan guests have announced their arrival for cake: We have the right collections with our best recipes at the ready!</p>",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "alignment": "center",
+        "allow_transparent_header": false,
+        "content": "",
+        "show_tags": true,
+        "use_tag_mapping": false,
+        "show_heading": false,
+        "banner_background": "#ffffff",
+        "banner_text_color": "",
+        "button_background": "",
+        "button_text_color": "",
+        "articles_per_page": 24,
+        "feature_article_background": "",
+        "feature_article_text_color": "",
+        "show_date": false,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": true,
+        "show_prep_time": true,
+        "show_recipe_yield": true
+      }
+    }
+  },
+  "order": [
+    "slideshow_KKqf7q",
+    "main"
+  ]
+}

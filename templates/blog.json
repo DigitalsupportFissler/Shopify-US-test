@@ -1,0 +1,65 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-blog",
+      "blocks": {
+        "tag_mapping_mxJzyd": {
+          "type": "tag_mapping",
+          "settings": {
+            "tag": "",
+            "sub_heading": "",
+            "sub_content": ""
+          }
+        },
+        "tag_mapping_NbgnxP": {
+          "type": "tag_mapping",
+          "settings": {
+            "tag": "pfannen",
+            "sub_heading": "",
+            "sub_content": ""
+          }
+        }
+      },
+      "block_order": [
+        "tag_mapping_mxJzyd",
+        "tag_mapping_NbgnxP"
+      ],
+      "settings": {
+        "fallback_heading": "Blogposts",
+        "sub_heading": "Rezeptideen leicht gemacht: Inspiration für jeden Anlass",
+        "sub_content": "<p>Im Rezepte-Dschungel kann man schon einmal die Orientierung verlieren. Mit unseren thematischen Rezeptsammlungen findet ihr schnell und gezielt Inspiration, egal ob ihr Verwendung für eure Zucchinis sucht oder sich vegane Gäste zum Kuchen angekündigt haben: Wir haben die passenden Sammlungen mit unseren besten Rezepten parat!</p>",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "alignment": "center",
+        "allow_transparent_header": false,
+        "content": "",
+        "show_tags": true,
+        "banner_background": "#ffffff",
+        "banner_text_color": "",
+        "button_background": "",
+        "button_text_color": "",
+        "articles_per_page": 24,
+        "feature_article_background": "",
+        "feature_article_text_color": "",
+        "show_date": false,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": true,
+        "show_prep_time": true,
+        "show_recipe_yield": true
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

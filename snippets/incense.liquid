@@ -1,0 +1,9 @@
+<ul style="display: flex; flex-wrap: wrap; gap: 1rem; list-style: none; padding: 0;">
+    {%- assign icon_list = "error,warning,success,drag-handle,up-down,left-right,check,right-left,chevron-bottom,chevron-left,chevron-right,chevron-left-small,chevron-right-small,chevron-bottom-small,plus,custom-plus,custom-search,minus,close,delete,hamburger,account,search,world,finder,cart,quick-buy-cart,circle-button-left-clipped,next-button-clipped,circle-button-right-clipped,rating-star,play-button,play-video,play-model,image-zoom,email,share,filter,discount,blog-author,blog-comment,blog-date,picto-at-sign,picto-award-gift,picto-beer,picto-bluetooth,picto-box,picto-building,picto-burger,picto-camera,picto-chat,picto-coffee,picto-comment,picto-coupon,picto-credit-card,picto-customer-support,picto-document,picto-earth,picto-envelope,picto-file,picto-gift,picto-happy,picto-jewelry,picto-leaf,picto-like,picto-lock,picto-love,picto-mailbox,picto-mask,picto-mobile-phone,picto-money,picto-music,picto-operator,picto-percent,picto-phone,picto-pin,picto-plane,picto-printer,picto-question,picto-recycle,picto-return,picto-secure-profile,picto-send,picto-shield,picto-smart-watch,picto-star,picto-stop,picto-target,picto-timer,picto-tree,picto-truck,picto-validation,picto-wifi,media-view-in-space,facebook,instagram,twitter,threads,fancy,linkedin,snapchat,tiktok,tumblr,vimeo,wechat,youtube,line,reddit,spotify,whatsapp,21buttons,pinterest,shopify-logo,blog-nav-right" | split: "," -%}
+    {%- for icon_name in icon_list -%}
+      <li style="width: 100px; text-align: center;">
+        {% render 'icon', icon: icon_name, class: 'mb-2' %}
+        <div style="font-size: 12px;">{{ icon_name }}</div>
+      </li>
+    {%- endfor -%}
+  </ul>

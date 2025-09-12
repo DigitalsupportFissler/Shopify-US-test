@@ -1,0 +1,720 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "100%"
+      }
+    },
+    "featured_product_Ha3man": {
+      "type": "featured-product",
+      "blocks": {
+        "vendor_kfY8zG": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "title_eEHeUd": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "badges_EeNKcy": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price_PAexq7": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating_Yz8bQi": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "separator_4W4U7A": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description_D7T67Y": {
+          "type": "description",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "collapse_content": false
+          }
+        },
+        "variant_picker_VJatLN": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector_4JA94m": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_jxFghn": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "pickup_availability_VRpwth": {
+          "type": "pickup_availability",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "vendor_kfY8zG",
+        "title_eEHeUd",
+        "badges_EeNKcy",
+        "price_PAexq7",
+        "rating_Yz8bQi",
+        "separator_4W4U7A",
+        "description_D7T67Y",
+        "variant_picker_VJatLN",
+        "quantity_selector_4JA94m",
+        "buy_buttons_jxFghn",
+        "pickup_availability_VRpwth"
+      ],
+      "disabled": true,
+      "settings": {
+        "product": "adamant-comfort-pfanne",
+        "desktop_media_width": 35,
+        "desktop_media_layout": "grid_one",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "slideshow_ReM49y": {
+      "type": "slideshow",
+      "blocks": {
+        "image_8BKjTD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Pages_OPC_Shadowline_Slideshow_2800x1000_8c3b831b-add5-4630-a914-189e12302fc2.png",
+            "image_content_width": false,
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "JETZT ERHÄLTLICH",
+            "title": "Original-Profi Collection® ShadowLine",
+            "heading_tag": "h2",
+            "button_text": "",
+            "button_link": "",
+            "heading_color": "#ffffff",
+            "subheading_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_8BKjTD"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "full_width": true,
+        "show_initial_transition": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "rich_text_LtNBQf": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_CTcBiW": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Wir feiern unseren 180. Geburtstag mit dem Launch einer <strong>exklusiven und limitierten Jubiläumsedition: Der Original-Profi Collection</strong>®<strong> ShadowLine!</strong><br/><br/>Weltweit auf<strong> 1.800 Stück limitiert, </strong>setzt das <strong>exklusive Topfset</strong> von Fissler ein stilvolles Statement in deiner Küche, das für Exklusivität, Handwerkskunst und zeitlose Eleganz steht.</p>",
+            "font_size": "lg"
+          }
+        },
+        "button_aJjja9": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "xl",
+            "text": "Kollektion entdecken",
+            "url": "https://fissler.com/collections/original-profi-collection-shadowline",
+            "background": "#ffffff",
+            "text_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_CTcBiW",
+        "button_aJjja9"
+      ],
+      "custom_css": [
+        "{background-color: black; color: white;}"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "show_section_id": false,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "#ffffff",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "padding_top": "xl",
+        "padding_bottom": "xl"
+      }
+    },
+    "scrolling_text_8fHM7n": {
+      "type": "scrolling-text",
+      "custom_css": [
+        "{background-color: black; color: white;}"
+      ],
+      "name": "Scrolling text",
+      "settings": {
+        "text": "Sichere dir 1 von 1.800 limitierten Topfsets weltweit.",
+        "text_size": "h3",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 10,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "text_gradient": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "xl"
+      }
+    },
+    "featured_collection_YJ8J9j": {
+      "type": "featured-collection",
+      "disabled": true,
+      "name": "Featured collection",
+      "settings": {
+        "collection": "",
+        "products": [
+          "original-profi-collection-shadowline-5-teiliges-topfset-mit-servierpfanne-und-stielkasserolle"
+        ],
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 2,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 2,
+        "subheading": "",
+        "title": "Jetzt online kaufen",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "#000000",
+        "full_width_background": true,
+        "background_gradient": "",
+        "text_color": "#ffffff",
+        "heading_color": "#ffffff",
+        "heading_gradient": "",
+        "product_card_background": "#000000",
+        "product_card_text_color": "#ffffff",
+        "padding_top": "0",
+        "padding_bottom": "md"
+      }
+    },
+    "rich_text_dwgDXH": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_FTMiMw": {
+          "type": "heading",
+          "settings": {
+            "text": "Jetzt online kaufen",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "image_RjxHtp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Shadowline_Standalone_250_x_150_px.png",
+            "width_mode": "custom",
+            "max_width": 440,
+            "mobile_max_width": 260
+          }
+        },
+        "richtext_4JETtc": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h6>Original-Profi Collection® Shadowline 5-teiliges Topfset mit Servierpfanne und Stielkasserolle</h6>",
+            "font_size": "base"
+          }
+        },
+        "richtext_kxVteT": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>€ 1.180,00<br/>inkl. gesetzlicher MwSt.</p>",
+            "font_size": "base"
+          }
+        },
+        "button_UTXky4": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "xl",
+            "text": "Jetzt kaufen",
+            "url": "shopify://products/original-profi-collection-shadowline-5-teiliges-topfset-mit-servierpfanne-und-stielkasserolle",
+            "background": "#ffffff",
+            "text_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "heading_FTMiMw",
+        "image_RjxHtp",
+        "richtext_4JETtc",
+        "richtext_kxVteT",
+        "button_UTXky4"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "show_section_id": false,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "#000000",
+        "full_width_background": true,
+        "background_gradient": "",
+        "text_color": "#ffffff",
+        "padding_top": "md",
+        "padding_bottom": "auto"
+      }
+    },
+    "rich_text_zj7aRE": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_qUznhc": {
+          "type": "heading",
+          "settings": {
+            "text": "Ein erster Einblick in die neue Kollektion",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_qUznhc"
+      ],
+      "custom_css": [
+        "{background-color: black; color: white;}"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "show_section_id": false,
+        "content_width": "large",
+        "text_position": "center",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "padding_top": "auto",
+        "padding_bottom": "xl"
+      }
+    },
+    "media_with_text_AUdaRf": {
+      "type": "media-with-text",
+      "blocks": {
+        "video_bQE4WL": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/Fissler_ShadowLine_Clip01_16-9.mp4",
+            "external_video_url": "",
+            "autoplay": true,
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Aus dunklem Edelstahl & mit einzigartiger PVD Beschichtung",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "video_6QeBiq": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/Fissler_ShadowLine_Clip02_16-9 (1).mp4",
+            "external_video_url": "",
+            "autoplay": true,
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Langlebige Premium Qualität Made in Germany",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "video_TE7RVx": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/Fissler_ShadowLine_Clip03_16-9 (1).mp4",
+            "external_video_url": "",
+            "autoplay": true,
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Echtheitszertifikat mit Nummerierung",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "video_bQE4WL",
+        "video_6QeBiq",
+        "video_TE7RVx"
+      ],
+      "custom_css": [
+        "{background-color: black; color: white;}"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "show_section_id": false,
+        "padding_top": "0",
+        "padding_bottom": "0"
+      }
+    },
+    "rich_text_eTnGja": {
+      "type": "rich-text",
+      "blocks": {
+        "button_8ca9yr": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "xl",
+            "text": "Kollektion entdecken",
+            "url": "https://fissler.com/collections/original-profi-collection-shadowline",
+            "background": "#ffffff",
+            "text_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "button_8ca9yr"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "show_section_id": false,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "#000000",
+        "full_width_background": true,
+        "background_gradient": "",
+        "text_color": "",
+        "padding_top": "xl",
+        "padding_bottom": "auto"
+      }
+    },
+    "17543882826ab5f487": {
+      "type": "apps",
+      "blocks": {
+        "gsc_countdown_timer_countdown_DTaTEe": {
+          "type": "shopify://apps/gsc-countdown-timer/blocks/countdown/58dc5b1b-43d2-4209-b1f3-52aff31643ed",
+          "settings": {
+            "widget_id": "GSC-LARGE-qnYjzPFbOVMM"
+          }
+        }
+      },
+      "block_order": [
+        "gsc_countdown_timer_countdown_DTaTEe"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "{background-color: black; color: white;}"
+      ],
+      "settings": {
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "full_width_background": false,
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "sm"
+      }
+    },
+    "rich_text_7KkCfY": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_LbhVCX": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Erfahre als Erster über die neue Kollektion",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_wR8LxM": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Verpasse nicht die Chance auf unsere streng limitierte Jubiläumsedition und lass dich von uns per E-Mail am 1. September benachrichtigen, sobald die neue Kollektion im Fissler Online-Shop erhältlich ist.<br/><br/>Wir informieren dich über alle Highlights!</p>",
+            "font_size": "lg"
+          }
+        },
+        "button_4MVkKw": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "style": "fill",
+            "size": "xl",
+            "text": "Jetzt registrieren",
+            "url": "",
+            "background": "#ffffff",
+            "text_color": "#000000"
+          }
+        },
+        "liquid_r4Ydtn": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<center><p> Sollte dir das Formular nicht angezeigt werden, überprüfe bitte deine Cookie <a onclick=\"UC_UI.showSecondLayer();\" class=\"break-all text-base reversed-link hover:show cursor-pointer\" style=\"cursor: pointer;\">Einwilligungseinstellungen</a> </p></center>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_LbhVCX",
+        "richtext_wR8LxM",
+        "button_4MVkKw",
+        "liquid_r4Ydtn"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "{background-color: black; color: white;}"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "show_section_id": false,
+        "content_width": "large",
+        "text_position": "center",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "padding_top": "0",
+        "padding_bottom": "sm"
+      }
+    },
+    "17557048642af5cefd": {
+      "type": "apps",
+      "blocks": {
+        "klaviyo_email_marketing_sms_form_embed_block_PJUEFW": {
+          "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "UJSmuU"
+          }
+        }
+      },
+      "block_order": [
+        "klaviyo_email_marketing_sms_form_embed_block_PJUEFW"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "{background-color: black; color: white;}"
+      ],
+      "settings": {
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "full_width_background": false,
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "text_with_icons_qwcxyc": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_jRRg3j": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Exklusives Design",
+            "content": "<p>Hochmoderne Optik - in dunklem Edelstahl</p>"
+          }
+        },
+        "item_kFTdFq": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Limitierte Stückzahl",
+            "content": "<p>Weltweit gibt es nur 1.800 Sets</p>"
+          }
+        },
+        "item_jLUabR": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Made in Germany",
+            "content": "<p>Im Herzen Rheinland-Pfalz in Neubrücke Hoppstätten Weiersbach</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_jRRg3j",
+        "item_kFTdFq",
+        "item_jLUabR"
+      ],
+      "disabled": true,
+      "name": "Text with icons",
+      "settings": {
+        "padding_top": "auto",
+        "padding_bottom": "auto",
+        "title": "Das erwartet dich",
+        "subheading": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "content": "",
+        "link_text": "",
+        "link_url": "",
+        "text_alignment": "center",
+        "stack_on_mobile": false,
+        "heading_tag": "h5",
+        "icon_spacing": "medium",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "video_TBctnw": {
+      "type": "video",
+      "blocks": {
+        "play_zfjiFN": {
+          "type": "play",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "play_zfjiFN"
+      ],
+      "disabled": true,
+      "name": "Video",
+      "settings": {
+        "show_section_id": false,
+        "full_width": true,
+        "autoplay": true,
+        "video_size": "lg",
+        "video": "shopify://files/videos/Fissler_ShadowLine_Clip01_16-9.mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30,
+        "dynamic_video_url": "",
+        "dynamic_video_host": "",
+        "padding_top": "0",
+        "padding_bottom": "md"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "featured_product_Ha3man",
+    "slideshow_ReM49y",
+    "rich_text_LtNBQf",
+    "scrolling_text_8fHM7n",
+    "featured_collection_YJ8J9j",
+    "rich_text_dwgDXH",
+    "rich_text_zj7aRE",
+    "media_with_text_AUdaRf",
+    "rich_text_eTnGja",
+    "17543882826ab5f487",
+    "rich_text_7KkCfY",
+    "17557048642af5cefd",
+    "text_with_icons_qwcxyc",
+    "video_TBctnw"
+  ]
+}

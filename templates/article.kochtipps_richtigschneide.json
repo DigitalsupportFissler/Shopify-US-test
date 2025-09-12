@@ -1,0 +1,387 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "navigation": {
+          "type": "navigation",
+          "disabled": true,
+          "settings": {}
+        },
+        "comments": {
+          "type": "comments",
+          "disabled": true,
+          "settings": {
+            "show_gravatar": true,
+            "comments_per_page": 5
+          }
+        }
+      },
+      "block_order": [
+        "navigation",
+        "comments"
+      ],
+      "settings": {
+        "layout": "image_text_overlay",
+        "image": "{{ article.image }}",
+        "show_author": true,
+        "show_date": true,
+        "show_comments_count": true,
+        "show_share_buttons": true,
+        "show_header_image": true,
+        "banner_background": "",
+        "banner_text_color": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "content_width": "750px",
+        "stats_color": "#556132",
+        "is_recipe": false,
+        "content_alignment": "start"
+      }
+    },
+    "media_with_text_PwBhVd": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_Ux44JM": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Ratgeber_Produktwissen_MEdia_with_Text_Haende__1500x1500_313c7a43-f781-423e-a46a-c8bf2d666c42.png",
+            "media_width": 40,
+            "disable_content_vertical_padding": false,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Hände",
+            "heading_tag": "h3",
+            "content": "<p>Die eine Hand hält das Messer. Die andere das Schneidgut: Daumen und kleiner Finger umgreifen es von außen, die mittleren, eingekrümmten Finger halten es von oben fest. Für eine bessere Schnittführung können die Knöchel der mittleren Finger auch gegen die Messerklinge gedrückt werden. Aber Vorsicht: Fingerspitzen weg von der Gefahrenzone! Ziehe den Daumen und den kleinen Finger immer hinter die Schnittkante zurück.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "image_Ux44JM"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "show_section_id": false,
+        "padding_top": "0",
+        "padding_bottom": "0"
+      }
+    },
+    "media_with_text_MxFrYY": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_nHTM7t": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Ratgeber_Produktwissen_MEdia_with_Text_Wiegeschnitt__1500x1500_10aa060f-fc1f-412b-9693-a3b41baafc48.png",
+            "media_width": 40,
+            "disable_content_vertical_padding": false,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Der Wiegeschnitt",
+            "heading_tag": "h3",
+            "content": "<p>Die effektivste und eleganteste Schneidetechnik ist das Wiegen mit dem Kochmesser. Die Technik ist einfach, erfordert aber ein klein wenig Übung. Lasse die Messerspitze beim Schneiden immer auf dem Brett. Hebe den mittleren Teil der Klinge in einer Wiegebewegung über das Schneidgut und schneide es nach vorne und gleichzeitig nach unten schiebend in feine Scheiben, Streifen oder Würfel. Nach der dritten, vierten Zwiebel oder Karotte wirst du schon in einem angenehmen und zügigen Rhythmus wiegen und dich immer weiter verbessern. Ganz wichtig: Sauber schneiden, nicht quetschen oder hacken. Sonst treten Flüssigkeiten aus, die eigentlich erst beim Kochen ihr Aroma entfalten sollen.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "image_nHTM7t"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "show_section_id": false,
+        "padding_top": "0",
+        "padding_bottom": "0"
+      }
+    },
+    "media_with_text_bwaRUN": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_xaXjyL": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Ratgeber_Produktwissen_MEdia_with_Text_Lange_Schnitte__1500x1500_1a802e16-d57d-4d9e-9bde-fbbd4b6f4d89.png",
+            "media_width": 40,
+            "disable_content_vertical_padding": false,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Lange Schnitte",
+            "heading_tag": "h3",
+            "content": "<p>Weiches und labiles Schneidgut wie beispielsweise Geflügel, Schinken oder Lachs schneidest du mit langen, durchgezogenen Schnitten zum Körper hin. Nutze unbedingt die gesamte Länge der Klinge. Kurze, reißende Bewegungen zerstören das Schneidgut. Verwende ein Messer mit entsprechend langer Klinge. Außerdem sollte die Klinge nicht zu breit sein, feine Scheiben können sonst anhaften. </p><p><br/><strong>Unser Tipp:</strong> Messer mit Kullenschliff.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "image_xaXjyL"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "show_section_id": false,
+        "padding_top": "0",
+        "padding_bottom": "0"
+      }
+    },
+    "media_with_text_XnUbEq": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_qxaHpU": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Ratgeber_Produktwissen_MEdia_with_Text_Vertikal_Schneiden__1500x1500_cbd0166b-6d6d-48ff-a7c6-f5fe93c186e9.png",
+            "media_width": 40,
+            "disable_content_vertical_padding": false,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Vertikal schneiden",
+            "heading_tag": "h3",
+            "content": "<p>Festes Gemüse schneidest du mit gleichmäßigem Druck von oben nach unten. Und immer mit dem hinteren Teil der Klinge, damit lässt sich die Kraft am effektivsten umsetzen.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "image_qxaHpU"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "show_section_id": false,
+        "padding_top": "0",
+        "padding_bottom": "0"
+      }
+    },
+    "media_with_text_jD4kHA": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_JGp7mU": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Ratgeber_Produktwissen_MEdia_with_Text_Brot_Schneiden__1500x1500_22df5bd5-94bf-4617-b4ce-bee2d0962886.png",
+            "media_width": 40,
+            "disable_content_vertical_padding": false,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Brot schneiden",
+            "heading_tag": "h3",
+            "content": "<p>Zuerst reißt du mit der gezahnten Klinge die harte Kruste des Brots an. Wenn du durch die Kruste bist, auf keinen Fall die weiche Krume zerdrücken. Sondern immer schön weiter schneiden, bis die Scheibe vom Laib fällt. Das müsste mit 3 bis 4 sauberen, die volle Klinge ausnutzenden Schnitten mühelos zu schaffen sein.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "image_JGp7mU"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "show_section_id": false,
+        "padding_top": "0",
+        "padding_bottom": "0"
+      }
+    },
+    "media_with_text_cHcDCB": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_GVgVpR": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Ratgeber_Produktwissen_MEdia_with_Text_Filetieren__1500x1500_5da07ba1-7639-4d9f-9bea-e4ad1cf141ec.png",
+            "media_width": 40,
+            "disable_content_vertical_padding": false,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Das Filieren",
+            "heading_tag": "h3",
+            "content": "<p>Fische filierst du wahrscheinlich nicht oft. Dafür spätestens ab jetzt gekonnt. Mit dem Filiermesser schneidest du zunächst den Kopf ab. Anschließend wird der Fisch an der Mittelgräte entlang von hinten nach vorne geteilt. Dank der flexiblen Klinge gleitet das Filiermesser hier problemlos durch den Fisch. Als nächstes drehst du eine Fischhälfte um, hebst die Mittelgräte an und löst sie ganz heraus. Dann das Filet von der Schwanzseite her einschneiden und das Messer auf der Haut entlang des Filets ziehen. Zu guter Letzt das Filet von der Haut trennen. Und weil es so schön einfach war, gleich nochmal mit der zweiten Hälfte.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "image_GVgVpR"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "show_section_id": false,
+        "padding_top": "0",
+        "padding_bottom": "md"
+      }
+    },
+    "featured_articles_qMCQLw": {
+      "type": "featured-articles",
+      "name": "Featured articles",
+      "settings": {
+        "show_progress_bar": true,
+        "articles_per_row_mobile": "2",
+        "articles_per_row_desktop": 3,
+        "subheading": "",
+        "articel_handles": "produktwissen/messertypen,produktwissen/ein-gutes-messer,kochtipps/zwiebel-richtig-schneiden",
+        "title": "Weitere Artikel zum Thema Messer",
+        "content": "",
+        "link_url": "shopify://blogs/kochtipps",
+        "link_text": "Alle Kochtipps entdecken",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "media_with_text_PwBhVd",
+    "media_with_text_MxFrYY",
+    "media_with_text_bwaRUN",
+    "media_with_text_XnUbEq",
+    "media_with_text_jD4kHA",
+    "media_with_text_cHcDCB",
+    "featured_articles_qMCQLw"
+  ]
+}

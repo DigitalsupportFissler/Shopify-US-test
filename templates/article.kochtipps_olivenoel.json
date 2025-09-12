@@ -1,0 +1,268 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "navigation": {
+          "type": "navigation",
+          "disabled": true,
+          "settings": {}
+        },
+        "comments": {
+          "type": "comments",
+          "disabled": true,
+          "settings": {
+            "show_gravatar": true,
+            "comments_per_page": 5
+          }
+        }
+      },
+      "block_order": [
+        "navigation",
+        "comments"
+      ],
+      "settings": {
+        "layout": "image_text_overlay",
+        "image": "{{ article.image }}",
+        "show_author": false,
+        "show_date": true,
+        "show_comments_count": true,
+        "show_share_buttons": true,
+        "show_header_image": true,
+        "banner_background": "",
+        "banner_text_color": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "content_width": "750px",
+        "stats_color": "#556132",
+        "is_recipe": false,
+        "content_alignment": "center"
+      }
+    },
+    "rich_text_re3Cmp": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_XQNzxD": {
+          "type": "heading",
+          "settings": {
+            "text": "Herstellung",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_jTKw6j": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Olivenbäume tragen nur einmal pro Jahr Früchte. Das Ernten der Oliven beginnt im November und zieht sich je nach Region und Reifegrad bis in den Februar hin. Direkt nach dem Ernten werden die Oliven nach gründlichem Waschen mit Kern gemahlen. Daraus entsteht die reine Olivenpaste, aus der das Olivenöl gepresst wird. Für einen Liter Olivenöl werden ca. fünf Kilo Oliven benötigt - und von einem Baum können ca. drei bis vier Liter gewonnen werden.</p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_XQNzxD",
+        "richtext_jTKw6j"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "md",
+        "padding_bottom": "xl"
+      }
+    },
+    "rich_text_QKbqzg": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_YT9jJe": {
+          "type": "heading",
+          "settings": {
+            "text": "Güteklassen",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_G4VnpV": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Bertolli bietet sein Öl in zwei verschiedenen Güteklassen an: „Extra Vergine“ und „Olio di Oliva Cucina“. Die Öle werden chemisch und von Experten auf Geschmack und Geruch überprüft. Sensorisch fehlerfreie Öle, die mit mechanischem Verfahren direkt aus Oliven gewonnen werden, tragen den Namen „Extra Vergine“. Der Unterschied zwischen „Extra Vergine“ Olivenöl und „Olio di Oliva Cucina“ liegt in der Art der Verarbeitung: „Olio di Oliva Cucina“ wird nach dem Pressen extra raffiniert und gefiltert. So entsteht ein mildes und geschmacksneutrales Olivenöl, das stärker erhitzt werden kann.</p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_YT9jJe",
+        "richtext_G4VnpV"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "xl"
+      }
+    },
+    "multi_column_hG4KqG": {
+      "type": "multi-column",
+      "blocks": {
+        "item_fWcAAP": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "„Extra Vergine - Gentile“",
+            "heading_tag": "h4",
+            "content": "<p>Feiner sanfter Geschmack, betont den Charakter von warmen Gerichten dezent z.B. beim Dünsten und Verfeinern von Gemüse- und Fischgerichten sowie hellem Fleisch.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_CDghXJ": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "„Extra Vergine - Originale“",
+            "heading_tag": "h4",
+            "content": "<p>Köstlicher Geschmack und harmonisches Aroma mit typischem Olivengeschmack. Ideal zum Zubereiten von Salaten, Dips und Marinaden.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_MVfn4N": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "„Extra Vergine - Robusto“",
+            "heading_tag": "h4",
+            "content": "<p>Für Liebhaber von charaktervollem und kräftigem Geschmack. Eignet sich besonders für die herzhafte Küche, wie Eintöpfe und Saucen.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_fWcAAP",
+        "item_CDghXJ",
+        "item_MVfn4N"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "Vielfalt",
+        "content": "<p>Weil es beim Kochen besonders um den Geschmack geht, bietet Bertolli seine Olivenöle in verschiedenen Geschmacksrichtungen an. Somit gibt es für jede Zutat, Zubereitungsart und Geschmack das passende Olivenöl.<br/></p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "xl"
+      }
+    },
+    "rich_text_NyUh4K": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_jdxfmP": {
+          "type": "heading",
+          "settings": {
+            "text": "Praxistipp",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_JCh8aX": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Lecker und Gesund</strong><br/><br/>Olivenöl enthält mehr einfach ungesättigte Fettsäuren als z.B. Butter, Margarine und andere Öle. Diese Fettsäuren ersetzen die „schlechten“ Fette in unserem Körper und sorgen damit für einen ausgewogenen Cholesterinhaushalt. Außerdem enthält Olivenöl viel Vitamin E und natürliche Antioxidantien, die unsere Zellen vor Alterung schützen.</p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_jdxfmP",
+        "richtext_JCh8aX"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "#f0f0f0",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "blog_posts_ETdm4X": {
+      "type": "blog-posts",
+      "blocks": {
+        "blog_RPeWFw": {
+          "type": "blog",
+          "settings": {
+            "blog": "news",
+            "posts_count": 3,
+            "stack_items": false
+          }
+        }
+      },
+      "block_order": [
+        "blog_RPeWFw"
+      ],
+      "name": "Blog posts",
+      "settings": {
+        "show_excerpt": true,
+        "show_date": true,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": true,
+        "show_overall_time": false,
+        "subheading": "",
+        "title": "Weitere Kochtipps entdecken",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto",
+        "blog_handle": "Kochtipps",
+        "posts_count": 4
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_re3Cmp",
+    "rich_text_QKbqzg",
+    "multi_column_hG4KqG",
+    "rich_text_NyUh4K",
+    "blog_posts_ETdm4X"
+  ]
+}

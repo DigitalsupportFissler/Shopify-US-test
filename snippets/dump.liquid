@@ -1,0 +1,8 @@
+{%- comment -%}
+  Usage:
+  {% render 'dump', data: product %}
+{%- endcomment -%}
+
+<script>
+    console.log('🧪 DUMP:', {{ data | json }});
+  </script>

@@ -1,0 +1,210 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "rich_text_JDVk3B": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Eyh6ry": {
+          "type": "heading",
+          "settings": {
+            "text": "{{ metaobject.name.value }}",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_MKVVBy": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Eyh6ry",
+        "richtext_MKVVBy"
+      ],
+      "settings": {
+        "content_width": "large",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "media_with_text_88pXtH": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_b6PhM3": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "{{ metaobject.bild.value }}",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h2",
+            "content": "{{ metaobject.beschreibung | metafield_tag }}",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "image_b6PhM3"
+      ],
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "rich_text_D9pQK3": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_eWMxHG": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading",
+            "subheading_tag": "h3"
+          }
+        },
+        "heading_UjRzF7": {
+          "type": "heading",
+          "settings": {
+            "text": "{{ metaobject.headline_willkommen.value }}",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_JJJLTH": {
+          "type": "richtext",
+          "settings": {
+            "content": "{{ metaobject.willkommen_description | metafield_tag }}",
+            "font_size": "lg"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_eWMxHG",
+        "heading_UjRzF7",
+        "richtext_JJJLTH"
+      ],
+      "settings": {
+        "content_width": "large",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "testimonials_tWYrfn": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_HQ4J8C": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "{{ metaobjects.store_kundenbewertungen[\"petra-boxberger\"].author.value }}",
+            "title": "{{ metaobjects.store_kundenbewertungen[\"petra-boxberger\"].titel.value }}",
+            "content": "{{ metaobjects.store_kundenbewertungen[\"petra-boxberger\"].bewertung | metafield_tag }}"
+          }
+        },
+        "testimonial_UkT7qi": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "{{ metaobjects.store_kundenbewertungen[\"gerhard-uhlemayr\"].author.value }}",
+            "title": "{{ metaobjects.store_kundenbewertungen[\"gerhard-uhlemayr\"].titel.value }}",
+            "content": "{{ metaobjects.store_kundenbewertungen[\"gerhard-uhlemayr\"].bewertung | metafield_tag }}"
+          }
+        },
+        "testimonial_RaG34i": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "{{ metaobjects.store_kundenbewertungen[\"marianne-kadletz\"].author.value }}",
+            "title": "{{ metaobjects.store_kundenbewertungen[\"marianne-kadletz\"].titel.value }}",
+            "content": "{{ metaobjects.store_kundenbewertungen[\"marianne-kadletz\"].bewertung | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_HQ4J8C",
+        "testimonial_UkT7qi",
+        "testimonial_RaG34i"
+      ],
+      "disabled": true,
+      "settings": {
+        "stack_testimonials": true,
+        "subheading": "",
+        "title": "Unsere Kunden",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "text_alignment": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "testimonial_card_background": "",
+        "testimonial_card_text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    }
+  },
+  "order": [
+    "rich_text_JDVk3B",
+    "media_with_text_88pXtH",
+    "rich_text_D9pQK3",
+    "testimonials_tWYrfn"
+  ]
+}

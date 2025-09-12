@@ -1,0 +1,301 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-blog",
+      "blocks": {
+        "tag_mapping_mxJzyd": {
+          "type": "tag_mapping",
+          "settings": {
+            "tag": "",
+            "sub_heading": "",
+            "sub_content": ""
+          }
+        },
+        "tag_mapping_NbgnxP": {
+          "type": "tag_mapping",
+          "settings": {
+            "tag": "pfannen",
+            "sub_heading": "",
+            "sub_content": ""
+          }
+        }
+      },
+      "block_order": [
+        "tag_mapping_mxJzyd",
+        "tag_mapping_NbgnxP"
+      ],
+      "disabled": true,
+      "settings": {
+        "fallback_heading": "Blogposts",
+        "sub_heading": "Rezeptideen leicht gemacht: Inspiration für jeden Anlass",
+        "sub_content": "<p>Im Rezepte-Dschungel kann man schon einmal die Orientierung verlieren. Mit unseren thematischen Rezeptsammlungen findet ihr schnell und gezielt Inspiration, egal ob ihr Verwendung für eure Zucchinis sucht oder sich vegane Gäste zum Kuchen angekündigt haben: Wir haben die passenden Sammlungen mit unseren besten Rezepten parat!</p>",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "alignment": "center",
+        "allow_transparent_header": false,
+        "content": "",
+        "show_tags": true,
+        "use_tag_mapping": false,
+        "show_heading": true,
+        "banner_background": "#ffffff",
+        "banner_text_color": "",
+        "button_background": "",
+        "button_text_color": "",
+        "articles_per_page": 24,
+        "feature_article_background": "",
+        "feature_article_text_color": "",
+        "show_date": false,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": true,
+        "show_prep_time": true,
+        "show_recipe_yield": true
+      }
+    },
+    "slideshow_U7Kywj": {
+      "type": "slideshow",
+      "blocks": {
+        "image_Lhxie6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Blog_Header_Produktwissen_2167x800_337d62ff-ddc3-462a-92f7-4c68ee6cb92a.png",
+            "image_content_width": false,
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "Cooking is appreciation",
+            "heading_tag": "h2",
+            "button_text": "",
+            "button_link": "",
+            "heading_color": "#ffffff",
+            "subheading_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_Lhxie6"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_initial_transition": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "rich_text_aU9d6C": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_9cM87R": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Cooking is much more than just preparing food. For us, cooking means appreciation - for every single valuable ingredient, for the chefs who work with passion and creativity on pots and pans, appreciation for the beauty and taste of nature and for the special moments and the atmosphere that floods our house when we cook for the people we love.</p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_9cM87R"
+      ],
+      "settings": {
+        "show_section_id": false,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "padding_top": "md",
+        "padding_bottom": "auto"
+      }
+    },
+    "multiple_images_with_text_QaReem": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "item_enK8XJ": {
+          "type": "item",
+          "settings": {
+            "image_rotation_degrees": 0,
+            "subheading": "",
+            "title": "Rezepte",
+            "content": "<p>Im Rezepte-Dschungel kann man schon einmal die Orientierung verlieren. Mit unseren thematischen Rezeptsammlungen findet ihr schnell und gezielt Inspiration, egal ob ihr Verwendung für eure Zucchinis sucht oder sich vegane Gäste zum Kuchen angekündigt haben: Wir haben die passenden Sammlungen mit unseren besten Rezepten parat!</p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        },
+        "item_f6h88Q": {
+          "type": "item",
+          "settings": {
+            "image_rotation_degrees": 0,
+            "subheading": "",
+            "title": "Kochtipps",
+            "content": "<p>Hier finden Sie nützliche Tipps und Tricks, die Ihnen das Kochen erleichtern und Ihnen dabei helfen, Ihre Kocherlebnisse nachhaltig zu optimieren. Von Zeitersparnissen beim Vorbereiten von Mahlzeiten bis hin zu Tipps für den Umgang mit Lebensmitteln oder das clevere Schneiden von Zwiebeln!</p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        },
+        "item_qnnT4g": {
+          "type": "item",
+          "settings": {
+            "image_rotation_degrees": 0,
+            "subheading": "",
+            "title": "Produktwissen",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_enK8XJ",
+        "item_f6h88Q",
+        "item_qnnT4g"
+      ],
+      "disabled": true,
+      "settings": {
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": "",
+        "heading_tag": "h4",
+        "content_alignment": "start"
+      }
+    },
+    "multi_column_6UB4hn": {
+      "type": "multi-column",
+      "blocks": {
+        "item_w9BgyJ": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Categories_kochtoepfe_Header-Latori_2167x800_e8c03088-8ce9-4ee9-9ac2-9e502c640f1c.jpg",
+            "column_size": "3",
+            "title": "Recipes",
+            "heading_tag": "h4",
+            "content": "<p>It's easy to lose your bearings in the recipe jungle. With our themed recipe collections, you'll find quick and targeted inspiration, whether you're looking for a use for your zucchinis or vegan guests have announced their arrival for cake: We have the right collections with our best recipes at the ready!</p>",
+            "link_url": "shopify://blogs/recipes",
+            "link_text": "To the recipes",
+            "link_style": "button"
+          }
+        },
+        "item_KrbTfy": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Categories_Kuechenhelfer-kochen-und-braten_Header-Latori_2167x800_ee904f4d-eddc-494f-998e-8558bdc18d14.jpg",
+            "column_size": "3",
+            "title": "Tips and tricks",
+            "heading_tag": "h4",
+            "content": "<p>Here you will find useful tips and tricks that will make cooking easier and help you to optimize your cooking experiences in the long term. From saving time when preparing meals to tips for handling food or cleverly chopping onions!</p>",
+            "link_url": "shopify://blogs/tips-and-tricks",
+            "link_text": "To Tips and tricks",
+            "link_style": "button"
+          }
+        },
+        "item_QTUefb": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Categories_Ersatzteile-Pfannen_Header-Latori_2167x800_ab61019d-7541-498b-85e4-fb61922b4bf0.jpg",
+            "column_size": "3",
+            "title": "Product Guide",
+            "heading_tag": "h4",
+            "content": "<p>Choosing the right cookware is crucial for a successful cooking experience. A good quality pan, for example, allows food to cook evenly and ensures that it doesn't burn. However, there are many different types of pans on the market and it can be difficult to find the right one.</p>",
+            "link_url": "shopify://blogs/product-guide",
+            "link_text": "To the product guide",
+            "link_style": "button"
+          }
+        }
+      },
+      "block_order": [
+        "item_w9BgyJ",
+        "item_KrbTfy",
+        "item_QTUefb"
+      ],
+      "settings": {
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "Cook with Fissler",
+        "content": "",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "blog_posts_JqadjL": {
+      "type": "blog-posts",
+      "blocks": {
+        "blog_REyj9r": {
+          "type": "blog",
+          "settings": {
+            "blog": "recipes",
+            "posts_count": 5,
+            "stack_items": false
+          }
+        }
+      },
+      "block_order": [
+        "blog_REyj9r"
+      ],
+      "settings": {
+        "show_excerpt": true,
+        "show_date": true,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": true,
+        "show_overall_time": false,
+        "subheading": "",
+        "title": "A selection of our recipes",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto",
+        "storefront_token": "",
+        "api_version": "2025-04",
+        "blog_handle": "rezepte",
+        "posts_count": 4
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_U7Kywj",
+    "rich_text_aU9d6C",
+    "multiple_images_with_text_QaReem",
+    "multi_column_6UB4hn",
+    "blog_posts_JqadjL"
+  ]
+}

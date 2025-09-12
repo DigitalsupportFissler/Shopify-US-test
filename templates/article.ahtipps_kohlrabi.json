@@ -1,0 +1,603 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "navigation": {
+          "type": "navigation",
+          "disabled": true,
+          "settings": {}
+        },
+        "comments": {
+          "type": "comments",
+          "disabled": true,
+          "settings": {
+            "show_gravatar": true,
+            "comments_per_page": 5
+          }
+        }
+      },
+      "block_order": [
+        "navigation",
+        "comments"
+      ],
+      "settings": {
+        "layout": "image_text_overlay",
+        "image": "{{ article.image }}",
+        "show_author": false,
+        "show_date": true,
+        "show_comments_count": true,
+        "show_share_buttons": true,
+        "show_header_image": true,
+        "banner_background": "",
+        "banner_text_color": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "content_width": "750px",
+        "stats_color": "#556132",
+        "is_recipe": false,
+        "content_alignment": "start"
+      }
+    },
+    "featured_collection_nTBLcV": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "",
+        "products": "{{ article.metafields.custom.products_and_accessroies.value }}",
+        "stack_products": false,
+        "show_progress_bar": true,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Für die Zubereitung verwendetes Kochgeschirr",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "media_with_text_KnREfp": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_6P9GFN": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Blog_Tipp_des_Monats_Kohlrabi_Media_with_Text_1500x1500_46e3ef96-f409-4ad1-a751-4ec914d88e70.png",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "So vielseitig ist das beliebte Gemüse",
+            "heading_tag": "h3",
+            "content": "<p><br/>Von Mai bis Oktober hat die zarte Knolle in Deutschland Saison und bringt frischen Geschmack in deine Küche. Ob roh als Snack, im Salat oder gedünstet als feine Beilage: Kohlrabi ist vielseitig und immer ein Genuss.<br/><br/>Sternekoch <strong>Alexander Herrmann</strong> zeigt dir<strong> kreative Rezepte</strong>, einfache <strong>Zubereitungstipps</strong> und spannende Fakten rund um die Wunderwurzel. <strong>Jetzt entdecken!</strong></p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "image_6P9GFN"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "show_section_id": false,
+        "padding_top": "sm",
+        "padding_bottom": "auto"
+      }
+    },
+    "specification_table_kJdktq": {
+      "type": "specification-table",
+      "blocks": {
+        "row_77HGNx": {
+          "type": "row",
+          "settings": {
+            "heading": "Nährwertangaben pro 100 g Kohlrabi",
+            "value": "<p><br/></p>"
+          }
+        },
+        "row_xVgNaf": {
+          "type": "row",
+          "settings": {
+            "heading": "Energie",
+            "value": "<p>ca. 23 kcal</p>"
+          }
+        },
+        "row_QyKN6q": {
+          "type": "row",
+          "settings": {
+            "heading": "Fett",
+            "value": "<p>ca. 0,1 g</p>"
+          }
+        },
+        "row_etT7Yt": {
+          "type": "row",
+          "settings": {
+            "heading": "Vitamin C",
+            "value": "<p>ca. 63 mg</p>"
+          }
+        },
+        "row_ye3kic": {
+          "type": "row",
+          "settings": {
+            "heading": "Folsäure",
+            "value": "<p>ca. 70 µg</p>"
+          }
+        },
+        "row_WLGhP4": {
+          "type": "row",
+          "settings": {
+            "heading": "Kalium",
+            "value": "<p>ca. 322 mg</p>"
+          }
+        },
+        "row_3zhKnD": {
+          "type": "row",
+          "settings": {
+            "heading": "Magnesium",
+            "value": "<p>ca. 43 mg</p>"
+          }
+        },
+        "row_G83Yw3": {
+          "type": "row",
+          "settings": {
+            "heading": "Calcium",
+            "value": "<p>ca. 68 mg</p>"
+          }
+        },
+        "row_8fXDDN": {
+          "type": "row",
+          "settings": {
+            "heading": "Eisen",
+            "value": "<p>ca. 0,5 mg</p>"
+          }
+        }
+      },
+      "block_order": [
+        "row_77HGNx",
+        "row_xVgNaf",
+        "row_QyKN6q",
+        "row_etT7Yt",
+        "row_ye3kic",
+        "row_WLGhP4",
+        "row_3zhKnD",
+        "row_G83Yw3",
+        "row_8fXDDN"
+      ],
+      "name": "Specification table",
+      "settings": {
+        "subheading": "Kohlrabiwissen",
+        "title": "Power aus der Knolle - warum Kohlrabi gut für dich ist",
+        "content": "<p>Kohlrabi punktet nicht nur mit seinem feinen Geschmack, sondern auch mit inneren Werten: Die Knolle ist besonders <strong>leicht verdaulich</strong>, <strong>kalorienarm</strong> und damit ideal für eine bewusste Ernährung. Als echtes <strong>Vitaminpaket</strong> liefert sie eine ordentliche Portion <strong>Vitamin C</strong>, das das <strong>Immunsystem stärkt</strong> – perfekt, um fit durch den Alltag zu kommen.</p><p>Dazu kommen<strong> Kalium</strong> für Herz und Nerven sowie <strong>Ballaststoffe</strong>, die die Verdauung sanft in Schwung bringen.<br/><br/><br/></p>",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "alignment": "horizontal",
+        "max_rows": 5,
+        "view_all_text": "Alle Nährwerte ansehen",
+        "view_less_text": "Weniger ansehen",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "chart_background": "",
+        "chart_text_color": "",
+        "chart_true_false_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "rich_text_wFeHwx": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_jx4jUJ": {
+          "type": "subheading",
+          "settings": {
+            "text": "",
+            "subheading_tag": "h4"
+          }
+        },
+        "heading_b67tXk": {
+          "type": "heading",
+          "settings": {
+            "text": "Kochtipps von Alexander Herrmann",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_jx4jUJ",
+        "heading_b67tXk"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "show_section_id": false,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "media_with_text_pkVikK": {
+      "type": "media-with-text",
+      "blocks": {
+        "video_hHnYeh": {
+          "type": "video",
+          "settings": {
+            "external_video_url": "https://www.youtube.com/watch?v=20hGgbZuRxQ",
+            "poster_image": "shopify://shop_images/Poster_Image_Kochtipp_des_Monats_AH_Spargelsuppe_Video_3200x1600_1659a886-42fe-4e7c-bef8-508366ae9e99.png",
+            "autoplay": false,
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Kohlrabi 1x1: Die perfekte Beilage",
+            "content": "<p><strong>Kohlrabi schnell und einfach zubereiten: </strong>Mit einem Schuss <strong>Weißwein</strong> und etwas <strong>Zitronenabrieb</strong> wird daraus im Handumdrehen die <strong>perfekte Beilage</strong>. Alexander Herrmann zeigt dir, wie es geht – und warum du künftig lieber auf dem Markt, im Supermarkt oder beim Händler deines Vertrauens zu kleineren Kohlrabiknollen greifen solltest.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#f0f0f0",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "video_pgrrb4": {
+          "type": "video",
+          "settings": {
+            "external_video_url": "https://www.youtube.com/watch?v=8jJDzzDTYcI",
+            "poster_image": "shopify://shop_images/Blog_Tipp_des_Monats_Kohlrabi_Poster_Image_3200x1600_9d948a14-7873-40e5-af7b-fdf9e73a2681.png",
+            "autoplay": false,
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Gefüllter Kohlrabi à la Alexander Herrmann",
+            "content": "<p>Wie macht man aus einfachem Kohlrabi ein echtes Highlight? Sternekoch Alexander Herrmann zeigt, wie aus Kohlrabi, feinen Kräutern und einem Hauch Zitrone ein überraschendes Geschmackserlebnis wird. Jetzt im Video entdecken und nachkochen!</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#f0f0f0",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "video_hHnYeh",
+        "video_pgrrb4"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "media_with_text_inWhAF": {
+      "type": "media-with-text",
+      "blocks": {
+        "video_CYNCcj": {
+          "type": "video",
+          "settings": {
+            "external_video_url": "https://www.youtube.com/watch?v=SFvTCnFfalo",
+            "poster_image": "shopify://shop_images/Poster_Image_Kochtipp_des_Monats_AH_Spargel_mit_Ei-Mayonnaise_Video_3200x1600_de86bb4e-797d-4b37-a039-c79d92640cbb.png",
+            "autoplay": false,
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Kohlrabisalat à la Alexander Herrmann",
+            "content": "<p>Kohlrabi mal anders: Mit einer würzigen Vinaigrette und gerösteten Haselnüssen wird der feine Salat zum besonderen Genuss. Alexander Herrmann verrät einen cleveren Trick, mit dem der Kohlrabi besonders knackig und frisch bleibt – ein Profitipp, den du nicht verpassen solltest!<br/><br/></p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#f0f0f0",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "video_CYNCcj"
+      ],
+      "disabled": true,
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "show_section_id": false,
+        "padding_top": "xl",
+        "padding_bottom": "auto"
+      }
+    },
+    "rich_text_BV8dF7": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_MTfjjU": {
+          "type": "heading",
+          "settings": {
+            "text": "Kohlrabi kochen wie Alexander Herrmann - mit Fissler Kochgeschirr",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_WGwjBx": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Ob Rahmkohlrabi oder knackiger Salat – mit dem passenden Kochgeschirr wird aus guter Zubereitung perfekte Küche. Entdecke die Fissler-Produkte, die Alexander Herrmann im Video nutzt.</p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_MTfjjU",
+        "richtext_WGwjBx"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "show_section_id": true,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "padding_top": "xl",
+        "padding_bottom": "sm"
+      }
+    },
+    "featured_collection_9xgt4H": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "collection": "",
+        "products": [
+          "original-profi-collection-stielkasserolle-16-cm",
+          "original-profi-collection-kochtopf",
+          "fissler-essential-santokumesser-16-5cm"
+        ],
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "shopify://collections/all",
+        "link_text": "",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "image_with_text_overlay_UGjbq9": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_yeU3dj": {
+          "type": "subheading",
+          "settings": {
+            "text": "WISSENSWERTES"
+          }
+        },
+        "heading_G4HWyr": {
+          "type": "heading",
+          "settings": {
+            "text": "Auch Kohlrabi-Blätter können hervorragend in Salaten, Suppen oder als gedünstetes Gemüse verwendet werden.",
+            "heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_yeU3dj",
+        "heading_G4HWyr"
+      ],
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": false,
+        "image_size": "md",
+        "image": "shopify://shop_images/Blog_Kochtipp_des_Monats_Kohlrabi_Image_with_Textoverlay_1300x1500_3200_x_1600_px.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30,
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "rich_text_N6JJqd": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_4jJqj3": {
+          "type": "heading",
+          "settings": {
+            "text": "Kohlrabi-Rezepte zum Nachkochen",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_4jJqj3"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "show_section_id": false,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "padding_top": "xl",
+        "padding_bottom": "sm"
+      }
+    },
+    "media_with_text_9dexqh": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_783hi3": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Blog_Tipp_des_Monats_Kohlrabi_Schnitzel_Media_with_Text_1500x1500_fc1b4f8b-ad76-428f-a487-b4b074abaa14.png",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Knuspriges Kohlrabi-Schnitzel",
+            "heading_tag": "h3",
+            "content": "<p>Kross, goldbraun gebraten und herrlich aromatisch – das Kohlrabi-Schnitzel ist die vegetarische Antwort auf das Wiener Original. Jetzt entdecken und ganz einfach nachkochen!</p>",
+            "link_text": "Zum Rezept",
+            "link_url": "shopify://blogs/rezepte/kohlrabi-schnitzel-schnell-und-einfach",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "image_783hi3"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "show_section_id": false,
+        "padding_top": "md",
+        "padding_bottom": "md"
+      }
+    },
+    "featured_articles_6PKiKz": {
+      "type": "featured-articles",
+      "name": "Featured articles",
+      "settings": {
+        "articles_per_row_mobile": "2",
+        "articles_per_row_desktop": 3,
+        "subheading": "",
+        "articel_handles": "rezepte/kohlrabipfanne,rezepte/knusprige-fruehlingsrollen-mit-veganer-fuellung",
+        "title": "",
+        "content": "",
+        "link_url": "shopify://blogs/rezepte",
+        "link_text": "Alle Rezepte entdecken",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "featured_collection_nTBLcV",
+    "media_with_text_KnREfp",
+    "specification_table_kJdktq",
+    "rich_text_wFeHwx",
+    "media_with_text_pkVikK",
+    "media_with_text_inWhAF",
+    "rich_text_BV8dF7",
+    "featured_collection_9xgt4H",
+    "image_with_text_overlay_UGjbq9",
+    "rich_text_N6JJqd",
+    "media_with_text_9dexqh",
+    "featured_articles_6PKiKz"
+  ]
+}

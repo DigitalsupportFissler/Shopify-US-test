@@ -1,0 +1,141 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_A6RCJq": {
+      "type": "slideshow",
+      "blocks": {
+        "image_rfBjaK": {
+          "type": "image",
+          "settings": {
+            "image_content_width": false,
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "Tell your story",
+            "title": "Slide 1",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_rfBjaK"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "show_initial_transition": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#F2F2F2",
+        "background_gradient": ""
+      }
+    },
+    "rich_text_MXJMdi": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_HfUWkX": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_yaHmBg": {
+          "type": "heading",
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_a7Ewmh": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h4><strong>So wird unpaniertes Fleisch richtig gebraten:</strong></h4><ol><li>Pfanne <strong>ohne Zugabe</strong> von Fett/Öl auf mittlerer Stufe (2/3 Herdleistung) erhitzen.</li><li>3-4 Minuten warten</li><li>Um zu prüfen, ob die richtige Temperatur erreicht ist, eignet sich der Wassertropfentest: Spritzen Sie mit den Fingern ein paar Tropfen kaltes Wasser in die Pfanne. Wenn die Tropfen glasklar perlend in der Pfanne tanzen, ist die richtige Temperatur erreicht. \"Zischt\" es und die Tropfen verdampfen, ist die Pfanne noch zu kalt.</li><li>Verbliebene Wassertropfen z. B. mit einem Küchentuch aus der heißen Pfanne wischen.</li><li>Geben Sie gegebenenfalls Fett/Öl als Geschmacksträger in die Pfanne.</li><li>Bratgut einlegen. Dieses sollte zimmerwarm und nicht gesalzen sein.</li><li>Das Bratgut haftet zuerst in der Pfanne an, löst sich aber später. Nach 2-3 Minuten kann das Bratgut gewendet werden. </li><li>Zur Kontrolle können Sie das Bratgut am Rand leicht anheben, es muss sich ohne Kraftaufwand von selbst lösen.</li></ol>",
+            "font_size": "base"
+          }
+        },
+        "richtext_RnzNqH": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h4><strong>Extreme Langlebigkeit</strong></h4><p>Unsere Edelstahlprodukte sind extrem langlebig, schnittfest sowie spülmaschinengeeignet. Zur einfachen Reinigung empfehlen wir die Pfanne nach dem Braten mit etwas warmen Wasser (Restwärme des Herdes nutzen) und Spülmittel kurz stehen zu lassen, danach kann die Pfanne leicht ausgewaschen werden.</p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_HfUWkX",
+        "heading_yaHmBg",
+        "richtext_a7Ewmh",
+        "richtext_RnzNqH"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "navigation": {
+          "type": "navigation",
+          "settings": {}
+        },
+        "comments": {
+          "type": "comments",
+          "settings": {
+            "show_gravatar": true,
+            "comments_per_page": 5
+          }
+        }
+      },
+      "block_order": [
+        "navigation",
+        "comments"
+      ],
+      "disabled": true,
+      "settings": {
+        "allow_transparent_header": false,
+        "layout": "content_first",
+        "show_author": true,
+        "show_date": true,
+        "show_comments_count": true,
+        "show_share_buttons": true,
+        "banner_background": "",
+        "banner_text_color": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "content_width": "750px"
+      }
+    }
+  },
+  "order": [
+    "slideshow_A6RCJq",
+    "rich_text_MXJMdi",
+    "main"
+  ]
+}

@@ -1,0 +1,884 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_4k9UF9": {
+      "type": "slideshow",
+      "blocks": {
+        "image_4DgEEy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Lsndingpage_Die_Welt_des_Schnellkochens_Header_2800x1000_e9fea0c9-bdb2-4dd8-ad13-2929a8a80387.png",
+            "image_content_width": false,
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "Die Welt des Schnellkochens",
+            "heading_tag": "h2",
+            "button_text": "",
+            "button_link": "",
+            "heading_color": "#ffffff",
+            "subheading_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_4DgEEy"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_initial_transition": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "120ch"
+      }
+    },
+    "featured_product_Ha3man": {
+      "type": "featured-product",
+      "blocks": {
+        "vendor_kfY8zG": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "title_eEHeUd": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "badges_EeNKcy": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price_PAexq7": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating_Yz8bQi": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "separator_4W4U7A": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description_D7T67Y": {
+          "type": "description",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "collapse_content": false
+          }
+        },
+        "variant_picker_VJatLN": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector_4JA94m": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_jxFghn": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "pickup_availability_VRpwth": {
+          "type": "pickup_availability",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "vendor_kfY8zG",
+        "title_eEHeUd",
+        "badges_EeNKcy",
+        "price_PAexq7",
+        "rating_Yz8bQi",
+        "separator_4W4U7A",
+        "description_D7T67Y",
+        "variant_picker_VJatLN",
+        "quantity_selector_4JA94m",
+        "buy_buttons_jxFghn",
+        "pickup_availability_VRpwth"
+      ],
+      "disabled": true,
+      "settings": {
+        "product": "adamant-comfort-pfanne",
+        "desktop_media_width": 35,
+        "desktop_media_layout": "grid_one",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "rich_text_LdWmN3": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_4UpBiH": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Entdecke die ganze Welt des Schnellkochens: Über 150 Rezepte treffen auf alle Informationen, Anleitungen, Tipps und Tricks von Fissler als führender Hersteller Made in Germany, die du zum Schnellkochen brauchst.</p>",
+            "font_size": "base"
+          }
+        },
+        "button_iFETVD": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "xl",
+            "text": "Zum Kochbuch",
+            "url": "shopify://products/die-welt-des-schnellkochens-gebundene-ausgabe",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "richtext_4UpBiH",
+        "button_iFETVD"
+      ],
+      "settings": {
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "xl",
+        "padding_bottom": "xl"
+      }
+    },
+    "multi_column_tdXtct": {
+      "type": "multi-column",
+      "blocks": {
+        "item_Ujkxix": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Landingpage_Die_Welt_des_Schnellkochens_1400x1400_3.png",
+            "column_size": "3",
+            "title": "Theoriewissen bildet die Basis für eine erfolgreiche Praxis",
+            "heading_tag": "h4",
+            "content": "<p></p><p>Im ersten Kapitel erfährst du alles, was du für den Einstieg in das Thema Schnellkochen brauchst. Über den Aufbau und das Funktionsprinzip unserer Schnellkochtöpfe bis hin zu wichtigen Regeln im Umgang. </p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_qdUJPp": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Landingpage_Die_Welt_des_Schnellkochens_1400x1400_2.png",
+            "column_size": "3",
+            "title": "So geht Schnellkochen",
+            "heading_tag": "h4",
+            "content": "<p></p><p>Die Wahl des Topfes, das richtige Befüllen, vom Ankochen und Abdampfen bis zur Wartung, die Grundzubereitung verschiedener Lebensmittel sowie hilfreiche Tipps und Tricks – all das findest du hier.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_rrTyg6": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Landingpage_Die_Welt_des_Schnellkochens_1400x1400_04f9da49-53f4-4b8b-b217-4b2dfeb73239.png",
+            "column_size": "3",
+            "title": "So vielfältig wie du",
+            "heading_tag": "h4",
+            "content": "<p></p><p>Schnelle Alltagsrezepte, Salate und Suppen, Grundrezepte, Beilagen, Schmorgerichte, vegetarische und vegane Gerichte, sogar Desserts und Süßspeisen! – hier ist wirklich für alle etwas dabei. </p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_Ujkxix",
+        "item_qdUJPp",
+        "item_rrTyg6"
+      ],
+      "settings": {
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "Einblicke in \"Die Welt des Schnellkochens\"",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "md",
+        "padding_bottom": "sm"
+      }
+    },
+    "rich_text_mf7ayt": {
+      "type": "rich-text",
+      "blocks": {
+        "button_NCLNqE": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "xl",
+            "text": "Zum Kochbuch",
+            "url": "shopify://products/die-welt-des-schnellkochens-gebundene-ausgabe",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_NCLNqE"
+      ],
+      "settings": {
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "md",
+        "padding_bottom": "xl"
+      }
+    },
+    "rich_text_JVkRcV": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_qq3jQY": {
+          "type": "subheading",
+          "settings": {
+            "text": "Leseprobe",
+            "subheading_tag": "h3"
+          }
+        },
+        "heading_4BzA9T": {
+          "type": "heading",
+          "settings": {
+            "text": "Neugierig geworden?",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_Kwbp7b": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Eine Leseprobe findest du hier:</p>",
+            "font_size": "base"
+          }
+        },
+        "button_dkMAcW": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "xl",
+            "text": "Jetzt herunterladen",
+            "url": "https://cdn.shopify.com/s/files/1/0896/6029/3469/files/GU_Die_Welt_des_Schnellkochens_Leseprobe_1.pdf?v=1749831465",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "image_8kJmdN": {
+          "type": "image",
+          "settings": {
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        }
+      },
+      "block_order": [
+        "subheading_qq3jQY",
+        "heading_4BzA9T",
+        "richtext_Kwbp7b",
+        "button_dkMAcW",
+        "image_8kJmdN"
+      ],
+      "settings": {
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "rich_text_9hwGqX": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_fR4afP": {
+          "type": "heading",
+          "settings": {
+            "text": "Vorteile des Schnellkochens",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_fR4afP"
+      ],
+      "settings": {
+        "content_width": "medium",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "media_with_text_98dpa4": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_KHacBV": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Landingpage_Die_Welt_des_Schnellkochens_Media_with_Text_1500x1500_285203a7-dee7-444b-b8be-d5a7b4328053.png",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Schenkt dir Zeit für das, was du liebst.",
+            "heading_tag": "h2",
+            "content": "<p>Der Vitavit® Premium Schnellkochtopf verkürzt die Garzeit um bis zu 70%. Das spart wertvolle Zeit, die du für Dinge nutzen kannst, die dir wichtiger sind als Kochen.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        },
+        "image_8APzUb": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Landingpage_Die_Welt_des_Schnellkochens_Media_with_Text_1500x1500_3.png",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Nährstoffe",
+            "heading_tag": "h2",
+            "content": "<p>Im Schnellkochtopf gegarte Hülsenfrüchte wiesen zwischen 16 und 56 Prozent mehr Thiamin auf als herkömmlich gekochte Hülsenfrüchte.</p><p>Beim Schnellkochen erhöhte sich der Thiamingehalt sogar auf bis zu 105 Prozent, während die herkömmlich in Wasser gekochten Hülsenfrüchte nur 36 Prozent enthielten.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        },
+        "image_XLKLzD": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Landingpage_Die_Welt_des_Schnellkochens_Media_with_Text_1500x1500_e0c6725a-e3cc-48df-8a62-46e78161ecb0.png",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Schützt, was dich schützt: Vitamine.",
+            "heading_tag": "h2",
+            "content": "<p>Der Vitavit® Premium umschließt deine Zutaten wie ein Tresor. Beim Schnellkochen unter Druck bleiben Vitamine, Nährstoffe und Aromen nahezu vollständig erhalten. Ein Unterschied, den man nicht nur schmecken, sondern auch sehen kann.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "image_KHacBV",
+        "image_8APzUb",
+        "image_XLKLzD"
+      ],
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "xl"
+      }
+    },
+    "comparison_table_FTkD8r": {
+      "type": "comparison-table",
+      "blocks": {
+        "headings_wrJw8d": {
+          "type": "headings",
+          "settings": {
+            "heading_1": "Qualität",
+            "heading_2": "Kochstufen",
+            "heading_3": "Kochkrone",
+            "heading_4": "Aufsetzhilfe/-orientierung",
+            "heading_5": "Mess-Skala",
+            "heading_6": "Abdampffunktion",
+            "heading_7": "Novogrill® Bratfläche ",
+            "heading_8": "Material",
+            "heading_9": "Boden",
+            "heading_10": "Herdarten",
+            "heading_11": "",
+            "heading_12": "",
+            "heading_13": "",
+            "heading_14": "",
+            "heading_15": "",
+            "heading_16": "",
+            "heading_17": "",
+            "heading_18": "",
+            "heading_19": "",
+            "heading_20": "",
+            "heading_21": "",
+            "heading_22": "",
+            "heading_23": "",
+            "heading_24": "",
+            "heading_25": "",
+            "heading_26": "",
+            "heading_27": "",
+            "heading_28": "",
+            "heading_29": "",
+            "heading_30": "",
+            "heading_31": "",
+            "heading_32": "",
+            "heading_33": "",
+            "heading_34": "",
+            "heading_35": "",
+            "heading_36": "",
+            "heading_37": "",
+            "heading_38": "",
+            "heading_39": "",
+            "heading_40": ""
+          }
+        },
+        "values_HXzXiN": {
+          "type": "values",
+          "settings": {
+            "custom_heading": "",
+            "product": "vitavit-premium-schnellkochtopf",
+            "value_1": "<p>Premium Qualität – Made in Germany</p>",
+            "value_2": "<p>Vier Kochstufen für schonendes und schnelles Garen, inklusive druckloser Dampfgarstufe</p>",
+            "value_3": "<p>Kochkrone mit Ampelfunktion</p>",
+            "value_4": "<p>Praktische Aufsetzhilfe und Verriegelungsanzeige</p>",
+            "value_5": "<p>Mess-Skala zum Dosieren von Flüssigkeiten</p>",
+            "value_6": "<p>Abdampffunktion an Griff und Ventil zur einfachen Druckregulierung</p>",
+            "value_7": "<p>Novogrill® Bratfläche für Braten mit Grilleffekt – auch mit wenig Fett</p>",
+            "value_8": "<p>Satinierter Körper nachhaltig aus bis zu 90 % recyceltem Edelstahl gefertigt</p>",
+            "value_9": "<p>Exklusiver, energieeffizienter CookStar® Boden für optimale Wärmeverteilung</p>",
+            "value_10": "<p>Geeignet für alle Herdarten einschließlich Induktion</p>",
+            "value_11": "",
+            "value_12": "",
+            "value_13": "",
+            "value_14": "",
+            "value_15": "",
+            "value_16": "",
+            "value_17": "",
+            "value_18": "",
+            "value_19": "",
+            "value_20": "",
+            "value_21": "",
+            "value_22": "",
+            "value_23": "",
+            "value_24": "",
+            "value_25": "",
+            "value_26": "",
+            "value_27": "",
+            "value_28": "",
+            "value_29": "",
+            "value_30": "",
+            "value_31": "",
+            "value_32": "",
+            "value_33": "",
+            "value_34": "",
+            "value_35": "",
+            "value_36": "",
+            "value_37": "",
+            "value_38": "",
+            "value_39": "",
+            "value_40": "",
+            "value_41": "",
+            "value_42": "",
+            "value_43": "",
+            "value_44": "",
+            "value_45": "",
+            "value_46": "",
+            "value_47": "",
+            "value_48": "",
+            "value_49": "",
+            "value_50": "",
+            "value_51": "",
+            "value_52": "",
+            "value_53": "",
+            "value_54": "",
+            "value_55": "",
+            "value_56": "",
+            "value_57": "",
+            "value_58": "",
+            "value_59": "",
+            "value_60": "",
+            "value_61": "",
+            "value_62": "",
+            "value_63": "",
+            "value_64": "",
+            "value_65": "",
+            "value_66": "",
+            "value_67": "",
+            "value_68": "",
+            "value_69": "",
+            "value_70": "",
+            "value_71": "",
+            "value_72": "",
+            "value_73": "",
+            "value_74": "",
+            "value_75": "",
+            "value_76": "",
+            "value_77": "",
+            "value_78": "",
+            "value_79": "",
+            "value_80": "",
+            "value_81": "",
+            "value_82": "",
+            "value_83": "",
+            "value_84": "",
+            "value_85": "",
+            "value_86": "",
+            "value_87": "",
+            "value_88": "",
+            "value_89": "",
+            "value_90": "",
+            "value_91": "",
+            "value_92": "",
+            "value_93": "",
+            "value_94": "",
+            "value_95": "",
+            "value_96": "",
+            "value_97": "",
+            "value_98": "",
+            "value_99": "",
+            "value_100": "",
+            "view_button_background": "",
+            "view_button_text_color": "",
+            "custom_link_url": "",
+            "custom_link_text": ""
+          }
+        },
+        "values_ycMTNQ": {
+          "type": "values",
+          "settings": {
+            "custom_heading": "",
+            "product": "vitaquick-premium-schnellkochtopf",
+            "value_1": "<p>Premium Qualität – Made in Germany</p>",
+            "value_2": "<p>Zwei Kochstufen für schonendes und schnelles Garen</p>",
+            "value_3": "",
+            "value_4": "<p>Aufsetzorientierung und Verriegelungsanzeige</p>",
+            "value_5": "<p>Mess-Skala zum Dosieren von Flüssigkeiten</p>",
+            "value_6": "<p>Abdampffunktion am Griff zur einfachen Druckregulierung</p>",
+            "value_7": "",
+            "value_8": "<p>Satiniert Körper nachhaltig aus bis zu 90 % recyceltem Edelstahl gefertigt</p>",
+            "value_9": "<p>Energieeffizienter Superthermic® Boden für ideale Wärmeverteilung</p>",
+            "value_10": "<p>Geeignet für alle Herdarten einschließlich Induktion</p>",
+            "value_11": "",
+            "value_12": "",
+            "value_13": "",
+            "value_14": "",
+            "value_15": "",
+            "value_16": "",
+            "value_17": "",
+            "value_18": "",
+            "value_19": "",
+            "value_20": "",
+            "value_21": "",
+            "value_22": "",
+            "value_23": "",
+            "value_24": "",
+            "value_25": "",
+            "value_26": "",
+            "value_27": "",
+            "value_28": "",
+            "value_29": "",
+            "value_30": "",
+            "value_31": "",
+            "value_32": "",
+            "value_33": "",
+            "value_34": "",
+            "value_35": "",
+            "value_36": "",
+            "value_37": "",
+            "value_38": "",
+            "value_39": "",
+            "value_40": "",
+            "value_41": "",
+            "value_42": "",
+            "value_43": "",
+            "value_44": "",
+            "value_45": "",
+            "value_46": "",
+            "value_47": "",
+            "value_48": "",
+            "value_49": "",
+            "value_50": "",
+            "value_51": "",
+            "value_52": "",
+            "value_53": "",
+            "value_54": "",
+            "value_55": "",
+            "value_56": "",
+            "value_57": "",
+            "value_58": "",
+            "value_59": "",
+            "value_60": "",
+            "value_61": "",
+            "value_62": "",
+            "value_63": "",
+            "value_64": "",
+            "value_65": "",
+            "value_66": "",
+            "value_67": "",
+            "value_68": "",
+            "value_69": "",
+            "value_70": "",
+            "value_71": "",
+            "value_72": "",
+            "value_73": "",
+            "value_74": "",
+            "value_75": "",
+            "value_76": "",
+            "value_77": "",
+            "value_78": "",
+            "value_79": "",
+            "value_80": "",
+            "value_81": "",
+            "value_82": "",
+            "value_83": "",
+            "value_84": "",
+            "value_85": "",
+            "value_86": "",
+            "value_87": "",
+            "value_88": "",
+            "value_89": "",
+            "value_90": "",
+            "value_91": "",
+            "value_92": "",
+            "value_93": "",
+            "value_94": "",
+            "value_95": "",
+            "value_96": "",
+            "value_97": "",
+            "value_98": "",
+            "value_99": "",
+            "value_100": "",
+            "view_button_background": "",
+            "view_button_text_color": "",
+            "custom_link_url": "",
+            "custom_link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "headings_wrJw8d",
+        "values_HXzXiN",
+        "values_ycMTNQ"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Unsere Schnellkochtöpfe im Vergleich",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "link_text": "",
+        "link_url": "",
+        "text_alignment": "start",
+        "link_display": "text",
+        "max_rows": 16,
+        "view_all_text": "Alle Vorteile anzeigen",
+        "view_less_text": "Weniger anzeigen",
+        "view_product": "Anzeigen",
+        "show_product_info": true,
+        "show_product_image": true,
+        "show_product_swatch": true,
+        "viewing_product": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "chart_background": "",
+        "chart_text_color": "",
+        "chart_true_false_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "multi_column_8cpUkq": {
+      "type": "multi-column",
+      "blocks": {
+        "item_y9rXNV": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Landingpage_70_Jahre_Schnellkochen_Multi_Column_1200x900_3.png",
+            "column_size": "3",
+            "title": "Schnellkochtopf Rezepte",
+            "heading_tag": "h4",
+            "content": "<p>Gesund, schnell und lecker: Entdecke die Vielfalt des Schnellkochens</p>",
+            "link_url": "https://fissler.com/blogs/rezepte/tagged/schnellkochtopf",
+            "link_text": "Rezepte entdecken",
+            "link_style": "button"
+          }
+        },
+        "item_64LRaU": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Landingpage_70_Jahre_Schnellkochen_Multi_Column_1200x900_871a9f6e-ae14-4653-aea6-6583e3c1b450.png",
+            "column_size": "3",
+            "title": "Die ganze Welt des Schnellkochens",
+            "heading_tag": "h4",
+            "content": "<p>Entdecke alle Vorteile, Funktionen und Rezepte rund um das Thema Schnellkochen.</p>",
+            "link_url": "shopify://blogs/produktwissen/schnellkochtopf-ratgeber",
+            "link_text": "Jetzt entdecken",
+            "link_style": "button"
+          }
+        },
+        "item_Mge8EM": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Landingpage_70_Jahre_Schnellkochen_Multi_Column_1200x900_2.png",
+            "column_size": "3",
+            "title": "Garzeitenfinder",
+            "heading_tag": "h4",
+            "content": "<p>Egal, ob empfindliches Gemüse, cremiges Risotto oder herzhafter Eintopf - die richtige Garzeit für jede Zutat.</p>",
+            "link_url": "shopify://blogs/produktwissen/schnellkochtopf-garzeitenfinder",
+            "link_text": "Zum Garzeitenfinder",
+            "link_style": "button"
+          }
+        }
+      },
+      "block_order": [
+        "item_y9rXNV",
+        "item_64LRaU",
+        "item_Mge8EM"
+      ],
+      "settings": {
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    }
+  },
+  "order": [
+    "slideshow_4k9UF9",
+    "main",
+    "featured_product_Ha3man",
+    "rich_text_LdWmN3",
+    "multi_column_tdXtct",
+    "rich_text_mf7ayt",
+    "rich_text_JVkRcV",
+    "rich_text_9hwGqX",
+    "media_with_text_98dpa4",
+    "comparison_table_FTkD8r",
+    "multi_column_8cpUkq"
+  ]
+}

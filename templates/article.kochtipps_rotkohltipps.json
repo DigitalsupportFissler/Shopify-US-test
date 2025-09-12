@@ -1,0 +1,245 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "navigation": {
+          "type": "navigation",
+          "disabled": true,
+          "settings": {}
+        },
+        "comments": {
+          "type": "comments",
+          "disabled": true,
+          "settings": {
+            "show_gravatar": true,
+            "comments_per_page": 5
+          }
+        }
+      },
+      "block_order": [
+        "navigation",
+        "comments"
+      ],
+      "settings": {
+        "layout": "image_text_overlay",
+        "image": "{{ article.image }}",
+        "show_author": true,
+        "show_date": true,
+        "show_comments_count": true,
+        "show_share_buttons": true,
+        "show_header_image": true,
+        "banner_background": "",
+        "banner_text_color": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "content_width": "1150px",
+        "stats_color": "#556132",
+        "is_recipe": false,
+        "content_alignment": "start"
+      }
+    },
+    "media_with_text_apL4FF": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_PPdxfG": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Ratgeber_Produktwissen_MEdia_with_Text_XXX___1500x1500_5.png",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Zubereitungstipp: Rotkohl richtig schneiden",
+            "heading_tag": "h3",
+            "content": "<p>Die äußeren Blätter entfernen, den Rotkohl halbieren und den harten Strunk keilförmig herausschneiden. Anschließend die Rotkohlhälften nochmals teilen und in feine Streifen schneiden.<br/><br/>Empfehlung: Das Schneiden von Rotkohl geht besonders schnell und sicher von der Hand mithilfe eines großen Kochmessers.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "image_PPdxfG"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "media_with_text_wRVQQT": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_PYP7L7": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Ratgeber_Produktwissen_MEdia_with_Text_Rotkohl_Tipp_3___1500x1500_1fd21cf7-dba1-4f59-bb4d-2a424f99f1ce.png",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Zeitspartipp: Rotkohl im Schnellkochtopf garen",
+            "heading_tag": "h3",
+            "content": "<p>Selbst gemachter Rotkohl braucht zu lange? Nicht wenn man einen Schnellkochtopf nutzt – zum Beispiel den Vitavit® Premium (4,5 l). Darin beträgt die Garzeit auf Stufe 1 nur ca. 10 Minuten und auf Stufe 2 sogar nur 4-5 Minuten.</p>",
+            "link_text": "Zu den Schnellkochtöpfen",
+            "link_url": "shopify://collections/schnellkochtoepfe",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "image_PYP7L7"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "media_with_text_4kknea": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_bPyixQ": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Ratgeber_Produktwissen_Media_with_Text_Naehrstoff__1500x1500_cccd1aab-3348-448b-9b04-9909f014a676.png",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Geschmackstipp: Gewürze machen den Unterschied",
+            "heading_tag": "h3",
+            "content": "<p>Die Wahl der richtigen Gewürze ist entscheidend für den Geschmack. Klassische Zutaten wie Lorbeerblätter, Nelken, Wacholderbeeren und etwas Zimt verleihen dem Rotkohl eine feine Würze. Für eine fruchtige Note kannst du geriebene Äpfel oder ein wenig Orangensaft hinzufügen. Experimentiere mit den Gewürzen, um deinen persönlichen Lieblingsgeschmack zu finden.</p>",
+            "link_text": "Zu den Schnellkochtöpfen",
+            "link_url": "shopify://collections/schnellkochtoepfe",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "image_bPyixQ"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "xl"
+      }
+    },
+    "blog_posts_DPr7Jx": {
+      "type": "blog-posts",
+      "blocks": {
+        "blog_KKjniE": {
+          "type": "blog",
+          "settings": {
+            "blog": "news",
+            "posts_count": 3,
+            "stack_items": false
+          }
+        }
+      },
+      "block_order": [
+        "blog_KKjniE"
+      ],
+      "name": "Blog posts",
+      "settings": {
+        "show_excerpt": true,
+        "show_date": true,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": true,
+        "show_overall_time": false,
+        "subheading": "",
+        "title": "Weitere Kochtipps entdecken",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto",
+        "blog_handle": "kochtipps",
+        "posts_count": 4
+      }
+    }
+  },
+  "order": [
+    "main",
+    "media_with_text_apL4FF",
+    "media_with_text_wRVQQT",
+    "media_with_text_4kknea",
+    "blog_posts_DPr7Jx"
+  ]
+}

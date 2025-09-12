@@ -1,0 +1,1332 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "100%"
+      }
+    },
+    "featured_product_Ha3man": {
+      "type": "featured-product",
+      "blocks": {
+        "vendor_kfY8zG": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "title_eEHeUd": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "badges_EeNKcy": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price_PAexq7": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating_Yz8bQi": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "separator_4W4U7A": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description_D7T67Y": {
+          "type": "description",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "collapse_content": false
+          }
+        },
+        "variant_picker_VJatLN": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector_4JA94m": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_jxFghn": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "pickup_availability_VRpwth": {
+          "type": "pickup_availability",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "vendor_kfY8zG",
+        "title_eEHeUd",
+        "badges_EeNKcy",
+        "price_PAexq7",
+        "rating_Yz8bQi",
+        "separator_4W4U7A",
+        "description_D7T67Y",
+        "variant_picker_VJatLN",
+        "quantity_selector_4JA94m",
+        "buy_buttons_jxFghn",
+        "pickup_availability_VRpwth"
+      ],
+      "disabled": true,
+      "settings": {
+        "product": "adamant-comfort-pfanne",
+        "desktop_media_width": 35,
+        "desktop_media_layout": "grid_one",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "slideshow_6QjRD4": {
+      "type": "slideshow",
+      "blocks": {
+        "image_HcBptm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Landingpage_180_Jahre_Header_Image_2800x1000_2.png",
+            "image_content_width": false,
+            "content_max_width": 820,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "Wir feiern Jubiläum",
+            "title": "180 Jahre Fissler",
+            "heading_tag": "h1",
+            "button_text": "",
+            "button_link": "",
+            "heading_color": "#ffffff",
+            "subheading_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_HcBptm"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "full_width": true,
+        "show_initial_transition": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "media_with_text_PrEABG": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_QUbNTG": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Landingpage_180_Jahre_GIF_Slider.gif",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Aus unserer Heimat in deine Küche",
+            "heading_tag": "h3",
+            "content": "<p>Seit 180 Jahren ist Fissler in den Küchen dieser Welt Zuhause. Für uns bedeutet Kochen so viel mehr als nur die Zubereitung von Speisen. Mit Stolz fertigen wir Kochgeschirr, das für mehr steht als Funktionalität. Die Daseinsberechtigung unseres Premium Kochgeschirrs besteht darin,<strong> leidenschaftliche Köche zu inspirieren und zu begeistern.</strong> Egal, ob du deine Liebsten mit einem Abendessen begeistern oder mit Sterne-Rezepten experimentieren möchtest.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "image_QUbNTG"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "rich_text_9qjbxq": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_HR7arX": {
+          "type": "heading",
+          "settings": {
+            "text": "Wir sind „180 Jahre“",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_GDtDzd": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Von der Entwicklung bis in deine Küche – unsere Mitarbeiter leben und lieben das Kochen. </p><p>Erfahre, welche <strong>Fissler Produkte</strong> sie täglich begeistern, welche <strong>Kochtipps</strong> sie dir mit auf den Weg geben und, was es für sie so besonders macht, Teil von Fissler zu sein.</p>",
+            "font_size": "base"
+          }
+        },
+        "image_JALEax": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Landingpage_180_Jahre_Mitarbeiterformat_Arthur_1600x800_07400135-2eb5-4415-ab9a-a9a6757f2c52.png",
+            "width_mode": "custom",
+            "max_width": 880,
+            "mobile_max_width": 400
+          }
+        }
+      },
+      "block_order": [
+        "heading_HR7arX",
+        "richtext_GDtDzd",
+        "image_JALEax"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "show_section_id": false,
+        "content_width": "large",
+        "text_position": "center",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "rich_text_gXxXeA": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_6zTgDi": {
+          "type": "heading",
+          "settings": {
+            "text": "4 Fragen an Thordt",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_bewUHR": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Name: </strong>Thordt</p><p><strong>Funktion: </strong>Director Global Marketing</p><p><strong>Jobbeschreibung in 3 Worten:</strong> Spaß, Stolz, Dynamik</p>",
+            "font_size": "lg"
+          }
+        },
+        "divider_bU8bUh": {
+          "type": "divider",
+          "settings": {}
+        },
+        "image_XkYPjz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Pages_180_Jahre_Mitarbeiterportraet_Thordt_1600x800_cd350e9e-07e2-40b8-b8b3-1aaa29dc97ad.png",
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        }
+      },
+      "block_order": [
+        "heading_6zTgDi",
+        "richtext_bewUHR",
+        "divider_bU8bUh",
+        "image_XkYPjz"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "show_section_id": false,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "#ffffff",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "padding_top": "md",
+        "padding_bottom": "md"
+      }
+    },
+    "rich_text_CtHePD": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_zgdjCY": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5>👨‍🍳 1. Wenn dein Kochgeschirr sprechen könnte, was würde es über dich erzählen?</h5><p>\"Eine lange Leidensgeschichte von zu Klumpen gewordenen Spätzle mit 8 Jahren bis hin zu einem perfekten Beef Wellington mit 38 Jahren.\" </p><h5>🔍 2. Inwiefern hat Fissler deine Sicht auf das Kochen verändert?</h5><p>\"Wenn man gerne kocht, hat man mit Fissler immer wieder Momente, in denen die Gerichte noch besser gelingen. Diese Fissler Momente sind einzigartig.\" </p><p></p>",
+            "font_size": "lg"
+          }
+        },
+        "divider_wnC49V": {
+          "type": "divider",
+          "settings": {}
+        },
+        "richtext_8LfyPx": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5>👉 3. Was ist dein Lieblingsprodukt von Fissler und warum?</h5><p>\"Meine Lieblingsprodukt ist die <a href=\"https://www.fissler.com/de/kollektionen/original-profi-collection-edelstahl/?utm_source=email&utm_medium=newsletter&utm_campaign=250518_Monthly%20Anniversary%20Newsletter_MAI&utm_id=01JRW6D0DHQFF5VCPQ5EWT7P5N&klar_source=klaviyo&_kx=ITGqtQXAzZp1Ai5ewdk7gQ.U9YRBs\" target=\"_blank\">Original-Profi Collection®</a>. Für mich das beste Kochgeschirr der Welt.\"</p><p></p><h5>🍽️ 4. Was ist ein Koch-Tipp, den du teilen möchtest?</h5><p>\"Ahornsirup zu karamellisieren – eine wahre Umami-Bombe.\"</p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_zgdjCY",
+        "divider_wnC49V",
+        "richtext_8LfyPx"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "show_section_id": false,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "#efe9e9",
+        "full_width_background": true,
+        "background_gradient": "",
+        "text_color": "",
+        "padding_top": "md",
+        "padding_bottom": "sm"
+      }
+    },
+    "rich_text_XGa989": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_x8Uqpf": {
+          "type": "heading",
+          "settings": {
+            "text": "4 Fragen an Martin",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_nraKxM": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Name: </strong>Martin</p><p><strong>Funktion: </strong>Teamleiter Werkzeugbau</p><p><strong>Jobbeschreibung in 3 Worten:</strong> Präzise, innovativ, verantwortungsvoll</p>",
+            "font_size": "lg"
+          }
+        },
+        "divider_UKttLk": {
+          "type": "divider",
+          "settings": {}
+        },
+        "image_JHwdEK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/180_Jahre_Mitarbeiterportraet_Martin_1600x800_79eda4fd-8f8c-4077-af5e-7066e2c6234e.png",
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        }
+      },
+      "block_order": [
+        "heading_x8Uqpf",
+        "richtext_nraKxM",
+        "divider_UKttLk",
+        "image_JHwdEK"
+      ],
+      "disabled": true,
+      "name": "Rich text",
+      "settings": {
+        "show_section_id": false,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "#ffffff",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "padding_top": "md",
+        "padding_bottom": "md"
+      }
+    },
+    "rich_text_G44Gh3": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_ErRmPF": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5>👨‍🍳 1. Das Beste daran, ein Teil von Fissler zu sein, ist...?</h5><p>\"…in unserem Team an innovativen Werkzeugen und Produkten zu arbeiten, die sowohl die Kunst des Kochens als auch die Präzision und Technik vereinen.\"</p><h5>🔍 2. Inwiefern hat Fissler deine Sicht auf das Kochen verändert?</h5><p>\"Ich habe eine tiefere Wertschätzung für die Bedeutung der richtigen Materialien und Verarbeitung in der Küche entwickelt. Die Verwendung von hochwertigem Kochgeschirr zeigt, wie wichtig die Auswahl von Materialien – sei es Edelstahl oder Aluminium – für die Zubereitung von Mahlzeiten ist. Jedes Detail, von der Wärmeleitung, über die Beschichtung, bis hin zur Langlebigkeit des Produkts hat großen Einfluss auf das Endergebnis.\" </p>",
+            "font_size": "lg"
+          }
+        },
+        "divider_pqVgQd": {
+          "type": "divider",
+          "settings": {}
+        },
+        "richtext_MLXUUC": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5>👉 3. Was ist dein Lieblingsprodukt von Fissler und warum?</h5><p>\"Mein Lieblingsprodukt ist der Fissler Vitavit Premium Schnellkochtopf. Er ist ein schönes <br/>Beispiel für Innovation im Bereich Kochgeschirr. Er kombiniert die klassische Funktionalität eines Schnellkochtopfs mit modernen Technologien und durchdachtem Design.\"</p><p></p><h5>🍽️ 4. Wenn dein Kochgeschirr sprechen könnte, was würde es über dich erzählen?</h5><p>\"Wenn mein Kochgeschirr sprechen könnte, würde es mit Sicherheit von meinem präzisen und professionellen Ansatz berichten – nicht nur im Umgang mit Werkzeugen, sondern auch in der Küche! Es würde von der hohen Erwartung berichten, die ich an jedes Gericht und Produkt habe, ähnlich wie an die Qualität und Präzision der Werkzeuge, mit denen wir arbeiten.\" </p>",
+            "font_size": "lg"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_ErRmPF",
+        "divider_pqVgQd",
+        "richtext_MLXUUC"
+      ],
+      "disabled": true,
+      "name": "Rich text",
+      "settings": {
+        "show_section_id": false,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "#efe9e9",
+        "full_width_background": true,
+        "background_gradient": "",
+        "text_color": "",
+        "padding_top": "md",
+        "padding_bottom": "sm"
+      }
+    },
+    "rich_text_Gbq34i": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_7ijh6c": {
+          "type": "heading",
+          "settings": {
+            "text": "4 Fragen an Beate",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_RqLAA3": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Name: </strong>Beate</p><p><strong>Funktion: </strong>Senior Manager Trademarks & Training</p><p><strong>Jobbeschreibung in 3 Worten:</strong> Immer wieder spannend.</p>",
+            "font_size": "lg"
+          }
+        },
+        "divider_pDf3eA": {
+          "type": "divider",
+          "settings": {}
+        },
+        "image_BUiidy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Jahre_Mitarbeiterportraet_Beate_1600x800_e9f7a0e8-4996-4780-96f7-0fb296f617d8.png",
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        }
+      },
+      "block_order": [
+        "heading_7ijh6c",
+        "richtext_RqLAA3",
+        "divider_pDf3eA",
+        "image_BUiidy"
+      ],
+      "disabled": true,
+      "name": "Rich text",
+      "settings": {
+        "show_section_id": false,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "#ffffff",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "padding_top": "md",
+        "padding_bottom": "md"
+      }
+    },
+    "rich_text_wBdA3f": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_3BRyMW": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5>👨‍🍳 1. Wenn dein Kochgeschirr sprechen könnte, was würde es über dich erzählen?</h5><p>\"Cool, dass wir uns in Beates Küche mit so vielen verschiedenen Lebensmitteln richtig austoben dürfen.\" </p><h5>🔍 2. Fissler feiert 180-jähriges Jubiläum. Was würdest du dir für die nächsten 180 Jahre wünschen?</h5><p>\"Dass noch viel mehr Menschen das Kochen für sich entdecken und feststellen, wieviel Spaß Kochen mit richtig gutem Kochgeschirr macht.\" </p>",
+            "font_size": "lg"
+          }
+        },
+        "divider_yXe7RR": {
+          "type": "divider",
+          "settings": {}
+        },
+        "richtext_WATtx6": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5>👉 3. Was ist dein Lieblingsprodukt von Fissler und warum?</h5><p>\"Mein Lieblingsprodukt ist mein <a href=\"/collections/schnellkochtoepfe\" title=\"Schnellkochtöpfe\">Schnellkochtopf</a>. Er sieht toll aus und verhilft mir in kürzester Zeit zu einem leckeren 5 Minuten-Waldpilz-Risotto. \"</p><p></p><h5>🍽️ 4. Was ist ein Koch-Tipp, den du teilen möchtest?</h5><p>\"Ob ein Steak in einer Edelstahlpfanne anhaftet oder nicht, hängt weniger von der Menge des Bratfetts ab, sondern meist von der Temperatur der Pfanne und vom richtigen Zeitpunkt des Wendens:</p><p></p><ul><li>Sobald ein Tropfen Wasser auf der Bratfläche „tanzt\", ist die Pfanne heiß genug (ca. 200 °C) und das Braten kann los gehen.<br/></li><li>Beim Braten von Fleisch oder Geflügel gilt: Erst wenden, wenn sich eine durchgehende, goldene Kruste gebildet hat, die am Rand erkennbar ist – dann lässt sich das Bratgut ganz leicht lösen.\"</li></ul>",
+            "font_size": "lg"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_3BRyMW",
+        "divider_yXe7RR",
+        "richtext_WATtx6"
+      ],
+      "disabled": true,
+      "name": "Rich text",
+      "settings": {
+        "show_section_id": false,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "#efe9e9",
+        "full_width_background": true,
+        "background_gradient": "",
+        "text_color": "",
+        "padding_top": "md",
+        "padding_bottom": "sm"
+      }
+    },
+    "rich_text_79TpDL": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_MLUca7": {
+          "type": "heading",
+          "settings": {
+            "text": "So gelingt’s in der Küche: 5 nützliche Tipps unserer Mitarbeiter",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_MLUca7"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "show_section_id": false,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "padding_top": "xl",
+        "padding_bottom": "md"
+      }
+    },
+    "multiple_images_with_text_K4PDCp": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "item_f7z3Dw": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/180_Years_Janis_DE_1080x1080_0d0740a7-00a7-4b0c-9249-97a8e88a1564.png",
+            "image_rotation_degrees": 0,
+            "subheading": "",
+            "title": "Ingwer im Handumdrehen schälen mit Janis' Tipp:",
+            "content": "<p>Schnell und einfach mit dem Löffel.</p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        },
+        "item_xYeCeb": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/180_Jahre_LP_Quote_Heiko_Kochtipp_1080x1080_4cde87ae-9273-4d3b-a626-a50739d59b82.png",
+            "image_rotation_degrees": 0,
+            "subheading": "",
+            "title": "Heikos Tipp:",
+            "content": "<p>Selbstgemachte Brühen ganz einfach mit dem Schnellkochtopf ansetzen.</p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        },
+        "item_FBRYJ7": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/180_Jahre_LP_Quote_Sven_Kochtipp_1080x1080_2.png",
+            "image_rotation_degrees": 0,
+            "subheading": "",
+            "title": "Svens Tipp für die Zubereitung von Pasta:",
+            "content": "<p>So merkst du dir das richtige Verhältnis von Salz, Pasta und Wasser.<br/></p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        },
+        "item_rPmzEx": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/180_Jahre_LP_Quote_Ingo_1080x1080_1.png",
+            "image_rotation_degrees": 0,
+            "subheading": "",
+            "title": "Ingos Tipp an alle Schnellkochtopf-Liebhaber:",
+            "content": "<p>Schnellkochtopf in Sekunden öffnen – ganz ohne Abdampfen.</p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        },
+        "item_MYgEYP": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/180_Jahre_LP_Quote_Angelina_1080x1080_1.png",
+            "image_rotation_degrees": 0,
+            "subheading": "",
+            "title": "Braten, aber richtig mit Angelinas Wassertropfen-Test:",
+            "content": "<p>So einfach testest du, ob deine Pfanne heiß genug ist.</p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_f7z3Dw",
+        "item_xYeCeb",
+        "item_FBRYJ7",
+        "item_rPmzEx",
+        "item_MYgEYP"
+      ],
+      "name": "Multiple images with text",
+      "settings": {
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": "",
+        "heading_tag": "h4",
+        "content_alignment": "start"
+      }
+    },
+    "press_DYtUbk": {
+      "type": "press",
+      "blocks": {
+        "quote_Tq4aPP": {
+          "type": "quote",
+          "settings": {
+            "logo_width": 100,
+            "author": "Beate - Senior Manager Trademarks & Training",
+            "content": "\"Das Beste daran, ein Teil von Fissler zu sein, ist die Vorstellung, dass unsere Produkte in den Küchen vieler Menschen weltweit für schöne und genussvolle Momente sorgen.\"",
+            "show_rating": false,
+            "rating": 4
+          }
+        }
+      },
+      "block_order": [
+        "quote_Tq4aPP"
+      ],
+      "name": "Press",
+      "settings": {
+        "content_size": "large",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "#ff0000",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "",
+        "logo_item_border": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "rich_text_mYerdn": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_YCcgCG": {
+          "type": "heading",
+          "settings": {
+            "text": "Diese 5 Lieblingsprodukte empfehlen dir unsere Mitarbeiter",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_YCcgCG"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "show_section_id": true,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "padding_top": "md",
+        "padding_bottom": "md"
+      }
+    },
+    "multiple_images_with_text_jmHUBr": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "item_eHrPrh": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/180_Jahre_LP_Quote_Angelina_Ceratal_1080x1080_1.png",
+            "image_rotation_degrees": 0,
+            "subheading": "",
+            "title": "Angelinas Lieblingsprodukt:",
+            "content": "<p>Ihre Lieblingspfanne ist nicht nur vielseitig einsetzbar, sondern auch einfach in der Handhabung.</p>",
+            "button_url": "shopify://products/ceratal-comfort-pfanne",
+            "button_text": "Ceratal® Pfanne entdecken"
+          }
+        },
+        "item_6riVjE": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/180_Jahre_LP_Quote_Merlin_1080x1080_1.png",
+            "image_rotation_degrees": 0,
+            "subheading": "",
+            "title": "Merlins Lieblingsprodukt:",
+            "content": "<p>Der Schnellkochtopf - er spart beim Kochen nicht nur Zeit, sondern bewahrt wichtige Vitamine.</p>",
+            "button_url": "shopify://collections/schnellkochtoepfe",
+            "button_text": "Schnellkochtöpfe entdecken"
+          }
+        },
+        "item_9JycU7": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/180_Jahre_LP_Quote_Carina_1080x1080_1.png",
+            "image_rotation_degrees": 0,
+            "subheading": "",
+            "title": "Carinas Lieblingsprodukt:",
+            "content": "<p>Knusprig anbraten, kein Anhaften, ein echtes Allround-Talent: Das ist Carinas Favorit.</p>",
+            "button_url": "shopify://products/adamant-comfort-pfanne",
+            "button_text": "Adamant® Pfanne entdecken"
+          }
+        },
+        "item_EypRrL": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/180_Jahre_LP_Quote_Chris_1080x1080_3.png",
+            "image_rotation_degrees": 0,
+            "subheading": "",
+            "title": "Chris' Lieblingsprodukt:",
+            "content": "<p>Sein Küchenliebling hat es in sich: Pfanne und Topf in einem</p>",
+            "button_url": "https://fissler.com/products/original-profi-collection-sauteuse-ohne-deckel-20-cm?_pos=1&_psq=sauteuse&_ss=e&_v=1.0",
+            "button_text": "Sauteuse entdecken"
+          }
+        },
+        "item_mCyNph": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/180_Jahre_LP_Quote_Thordt_1080x1080_1.png",
+            "image_rotation_degrees": 0,
+            "subheading": "",
+            "title": "Thordts Lieblingsprodukt:",
+            "content": "<p>Von und mit Spitzenköchen für leidenschaftliche Hobbyköche entwickelt, entdecke das Lieblingskochgeschirr von Thordt!</p>",
+            "button_url": "shopify://collections/original-profi-collection-edelstahl",
+            "button_text": "Kollektion entdecken"
+          }
+        }
+      },
+      "block_order": [
+        "item_eHrPrh",
+        "item_6riVjE",
+        "item_9JycU7",
+        "item_EypRrL",
+        "item_mCyNph"
+      ],
+      "name": "Multiple images with text",
+      "settings": {
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": "",
+        "heading_tag": "h4",
+        "content_alignment": "start"
+      }
+    },
+    "featured_collection_nNXiNt": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "collection": "",
+        "products": [
+          "ceratal-comfort-pfanne",
+          "vitavit-premium-schnellkochtopf",
+          "adamant-comfort-pfanne",
+          "original-profi-collection-sauteuse-ohne-deckel-20-cm",
+          "original-profi-collection-topf-set-5-tlg-mit-glasdeckeln-und-stielkasserolle"
+        ],
+        "stack_products": false,
+        "show_progress_bar": true,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Alle Lieblingsprodukte auf einen Blick",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": "",
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "rich_text_hmcqqD": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_r6pPkg": {
+          "type": "heading",
+          "settings": {
+            "text": "Sichere dir ein limitiertes Fissler Sammlerstück",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_r6pPkg"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "show_section_id": false,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "padding_top": "xl",
+        "padding_bottom": "md"
+      }
+    },
+    "media_with_text_J7naHG": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_gWtyNh": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Pages_180_Jahre_Fissler_OPC_Retro_Media_with_Text_1500x1500_614938b4-5cfa-41e3-9067-12cbeee020d1.png",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "Eine Hommage an eine Ikone",
+            "title": "Original-Profi Collection® Retro",
+            "heading_tag": "h3",
+            "content": "<p>Anlässlich des 180-jährigen Jubiläums kehrt eines unserer beliebtesten Produkte für einen Moment zurück: die Original-Profi Collection im <strong>Retro Design</strong>.<br/><br/>Ein Produkt, das die Werte verkörpert, für die wir seit der Gründung stehen. <strong>Nachhaltig in Deutschland</strong> <strong>gefertigt</strong>, um Generationen zu überdauern.<br/><br/>Feiere mit uns und hol dir ein echtes Sammlerstück, das die Essenz der Marke Fissler verkörpert.<strong> Entdecke jetzt unsere limitierte Jubiläumsausgabe!</strong></p>",
+            "link_text": "Jetzt entdecken",
+            "link_url": "https://fissler.com/products/original-profi-collection-retro-5-teiliges-topfset-mit-metalldeckeln?_pos=1&_psq=original+profi+collection+retro&_ss=e&_v=1.0",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        },
+        "image_eJxdxC": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Pages_AH_Event_Shadowline_Teaser_Media_with_Text_1500x1500_348f01a1-1603-41b1-af8b-80b51cdbfbc9.png",
+            "media_width": 50,
+            "disable_content_vertical_padding": false,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "Limitierte Edition einer zeitlosen Schönheit",
+            "title": "Original-Profi Collection® ShadowLine",
+            "heading_tag": "h3",
+            "content": "<p>Zum 180. Jubiläum haben wir mit der <strong>Original-Profi Collection® ShadowLine </strong>eine Ikone neu interpretiert – in edlem, dunklem Edelstahl, limitiert auf nur 1.800 Stück weltweit. Eine einzigartige Topfkollektion, die für Exklusivität, Handwerkskunst und zeitlose Eleganz steht.</p>",
+            "link_text": "Jetzt entdecken",
+            "link_url": "shopify://collections/original-profi-collection-shadowline",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "image_gWtyNh",
+        "image_eJxdxC"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "xl"
+      }
+    },
+    "image_with_text_overlay_xwDrTa": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_zXqRgC": {
+          "type": "subheading",
+          "settings": {
+            "text": "Fissler Fakt"
+          }
+        },
+        "heading_yCL8zx": {
+          "type": "heading",
+          "settings": {
+            "text": "Ein Topf unserer Original-Profi Collection® kann ca. 100 kg pro Griff tragen.",
+            "heading_tag": "h3"
+          }
+        },
+        "button_PD9j3L": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "lg",
+            "text": "Kollektion entdecken",
+            "url": "shopify://collections/original-profi-collection-edelstahl",
+            "background": "#ffffff",
+            "text_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_zXqRgC",
+        "heading_yCL8zx",
+        "button_PD9j3L"
+      ],
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "image_size": "sm",
+        "image": "shopify://shop_images/Pages_180_Jahre_OPC_Fissler_Fakt_Image_with_Textoverlay_3200x1600_2.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center-start sm:text-start",
+        "text_color": "#ffffff",
+        "overlay_color": "#333333",
+        "overlay_opacity": 30,
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "image_with_text_overlay_3QPJew": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_4Nr9tR": {
+          "type": "subheading",
+          "settings": {
+            "text": "Fissler Fakt"
+          }
+        },
+        "heading_yDnzN9": {
+          "type": "heading",
+          "settings": {
+            "text": "Unsere Pfannenfertigung in Deutschland ist eine der modernsten Kochgeschirrfabriken Europas.",
+            "heading_tag": "h3"
+          }
+        },
+        "button_fjkDGP": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "lg",
+            "text": "Pfannen entdecken",
+            "url": "shopify://collections/pfannen",
+            "background": "#ffffff",
+            "text_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_4Nr9tR",
+        "heading_yDnzN9",
+        "button_fjkDGP"
+      ],
+      "disabled": true,
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "image_size": "sm",
+        "image": "shopify://shop_images/Pages_180_Jahre_Pfannenfertigung_Fissler_Fakt_Image_with_Textoverlay_3200x1600_1.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center-start sm:text-start",
+        "text_color": "#ffffff",
+        "overlay_color": "#333333",
+        "overlay_opacity": 30,
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "media_with_text_3DpAEx": {
+      "type": "media-with-text",
+      "blocks": {
+        "video_hWLjMw": {
+          "type": "video",
+          "settings": {
+            "external_video_url": "https://www.youtube.com/watch?v=7lmz0mQNQWw",
+            "poster_image": "shopify://shop_images/Pages_180_Jahre_AH_Happy_Birthday_Poster_Image_3200x1600_07ba65e9-df62-4c3f-8b28-9606e3cd7f32.png",
+            "autoplay": false,
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Alexander Herrmann gratuliert zum Jubiläum",
+            "content": "<p>Sternekoch Alexander Herrmann ist stolz ein Teil der Geschichte Fisslers zu sein und gratuliert zu 180 Jahren. Erfahre, warum für ihn Fissler mehr ist als nur Kochgeschirr.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "video_hWLjMw"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "rich_text_CtqLyE": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_F8CMdR": {
+          "type": "heading",
+          "settings": {
+            "text": "Von damals bis heute: Zeitlose Rezepte - modern verfeinert",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_mCF9g8": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Wir haben für dich in unserem Archiv gestöbert. Lass dich von unseren modern verfeinerten Rezeptklassikern inspirieren und freue dich jeden Monat auf neue Rezeptideen!</p>",
+            "font_size": "base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_F8CMdR",
+        "richtext_mCF9g8"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "show_section_id": false,
+        "content_width": "large",
+        "text_position": "center",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "padding_top": "auto",
+        "padding_bottom": "md"
+      }
+    },
+    "image_link_blocks_kNGLq7": {
+      "type": "image-link-blocks",
+      "blocks": {
+        "item_pRAMF6": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Landingpage_180_Jahre_Rezept_Wan_Tan_Suppe_500x500_fd7aad16-518e-48f8-ba5d-e2bb3ee71fe7.png",
+            "stretch_image": true,
+            "link_text": "Wan Tan Suppe",
+            "link_url": "shopify://blogs/rezepte/wan-tan-suppe",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_7daM3D": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Landingpage_180_Jahre_Rezept_Gratin_dauphinois_500x500_f2b583df-8156-4dad-bb84-5c60e2ff35e0.png",
+            "stretch_image": true,
+            "link_text": "Gratin dauphinois",
+            "link_url": "shopify://blogs/rezepte/gratin-dauphinois",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_aMQqta": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Landingpage_180_Jahre_Rezept_Chili_sin_carne_500x500_8887dcb0-48e9-404a-bea3-43ddae4cda77.png",
+            "stretch_image": true,
+            "link_text": "Chili sin Carne Salat",
+            "link_url": "shopify://blogs/rezepte/sommerlich-frischer-chili-sin-carne-salat",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_XcUjEi": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Rezepte_Geschmorter_Lachs_500x500_1.png",
+            "stretch_image": true,
+            "link_text": "Geschmorter Lachs",
+            "link_url": "shopify://blogs/rezepte/geschmorter-lachs",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_nHrUmj": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Rezepte_Gefuellte_Zucchini_500x500_d37569e0-528c-4843-8e0e-577c555d23e3.png",
+            "stretch_image": true,
+            "link_text": "Gefüllte Zucchini",
+            "link_url": "shopify://blogs/rezepte/gefuellte-zucchini",
+            "background": "#ffffff",
+            "full_width_background": false,
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "item_pRAMF6",
+        "item_7daM3D",
+        "item_aMQqta",
+        "item_XcUjEi",
+        "item_nHrUmj"
+      ],
+      "name": "Image link blocks",
+      "settings": {
+        "block_size": "medium",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "text_alignment": "start",
+        "link_url": "",
+        "link_text": "",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "padding_top": "auto",
+        "padding_bottom": "xl",
+        "items_per_row_1000": 4,
+        "items_per_row_1400": 5
+      }
+    },
+    "collection_list_9Y84yp": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_FEPq4a": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_jTGgag": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_nJm8mC": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "collection_FEPq4a",
+        "collection_jTGgag",
+        "collection_nJm8mC"
+      ],
+      "name": "Collection list",
+      "settings": {
+        "collection_list": [
+          "pfannen",
+          "toepfe",
+          "schnellkochtoepfe",
+          "kuechenhelfer"
+        ],
+        "stack_collections": true,
+        "collections_per_row_mobile": "1",
+        "collections_per_row": 4,
+        "show_progress_bar": false,
+        "subheading": "",
+        "title": "Hochwertiges Fissler Kochgeschirr entdecken",
+        "content": "<p>In der Küche zählen Details – und die richtige Ausrüstung. Bei Fissler arbeiten wir täglich daran, Kochgeschirr zu entwickeln, das Qualität, Innovation und Freude am Kochen vereint. Finde das Kochgeschirr, das perfekt zu dir passt und jeden Kochmoment bereichert.</p>",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "full_width_background": false,
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "show_subheading": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "featured_product_Ha3man",
+    "slideshow_6QjRD4",
+    "media_with_text_PrEABG",
+    "rich_text_9qjbxq",
+    "rich_text_gXxXeA",
+    "rich_text_CtHePD",
+    "rich_text_XGa989",
+    "rich_text_G44Gh3",
+    "rich_text_Gbq34i",
+    "rich_text_wBdA3f",
+    "rich_text_79TpDL",
+    "multiple_images_with_text_K4PDCp",
+    "press_DYtUbk",
+    "rich_text_mYerdn",
+    "multiple_images_with_text_jmHUBr",
+    "featured_collection_nNXiNt",
+    "rich_text_hmcqqD",
+    "media_with_text_J7naHG",
+    "image_with_text_overlay_xwDrTa",
+    "image_with_text_overlay_3QPJew",
+    "media_with_text_3DpAEx",
+    "rich_text_CtqLyE",
+    "image_link_blocks_kNGLq7",
+    "collection_list_9Y84yp"
+  ]
+}

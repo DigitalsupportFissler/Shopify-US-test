@@ -1,0 +1,340 @@
+{% if product %}
+  {% assign awards = product.metafields.custom.awards.value %}
+  {% assign siegel = product.metafields.custom.productseal.value %}
+{% elsif collection %}
+  {% assign awards = collection.metafields.custom.awards.value %}
+  {% assign siegel = collection.metafields.custom.siegel.value %}
+{% endif %}
+{% assign carousel_id = 'carousel-' | append: section.id %}
+{% assign awards_count = 0 %}
+{% assign siegel_count = 0 %}
+
+{% for a in awards %}
+  {% assign awards_count = awards_count | plus: 1 %}
+{% endfor %}
+
+{% for s in siegel %}
+  {% assign siegel_count = siegel_count | plus: 1 %}
+{% endfor %}
+
+{% assign totalSize = awards_count | plus: siegel_count | at_most: 4 %}
+{%- if totalSize > 0 -%}
+  {%- render 'section-spacing-collapsing' -%}
+
+  <style>
+    #shopify-section-{{ section.id }} {
+      --text-with-icons-template: {% if section.settings.stack_on_mobile %}minmax(0, 1fr){% else %}auto-flow 100%{% endif %};
+      --text-with-icons-justify: center;
+      --text-with-icons-text-align: center;
+      --text-with-icons-gap: {% if section.settings.icon_spacing == 'small' %}var(--spacing-5){% elsif section.settings.icon_spacing == 'medium' %}var(--spacing-6){% else %}var(--spacing-7){% endif %};
+    }
+
+    {%- if section.settings.stack_on_mobile -%}
+      @media screen and (min-width: 699px) {
+        #shopify-section-{{ section.id }} {
+          --text-with-icons-template: repeat(2, minmax(0, 1fr));
+        }
+      }
+    {%- endif -%}
+
+    @media screen and (min-width: 1150px) {
+      #shopify-section-{{ section.id }} {
+        --text-with-icons-gap: {% if section.settings.icon_spacing == 'small' %}var(--spacing-5){% elsif section.settings.icon_spacing == 'medium' %}var(--spacing-6){% else %}var(--spacing-8){% endif %};
+      }
+    }
+
+    {%- if totalSize <= 3 -%}
+      @media screen and (min-width: 1000px) {
+        #shopify-section-{{ section.id }} {
+          --text-with-icons-template: repeat({{ totalSize }}, minmax(0, 630px));
+          --text-with-icons-justify: {% if section.settings.text_alignment == 'center' %}center{% else %}start{% endif %};
+          --text-with-icons-text-align: {% if section.settings.text_alignment == 'center' %}center{% else %}start{% endif %};
+        }
+      }
+    {%- else -%}
+      @media screen and (min-width: 1150px) {
+        #shopify-section-{{ section.id }} {
+          --text-with-icons-template: repeat({{ totalSize }}, 1fr);
+          --text-with-icons-justify: {% if section.settings.text_alignment == 'center' %}center{% else %}start{% endif %};
+          --text-with-icons-text-align: {% if section.settings.text_alignment == 'center' %}center{% else %}start{% endif %};
+        }
+      }
+    {%- endif -%}
+  </style>
+
+  {%- capture padding_classes -%}
+  section-padding-top-{{ section.settings.padding_top }} section-padding-bottom-{{ section.settings.padding_bottom }}
+{%- endcapture -%}
+  {% assign section_classes = padding_classes %}
+  {% if section.settings.full_width_background %}
+    {% assign section_classes = section_classes | append: 'no-padding' %}
+  {% endif %}
+  <div {% render 'section-properties', class: section_classes %}>
+    {% if section.settings.show_section_id %}
+      <div class="section-id-label" style="font-size: 12px; color: #666; margin-bottom: 10px;">
+        Section ID: {{ section.id }}
+      </div>
+    {% endif %}
+    <div class="section-stack">
+      {%- if section.settings.title != blank -%}
+        <div class="justify-self-center">
+          <h2 class="h3">{{ section.settings.title | escape }}</h2>
+        </div>
+      {%- endif -%}
+
+      {% if totalSize > 0 %}
+        <div class="text-with-icons">
+          <scroll-carousel
+            class="text-with-icons__list scroll-area full-bleed {% if totalSize <= 3 %}md:unbleed{% else %}lg:unbleed{% endif %}"
+            id="{{ carousel_id }}"
+            role="region"
+          >
+            {% assign shown_items = 0 %}
+
+            {%- comment -%}
+              1) Erste Schleife: awards
+            {%- endcomment -%}
+            {% for item in awards %}
+              {% if shown_items >= 4 %}
+                {% break %}
+              {% endif %}
+
+              {%- comment -%}
+                Ermitteln, welche Nummer dieses Item overall hat
+                (wichtig für aria‐Label und ID).
+              {%- endcomment -%}
+              {% assign item_index_plus_one = shown_items | plus: 1 %}
+
+              {%- comment -%}
+                Lazy‐Loading erst ab dem 5. Element. Da wir aber
+                sowieso nur max. 4 Elemente anzeigen, ist das
+                hier eher symbolisch.
+              {%- endcomment -%}
+              {% if shown_items >= 4 %}
+                {% assign loading_strategy = 'lazy' %}
+              {% else %}
+                {% assign loading_strategy = null %}
+              {% endif %}
+
+              <div
+                id="block-{{ section.id }}-{{ item_index_plus_one }}"
+                class="text-with-icons__item snap-center"
+                role="group"
+                aria-label="{{ 'general.accessibility.item_nth_of_count' | t: index: item_index_plus_one, count: totalSize }}"
+                style="display: flex; flex-direction: column; align-items: {{ section.settings.text_alignment }};"
+              >
+                {% if item.icons != blank %}
+                  {%- capture icon -%}
+                    {%- capture sizes -%}150px{%- endcapture -%}
+                    {%- capture widths -%}245{%- endcapture -%}
+                    {%- capture style -%}--mobile-icon-max-width: 245px; --icon-max-width: 245px{%- endcapture -%}
+                    {{- item.icons 
+                      | image_url: width: 245
+                      | image_tag: loading: loading_strategy, sizes: sizes, widths: widths, style: style, class: 'image-icon product-award-icon'
+                    -}}
+                  {%- endcapture -%}
+                {% endif %}
+
+                {%- if icon != blank -%}
+                  <div {% render 'surface' %}>
+                    {{- icon -}}
+                  </div>
+                {%- endif -%}
+
+                <div class="text-with-icons__text-wrapper">
+                  <div class="prose">
+                    {% if item.heading != blank %}
+                      <h4 class="h4">{{ item.heading | escape }}</h4>
+                    {% endif %}
+                    {{- item.description | metafield_tag -}}
+                  </div>
+                </div>
+              </div>
+
+              {% assign shown_items = shown_items | plus: 1 %}
+            {% endfor %}
+
+            {%- comment -%}
+              2) Zweite Schleife: siegel
+            {%- endcomment -%}
+            {% for item in siegel %}
+              {% if shown_items >= 4 %}
+                {% break %}
+              {% endif %}
+
+              {% assign item_index_plus_one = shown_items | plus: 1 %}
+              {% if shown_items >= 4 %}
+                {% assign loading_strategy = 'lazy' %}
+              {% else %}
+                {% assign loading_strategy = null %}
+              {% endif %}
+
+              <div
+                id="block-{{ section.id }}-{{ item_index_plus_one }}"
+                class="text-with-icons__item snap-center"
+                role="group"
+                aria-label="{{ 'general.accessibility.item_nth_of_count' | t: index: item_index_plus_one, count: totalSize }}"
+                style="display: flex; flex-direction: column; align-items: {{ section.settings.text_alignment }};"
+              >
+                {% if item.icon != blank %}
+                  {%- capture icon -%}
+                    {%- capture sizes -%}150px{%- endcapture -%}
+                    {%- capture widths -%}245{%- endcapture -%}
+                    {%- capture style -%}--mobile-icon-max-width: 245px; --icon-max-width: 245px{%- endcapture -%}
+                    {{- item.icon
+                      | image_url: width: 245
+                      | image_tag: loading: loading_strategy, sizes: sizes, widths: widths, style: style, class: 'image-icon product-award-icon'
+                    -}}
+                  {%- endcapture -%}
+                {% endif %}
+
+                {%- if icon != blank -%}
+                  <div {% render 'surface' %}>
+                    {{- icon -}}
+                  </div>
+                {%- endif -%}
+
+                <div class="text-with-icons__text-wrapper">
+                  <div class="prose">
+                    {% if item.heading != blank %}
+                      <h4 class="h4">{{ item.heading | escape }}</h4>
+                    {% endif %}
+                    {{- item.description | metafield_tag -}}
+                  </div>
+                </div>
+              </div>
+
+              {% assign shown_items = shown_items | plus: 1 %}
+            {% endfor %}
+          </scroll-carousel>
+
+          {%- if totalSize > 1 -%}
+            {%- render 'scrollbar', observes: carousel_id, default_progress: totalSize, show_buttons: true -%}
+          {%- endif -%}
+        </div>
+      {% endif %}
+    </div>
+  </div>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "Awards",
+  "class": "shopify-section--text-with-icons",
+  "tag": "section",
+  "enabled_on": {
+    "templates": ["product", "collection"]
+  },
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "stack_on_mobile",
+      "label": "Stack on mobile",
+      "default": false
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading"
+    },
+    {
+      "type": "header",
+      "content": "Item"
+    },
+    {
+      "type": "select",
+      "id": "text_alignment",
+      "label": "Text alignment (items)",
+      "options": [
+        { "value": "start", "label": "Left" },
+        { "value": "center", "label": "Center" }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "select",
+      "id": "icon_spacing",
+      "label": "Icon spacing",
+      "options": [
+        {
+          "value": "small",
+          "label": "Small"
+        },
+        {
+          "value": "medium",
+          "label": "Medium"
+        },
+        {
+          "value": "large",
+          "label": "Large"
+        }
+      ],
+      "default": "medium"
+    },
+    {
+      "type": "header",
+      "content": "Colors",
+      "info": "Gradient replaces solid colors when set."
+    },
+    {
+      "type": "color",
+      "id": "background",
+      "label": "Background"
+    },
+    {
+      "type": "color_background",
+      "id": "background_gradient",
+      "label": "Background gradient"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text"
+    },
+
+    {
+      "type": "checkbox",
+      "id": "show_section_id",
+      "label": "Section-ID",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "full_width_background",
+      "label": "Remove section margin",
+      "default": false
+    },
+    {
+      "type": "select",
+      "id": "padding_top",
+      "label": "Padding top",
+      "options": [
+        { "value": "auto", "label": "auto" },
+        { "value": "0", "label": "0" },
+        { "value": "sm", "label": "sm" },
+        { "value": "md", "label": "md" },
+        { "value": "xl", "label": "xl" }
+      ],
+      "default": "auto"
+    },
+    {
+      "type": "select",
+      "id": "padding_bottom",
+      "label": "Padding bottom",
+      "options": [
+        { "value": "auto", "label": "auto" },
+        { "value": "0", "label": "0" },
+        { "value": "sm", "label": "sm" },
+        { "value": "md", "label": "md" },
+        { "value": "xl", "label": "xl" }
+      ],
+      "default": "auto"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Awards"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,433 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "navigation": {
+          "type": "navigation",
+          "disabled": true,
+          "settings": {}
+        },
+        "comments": {
+          "type": "comments",
+          "disabled": true,
+          "settings": {
+            "show_gravatar": true,
+            "comments_per_page": 5
+          }
+        }
+      },
+      "block_order": [
+        "navigation",
+        "comments"
+      ],
+      "settings": {
+        "layout": "image_text_overlay",
+        "image": "{{ article.image }}",
+        "show_author": true,
+        "show_date": true,
+        "show_comments_count": true,
+        "show_share_buttons": true,
+        "show_header_image": true,
+        "banner_background": "",
+        "banner_text_color": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "content_width": "750px",
+        "stats_color": "#556132",
+        "is_recipe": false,
+        "content_alignment": "start"
+      }
+    },
+    "media_with_text_hNR4DE": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_VxkMaK": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Ratgeber_Produktwissen_MEdia_with_Text_Made_in_Germany___1500x1500_f53f3a1b-1a2f-49ff-9f87-cda3d395b8c1.png",
+            "media_width": 40,
+            "disable_content_vertical_padding": false,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "text_position_mobil": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Made in Germany",
+            "heading_tag": "h3",
+            "content": "<p>Jede Topf-Serie, die wir dir hier vorstellen, wird aus hochwertigen Materialien, wie z. B. hygienischem 18/10 Edelstahl gefertigt und stellt mit der Präzisionsfertigungstechnik \"Made in Germany\" und einzigartigen Funktionalitäten eine lebenslange Zufriedenheit sicher.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_text_color": "#ffffff",
+            "overlay_subheading": "",
+            "overlay_heading": "",
+            "overlay_heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "image_VxkMaK"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small",
+        "show_section_id": false,
+        "padding_top": "md",
+        "padding_bottom": "auto"
+      }
+    },
+    "multi_column_UYHjNQ": {
+      "type": "multi-column",
+      "blocks": {
+        "item_AewFWj": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Ratgeber_Produktwissen_Multi_Column_Topfboden_Querschnitt_1200x900_cf691b14-2a6c-4a54-a558-6c9b574c4fc3.png",
+            "column_size": "3",
+            "title": "Topfboden-Querschnitt",
+            "heading_tag": "h4",
+            "content": "<p>Der Querschnitt durch den Boden zeigt die Qualität. Für gleichmäßiges und energieeffizientes Garen ist wichtig, dass die Wärme optimal aufgenommen, verteilt und gespeichert wird.<br/><br/>Die besten Voraussetzungen dafür bietet ein Qualitätsboden, bei dem der wärmeleitende Aluminiumkern gekapselt, also rundum eingeschlossen ist. Alle Böden von Fissler sind dreiteilig aufgebaut, pressgeschweißt und gekapselt.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_KaLnDP": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Ratgeber_Produktwissen_Multi_Column_Cookstar_Allherdboden_1200x900_3ff2c79c-08f9-42dd-9881-45bfc399e3e1.png",
+            "column_size": "3",
+            "title": "cookstar® Allherdboden",
+            "heading_tag": "h4",
+            "content": "<p>Der perfekt aufliegende cookstar Allherdboden sorgt für die optimale Aufnahme, Verteilung und Speicherung der Wärme und hilft so, Energie zu sparen – und zwar bei jeder Art von Herd.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_YGBx7j": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Ratgeber_Produktwissen_Multi_Column_Superthermic_Boden_1200x900_1738123b-6857-47b7-aaae-c6e7ab4b4c63.png",
+            "column_size": "3",
+            "title": "superthermic Boden",
+            "heading_tag": "h4",
+            "content": "<p>Der gekapselte superthermic Boden für alle Herdarten nimmt die Wärme sehr gut auf und verteilt sie gleichmäßig über die gesamte Bratfläche.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_AewFWj",
+        "item_KaLnDP",
+        "item_YGBx7j"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "Der Topfboden",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "multi_column_QGCeRw": {
+      "type": "multi-column",
+      "blocks": {
+        "item_tBrca9": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Ratgeber_Produktwissen_Multi_Column_Messskala_1200x900_c4087d7e-6cd7-48a2-9784-cccb4465a9c7.png",
+            "column_size": "3",
+            "title": "Mess-Skala",
+            "heading_tag": "h4",
+            "content": "<p>Mit der integrierten Mess-Skala können flüssige Zutaten ganz ohne Messbecher dosiert werden.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_rfMABP": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Ratgeber_Produktwissen_Multi_Column_Schuettrand_1200x900_de7b3f94-ae19-4921-a08e-e9bac041ed68.png",
+            "column_size": "3",
+            "title": "Schüttrand",
+            "heading_tag": "h4",
+            "content": "<p>Der breite Schüttrand erleichtert das zielgenaue Aus- und Umgießen ganz ohne lästiges Tropfen.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_LVyD8J": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Ratgeber_Produktwissen_Multi_Column_Stapelfunktion_1200x900_0fbbb43e-5f91-414e-b7d7-7e9cfdf9f527.png",
+            "column_size": "3",
+            "title": "Stapelfunktion",
+            "heading_tag": "h4",
+            "content": "<p>Durch ihre konische Form passen Töpfe mit Stapelfunktion selbst bei gleichem Durchmesser ineinander und können so platzsparend aufbewahrt werden.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_tBrca9",
+        "item_rfMABP",
+        "item_LVyD8J"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "Topfkörper",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "multi_column_FJ9T9D": {
+      "type": "multi-column",
+      "blocks": {
+        "item_T4mzfk": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Ratgeber_Produktwissen_Multi_Column_Kaltmetallgriffe_1200x900_986bc881-a6a5-4b2a-9332-84cac4894ce4.png",
+            "column_size": "3",
+            "title": "Kaltmetallgriffe",
+            "heading_tag": "h4",
+            "content": "<p>Kaltmetallgriffe sind backofen- und spülmaschinengeeignet und werden dank einer Wärmeschutzplatte beim Kochen auf dem Elektroherd nicht heiß.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_GcUDyd": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Ratgeber_Produktwissen_Multi_Column_Edelstahlgriffe_mit_Hitzepuffern_1200x900_c78000ae-729f-43df-90b3-3e30a3312f1f.png",
+            "column_size": "3",
+            "title": "Edelstahlgriffe mit Hitzepuffern",
+            "heading_tag": "h4",
+            "content": "<p>Bei den Edelstahlgriffen mit intelligentem Hitzepuffer sorgen Silikonringe dafür, dass das Material angenehm anzufassen bleibt.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_fWazhj": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Ratgeber_Produktwissen_Multi_Column_Kunstoffgriffe_1200x900_0e710245-5fe8-4291-84a9-f3236c62ea75.png",
+            "column_size": "3",
+            "title": "Kunststoffgriffe",
+            "heading_tag": "h4",
+            "content": "<p>Kunststoffgriffe sind aufgrund ihrer Backofeneignung bis max. 70°C ideal zum Niedertemperaturgaren.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_T4mzfk",
+        "item_GcUDyd",
+        "item_fWazhj"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "Topfgriffe",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "multi_column_9DPzaP": {
+      "type": "multi-column",
+      "blocks": {
+        "item_pbxzyg": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Ratgeber_Produktwissen_Multi_Column_Kondensatplus_1200x900_f98d86aa-ced9-46bf-aa19-a6807aa5228c.png",
+            "column_size": "3",
+            "title": "Kondensatplus Funktion",
+            "heading_tag": "h4",
+            "content": "<p>Der in der Mitte gewölbte Deckel sorgt dafür, dass kondensierter Dampf nach unten tropft und die Speisen noch geschmackvoller und saftiger werden. <br/><br/></p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_RbMfTY": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Ratgeber_Produktwissen_Multi_Column_Metalldeckel_1200x900_40da564b-3d46-45c0-bcb8-d822d9d39461.png",
+            "column_size": "3",
+            "title": "Metalldeckel",
+            "heading_tag": "h4",
+            "content": "<p>Der schwere Metalldeckel sorgt dafür, dass beim Garen nicht nur die Hitze, sondern auch das Aroma der Zutaten im Topf bleibt.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_QhFmhq": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Ratgeber_Produktwissen_Multi_Column_Gueteglasdeckel_1200x900_5a944702-df2a-46ac-b670-a1d4356a2f24.png",
+            "column_size": "3",
+            "title": "Güteglasdeckel",
+            "heading_tag": "h4",
+            "content": "<p>Der Güteglasdeckel mit hoher Widerstandsfähigkeit gegen Bruch ermöglicht ein Sichtkochen und darf bis 180°C in den Backofen.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_4YKYMp": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Ratgeber_Produktwissen_Multi_Column_Abgiessfunktion_1200x900_5cf3a96e-035e-4beb-9ee5-0db1393ff5d7.png",
+            "column_size": "3",
+            "title": "Abgießfunktion",
+            "heading_tag": "h4",
+            "content": "<p>Der Deckel mit praktischer Abgießfunktion macht den Einsatz eines zusätzlichen Siebs überflüssig.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_py9tjJ": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Ratgeber_Produktwissen_Multi_Column_Einsteckfunktion_1200x900_47b6f80c-ff00-44a7-8287-b737691782c7.png",
+            "column_size": "3",
+            "title": "Einsteckfuntkion",
+            "heading_tag": "h4",
+            "content": "<p>Dank der praktischen Einsteckfunktion kann der Topfdeckel am Topfgriff einfach eingesteckt werden.<br/><br/></p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_pbxzyg",
+        "item_RbMfTY",
+        "item_QhFmhq",
+        "item_4YKYMp",
+        "item_py9tjJ"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "Topfdeckel",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    },
+    "blog_posts_zFDEXD": {
+      "type": "blog-posts",
+      "blocks": {
+        "blog_Q6BXYr": {
+          "type": "blog",
+          "settings": {
+            "blog": "news",
+            "posts_count": 3,
+            "stack_items": false
+          }
+        }
+      },
+      "block_order": [
+        "blog_Q6BXYr"
+      ],
+      "name": "Blog posts",
+      "settings": {
+        "show_excerpt": true,
+        "show_date": true,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": true,
+        "show_overall_time": false,
+        "subheading": "",
+        "title": "Weitere Kochtipps entdecken",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto",
+        "blog_handle": "kochtipps",
+        "posts_count": 4
+      }
+    }
+  },
+  "order": [
+    "main",
+    "media_with_text_hNR4DE",
+    "multi_column_UYHjNQ",
+    "multi_column_QGCeRw",
+    "multi_column_FJ9T9D",
+    "multi_column_9DPzaP",
+    "blog_posts_zFDEXD"
+  ]
+}

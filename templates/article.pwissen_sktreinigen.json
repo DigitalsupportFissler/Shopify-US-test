@@ -1,0 +1,173 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "navigation": {
+          "type": "navigation",
+          "disabled": true,
+          "settings": {}
+        },
+        "comments": {
+          "type": "comments",
+          "disabled": true,
+          "settings": {
+            "show_gravatar": true,
+            "comments_per_page": 5
+          }
+        }
+      },
+      "block_order": [
+        "navigation",
+        "comments"
+      ],
+      "settings": {
+        "layout": "image_text_overlay",
+        "image": "{{ article.image }}",
+        "show_author": false,
+        "show_date": true,
+        "show_comments_count": true,
+        "show_share_buttons": true,
+        "show_header_image": true,
+        "banner_background": "",
+        "banner_text_color": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "content_width": "750px",
+        "stats_color": "#556132",
+        "is_recipe": false,
+        "content_alignment": "start"
+      }
+    },
+    "multi_column_wWqKgn": {
+      "type": "multi-column",
+      "blocks": {
+        "item_JE4hjp": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Ratgeber_Produktwissen_Multi_Column_Vorreinigung_1200x900_d5659377-9714-49f0-92f3-c040f87b261b.png",
+            "column_size": "3",
+            "title": "1. Vorreinigen",
+            "heading_tag": "h4",
+            "content": "<p>Dichtungsring, Kochkrone und Deckelstil entfernen und mit einem feuchten Tuch von Hand reinigen.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_wWGGd8": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Ratgeber_Produktwissen_Multi_Column_Kochkrone_1200x900_e1170073-7f09-4775-bd40-3ef604850c0f.png",
+            "column_size": "3",
+            "title": "2. Befestigungsschraube lösen",
+            "heading_tag": "h4",
+            "content": "<p>Zum Lösen des Deckelstiels die Befestigungsschraube auf der Innenseite gegen den Uhrzeigersinn drehen. Zum Lösen der Kochkrone die Glockenmutter auf der Innenseite gegen den Uhrzeigersinn drehen.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_rmxJUJ": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Ratgeber_Produktwissen_Multi_Column_Spuelmaschine_1200x900_9a6bd0de-3c41-4d8f-8b23-6ac3e0671c35.png",
+            "column_size": "3",
+            "title": "3. Spülmaschineneignung",
+            "heading_tag": "h4",
+            "content": "<p>Der Topfkörper und der Deckel (ohne o.g. Anbauteile) sind spülmaschinengeeignet.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_LwE3Uh": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Ratgeber_Produktwissen_Multi_Column_Anbauteile_anbringen_1200x900_5995062c-a7f5-4088-b2bc-c6464876cc30.png",
+            "column_size": "3",
+            "title": "4. Anbauteile anbringen",
+            "heading_tag": "h4",
+            "content": "<p>Nach der Reinigung alle Anbauteile wieder fest am Topf anbringen. Stelle sicher, dass die Kochventildichtung rundum dicht an der Kochkrone anliegt und die Dichtung in der vorgesehenen Einkerbung sitzt. Auch der Dichtungsring muss wieder in die vorgesehene Einkerbung eingelegt werden.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_etkWqf": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Ratgeber_Produktwissen_Multi_Column_Ersatzteile_1200x900_53be6cdb-4869-45a1-b9f9-4707b401fbea.png",
+            "column_size": "3",
+            "title": "Ersatzteile",
+            "heading_tag": "h4",
+            "content": "<p>Wichtig: Verschleißteile (z.B. Dichtungsring) müssen nach 400 Kochvorgängen oder 2 Jahren ausgetauscht werden.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_JE4hjp",
+        "item_wWGGd8",
+        "item_rmxJUJ",
+        "item_LwE3Uh",
+        "item_etkWqf"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "Und so funktioniert’s:",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "show_section_id": false,
+        "padding_top": "auto",
+        "padding_bottom": "xl"
+      }
+    },
+    "featured_articles_XRTfJV": {
+      "type": "featured-articles",
+      "name": "Featured articles",
+      "settings": {
+        "show_progress_bar": true,
+        "articles_per_row_mobile": "2",
+        "articles_per_row_desktop": 5,
+        "subheading": "",
+        "articel_handles": "produktwissen/kochen-im-schnellkochtopf,produktwissen/schnellkochtopf-garzeitenfinder,produktwissen/entsaften-im-schnellkochtopf,produktwissen/dampfgaren-im-schnellkochtopf,produktwissen/schnellkochtopf-reinigen",
+        "title": "Der Schnellkochtopf kann noch mehr:",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": "",
+        "padding_top": "auto",
+        "padding_bottom": "auto"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "multi_column_wWqKgn",
+    "featured_articles_XRTfJV"
+  ]
+}
