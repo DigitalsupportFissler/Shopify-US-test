@@ -17,28 +17,28 @@
         "message_t7zd6N": {
           "type": "message",
           "settings": {
-            "text": "Buy directly in the official online shop",
+            "text": "Kontakt",
             "url": "shopify://pages/kontakt"
           }
         },
         "message": {
           "type": "message",
           "settings": {
-            "text": "Pay safely",
+            "text": "Kostenlose Lieferung ab 40 €",
             "url": "shopify://pages/zahlungs-und-versandbedingungen"
           }
         },
         "message_XTe6YJ": {
           "type": "message",
           "settings": {
-            "text": "Free shipping on orders over $99.95 (Continental US Only)",
+            "text": "30 Tage Rückgaberecht",
             "url": "shopify://policies/terms-of-service"
           }
         },
         "message_FJ9MFE": {
           "type": "message",
           "settings": {
-            "text": "Countless awards for design & quality",
+            "text": "Sicher bezahlen",
             "url": "shopify://pages/faq-onlineshop"
           }
         }
@@ -69,7 +69,7 @@
         "mega_menu_Uzm6Yi": {
           "type": "mega_menu",
           "settings": {
-            "menu_item": "collections",
+            "menu_item": "Kollektionen",
             "layout": "horizontal",
             "submenu_style": "bold_heading",
             "image_1": "shopify://shop_images/Kollektionen_Grid_Slideshow_OPC_2167x800_051f7415-d339-4b89-82a6-2299baedcd0b.png",
@@ -95,7 +95,7 @@
         "mega_menu_d8DLBJ": {
           "type": "mega_menu",
           "settings": {
-            "menu_item": "Pressure Cookers",
+            "menu_item": "",
             "layout": "horizontal",
             "submenu_style": "bold_heading",
             "image_heading_1": "",
@@ -118,7 +118,7 @@
         "mega_menu_nqbkJi": {
           "type": "mega_menu",
           "settings": {
-            "menu_item": "Saucepans and Pots",
+            "menu_item": "Pfannen",
             "layout": "horizontal",
             "submenu_style": "bold_heading",
             "image_1": "shopify://shop_images/Adamant_Comfort_Pfanne_pm_v2.jpg",
@@ -142,7 +142,7 @@
         "mega_menu_kUJhng": {
           "type": "mega_menu",
           "settings": {
-            "menu_item": "Frying Pans and Woks",
+            "menu_item": "Töpfe",
             "layout": "horizontal",
             "submenu_style": "bold_heading",
             "image_1": "shopify://shop_images/Categories_Ersatzteile-Toepfe_Teaser_1200x1200_2777463d-85cc-4519-a1f5-1e1c2e06bc3c.jpg",
@@ -163,33 +163,10 @@
             "drawer_link_image": "hide"
           }
         },
-        "mega_menu_MmjbyA": {
-          "type": "mega_menu",
-          "settings": {
-            "menu_item": "Utensils and Accessories",
-            "layout": "horizontal",
-            "submenu_style": "bold_heading",
-            "image_heading_1": "",
-            "image_link_1": "",
-            "image_text_color_1": "#ffffff",
-            "image_heading_2": "",
-            "image_link_2": "",
-            "image_text_color_2": "#ffffff",
-            "image_heading_3": "",
-            "image_link_3": "",
-            "image_text_color_3": "#ffffff",
-            "product": "",
-            "product_card_background": "",
-            "product_card_text_color": "",
-            "promo_content_layout": "grid",
-            "stretch_promo": false,
-            "drawer_link_image": "hide"
-          }
-        },
         "mega_menu_zBexH4": {
           "type": "mega_menu",
           "settings": {
-            "menu_item": "Sale",
+            "menu_item": "",
             "layout": "horizontal",
             "submenu_style": "bold_heading",
             "image_heading_1": "",
@@ -233,10 +210,35 @@
             "drawer_link_image": "hide"
           }
         },
+        "mega_menu_eDbtmj": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "Messer",
+            "layout": "horizontal",
+            "submenu_style": "bold_heading",
+            "image_1": "shopify://shop_images/Collection_PrimeCut_Navigation_1200x1200_8f59e8be-0877-43ce-a8b5-d7db572bf98e.png",
+            "image_heading_1": "Fissler PrimeCut Collection by Alexander Herrmann",
+            "image_link_1": "",
+            "image_text_color_1": "#ffffff",
+            "image_2": "shopify://shop_images/Collection_ProCut_Grid_Image_800x800_aa871154-c242-4067-81f5-536ad7f27bc3.png",
+            "image_heading_2": "Fissler ProCut Collection",
+            "image_link_2": "",
+            "image_text_color_2": "#ffffff",
+            "image_heading_3": "",
+            "image_link_3": "",
+            "image_text_color_3": "#ffffff",
+            "product": "",
+            "product_card_background": "",
+            "product_card_text_color": "",
+            "promo_content_layout": "grid",
+            "stretch_promo": false,
+            "drawer_link_image": "hide"
+          }
+        },
         "mega_menu_q6geg7": {
           "type": "mega_menu",
           "settings": {
-            "menu_item": "Cook with Fissler",
+            "menu_item": "küchenhelfer",
             "layout": "horizontal",
             "submenu_style": "bold_heading",
             "image_1": "shopify://shop_images/Homepage_Header_Mega_Menu_OPC_Kuechenhelfer_400x456_09cda37f-0984-4a32-8e7f-3bc341b01a46.png",
@@ -290,9 +292,9 @@
         "mega_menu_d8DLBJ",
         "mega_menu_nqbkJi",
         "mega_menu_kUJhng",
-        "mega_menu_MmjbyA",
         "mega_menu_zBexH4",
         "mega_menu_rCzcrV",
+        "mega_menu_eDbtmj",
         "mega_menu_q6geg7",
         "mega_menu_qwkiDT"
       ],
