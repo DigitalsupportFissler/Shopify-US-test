@@ -1,117 +1,126 @@
 <script>
-  // 📦 This script creates a global JavaScript object (window.productVariantMetafields)
-  // that contains all relevant custom metafields for each product variant.
-  // It's used to dynamically update the product details table when a variant is switched,
-  // so the table always reflects the correct values (e.g., length, capacity, weight, etc.)
-  // without requiring a page reload.
-  window.productVariantMetafields = {
-    {% for variant in product.variants %}
-      {{ variant.id }}: {
-        {% if variant.metafields.custom.ATTR_Length %}
-          {% assign length = variant.metafields.custom.ATTR_Length.value %}
-        ATTR_Length: {
-          value: "{{ length.value }}",
-          unit: "{{ length.unit }}"
-        },
+    // 📦 This script creates a global JavaScript object (window.productVariantMetafields)
+    // that contains all relevant custom metafields for each product variant.
+    // It's used to dynamically update the product details table when a variant is switched,
+    // so the table always reflects the correct values (e.g., length, capacity, weight, etc.)
+    // without requiring a page reload.
+    window.productVariantMetafields = {
+      {% for variant in product.variants %}
+        {{ variant.id }}: {
+          {% if variant.metafields.custom.ATTR_Length %}
+            {% assign length = variant.metafields.custom.ATTR_Length.value %}
+          ATTR_Length: {
+            value: "{{ length.value }}",
+            unit: "{{ length.unit }}"
+          },
+          {% endif %}
+          {% if variant.metafields.custom.ATTR_Width %}
+            {% assign width = variant.metafields.custom.ATTR_Width.value %}
+          ATTR_Width: {
+            value: "{{ width.value }}",
+            unit: "{{ width.unit }}"
+          },
+          {% endif %}
+          {% if variant.metafields.custom.ATTR_Height %}
+            {% assign height = variant.metafields.custom.ATTR_Height.value %}
+          ATTR_Height: {
+            value: "{{ height.value }}",
+            unit: "{{ height.unit }}"
+          },
+          {% endif %}
+          {% if variant.metafields.custom.ATTR_Weight_without_pack %}
+            {% assign weight_without_pack = variant.metafields.custom.ATTR_Weight_without_pack.value %}
+          ATTR_Weight_without_pack: {
+            value: "{{ weight_without_pack.value }}",
+            unit: "{{ weight_without_pack.unit }}"
+          },
+          {% endif %}
+          {% if variant.metafields.custom.ATTR_Capacity_EU_norm %}
+            {% assign capacity_EU_norm = variant.metafields.custom.ATTR_Capacity_EU_norm.value %}
+          ATTR_Capacity_EU_norm: {
+            value: "{{ capacity_EU_norm.value }}",
+            unit: "{{ capacity_EU_norm.unit }}"
+          },
+          {% endif %}
+          {% if variant.metafields.custom.ATTR_Diameter_bottom_outer %}
+            {% assign diameter_bottom_outer = variant.metafields.custom.ATTR_Diameter_bottom_outer.value %}
+          ATTR_Diameter_bottom_outer: {
+            value: "{{ diameter_bottom_outer.value }}",
+            unit: "{{ diameter_bottom_outer.unit }}"
+          },
+          {% endif %}
+          {% if variant.metafields.custom.ATTR_recommended_cooking_plate_size %}
+            {% assign recommended_cooking_plate_size = variant.metafields.custom.ATTR_recommended_cooking_plate_size.value %}
+          ATTR_recommended_cooking_plate_size: {
+            value: "{{ recommended_cooking_plate_size.value }}",
+            unit: "{{ recommended_cooking_plate_size.unit }}"
+          },
+          {% endif %}
+          {% if variant.metafields.custom.ATTR_bottom_thickness %}
+            {% assign bottom_thickness = variant.metafields.custom.ATTR_bottom_thickness.value %}
+          ATTR_bottom_thickness: {
+            value: "{{ bottom_thickness.value }}",
+            unit: "{{ bottom_thickness.unit }}"
+          },
+          {% endif %}
+          {% if variant.metafields.custom.ATTR_Height_body %}
+            {% assign height_body = variant.metafields.custom.ATTR_Height_body.value %}
+          ATTR_Height_body: {
+            value: "{{ height_body.value }}",
+            unit: "{{ height_body.unit }}"
+          },
+          {% endif %}
+          {% if variant.metafields.custom.ATTR_Capacity_scaling %}
+            {% assign capacity_scaling = variant.metafields.custom.ATTR_Capacity_scaling.value %}
+          ATTR_Capacity_scaling: {
+            value: "{{ capacity_scaling.value }}",
+            unit: "{{ capacity_scaling.unit }}"
+          },
+          {% endif %}
+          {% if variant.metafields.custom.ATTR_Diameter_top_inside %}
+            {% assign diameter_top_inside = variant.metafields.custom.ATTR_Diameter_top_inside.value %}
+          ATTR_Diameter_top_inside: {
+            value: "{{ diameter_top_inside.value }}",
+            unit: "{{ diameter_top_inside.unit }}"
+          },
+          {% endif %}
+          {% if variant.metafields.custom.ATTR_Surface_outside %}
+          ATTR_Surface_outside: {
+            value: "{{ variant.metafields.custom.ATTR_Surface_outside.value }}"
+          },
+          {% endif %}
+          {% if variant.metafields.custom.ATTR_Easy_to_clean_coating %}
+          ATTR_Easy_to_clean_coating: {
+            value: "{{ variant.metafields.custom.ATTR_Easy_to_clean_coating.value }}"
+          },
+          {% endif %}
+          {% if variant.metafields.custom.ATTR_Capacity_JP %}
+            {% assign capacity_JP = variant.metafields.custom.ATTR_Capacity_JP.value %}
+          ATTR_Capacity_JP: {
+            value: "{{ capacity_JP.value }}",
+            unit: "{{ capacity_JP.unit }}"
+          },
+          {% endif %}
+          {% if  variant.sku %}
+          ATTR_Sku: {
+            value: "{{  variant.sku }}",
+          },
+          {% endif %}
+          {% if  variant.barcode %}
+          ATTR_Barcode: {
+            value: "{{  variant.barcode }}",
+          },
+          {% endif %}
+      REF_SpareParts: [
+        {% if variant.metafields.custom.REF_SpareParts != blank %}
+          {% for sp in variant.metafields.custom.REF_SpareParts.value %}
+            {% if sp.product and sp.product.handle %}
+            { handle: "{{ sp.product.handle }}", title: {{ sp.product.title | json }} }{% unless forloop.last %},{% endunless %}
+            {% endif %}
+          {% endfor %}
         {% endif %}
-        {% if variant.metafields.custom.ATTR_Width %}
-          {% assign width = variant.metafields.custom.ATTR_Width.value %}
-        ATTR_Width: {
-          value: "{{ width.value }}",
-          unit: "{{ width.unit }}"
-        },
-        {% endif %}
-        {% if variant.metafields.custom.ATTR_Height %}
-          {% assign height = variant.metafields.custom.ATTR_Height.value %}
-        ATTR_Height: {
-          value: "{{ height.value }}",
-          unit: "{{ height.unit }}"
-        },
-        {% endif %}
-        {% if variant.metafields.custom.ATTR_Weight_without_pack %}
-          {% assign weight_without_pack = variant.metafields.custom.ATTR_Weight_without_pack.value %}
-        ATTR_Weight_without_pack: {
-          value: "{{ weight_without_pack.value }}",
-          unit: "{{ weight_without_pack.unit }}"
-        },
-        {% endif %}
-        {% if variant.metafields.custom.ATTR_Capacity_EU_norm %}
-          {% assign capacity_EU_norm = variant.metafields.custom.ATTR_Capacity_EU_norm.value %}
-        ATTR_Capacity_EU_norm: {
-          value: "{{ capacity_EU_norm.value }}",
-          unit: "{{ capacity_EU_norm.unit }}"
-        },
-        {% endif %}
-        {% if variant.metafields.custom.ATTR_Diameter_bottom_outer %}
-          {% assign diameter_bottom_outer = variant.metafields.custom.ATTR_Diameter_bottom_outer.value %}
-        ATTR_Diameter_bottom_outer: {
-          value: "{{ diameter_bottom_outer.value }}",
-          unit: "{{ diameter_bottom_outer.unit }}"
-        },
-        {% endif %}
-        {% if variant.metafields.custom.ATTR_recommended_cooking_plate_size %}
-          {% assign recommended_cooking_plate_size = variant.metafields.custom.ATTR_recommended_cooking_plate_size.value %}
-        ATTR_recommended_cooking_plate_size: {
-          value: "{{ recommended_cooking_plate_size.value }}",
-          unit: "{{ recommended_cooking_plate_size.unit }}"
-        },
-        {% endif %}
-        {% if variant.metafields.custom.ATTR_bottom_thickness %}
-          {% assign bottom_thickness = variant.metafields.custom.ATTR_bottom_thickness.value %}
-        ATTR_bottom_thickness: {
-          value: "{{ bottom_thickness.value }}",
-          unit: "{{ bottom_thickness.unit }}"
-        },
-        {% endif %}
-        {% if variant.metafields.custom.ATTR_Height_body %}
-          {% assign height_body = variant.metafields.custom.ATTR_Height_body.value %}
-        ATTR_Height_body: {
-          value: "{{ height_body.value }}",
-          unit: "{{ height_body.unit }}"
-        },
-        {% endif %}
-        {% if variant.metafields.custom.ATTR_Capacity_scaling %}
-          {% assign capacity_scaling = variant.metafields.custom.ATTR_Capacity_scaling.value %}
-        ATTR_Capacity_scaling: {
-          value: "{{ capacity_scaling.value }}",
-          unit: "{{ capacity_scaling.unit }}"
-        },
-        {% endif %}
-        {% if variant.metafields.custom.ATTR_Diameter_top_inside %}
-          {% assign diameter_top_inside = variant.metafields.custom.ATTR_Diameter_top_inside.value %}
-        ATTR_Diameter_top_inside: {
-          value: "{{ diameter_top_inside.value }}",
-          unit: "{{ diameter_top_inside.unit }}"
-        },
-        {% endif %}
-        {% if variant.metafields.custom.ATTR_Surface_outside %}
-        ATTR_Surface_outside: {
-          value: "{{ variant.metafields.custom.ATTR_Surface_outside.value }}"
-        },
-        {% endif %}
-        {% if variant.metafields.custom.ATTR_Easy_to_clean_coating %}
-        ATTR_Easy_to_clean_coating: {
-          value: "{{ variant.metafields.custom.ATTR_Easy_to_clean_coating.value }}"
-        },
-        {% endif %}
-        {% if variant.metafields.custom.ATTR_Capacity_JP %}
-          {% assign capacity_JP = variant.metafields.custom.ATTR_Capacity_JP.value %}
-        ATTR_Capacity_JP: {
-          value: "{{ capacity_JP.value }}",
-          unit: "{{ capacity_JP.unit }}"
-        },
-        {% endif %}
-        {% if  variant.sku %}
-        ATTR_Sku: {
-          value: "{{  variant.sku }}",
-        },
-        {% endif %}
-        {% if  variant.barcode %}
-        ATTR_Barcode: {
-          value: "{{  variant.barcode }}",
-        }
-        {% endif %}
-      },
+      ]
+    }{% unless forloop.last %},{% endunless %}
     {% endfor %}
   };
 </script>
