@@ -6,8 +6,41 @@ managed at the theme level.
 {%- endcomment -%}
 
 {%- if request.page_type == 'product' -%}
+  {%- comment -%}
+    Custom product structured data to ensure @id uses the full canonical URL.
+    This fixes Schema.org validation errors where relative URLs are not accepted.
+  {%- endcomment -%}
   <script type="application/ld+json">
-    {{- product | structured_data -}}
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "@id": "{{ canonical_url }}#product",
+      "name": {{ product.title | json }},
+      "url": "{{ canonical_url }}",
+      "description": {{ product.description | strip_html | truncate: 5000 | json }},
+      {%- if product.featured_image -%}
+        "image": [
+          "{{ product.featured_image | image_url: width: 1024 }}"
+          {%- for image in product.images offset: 1 limit: 4 -%}
+            ,"{{ image | image_url: width: 1024 }}"
+          {%- endfor -%}
+        ],
+      {%- endif -%}
+      "sku": {{ product.selected_or_first_available_variant.sku | json }},
+      "brand": {
+        "@type": "Brand",
+        "name": {{ product.vendor | json }}
+      },
+      "offers": {
+        "@type": "AggregateOffer",
+        "url": "{{ canonical_url }}",
+        "priceCurrency": {{ cart.currency.iso_code | json }},
+        "lowPrice": {{ product.price_min | money_without_currency | json }},
+        "highPrice": {{ product.price_max | money_without_currency | json }},
+        "offerCount": {{ product.variants.size }},
+        "availability": "{% if product.available %}https://schema.org/InStock{% else %}https://schema.org/OutOfStock{% endif %}"
+      }
+    }
   </script>
 {%- elsif request.page_type == 'article' -%}
   <script type="application/ld+json">
