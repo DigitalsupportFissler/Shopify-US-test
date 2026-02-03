@@ -213,7 +213,7 @@ document.addEventListener("DOMContentLoaded", function () {
     setInterval(() => {
       if (window.dataLayer.length > dataLayerLength) {
         const consentChanges = window.dataLayer.filter(
-          (item) => item[0] === "consent" && item[1] === "update",
+          (item) => item[0] === "consent" && item[1] === "update" && item[2],
         );
         if (consentChanges.length < 2) return;
         let consent = consentChanges[0][2];
@@ -222,6 +222,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
 
         const updatedConsent = consentChanges[consentChanges.length - 1][2];
+        if (!consent || !updatedConsent) return;
         let anyRetract = false;
         Object.keys(consent).forEach((key) => {
           if (updatedConsent[key] !== "granted" && consent[key] === "granted") {

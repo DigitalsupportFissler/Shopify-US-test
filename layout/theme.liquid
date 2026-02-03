@@ -12,6 +12,14 @@
 <html lang="{{ request.locale.iso_code }}" dir="{% render 'direction' %}">
   <head>
     <meta charset="utf-8">
+    {%- comment -%}
+      Save native fetch before any app can intercept it.
+      This fixes Bazaarvoice helpfulness buttons which break when fetch is intercepted.
+    {%- endcomment -%}
+    <script>
+      window.__nativeFetch = window.fetch;
+      window.__nativeResponse = window.Response;
+    </script>
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0, height=device-height, minimum-scale=1.0, maximum-scale=1.0"
@@ -131,22 +139,17 @@
 
   <body class="{% if settings.zoom_image_on_hover %}zoom-image--enabled{% endif %}{% if page.handle %} page-{{ page.handle }}{% endif %}">
     {%- comment -%}
-      Restore native fetch from a clean iframe.
+      Restore native fetch after all scripts have loaded.
       This fixes Bazaarvoice helpfulness buttons (thumbs up/down) which break
       when window.fetch is intercepted by consent management or other apps.
-      Runs on DOMContentLoaded to ensure it executes AFTER app scripts that intercept fetch.
+      Uses window.load to ensure it runs AFTER all app scripts have intercepted fetch.
     {%- endcomment -%}
     <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        var iframe = document.createElement('iframe');
-        iframe.style.display = 'none';
-        iframe.setAttribute('aria-hidden', 'true');
-        iframe.id = 'native-fetch-iframe';
-        document.body.appendChild(iframe);
-        var nativeFetch = iframe.contentWindow.fetch.bind(iframe.contentWindow);
-        var NativeResponse = iframe.contentWindow.Response;
-        window.fetch = nativeFetch;
-        window.Response = NativeResponse;
+      window.addEventListener('load', function() {
+        if (window.__nativeFetch) {
+          window.fetch = window.__nativeFetch;
+          window.Response = window.__nativeResponse;
+        }
       });
     </script>
     {%- render 'userlike' -%}
