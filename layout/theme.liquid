@@ -125,11 +125,26 @@
     {%- if robots_value != blank -%}
       <meta name="robots" content="{{ robots_value }}">
     {%- endif -%}
-    
+
     <script src="{{ 'consent-tracking.js' | asset_url }}" defer></script>
   </head>
 
   <body class="{% if settings.zoom_image_on_hover %}zoom-image--enabled{% endif %}{% if page.handle %} page-{{ page.handle }}{% endif %}">
+    {%- comment -%}
+      Restore native fetch from a clean iframe.
+      This fixes Bazaarvoice helpfulness buttons (thumbs up/down) which break
+      when window.fetch is intercepted by consent management or other apps.
+    {%- endcomment -%}
+    <script>
+      (function () {
+        var iframe = document.createElement('iframe');
+        iframe.style.display = 'none';
+        document.body.appendChild(iframe);
+        window.fetch = iframe.contentWindow.fetch;
+        window.Response = iframe.contentWindow.Response;
+        document.body.removeChild(iframe);
+      })();
+    </script>
     {%- render 'userlike' -%}
     {%- render 'shadow-dom-templates' -%}
 
