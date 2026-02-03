@@ -15,7 +15,7 @@ const CustomProductRecommendations = class extends HTMLElement {
 
         setTimeout(() => {
           const title = this.querySelector(
-            ".pdp-custom-recommendations__header-title"
+            ".pdp-custom-recommendations__header-title",
           );
           const titleAttr = this.getAttribute("data-title");
           if (title && titleAttr) {
@@ -23,28 +23,28 @@ const CustomProductRecommendations = class extends HTMLElement {
           }
 
           const wrapper = this.querySelector(
-            ".pdp-custom-recommendations__wrapper"
+            ".pdp-custom-recommendations__wrapper",
           );
           if (wrapper) {
             wrapper.addEventListener(
               "touchstart",
-              this.onTouchStart.bind(this)
+              this.onTouchStart.bind(this),
             );
             wrapper.addEventListener(
               "touchend",
               this.onTouchEnd.bind(this),
-              false
+              false,
             );
           }
 
           const buttons = this.querySelectorAll(
-            ".pdp-custom-recommendations__header-button"
+            ".pdp-custom-recommendations__header-button",
           );
           if (buttons) {
             buttons.forEach((button) => {
               button.addEventListener(
                 "click",
-                this.onNavigateButtonClick.bind(this)
+                this.onNavigateButtonClick.bind(this),
               );
             });
           }
@@ -78,7 +78,7 @@ const CustomProductRecommendations = class extends HTMLElement {
 
   onNavigateButtonClick(e) {
     const next = e.target.classList.contains(
-      "pdp-custom-recommendations__header-next"
+      "pdp-custom-recommendations__header-next",
     );
     console.log("e", e);
 
@@ -125,14 +125,14 @@ const CustomProductRecommendations = class extends HTMLElement {
 if (!window.customElements.get("custom-product-recommendations")) {
   window.customElements.define(
     "custom-product-recommendations",
-    CustomProductRecommendations
+    CustomProductRecommendations,
   );
 }
 
 function wrapPriceAndReviews() {
   const reviewsBlock = document.querySelector("reviewsio-product-ratings");
   const priceBlock = document.querySelector(
-    ".product-info__price .rating-with-text"
+    ".product-info__price .rating-with-text",
   );
 
   if (reviewsBlock && priceBlock) {
@@ -170,7 +170,7 @@ async function saveAndReattachReviewWidget() {
 
   // Jetzt sollte der neue Preis-Block vorhanden sein.
   const priceBlock = document.querySelector(
-    ".product-info__price .rating-with-text"
+    ".product-info__price .rating-with-text",
   );
   if (!priceBlock) {
     console.warn("Kein Price-Block gefunden");
@@ -197,7 +197,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // Hier prüfen wir, ob die URL nicht den Editor-Pfad enthält.
   if (
     !window.location.href.includes(
-      "admin.shopify.com/store/fissler-shop/themes/1"
+      "admin.shopify.com/store/fissler-shop/themes/1",
     )
   ) {
     var labels = document.querySelectorAll(".section-id-label");
@@ -213,20 +213,21 @@ document.addEventListener("DOMContentLoaded", function () {
     setInterval(() => {
       if (window.dataLayer.length > dataLayerLength) {
         const consentChanges = window.dataLayer.filter(
-          (item) => item[0] === "consent" && item[1] === "update"
+          (item) => item[0] === "consent" && item[1] === "update",
         );
+        if (consentChanges.length < 2) return;
         let consent = consentChanges[0][2];
         if (consentChanges.length > 2) {
           consent = consentChanges[consentChanges.length - 2][2];
         }
 
         const updatedConsent = consentChanges[consentChanges.length - 1][2];
-        let anyRetract = false; 
+        let anyRetract = false;
         Object.keys(consent).forEach((key) => {
           if (updatedConsent[key] !== "granted" && consent[key] === "granted") {
             anyRetract = true;
           }
-        })
+        });
         if (anyRetract) {
           setTimeout(() => {
             window.location.reload();
@@ -235,4 +236,44 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     }, 500);
   }, 3000);
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+  // Prüfen ob wir auf der Cart-Seite sind
+  if (window.location.pathname === "/cart") {
+    const style = document.createElement("style");
+    style.innerHTML = `
+      .bmsm-cart-drawer-block {
+        display: none !important;
+      }
+    `;
+    document.head.appendChild(style);
+  }
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+  const announcementBar = document.querySelector(".bmsm-stickyannouncementbar");
+
+  if (
+    window.location.pathname.includes("/pages/store-locator") ||
+    window.location.pathname.includes("/pages/stores/")
+  ) {
+    const style = document.createElement("style");
+    style.innerHTML = `
+    .bmsm-stickyannouncementbar {
+      display: none !important;
+    }
+  `;
+    document.head.appendChild(style);
+  }
+  // Ansonsten normale Funktionalität
+  else if (announcementBar) {
+    const style = document.createElement("style");
+    style.innerHTML = `
+      .facets__floating-filter {
+        transform: translateY(-60px) !important;
+      }
+    `;
+    document.head.appendChild(style);
+  }
 });
