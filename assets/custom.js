@@ -1,15 +1,3 @@
-// Restore native fetch from a clean iframe
-// This fixes Bazaarvoice helpfulness buttons (thumbs up/down) which break
-// when window.fetch is intercepted by consent management or other apps
-(function restoreNativeFetch() {
-  const iframe = document.createElement('iframe');
-  iframe.style.display = 'none';
-  document.body.appendChild(iframe);
-  window.fetch = iframe.contentWindow.fetch;
-  window.Response = iframe.contentWindow.Response;
-  document.body.removeChild(iframe);
-})();
-
 const CustomProductRecommendations = class extends HTMLElement {
   constructor() {
     super();
